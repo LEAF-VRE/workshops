@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Index</title>
+			</titleStmt>
+			<publicationStmt>
+				<p/>
+			</publicationStmt>
+			<sourceDesc>
+				<p>https://github.com/LEAF-VRE/dh2025_workshop</p>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>This encoded file was created by members of the Linked Editing Academic Framework
+					(LEAF) team and made available for a LEAF / LEAF-Writer workshop. This file is
+					not meant for use or publication outside of the workshop environment.</p>
+			</projectDesc>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="index">
+				<list>
+					<item>
+						<ref target="#virg01 #home01 #hora01 #ovid01 #hora01">Poets</ref>
+						<list>
+							<head>Poets</head>
+							<item><ref target="#virg01">Virgil</ref></item>
+							<item><ref target="#home01">Homer</ref></item>
+							<item><ref target="#hora01">Horace</ref></item>
+              <item><ref target="#ovid01">Ovid</ref></item>
+              <item><ref target="#hora01">Horace</ref></item>
+						</list>
+					</item>
+          <item>
+						<ref target="#aris01 #socr01 #plat01 #demo01 #diog01 #anax01 #thal01 #zeno01 #emped01 #hera01">Philosophers</ref>
+						<list>
+							<head>Philosophers</head>
+							<item><ref target="#aris01">Aristotle</ref></item>
+							<item><ref target="#socr01">Socrates</ref></item>
+							<item><ref target="#plat01">Plato</ref></item>
+              <item><ref target="#demo01">Democritus</ref></item>
+              <item><ref target="#diog01">Diogenes</ref></item>
+              <item><ref target="#anax01">Anaxagoras</ref></item>
+              <item><ref target="#thal01">Thales</ref></item>
+              <item><ref target="#zeno01">Zeno</ref></item>
+              <item><ref target="#emped01">Empedocles</ref></item>
+              <item><ref target="#hera01">Heraclitus</ref></item>
+						</list>
+					</item>
+          <item>
+						<ref target="#hect01 #aene01 #ceas01 #penth01 #sala01">Military Figures</ref>
+						<list>
+							<head>Military Figures</head>
+							<item><ref target="#hect01">Hector</ref></item>
+							<item><ref target="#aene01">Aeneas</ref></item>
+							<item><ref target="#ceas01">Julius Caesar</ref></item>
+              <item><ref target="#penth01">Penthesilea</ref></item>
+              <item><ref target="#sala01">Saladin</ref></item>
+						</list>
+					</item>
+				</list>
+			</div>
+		</body>
+	</text>
+</TEI>
