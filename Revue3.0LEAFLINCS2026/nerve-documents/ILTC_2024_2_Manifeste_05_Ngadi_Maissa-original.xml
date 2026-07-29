@@ -1,0 +1,1667 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI
+change="commons_publication#openedition"
+xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:ns42="http://www.w3.org/2001/XInclude"
+xmlns:ns4="http://www.w3.org/1999/xlink"
+xmlns:ns3="http://www.w3.org/1998/Math/MathML"
+xmlns:ns="http://www.tei-c.org/ns/1.0"
+><teiHeader
+><fileDesc
+><titleStmt
+><title
+type="main"
+>Formes et genres du manifeste littéraire d’Afrique subsaharienne francophone</title
+><title
+type="trl"
+xml:lang="en"
+>Forms and Genres of the Literary Manifesto from French-Speaking Sub-Saharan African</title
+><author
+role="aut"
+><persName
+><forename
+>Laude Ngadi</forename
+><surname
+>Maïssa</surname
+></persName
+><idno
+type="IDREF"
+>235098426</idno
+><idno
+type="ORCID"
+>0000-0002-0561-818X</idno
+><idno
+type="VIAF"
+>http://viaf.org/viaf/84155767378727760666</idno
+><affiliation
+><orgName
+>Université du KwaZulu-Natal</orgName
+></affiliation
+></author
+></titleStmt
+><publicationStmt
+><ab
+type="expression"
+><bibl
+><publisher
+>Pléiade</publisher
+><availability
+><licence
+target="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.fr"
+></licence
+><p
+></p
+></availability
+></bibl
+></ab
+><ab
+subtype="PDF"
+type="digital_download"
+><bibl
+><idno
+subtype="-"
+type="DOI"
+></idno
+><ref
+type="DOI"
+></ref
+><ref
+type="site"
+></ref
+><distributor
+></distributor
+><date
+type="publishing"
+></date
+><dim
+extent=""
+type="weight"
+unit="Mo"
+></dim
+><availability
+><licence
+></licence
+><p
+></p
+></availability
+></bibl
+></ab
+><ab
+subtype="EPUB"
+type="digital_download"
+><bibl
+><idno
+type="ISBN-13"
+></idno
+><idno
+subtype="-"
+type="DOI"
+></idno
+><ref
+type="DOI"
+></ref
+><ref
+type="site"
+></ref
+><distributor
+></distributor
+><date
+type="publishing"
+></date
+><availability
+><licence
+></licence
+><p
+></p
+></availability
+><dim
+extent=""
+type="weight"
+unit="Ko"
+></dim
+></bibl
+><desc
+type="accessMode"
+>textual</desc
+><desc
+type="accessibilityFeature"
+>ARIA</desc
+><desc
+type="accessibilityFeature"
+>highContrastDisplay</desc
+><desc
+type="accessibilityFeature"
+>readingOrder</desc
+><desc
+type="accessibilityFeature"
+>structuralNavigation</desc
+><desc
+type="accessibilityFeature"
+>tableOfContents</desc
+><desc
+type="accessibilityFeature"
+>unlocked</desc
+><desc
+type="accessibilityFeature"
+>alternativeText</desc
+><desc
+subtype="soundHazard"
+type="accessibilityHazard"
+>noSoundHazard</desc
+><desc
+subtype="flashingHazard"
+type="accessibilityHazard"
+>noFlashingHazard</desc
+><desc
+subtype="motionSimulationHazard"
+type="accessibilityHazard"
+>noMotionSimulationHazard</desc
+><desc
+type="accessModeSufficient"
+>textual</desc
+><desc
+type="accessibilitySummary"
+>Cette publication est conforme aux normes d’accessibilité WCAG 2.0, au moins au niveau A.</desc
+></ab
+><ab
+subtype="HTML"
+type="digital_online"
+><bibl
+><distributor
+>OpenEdition</distributor
+><name
+type="CMS"
+>Lodel 2</name
+><idno
+subtype="-"
+type="DOI"
+></idno
+><ref
+type="DOI"
+>https://journals.openedition.org/itineraires/17895</ref
+><ref
+type="site"
+></ref
+><date
+type="publishing"
+when="2026-02-28"
+></date
+><date
+type="embargoend"
+></date
+><idno
+type="documentnumber"
+></idno
+><availability
+><licence
+target="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.fr"
+></licence
+><p
+></p
+></availability
+></bibl
+></ab
+></publicationStmt
+><sourceDesc
+><p
+>COMMONS/Métopes : 1.0</p
+></sourceDesc
+></fileDesc
+><encodingDesc
+><appInfo
+><application
+ident="Word-tpl"
+version="1.0"
+><label
+>Word template</label
+><desc
+>Version of MS Word template used</desc
+><ref
+target="#"
+></ref
+></application
+><application
+ident="circe-Metopes"
+version="0.0.103"
+><label
+>Circé</label
+><desc
+>Document converted into TEI using Circé application (doc2tei pipeline)</desc
+><ref
+target="#"
+></ref
+></application
+></appInfo
+><editorialDecl
+><normalization
+rendition="notes"
+><p
+rendition="note"
+select="restart"
+></p
+><p
+rendition="table"
+select="restart"
+></p
+><p
+rendition="annexe"
+select="restart"
+></p
+><p
+rendition="floatingText"
+select="restart"
+></p
+></normalization
+></editorialDecl
+></encodingDesc
+><profileDesc
+><langUsage
+><language
+ident="fr-FR"
+></language
+></langUsage
+><textClass
+><keywords
+scheme="keyword"
+xml:lang="fr"
+><list
+><item
+>manifeste</item
+><item
+>Afrique subsaharienne</item
+><item
+>littérature francophone</item
+><item
+>genre littéraire</item
+><item
+>forme littéraire</item
+><item
+>critique universitaire</item
+></list
+></keywords
+><keywords
+scheme="keyword"
+xml:lang="en"
+><list
+><item
+>manifesto</item
+><item
+>Sub-Saharan Africa</item
+><item
+>Francophone literature</item
+><item
+>literary genre</item
+><item
+>literary form</item
+><item
+>academic criticism</item
+></list
+></keywords
+></textClass
+></profileDesc
+><revisionDesc
+><listChange
+><change
+type="creation"
+when="2026-01-22"
+>XML-TEI file creation</change
+></listChange
+></revisionDesc
+></teiHeader
+><text
+type="article"
+xml:id="text"
+><front
+><div
+type="titlePage"
+><p
+rend="title-main"
+>Formes et genres du manifeste littéraire d’Afrique subsaharienne francophone</p
+><p
+rend="title-trl"
+xml:lang="en"
+>Forms and Genres of the Literary Manifesto from French-Speaking Sub-Saharan Africa</p
+><p
+rend="author-aut"
+>Laude Ngadi Maïssa</p
+><p
+rend="authority_affiliation"
+>Université du KwaZulu-Natal</p
+></div
+><div
+type="abstract"
+xml:lang="fr"
+><p
+xml:lang="fr"
+>La tradition critique présente le manifeste comme un genre dont le statut est défini tantôt par sa forme nominale, tantôt par sa nature protéiforme. L’article propose de parcourir le corpus de la littérature africaine subsaharienne de langue française afin d’identifier les typologies formelles et génériques qui illustrent l’éclectisme de ce genre. En partant des réflexions issues des études au sujet de la catégorisation du manifeste littéraire, nous mettons en évidence ses pouvoirs d’actualisation. Dire que le manifeste s’éclate revient à le présenter dans ses aspects protéiformes, alors associés aux manifestations culturelles et à l’activisme sociopolitique des auteurs, dans la production universitaire qui témoigne du compagnonnage entre écrivain et critique dans cet espace littéraire et, enfin, dans la création fictionnelle illustrant les tentatives de renouveau d’art poétique des écrivains.</p
+><div
+type="keywords"
+xml:lang="fr"
+><p
+>mots-clefs : manifeste, Afrique subsaharienne, littérature francophone, genre littéraire, forme littéraire, critique universitaire</p
+></div
+></div
+><div
+type="abstract"
+xml:lang="en"
+><p
+xml:lang="en"
+>The critical tradition presents the manifesto as a genre whose status is defined by its nominal or protean form. This article explores a corpus of French-language sub-Saharan African literature to identify the formal and generic typologies that illustrate the eclecticism of this genre. Drawing on reflections from studies on the categorization of the literary manifesto, the article highlights its powers of actualization. To say that the manifesto is splintered is to present it first as protean, within the frame of cultural events and the authors’ socio-political activism, then in the academic production that bears witness to the companionship between writer and critic in this literary space and, finally, in fictional creation, thus illustrating the writers’ attempts at renewing poetic art.</p
+></div
+><div
+type="keywords"
+xml:lang="en"
+><p
+>Keywords: manifesto, Sub-Saharan Africa, Francophone literature, literary genre, literary form, academic criticism</p
+></div
+></front
+><body
+><p
+xml:id="p1"
+>La tension entre la forme normative du manifeste et son caractère protéiforme est ce qui réunit les auteurs de ce dossier. Le renouvellement et le nouvel essor du manifeste, après la proclamation de la fin du genre et des avant-gardes par certains critiques, s’imposent à travers des formes génériques qui s’écartent de plus en plus des poétiques prototypiques du genre. Aussi, en réfléchissant à l’éclatement du manifeste littéraire d’Afrique subsaharienne francophone de la Négritude à nos jours, nous nous posons deux questions : qu’est-ce donc que le manifeste littéraire ? Tout peut-il être manifeste ? C’est du moins celles auxquelles nous souhaitons principalement répondre en nous attardant sur les manifestes titrés comme tels tout en considérant avec Serge Margel que la « fonction performative et le pouvoir autoréférentiel du manifeste […] lui ont sans doute aussi permis de se détacher de son propre genre littéraire, sans s’annuler » (Margel, 2013, p. 6). L’étude que nous menons voudrait préciser les traits d’identification générique d’un genre inclassable par une démarche plus prescriptive que descriptive, c’est-à-dire une démarche qui consiste à donner des indications et à présenter un cadre de références rendant possible la constitution d’un ensemble de textes possédant certaines caractéristiques souvent assignées au manifeste. Une analyse du genre commande, comme le défend Jean-Marie Schaeffer (1989), de prendre en considération la norme assignée à un texte ainsi que la catégorisation rétrospective du discours critique au sens où</p
+><cit
+><quote
+>la constitution du genre est étroitement dépendante de la stratégie discursive du métatexte (du théoricien de la littérature, donc) : c’est lui qui choisit, du moins partiellement, les frontières du genre, c’est lui qui choisit le niveau d’abstraction des traits qu’il retiendra comme pertinents, c’est lui enfin qui choisit le modèle explicatif. (Schaeffer, 1989, p. 199)</quote
+></cit
+><p
+>Nous voudrons donc ici aussi bien nous attarder sur une forme de généricité attribuée au texte par l’auteur ou l’éditeur que sur celle, différente, revendiquée par le lecteur. Aussi notre lecture se présente-t-elle comme une intervention critique au sujet des commentaires des lecteurs ayant rapproché divers ouvrages de cette forme générique en perpétuelle transformation.</p
+><p
+xml:id="p2"
+>L’exercice auquel nous nous prêtons ne se veut pas exhaustif, il formule l’ambition d’identifier les macrostructures du manifeste et les genres littéraires dominants qui lui sont associés dans les productions de l’espace subsaharien. La démarche est donc inclusive du fait qu’en observant les œuvres désignées comme telles par les auteurs eux-mêmes et par la réception critique spécialisée ou médiatique, nous nous attacherons à présenter le manifeste dans ses divers aspects majeurs<note
+n="1"
+place="foot"
+xml:id="ftn1"
+><p
+>Nous voudrions ne pas circonscrire cette étude à une période historique particulière pour la simple raison que ce travail se présente comme la suite de nos productions précédentes – qui participent à comprendre « l’invisibilité » (Ngadi Maïssa, 2021a) du corpus et à proposer une histoire des idées littéraires (Ngadi Maïssa, 2021b ; Ngadi Maïssa, 2025) à partir de la production manifestaire – dans lesquelles nous n’avons pas assez insisté sur la typologie du corpus bien qu’Adama Coulibaly souligne, à juste titre, dans le compte rendu qu’il fait du n°51-1 de la revue <hi
+rend="italic"
+>French Studies in Southern Africa / Études françaises en Afrique australe</hi
+> que nous avons consacré aux manifestes d’Afrique, que ce « numéro s’attarde peu sur la forme canonique du manifeste » et qu’il interroge la possibilité de « penser que, finalement, tout peut être manifeste, avec l’aide d’un discours de rationalisation cohérent <hi
+rend="italic"
+>a posteriori </hi
+>» (2022, p. 234-235). Le lecteur consultera donc ces travaux pour ce qui se rapporte aux postures et aux positionnements des auteurs ainsi qu’à la chronologie du corpus – plus large – dans l’espace référé.</p
+></note
+>. L’argumentation est organisée en trois sections : les manifestes associés aux manifestations de la Négritude d’abord, le glissement du manifeste vers les genres de la rédaction universitaire ensuite, et les créations littéraires enfin. Le lecteur constatera néanmoins que les typologies présentées selon les critères historiques ou génériques, selon le type de textes ou les énonciations des auteurs et des critiques littéraires, sont illustratives car les œuvres peuvent parfois relever de différentes catégories, voire faire écho à ceux de la Négritude.</p
+><div
+type="section1"
+xml:id="div01"
+><head
+>Manifestes et manifestations</head
+><div
+type="section2"
+xml:id="div02"
+><head
+>Les formes totales du manifeste</head
+><p
+xml:id="p3"
+>Le manifeste est par définition un écrit auquel on rattache une dimension pragmatique. Son contenu est un programme d’action ayant pour finalité de résoudre une situation de crise ou de conflit. Il est structuré par un discours antagoniste dont la portée est rendue efficace par les rassemblements collectifs ou des propos individuels. Les différentes catégories génériques donnent ainsi « cette forme d’<hi
+rend="italic"
+>écriture en acte</hi
+> que le délabrement d’un monde en crise a rendue indispensable » (Kramer-Mallordy, 2011, p. 7). Ce préambule nous permet de poser le fait que la Négritude, le principal mouvement de la littérature africaine francophone, ne compte pas de manifestes nominaux, exception ici faite d'« En guise de manifeste littéraire » d’Aimé Césaire (1942, p. 7) qui reprend la matière poétique de son <hi
+rend="italic"
+>Cahier d’un retour au pays natal</hi
+> (1939) par ailleurs considéré comme son « poème programmatique » (Obszyński, 2016, p. 130). Le fait est que le militantisme politique, culturel, intellectuel et artistique des acteurs qui défendent la dignité du « nègre » et « l’indépendance » des colonies sous l’Empire colonial français et les genres littéraires mobilisés donnent à ce mouvement un caractère total. En tant qu’œuvre et agir, puisqu’ici dire ou écrire revient également à faire, le manifeste prend un caractère bicéphale. Aussi, Georges Ngal fait bien d’affirmer que les « congrès panafricains (1919, 1921, 1923…) », les « organes de presse », les « associations », les anthologies et les recueils de poésie rattachés à ce mouvement sont des manifestes en soi : « Un dénominateur commun dans cette disparité de titres : la plupart de ces organes se présentaient comme des manifestes ou comme des proclamations à la face du monde » (Ngal, 1995, p. 20-21). Cette disparité générique fait du manifeste un genre hors normes dont la densité est en outre perceptible par la volonté des agents concernés d’élargir leurs possibilités d’action.</p
+><p
+xml:id="p4"
+>Si on considère l’exemple particulier de la production de Léopold Sédar Senghor, figure africaine majeure du mouvement, on remarquera également la plasticité générique du manifeste. Le poète président n’a pas publié de manifeste canonique, mais la critique classe plusieurs de ces textes dans cette catégorie. Aussi, si pour Boniface Mongo-Mboussa « la postface de son recueil de poèmes <hi
+rend="italic"
+>Éthiopiques</hi
+> (1956), “Comme les lamantins vont boire à la grande source”, peut être lue comme le manifeste littéraire de Senghor et, par extension, de la poésie africaine en général » (2002, p. 17), d’autres critiques considèrent l’<hi
+rend="italic"
+>Anthologie de la nouvelle poésie nègre et malgache de langue française</hi
+> (1948) comme « un véritable manifeste contre l’oppression politique autant que culturelle de l’Occident » (Kesteloot, 2001, p. 197). D’une manière générale, le caractère innovant de cette anthologie oriente l’assignation au genre du manifeste car on observe qu’on met en avant soit le caractère « fondateur » de l’anthologie qui « est devenue un manifeste et est entrée, en tant que telle, directement dans l’histoire de la littérature » (Delas, 2007, p. 14), soit le « titre programmatique » ainsi que « l’introduction envahissante » de Jean-Paul Sartre qui signe la préface « Orphée négro », et le « projet ambigu » de Senghor (Ranaivoson, 2010, p. 22-25) qui connaîtra un héritage sans pareil dans la production des anthologies africaines qui suivront (Ranaivoson, 2008). L’œuvre poétique de Senghor, son anthologie, mais également ses essais, se retrouvent en conséquence, en raison notamment de la volonté de celui-ci à théoriser la Négritude tout en faisant œuvre de critique et de création, contenus dans la classe des manifestes.</p
+><p
+xml:id="p5"
+>On peut ici considérer que la multiplication des genres littéraires et des formes d’action, sans assignations au manifeste, est une manière pour les auteurs d’« inscrire des positions minoritaires dans un espace public pour faire valoir les idées et les désirs d’un groupe » en lutte avec « les vérités de son temps » (Kihm, 2013, p. 15). Le manifeste entretient ainsi une relation de connivence avec la manifestation. Nombre de manifestes sont en effet publiés pour donner suite à des festivals, des congrès, etc. Ces événements actés par les questionnements socioculturels et politiques du continent africain débouchent souvent sur des polémiques ou des querelles qui concourent à la publication de textes montrant que « <hi
+rend="italic"
+>manifester revient à investir physiquement l’espace public</hi
+> » (Burger, 2002, p. 64, 70). D’un point de vue générique, la plupart des manifestes d’interventions sont des discours d’ouverture de festival (Senghor, 2014) ou des textes courts (« Manifeste culturel panafricain Alger », 1969 ; « Manifeste des poètes et écrivains au Forum des écrivains : Littérature et Paix : écrire dans une Afrique en crise », 2003), avec une signature collective, qui présentent des recommandations. Ils sont généralement publiés dans les actes ou les rapports des manifestations et paraissent dans les instruments éditoriaux de l’organisateur. L’articulation entre la nature conjecturelle, d’occasion, des manifestes et la composante politique des rassemblements a pour but de créer l’événement, au sens de faire date. La politique a donc toujours et déjà à voir avec la création littéraire. L’exemple le plus illustratif semble être le <hi
+rend="italic"
+>Manifeste de la N’Selé</hi
+>, de 1984. Ce petit livre vert est un manuel de pensée politique du Mouvement Populaire de la Rénovation (MPR) dirigé alors par Mobutu. L’opuscule est divisé en plusieurs entrées dont une, « arts-culture », évoque notamment la littérature : « Les artistes, écrivains, philosophes doivent être encouragés par l’État qui assurera la diffusion internationale des œuvres et des personnalités les plus marquantes » (Mobutu, 1984, p. 26). Les manifestes des courants zaïrois comme le mélangisme (Ilaya Mukalay Ndaya, 1979) et le concrétisme (Yisuku Gafudzi, 1981), émergent à partir de cette politique (voir Riva, 2006, p. 73, 139). Les auteurs de ces courants nés durant la période tumultueuse post-indépendance expérimentent des formes poétiques nouvelles et cherchent à produire des textes dont la teneur du discours révolutionnaire illustre la fragilité des multiples changements sociopolitiques dans le pays.</p
+></div
+><div
+type="section2"
+xml:id="div03"
+><head
+>Manifestes nominaux : activisme civil, intellectuel et littéraire</head
+><p
+xml:id="p6"
+>Face aux crises politiques, identitaires et culturelles qui prédominent généralement dans les pays subsahariens et aux représentations souvent stéréotypées du continent, l’écrivain se sent dans l’obligation de justifier un rôle d’acteur civil et intellectuel auprès de ses lecteurs. Les manifestes des manifestants surgissent alors comme une obligation de réappropriation de la parole africaine et de la contestation du pouvoir oligarchique. Courts et généralement publiés dans la presse, les manifestes, dont certains se confondent avec la pétition (Bema, 2017), expriment l’indignation des signataires contre les défaillances des systèmes démocratiques et la censure. Ces textes se présentent comme des alertes aux violences pré et/ou post-électorales (Monénembo, Tadjo &amp; Ebodé, 2020) ou des réactions aux événements culturels ayant une forte portée politique. Les injustices et les soulèvements des populations préoccupent les écrivains, les critiques et les acteurs de la société civile qui collaborent dans le but de proposer des solutions. De fait, les manifestations associatives ou académiques donnent lieu à des manifestes qui peuvent prendre la forme d’actes de colloques : c’est le cas du <hi
+rend="italic"
+>Manifeste pour lire autrement l’œuvre de Cheick Anta Diop</hi
+> (Biyogo, 2006). Dans ce dernier exemple, les chercheurs et écrivains proposent de reconfigurer et actualiser la pensée de leur maître dans une démarche qu’on retrouve chez les instigateurs des Ateliers de la pensée de Dakar<note
+n="2"
+place="foot"
+xml:id="ftn3"
+><p
+>Initiés en 2016 par Achille Mbembe et Felwine Sarr, « Les Ateliers de la Pensée » est une rencontre qui rassemble un réseau international d’intellectuels, d’écrivains et d’artistes de l’Afrique et de ses diasporas. Le but de cette initiative est de réfléchir à propos des transformations du continent et du monde du point de vue africain. Cette manifestation a donné lieu à plusieurs éditions thématiques : « Écrire l’Afrique-Monde » (2016) ; « Politiques des temps : imaginer les devenirs africains » (2017) ; « Basculement des mondes et pratiques de dévulnérabilisation » (2019) ; « Cosmologies du lien et forme de vie » (2022). Les travaux des deux premières sessions ont été publiés : Mbembe, A., &amp; Sarr, F. (dir.) (2017b). <hi
+rend="italic"
+>Écrire l’Afrique-monde</hi
+>. Paris/Dakar : Philippe Rey/Jimsaan ; Mbembe, A., &amp; Sarr, F. (dir.. (2019). <hi
+rend="italic"
+>Politique des Temps : Imaginer les devenirs africains</hi
+>. Paris/Dakar : Philippe Rey/Jimsaan. Voir : <ref
+target="https://lesateliersdelapensee.wordpress.com"
+>https://lesateliersdelapensee.wordpress.com</ref
+>.</p
+></note
+>. Les ouvrages (Mbembe &amp; Sarr, 2017b, 2019) issus de ces manifestations réunissant des penseurs, écrivains et universitaires africains et de la diaspora, sont assimilables à des manifestes. Le titre-manifeste du premier volume, <hi
+rend="italic"
+>Écrire l’Afrique-monde</hi
+>, entre en résonance avec l’impératif pour les deux éditeurs de lancer un « appel général et pressant à reprendre les vieux combats jamais clos et à en engager d’autres qu’appelle le nouveau siècle » (Mbembe &amp; Sarr, 2017a, p. 9). Cette observation fait écho aux propos liminaires des écrivains qui affirment : « si ce livre n’est pas un manifeste – au sens où il révélerait, à la franche lumière du jour, des vérités cachées par les générations précédentes – il en présente néanmoins quelques caractéristiques » (p. 8-9), dont « l’<hi
+rend="italic"
+>urgence</hi
+> » et « l’action » de penser l’Afrique par soi-même. Dans la même dynamique, l’entretien entre Achille Mbembe et Remy Rioux <hi
+rend="italic"
+>Pour un monde en commun</hi
+> (2022) est publié dans la collection « Manifestes » des éditions Actes Sud. Dans sa préface, Séverine Kodjo-Grandvaux situe le positionnement de Mbembe dans la continuité des Ateliers de la pensée de Dakar car celui-ci appelle à « achever le processus de décolonisation pour que l’Afrique puisse enfin décider pour elle-même et par elle-même » (2022, p. 10). On soulignera le cas particulier du <hi
+rend="italic"
+>Manifeste pour la lecture</hi
+> (2023). Ce volume collectif, contenant les textes divers de seize auteurs francophones de tous les continents, est publié à la demande de Corinne Fleury, directrice et cofondatrice de l’Atelier des Nomades, maison d’édition où paraît le texte. Dans l’avant-propos, elle indique que ces auteurs, « bâtisseurs d’imaginaires et de liberté », ont voulu « s’ouvrir aux lecteurs avec générosité pour témoigner de leur rapport intime aux livres et à la lecture » (p. 5).</p
+><p
+xml:id="p7"
+>Par ailleurs, le manifeste nominal d’Afrique concerne pour une grande part le genre de la poésie. En général, ce type de manifeste est principalement structuré en deux parties : une « préface-manifeste » (Diaz, 2009) et un « manifeste d’exemplification » (Guiyoba, 2007). Cette organisation est notamment à l’œuvre dans les manifestes de plusieurs groupes littéraires africains, comme le recueil du Cercle Affo Akkom (2012) : Ndé Mu Fopin y encadre les textes des contributeurs en signant en incipit le « manifeste accomien » (p. 7-17) et en excipit l’« Appel du 7 janvier 2007 aux écrivains camerounais » (p. 149-150). Les manifestes de La Ronde des Poètes, édités dans la revue <hi
+rend="italic"
+>Hiototi</hi
+> (« Manifeste des poètes de la Ronde », 2005) créée par le président dudit groupe Jean-Claude Owono, compte en particulier un texte en réaction au sujet de « la restauration du Monument de la réunification, plateau Atemengue, Yaoundé » (« Légitime devoir : manifeste pour la restauration du Monument de la réunification, plateau Atemengue, Yaoundé », 2006, p. 195-196) alors en état de délabrement.</p
+><p
+xml:id="p8"
+>Les manifestes individuels conservent la même composition, avec de légères différences. Le « Manifeste du courant indépendantiste » de Konan Langui (2014, p 57-76) est une postface rédigée comme un article scientifique qui vient en appui théorique aux discours performatifs des poèmes de <hi
+rend="italic"
+>Wandi Bla !</hi
+> Bien qu’il commence par le poème « Pour préface », c’est tout le recueil <hi
+rend="italic"
+>Sèt Po</hi
+> (2006) qui constitue le « manifeste palmiste » de William Souny. Cette composition binaire des manifestes nominaux caractérise la très grande majorité des manifestes africains contemporains : l’association entre un discours théorique et des exemples ou des textes illustratifs sert alors à favoriser l’émergence en idées et en actes d’un nouveau courant littéraire.</p
+></div
+></div
+><div
+type="section1"
+xml:id="div04"
+><head
+>Les manifestes des critiques littéraires</head
+><div
+type="section2"
+xml:id="div05"
+><head
+>L’essai-manifeste des écrivains et des critiques</head
+><p
+xml:id="p9"
+>La critique littéraire joue un rôle prépondérant dans la désignation et dans la production de manifestes. Écrivains et critiques littéraires publient en effet plusieurs manifestes de type essayistique. Le manifeste prend la forme d’un essai dans lequel l’auteur analyse des œuvres tout en développant sa conception de la littérature : c’est le cas de <hi
+rend="italic"
+>Pour une critique du théâtre ivoirien contemporain</hi
+> de Koffi Kwahulé (1997), de <hi
+rend="italic"
+>La Nolica (la nouvelle littérature camerounaise)</hi
+> de Pabe Mongo (2005), du <hi
+rend="italic"
+>Manifeste pour une nouvelle littérature africaine</hi
+> (2007) de Patrice Nganang ou de <hi
+rend="italic"
+>La Nouvelle chose française</hi
+> (2008) de Nimrod. Les auteurs de ces essais théoriques, structurés selon les règles de la rédaction académique (introduction, chapitre, conclusion, notes infrapaginales, bibliographie), proposent des réflexions littéraires au sujet d'un corpus d’œuvres qu’ils présentent comme étant représentatifs du renouvellement ou de la rupture littéraire dans l’espace africain. Cette forme de manifeste « académique » est une occasion pour ceux-ci de produire une forme de discours qui relève autant de la critique d’écrivains que de l’autolégitimation puisque, parmi les œuvres analysées, on trouve également celles des auteurs eux-mêmes (voir Ngadi Maïssa, 2021a). On peut dans cette perspective convoquer les travaux à propos de l’essai des écrivains postcoloniaux qui insistent sur l’association entre le discours universitaire et le discours social ainsi que sur la métamorphose de la forme canonique du genre. Florian Alix montre qu’il existe dans la composition de ce type de textes une connexion entre le respect des « protocoles scientifiques » et la liberté de ton des écrivains qui doivent manifester leurs prises de position sociale et identitaire à l’échelle locale et/ou universelle. Il note entre autres que « l’auteur y joue alors des différentes formes de critique (critique d’écrivain, critique universitaire, théorie littéraire) et rend l’ouvrage difficile à situer. Il lui applique alors ainsi la marque de sa subjectivité et déborde de son objet » (Alix, 2022, p. 71). Dans ce cas, l’essai ne concerne pas uniquement le commentaire des textes, il revêt aussi une forte gnose sociologique incarnant la vision du monde de l’auteur. Le caractère protéiforme de ce genre, qui oscille entre herméneutique et discours subjectifs relatifs à l’innovation littéraire dans ces essais-manifestes, nous semble répondre à cette logique de balancement entre les intentions de « réduplication et transformation » génériques permettant aux textes de s’engendrer dans un rapport « d’écart, de mélange ou d’inversion de traits génériques pertinents » (Hel-Bongo, 2019, p. 127), qu’on retrouve également dans la forme manifestaire.</p
+><p
+xml:id="p10"
+>L’essai permet ici une construction partagée entre l’œuvre de l’écrivain, qui met le manifeste au profit d’autres mécanismes utiles à la société, et les contraintes du discours critique élaboré avec passion. Ce dernier aspect donne une dimension manifestaire à des œuvres dont le propos est l’autodétermination, comme on peut le constater en parcourant les comptes rendus du numéro 53 de la revue <hi
+rend="italic"
+>Études littéraires africaines</hi
+>. À propos de l’essai d’Emmanuel Kabongo Malu consacré à l’œuvre et à l’action politique de Mabika Kalanda, Frédérique Thiam écrit : « Le présent ouvrage est un manifeste militant, polémique, idéologique, et même manichéen, qui exhorte les Congolais à redresser leur pays, ce puissant Congo-Kinshasa, dont la superficie est six fois celle de la France » (Thiam, 2022, p. 19). Pour sa part, Dominique Ranaivoson note au sujet d’<hi
+rend="italic"
+>Afropea</hi
+> de Léonora Miano : « Cet essai de la romancière d’origine camerounaise, déjà théoricienne dans son recueil <hi
+rend="italic"
+>Habiter la frontière</hi
+> (2012), a toutes les formes d’un manifeste » (Ranaivoson, 2022, p. 208). L’aspect militant de ces essais visant l’autodétermination littéraire crée en réalité une collusion entre la création et le discours de réception. L’essai permet aux auteurs de se positionner dans l’espace littéraire et de proposer des étiquettes susceptibles d’orienter la lecture de leurs œuvres.</p
+><p
+xml:id="p11"
+>Le genre de l’essai se présente par ailleurs sous la forme de la lettre-manifeste. Lorsque Calixthe Beyala évoque sa « féminitude […] pour définir cette femme nouvelle qui veut les trois pouvoirs : carrière, maternité et vie affective » (Beyala, 1995, p. 20-21), elle ne manque pas de souligner que « [c]ette lettre n’est pas seulement un cri d’alarme. C’est aussi un appel au secours » (p. 103). Dans le même ordre, <hi
+rend="italic"
+>Le Sanglot de l’homme noir</hi
+> d’Alain Mabanckou, essai dans lequel l’auteur chronique les œuvres marquantes de sa bibliothèque « africaine » pour somme toute se définir comme « un écrivain tout court » (Mabanckou, 2012, p. 138), s’ouvre avec un texte éponyme présenté comme une missive faisant suite à <hi
+rend="italic"
+>Lettre à Jimmy</hi
+> (2007) et adressée à son autre fils Boris : « Je t’ai adressé cette missive comme une sonnette d’alarme afin que tu ne tombes jamais dans ce piège [le communautarisme noir] » (Mabanckou, 2007, p. 21).</p
+><p
+xml:id="p12"
+>L’expression « sonnette d’alarme » est paradigmatique du discours simultanément d’intervention et de prévention de l’écrivain africain. On le retrouve par exemple chez le Sénégalais Boubacar Boris Diop qui, tout en postulant que la prise de parole « est une obligation pour l’intellectuel africain », souligne qu’il souhaite « tirer la sonnette d’alarme » contre « l’inquiétant projet politique [français] qui se profile derrière la négrophobie triomphante » (Diop, 2007, p. 10, 12). Ces différentes correspondances se situent dans la lignée de la <hi
+rend="italic"
+>Lettre à la France nègre</hi
+> de l’écrivain Yambo Ouologuem qui, en affirmant avoir choisi « délibérément la voix de l’humour pamphlétaire » (Ouologuem, 1969, p. 11) pour répondre entre autres aux critiques concernant ses œuvres, « publie un manifeste pour sa défense et un récit érotique [<hi
+rend="italic"
+>Les Mille et une bibles du sexe</hi
+>, 1969] sous pseudonyme » (Dauphin, 2022). Dans l’ensemble, le principe de cette démarche est de rompre avec une tradition littéraire tout en proposant de nouvelles voix de la littérature africaine et, dans le même temps, de la faire sortir de « l’invisibilité » dans laquelle elle se trouve depuis, puisque le « lieu de naissance de cette littérature est une structure d’épouvante au sein de laquelle l’Afrique apparaît sous la figure de ce qui n’est jamais parvenu à l’existence […]. À l’origine, l’acte littéraire africain est une réponse à cette exclusion » (Mbembe, 2013, p. 79).</p
+></div
+><div
+type="section2"
+xml:id="div06"
+><head
+>Le manifeste par recomposition de l’œuvre</head
+><p
+xml:id="p13"
+>Souvent, la désignation des textes comme des manifestes littéraires est une construction de la critique littéraire. D’une part, il peut s’agir de commande des coordinateurs des dossiers de revues aux écrivains. Dans le numéro 29 des <hi
+rend="italic"
+>Études Littéraires Africaines</hi
+>, les éditeurs indiquent avoir « demandé à Lionel Manga, pour clore ce dossier tout en l’ouvrant, de (se) manifester » (Manga, 2010, p. 81) ; la même démarche est entreprise par Boniface Mongo-Mboussa auprès d’Eugène Ebodé et Jean-Luc Raharimanana, qui publient « Pour une Afrique désirable » (2000) dans le volume 30 de la revue <hi
+rend="italic"
+>Africultures</hi
+> consacrée à la mémoire du génocide rwandais. Ce phénomène éditorial entre dans la catégorie du « numéro-manifeste [ou du] numéro qui manifeste » (Larue, 2008, p. 7). D’autre part, l’identification de textes comme manifestes peut intervenir dans les travaux de reconstitution des œuvres complètes, à titre posthume, d’un auteur. Dans les <hi
+rend="italic"
+>Œuvres complètes</hi
+> de Taty Loutard qu’elle établit, Arlette Chemain rassemble sous le titre <hi
+rend="italic"
+>Art poétique</hi
+> les poèmes des <hi
+rend="italic"
+>Maximes</hi
+>, préalablement publiés de manière éparse par l’auteur lui-même, car de son point de vue un « art poétique est conceptualisé dans les <hi
+rend="italic"
+>Maximes</hi
+> » (Chemain, 2007, p. 22). Les éditeurs qui recomposent, à l’aide de la génétique textuelle, les œuvres complètes de poésie de Sony Labou Tansi, attribuent à plusieurs textes et recueils le caractère de manifestes. D’abord, on lui donne la forme particulière du poème se résumant à « un vers unique, un monostiche » et clôt par un tiret : « “Je ne suis pas vivant mais poète –”, cette formule énigmatique est-elle un dit ou un écrit, un cri ou un titre, une réplique ou un manifeste, une pensée ou une prophétie, un vers ou un poème ? » (Martin-Granel &amp; Riffard, 2015, p. 28). Ensuite, le poème est désigné comme un traité d’art poétique comme on peut le lire dans la présentation de <hi
+rend="italic"
+>Vers Vinaigre</hi
+> : « Ce texte, qui esquisse une réflexion sur la création poétique et l’usage de la langue française, est réutilisé en guise de “Pré-préface” […]. Il est amplifié pour devenir, en quelque sorte, un manifeste poétique » (Gahungu, 2015, p. 66). Dans la même perspective, Nicolas Martin-Granel présente <hi
+rend="italic"
+>Sous adresse</hi
+> comme un manifeste en raison de la forme protéiforme de l’incipit : « Le recueil comprend une vingtaine de ces textes écrits à/pour/avec quelqu’un. Il commence de façon emblématique par un texte hybride, tout à la fois poème, lettre et manifeste poétique » (Martin-Granel, 2015, p. 1177). On pourrait dire que cette technique de construction <hi
+rend="italic"
+>a posteriori</hi
+> du manifeste par la critique a pour but d’inscrire les œuvres des auteurs dans la tradition des écrivains critiques et théoriciens de la littérature comme il est de tradition dans la littérature africaine de langue française (voir Ngadi Maïssa, 2021a).</p
+></div
+></div
+><div
+type="section1"
+xml:id="div07"
+><head
+>Le manifeste d’écrivains dans la création littéraire</head
+><div
+type="section2"
+xml:id="div08"
+><head
+>Le manifeste dans les œuvres littéraire et picturale</head
+><p
+xml:id="p14"
+>Dans un article dans lequel il analyse les enjeux de l’intertextualité dans la communication manifestaire, Marcel Burger défend l’idée que « pour un auteur, jouer de l’intertexte manifestaire, c’est faire le pari que son texte (quel que soit son régime générique : manifeste, appel, pétition, préface, essai, conte, nouvelle, roman, etc.) sera lu comme un manifeste constituant » (2009, p. 71). En d’autres termes, la référence à un manifeste dans le réseau intertextuel d’une œuvre, afin de le commenter, de l’approuver ou de le contester, apparaît comme l’indice qui lui confère à son tour une visée manifestaire. Cette modalité structurante du manifeste est particulièrement présente dans le roman africain. Tel est le cas d’<hi
+rend="italic"
+>Une si longue parole</hi
+> d’Amadou Elimane Kane, qui écrit ce roman de la « renaissance africaine » à partir des « principes de l’Almaamiyat fondé par Ceerno Sileymaani Baal au <hi
+rend="small-caps"
+>xvii</hi
+><hi
+rend="sup"
+>e</hi
+> siècle dont le texte dit que le peuple est protégé de la dépendance, de l’esclavage, de l’injustice, de l’asservissement et que la justice règne pour tous » (Kane, 2015, p. 78-79).</p
+><p
+xml:id="p15"
+>Mais l’exemple le plus significatif de ce genre d’œuvres est celui du projet « Rwanda : écrire par devoir de mémoire » initié par le festival littéraire Fest’Africa en 1998. L’idée était en effet de permettre aux écrivains africains de produire des fictions et des récits à propos du Génocide rwandais. Aussi, le « Manifeste des Bahutu » est cité dans les fictions comme l’élément instigateur de la haine et des massacres ethnicisés dans deux romans. Le premier d’entre eux est <hi
+rend="italic"
+>L’Ombre d’Imana : voyages jusqu’au bout du Rwanda</hi
+> de Véronique Tadjo. Ce roman se présente comme un carnet dans lequel l’auteur note ses impressions, témoignages, conversations etc. tout en associant des références autonomes juxtaposées les unes après les autres. Dans l’un de ces passages, la narratrice mentionne entièrement le décalogue hutu « HUTU POWER : les dix commandements des bahutu » (Tadjo, 2008, p. 128-129) et le fait suivre d’une note de bas de page « (publié dans le journal des extrémistes pro-Hutu, <hi
+rend="italic"
+>kangura</hi
+>, 10 décembre 1990) » (p. 129) qui lui donne la forme d’un mini-essai. Le même manifeste est nommé en tant que « bréviaire de la haine » (2000, p. 348-350) en annexe du second roman, <hi
+rend="italic"
+>N’aie pas peur de savoir</hi
+>, le récit-témoignage de Yolande Mukagasana, une rescapée de l’ethnie tutsi. Avec la récupération dudit manifeste, ces ouvrages prennent donc une dimension documentaire et pédagogique ; les commentaires des narratrices au sujet de ce texte de propagande dit tout autant la volonté d’« inventer un style juste pour dire la tragédie de notre continent [à partir du génocide rwandais notamment], [de] créer un style d’écriture qui rende cette tragédie dorénavant impossible » (Nganang, 2007, p. 284), que la circonspection du lecteur pour ce genre de fiction car il manifeste « beaucoup de méfiance envers le roman dont il souligne le caractère fictionnel incompatible avec la fonction du récit de témoignage » (Semujanga, 2008, p. 144).</p
+><p
+xml:id="p16"
+>Dans le même cadre, le poète tchadien Nocky Djedanoum, fondateur de Fest’Africa, clôt son recueil <hi
+rend="italic"
+>Nyamyrambo !</hi
+> avec un poème intitulé « Manifeste pour la vie » qui commence par : « Nous en avons assez de mourir, nous voulons vivre pour l’Afrique » et s’achève avec : « si cette vie est à créer, nous voulons la créer ici et maintenant » (2000, p. 50-51). Ce poème-manifeste post-génocidaire, éloge de la vie et refus de regarder l’horreur en silence, a une valeur cathartique qu’on peut retrouver dans les œuvres majeurs de la production subsaharienne, francophone car il s’inscrit dans cette démarche spécifique des écrivains à parler absolument de la situation politique et sociale du continent entier d’une part, à vouloir légitimer l’existence de cette littérature à l’échelle mondiale d’autre part (voir Ngadi Maïssa, 2021a). En partant du titre du manifeste de Nocky, Louis Bertin Amougou conclut son article en précisant que l’omniprésence de la mort dans les fictions africaines revient à signifier que :</p
+><cit
+xml:id="cit01"
+><quote
+>Pour les écrivains africains, c’est davantage récréer, avec les mots, la vie partout où elle est violée, niée, désacralisée, assassinée. Rien de surprenant donc que le poète tchadien Nocky Djedanoum ait conclu son recueil de poèmes sur le génocide rwandais par un « <hi
+rend="italic"
+>Manifeste pour la vie</hi
+> » qui peut servir de titre générique à tous les romans examinés ici et à beaucoup d’autres encore. (Amougou, 2009, p. 220)</quote
+></cit
+><p
+xml:id="p17"
+>Le peintre bissau-guinéen, Nù Barreto joue de ce même procédé dans <hi
+rend="italic"
+>Les États Désunis d’Afrique</hi
+> (2018), une série d’œuvres qui illustrent l’échec d’un gouvernement panafricain, à l’opposé de l’exemple américain dont le drapeau sert de toile de fond aux différents tableaux déclinés en plusieurs thématiques. L’un d’entre eux, intitulé « la source », superpose les œuvres littéraires africaines</p
+><cit
+xml:id="cit02"
+><quote
+>pour parler aussi de la partie intellectuelle du continent africain qu’on a tendance à oublier. On ne voit que la partie qu’on veut voir, mais y en a d’autres assez pertinentes, qui sont dans l’histoire, qui ne sont pas en dehors de l’histoire, qui étaient déjà entrées dans l’histoire, […] pour ne pas copier une phrase qui a fait couler de l’encre pendant longtemps. (Barreto, 2021)</quote
+></cit
+><p
+xml:id="p18"
+>L’œuvre qui se présente comme un patchwork des classiques africains est similaire à la carte « imagi-nation nwar » et au manifeste du projet « La Bibliothèque Chimurenga » associant les titres des œuvres d’artistes, penseurs et écrivains qui, « positionne[nt] la négritude comme un lieu de résistance […] ainsi qu’une affirmation de la possibilité même de l’existence d’autres mondanités et une expression de la communauté » noire dans « le vaste corpus de connaissances qui existe depuis longtemps dans le monde de langue française, bien que sans reconnaissance institutionnelle » (collectif Chimurenga, 2021, p. 2-3).</p
+></div
+><div
+type="section2"
+xml:id="div09"
+><head
+>Le roman-manifeste</head
+><p
+xml:id="p19"
+>Dans l’Afrique subsaharienne, même le roman semble avoir une portée proprement manifestaire. Nombre de textes fictionnels sont identifiés comme des manifestes, notamment en raison de leur fortune dans l’histoire littéraire continentale. En évoquant le brassage du français et du malinké dans la syntaxe, Nimrod affirme ainsi que « les romans de Kourouma sont des manifestes à part entière » (2003, p. 22), tandis que Boniface Mongo-Mboussa présente <hi
+rend="italic"
+>Le Devoir de violence</hi
+> de Yambo Ouologuem comme un « roman-manifeste essentiel » (2003, p. 23), et ce en raison des malentendus nés après les accusations de plagiat au sujet de cette œuvre. À propos d’<hi
+rend="italic"
+>Une si longue lettre</hi
+> de Mariama Bâ, Odome Angone affirme, à la suite de Papa Samba Diop (1995, p. 283), que « le roman ressemble à un manifeste transgénérationnel […] du féminisme africain francophone » (Angone, 2002). Ces romans des pionniers sont assimilables aux manifestes en raison des polémiques qu’ils ont déclenchées dès leur parution. La propension des critiques à associer ces romans à des manifestes apparaît comme un geste de légitimation de ces textes d’autant que le premier fut longtemps oublié par la critique littéraire et que le second est présenté comme le chef-d’œuvre fondateur de l’engagement féminin dans cet espace littéraire.</p
+><p
+xml:id="p20"
+>Cependant, il existe également d’autres formes de roman-manifeste qui se caractérisent par la réécriture d’œuvres des pairs. L’exemple le plus frappant de ce type de textes qui font du recyclage et du métatexte des modalités de définition générique est la trilogie d’Amadou Elimane Kane <hi
+rend="italic"
+>L’Ami dont l’aventure n’est pas ambigüe</hi
+> (2013), <hi
+rend="italic"
+>Les Soleils de nos libertés</hi
+> (2014) et <hi
+rend="italic"
+>Une si longue parole</hi
+> (2015), qui est une sorte de contre-manifeste à l’encontre de trois classiques de la littérature africaine : <hi
+rend="italic"
+>L’Aventure ambiguë</hi
+> (1961) de Cheick Hamidou Kane, <hi
+rend="italic"
+>Les Soleils des indépendances</hi
+> (1968) d’Ahmadou Kourouma et <hi
+rend="italic"
+>Une si longue lettre</hi
+> (1979) de Mariama Bâ. L’auteur réécrit ces trois œuvres en représentant des personnages qui ne sont plus « aliéné[s] par la pensée occidentale » (Kane, 2015, p. 9) comme peuvent l’être ceux de ses pairs. Les préfaces et postfaces présentent ces romans, qui alternent poésie et fiction, comme une utopie continentale dans laquelle l’auteur a « superposé un métatexte, avec son propre métalangage poétique, dans une coloration épique » et réussit « à faire bâtir les États-Unis d’Afrique, et à installer une meilleure gouvernance » (Chemin &amp; Ndongo, 2017, p. 65-66).</p
+><p
+xml:id="p21"
+>Dans le même ordre, <hi
+rend="italic"
+>Aux États-Unis d’Afrique</hi
+> d’Abdourahman Waberi prend la forme d’une dystopie continentale qui inverse notamment les logiques d’échange et de développement entre l’Occident et l’Afrique. Le caractère manifestaire de ce roman ressort particulièrement dans le chapitre « Voyage au cœur de l’atelier » consacré aux réflexions sur l’art que pratique Maya, le personnage principal de la fiction. Cette peintre « vouée à l’errance » et « douée pour le nomadisme fertilisant » (Waberi, 2006, p. 203) pense notamment que « l’artiste est le gardien du futur, pas du passé » (p. 138). Ces passages qui donnent un aspect manifestaire au roman sont déjà les marqueurs des idées défendues par l’auteur dans l’anthologie de la littérature-monde (Waberi, 2007, p. 67-75) comme l’indique Jennifer Boum Make :</p
+><cit
+xml:id="cit03"
+><quote
+>Waberi propose par l’entremise de ce personnage [Maya] un éparpillement spatial qui donne à voir un processus de décentrement, un détachement de l’univers totalisant des É-U d’Afrique. Enfin, Maya serait une manière d’inaugurer le concept de « littérature-monde » dont l’écrivain se fait le porte-parole dans le manifeste littéraire du même nom. (Boum Make, 2020, p. 23)</quote
+></cit
+><p
+xml:id="p22"
+>Le caractère manifestaire du roman de Waberi se justifie ainsi par l’énonciation d’un discours métalittéraire de la critique. Certains textes sont insérés parmi les manifestes par la réception comme le souligne Claude Abastado : « l’accueil du public désigne parfois comme manifestes des œuvres qui, à l'origine, n'impliquaient pas cette intention » (1980, p. 4). Le roman <hi
+rend="italic"
+>Verre Cassé</hi
+> d’Alain Mabanckou entre également dans cette catégorie. Écrit en une phrase et ponctué de virgules, le roman du personnage éponyme est construit comme une encyclopédie de citations de la littérature africaine et mondiale : le titre vient de la chanson du poète et chanteur congolais Lutumba Simaro, mais il peut aussi être associé à l’image du « miroir brisé » (1993, p. 21-22) développée par Salman Rushdie. La mémoire littéraire mobilisée par l’auteur lui sert en effet à défendre une œuvre construite avec « des mots sans queue ni tête » (Mabanckou, 2005, p. 161) et qui ne serait pas le reflet de la réalité ou l’empreinte d’une « fibre de militantisme » (p. 163). Marie-Noëlle Campana note ainsi à propos de la forme encyclopédique de ce roman que « Mabanckou donne à lire un manifeste littéraire dont l’enjeu est le jeu, un jeu amoureux et humoristique » puisque de « nombreux clins d’œil sont lancés dans ce livre captivant, qui stimule sans cesse le lecteur, car chaque titre raconte une histoire, souligne un sentiment, nuance un propos, ridiculise un autre, parodie une attitude, déniaise une pensée… » (Campana, 2005, p. 843).</p
+></div
+></div
+><div
+type="section1"
+xml:id="div10"
+><head
+>Conclusion</head
+><p
+xml:id="p23"
+>Tout peut-il être manifeste ? La réponse semble d’emblée positive au regard de l’ampleur et de l’hétérogénéité de ce corpus. Cela dit, la multiplicité des genres semble largement dépendre de la sensibilité militante qui accompagne le discours des auteurs et des critiques qui sont clairement dans une forme de surqualification du manifeste littéraire. L’article montre que beaucoup des textes ici cités sont considérés comme des manifestes parce qu’un ou une critique (journaliste, essayiste) désigne tel texte comme manifeste, à défaut parfois d’une argumentation bien structurée. La critique est alors un moteur puissant de création a posteriori de manifestes, particulièrement du roman et de la poésie. Le fait que les critiques et les auteurs marchent coude à coude dans une recherche d’affirmation et de légitimation, où intérêts idéaux et intérêts individuels s’enchevêtrent et où le manifeste se présente comme une arme idéale, s’inscrit de notre point de vue dans la tendance de la critique africaine à voir dans le texte littéraire un objet qui porte la trace de la constatation sociopolitique et de la réflexion au sujet de la création littéraire. La propension de la critique à lire les œuvres d’auteurs africains comme des manifestes pourrait également être située dans le processus plus ample de l’événement littéraire en lien avec les manifestations qui participent à l’essor d’une certaine visibilité internationale de la littérature africaine, dans sa dimension continentale, grâce à la participation entre autres d’institutions académiques et d’instances culturelles qui font sa promotion.</p
+></div
+></body
+><back
+><div
+type="bibliography"
+xml:id="bibliography"
+><head
+>Bibliographie</head
+><bibl
+type="input_file"
+xml:id="bibl001"
+><hi
+rend="small-caps"
+>Abastado</hi
+>, C. (1980). « Introduction à l’analyse des manifestes ». <hi
+rend="italic"
+>Littérature, 39</hi
+>, 3-11.</bibl
+><bibl
+type="input_file"
+xml:id="bibl002"
+><hi
+rend="small-caps"
+>Alix</hi
+>, F. (2022). <hi
+rend="italic"
+>L’Essai postcolonial : Poétique de l’entreglose</hi
+>. Paris : Khartala.</bibl
+><bibl
+type="input_file"
+xml:id="bibl003"
+><hi
+rend="small-caps"
+>Amougou</hi
+>, L. B. (2009). « Récits de la mort : manifestes pour la vie chez les écrivains africains contemporains ». In L. B. Amougou (dir.), <hi
+rend="italic"
+>La Mort dans les littératures africaines contemporaines </hi
+>(p. 207-220). Paris : L’Harmattan.</bibl
+><bibl
+type="input_file"
+xml:id="bibl004"
+><hi
+rend="small-caps"
+>Angone</hi
+>, O. (2022). « “Une si longue lettre”, le manifeste politique de Mariama Bâ » [entretien avec Fasséry Kamissoko]. <hi
+rend="italic"
+>Hans &amp; Sandor</hi
+>. <ref
+target="https://www.hansetsandor.fr/2022/02/une-si-longue-lettre-le-manifeste-politique-de-mariama-ba/"
+>https://www.hansetsandor.fr/2022/02/une-si-longue-lettre-le-manifeste-politique-de-mariama-ba/</ref
+>.</bibl
+><bibl
+type="input_file"
+xml:id="bibl005"
+><hi
+rend="small-caps"
+>Barreto</hi
+>, N. (2021). « “Les États Désunis d’Afrique”, l’œuvre-manifeste de Nù Barreto », entretien. <hi
+rend="italic"
+>RFI</hi
+>. <ref
+target="https://www.rfi.fr/fr/podcasts/invit%C3%A9-culture/20210812-les-%C3%A9tats-d%C3%A9sunis-d-afrique-l-%C5%93uvre-manifeste-de-n%C3%BA-barreto"
+>https://www.rfi.fr/fr/podcasts/invit%C3%A9-culture/20210812-les-%C3%A9tats-d%C3%A9sunis-d-afrique-l-%C5%93uvre-manifeste-de-n%C3%BA-barreto</ref
+>.</bibl
+><bibl
+type="input_file"
+xml:id="bibl006"
+><hi
+rend="small-caps"
+>Bebey</hi
+>, K. (2021). « “Une si longue lettre”, un récit-manifeste sur la condition féminine au Sénégal ». <hi
+rend="italic"
+>Le Monde Afrique</hi
+>. <ref
+target="https://www.lemonde.fr/afrique/article/2021/07/17/une-si-longue-lettre-un-recit-manifeste-sur-la-condition-feminine-au-senegal_6088566_3212.html"
+>https ://www.lemonde.fr/afrique/article/2021/07/17/une-si-longue-lettre-un-recit-manifeste-sur-la-condition-feminine-au-senegal_6088566_3212.html</ref
+>.</bibl
+><bibl
+type="input_file"
+xml:id="bibl007"
+><hi
+rend="small-caps"
+>Bema</hi
+>, T. (2017). « Pour une liberté immédiate de Patrice Nganang, écrivain camerounais ». <ref
+target="https://www.change.org/p/la-pr%C3%A9sidence-de-la-r%C3%A9publique-du-cameroun-pour-une-libert%C3%A9-imm%C3%A9diate-de-patrice-nganang-%C3%A9crivain-camerounais"
+>https://www.change.org/p/la-pr%C3%A9sidence-de-la-r%C3%A9publique-du-cameroun-pour-une-libert%C3%A9-imm%C3%A9diate-de-patrice-nganang-%C3%A9crivain-camerounais</ref
+>.</bibl
+><bibl
+type="input_file"
+xml:id="bibl008"
+><hi
+rend="small-caps"
+>Beyala</hi
+>, C. (1995). <hi
+rend="italic"
+>Lettre d’une africaine à ses sœurs occidentales</hi
+>. Paris : Spengler.</bibl
+><bibl
+type="input_file"
+xml:id="bibl009"
+><hi
+rend="small-caps"
+>Biyogo</hi
+>, G. (2006). <hi
+rend="italic"
+>Manifeste pour lire autrement l’œuvre du professeur Cheikh Anta Diop (1923-1986) aujourd’hui</hi
+>. Paris : L’Harmattan.</bibl
+><bibl
+type="input_file"
+xml:id="bibl010"
+><hi
+rend="small-caps"
+>Boum Make</hi
+>, J. (2020). « Penser au-delà du binarisme : étude des stratégies de reconnaissance et de ré/conciliation des altérités dans <hi
+rend="italic"
+>Aux États-Unis d’Afrique</hi
+> d’Abdourahman Waberi ». <hi
+rend="italic"
+>Convergences francophones, 6</hi
+>, 16-28.</bibl
+><bibl
+type="input_file"
+xml:id="bibl011"
+><hi
+rend="small-caps"
+>Burger</hi
+>, M. (2002). <hi
+rend="italic"
+>Les Manifestes : Paroles de combat de Marx à Breton</hi
+>. Lonay/Paris : Delachaux et Niestlé.</bibl
+><bibl
+type="input_file"
+xml:id="bibl012"
+><hi
+rend="small-caps"
+>Burger</hi
+>, M. (2009). « Le jeu de l’intertexte dans la communication manifestaire : le cas du “Manifeste du Parti Communiste” (1848) ». <hi
+rend="italic"
+>A contrario, 11</hi
+>, 62-87.</bibl
+><bibl
+type="input_file"
+xml:id="bibl013"
+><hi
+rend="small-caps"
+>Campana</hi
+>, M.-N. (2005). « Alain Mabanckou, Verre Cassé ». <hi
+rend="italic"
+>Études, 6</hi
+>, 843.</bibl
+><bibl
+type="input_file"
+xml:id="bibl014"
+><hi
+rend="small-caps"
+>Cercle Affo Akkom</hi
+> (2012). <hi
+rend="italic"
+>Nostalgiaques : Poésie</hi
+>, précédé de <hi
+rend="italic"
+>Manifeste accomien</hi
+>. Paris : L'Harmattan.</bibl
+><bibl
+type="input_file"
+xml:id="bibl015"
+><hi
+rend="small-caps"
+>Cesaire</hi
+>, A. (1942). « En guise de manifeste littéraire ». <hi
+rend="italic"
+>Tropiques, 5</hi
+>, 7.</bibl
+><bibl
+type="input_file"
+xml:id="bibl016"
+><hi
+rend="small-caps"
+>Chemain</hi
+>, A. (2007). « Introduction à l’œuvre de Jean-Baptiste Taty Loutard : harmoniques et “réliances” ». In J.-B. Taty Loutard, <hi
+rend="italic"
+>Œuvres poétiques</hi
+> (p. 7-22). Paris : Présence Africaine.</bibl
+><bibl
+type="input_file"
+xml:id="bibl017"
+><hi
+rend="small-caps"
+>Chemin</hi
+>, I., &amp; <hi
+rend="small-caps"
+>Mbaye</hi
+>, N. (2017). <hi
+rend="italic"
+>Amadou Elimane Kane : réinventer la littérature africaine, c’est bâtir le récit pluriel pour une humanité sans muraille</hi
+>. Dakar : Lettres de Renaissances.</bibl
+><bibl
+type="input_file"
+xml:id="bibl018"
+><hi
+rend="small-caps"
+>Collectif Chumurenga</hi
+> (2021, avril). “Imagi-nation nwar : genealogies of the black radical imagination in the world”. <hi
+rend="italic"
+>Chumurenga Chronic, 2-3</hi
+>.</bibl
+><bibl
+type="input_file"
+xml:id="bibl024"
+><hi
+rend="small-caps"
+>Coulibaly</hi
+>, A. (2022). Compte rendu de <hi
+rend="italic"
+>French Studies in Southern Africa / Études françaises en Afrique australe, 51</hi
+>(1). <hi
+rend="italic"
+>Études littéraires africaines, 53</hi
+>, 233-235.</bibl
+><bibl
+type="input_file"
+xml:id="bibl025"
+><hi
+rend="small-caps"
+>Dauphin</hi
+>, C. (2022). « Yambo Ouologuem ». <hi
+rend="italic"
+>Les Hommes sans Epaules, 54</hi
+>. <ref
+target="http://www.leshommessansepaules.com/auteur-Yambo_OUOLOGUEM-908-1-1-0-1.html"
+>http://www.leshommessansepaules.com/auteur-Yambo_OUOLOGUEM-908-1-1-0-1.html</ref
+>.</bibl
+><bibl
+type="input_file"
+xml:id="bibl026"
+><hi
+rend="small-caps"
+>Delas</hi
+>, D. (2007). « Retour sur un texte fondateur : l’<hi
+rend="italic"
+>Anthologie</hi
+> de Léopold Sédar Senghor ». <hi
+rend="italic"
+>Notre librairie, 164</hi
+>, 13-17.</bibl
+><bibl
+type="input_file"
+xml:id="bibl027"
+><hi
+rend="small-caps"
+>Delas</hi
+>, D. (dir.) (2010). « Manifestes et magistères » [dossier]. <hi
+rend="italic"
+>Études Littéraires Africaines, 29</hi
+>.</bibl
+><bibl
+type="input_file"
+xml:id="bibl028"
+><hi
+rend="small-caps"
+>Diaz</hi
+>, J.-L. (2009). « Préface et manifestes du <hi
+rend="small-caps"
+>xix</hi
+><hi
+rend="sup"
+>e</hi
+> siècle : la réflexion critique comme “agir communicationnel” ». <hi
+rend="italic"
+>Revue des Sciences Humaines. 295</hi
+>, 9-16.</bibl
+><bibl
+type="input_file"
+xml:id="bibl029"
+><hi
+rend="small-caps"
+>Diop</hi
+>, B. B. (2007). « Introduction ». In <hi
+rend="italic"
+>L’Afrique au-delà du miroir</hi
+> (p. 9-13). Paris : Philippe Rey.</bibl
+><bibl
+type="input_file"
+xml:id="bibl030"
+><hi
+rend="small-caps"
+>Djedanoum</hi
+>, N. (2000). <hi
+rend="italic"
+>Nyamirambo !</hi
+> Bamako/Lille : Fest’Africa/Le Figuier.</bibl
+><bibl
+type="input_file"
+xml:id="bibl031"
+><hi
+rend="small-caps"
+>Ebode</hi
+>, E., &amp; <hi
+rend="small-caps"
+>Raharimanana</hi
+>, J.-L. (2000). « Pour une Afrique désirable ». <hi
+rend="italic"
+>Africultures, 30</hi
+>. <ref
+target="http://africultures.com/pour-une-afrique-desirable-1472/"
+>http://africultures.com/pour-une-afrique-desirable-1472/</ref
+>.</bibl
+><bibl
+type="input_file"
+xml:id="bibl032"
+><hi
+rend="small-caps"
+>Gahungu</hi
+>, C. (2015). « Présentation : <hi
+rend="italic"
+>Vers au Vinaigre</hi
+> version 1 ». In S. Tabou Lanci, <hi
+rend="italic"
+>Poèmes</hi
+> (p. 63-66). Paris : CNRS Éditions.</bibl
+><bibl
+type="input_file"
+xml:id="bibl033"
+><hi
+rend="small-caps"
+>Guiyoba</hi
+>, F. (2007). « Le manifeste littéraire et ses exemplifications : une relation heuristico-herméneutique problématique ». In A. Gefen, E. Boujou, M. Macé et G. Hautcoeur (dir.), <hi
+rend="italic"
+>Littérature &amp; exemplarité</hi
+> (p. 81-91). Rennes : Presses universitaires de Rennes.</bibl
+><bibl
+type="input_file"
+xml:id="bibl034"
+><hi
+rend="small-caps"
+>Hel-Bongo</hi
+>, O. (2019). <hi
+rend="italic"
+>Roman francophone et essai : Mudimbe, Chamoiseau, Khatibi</hi
+>. Paris : Honoré Champion.</bibl
+><bibl
+type="input_file"
+xml:id="bibl035"
+><hi
+rend="small-caps"
+>Ilaya Mukalay Ndaya</hi
+>, L. (1979). <hi
+rend="italic"
+>Voix des poétesses mélangistes</hi
+>. Kinshasa : Asali.</bibl
+><bibl
+type="input_file"
+xml:id="bibl036"
+><hi
+rend="small-caps"
+>Kane</hi
+>, A. E. (2013). <hi
+rend="italic"
+>L’Ami dont l’aventure n’est pas ambiguë</hi
+>. Dakar : Lettres de Renaissances/NENA.</bibl
+><bibl
+type="input_file"
+xml:id="bibl037"
+><hi
+rend="small-caps"
+>Kane</hi
+>, A. E. (2014). <hi
+rend="italic"
+>Les Soleils de nos libertés</hi
+>. Dakar : Lettres de Renaissances.</bibl
+><bibl
+type="input_file"
+xml:id="bibl038"
+><hi
+rend="small-caps"
+>Kane</hi
+>, A. E. (2015). « Épilogue ». In <hi
+rend="italic"
+>Une si longue parole</hi
+> (p. 78-79). Dakar : Lettres de Renaissances.</bibl
+><bibl
+type="input_file"
+xml:id="bibl039"
+><hi
+rend="small-caps"
+>Kesteloot</hi
+>, L. (2001). <hi
+rend="italic"
+>Histoire de la littérature négro-africaine</hi
+>. Paris : Karthala/AUF.</bibl
+><bibl
+type="input_file"
+xml:id="bibl040"
+><hi
+rend="small-caps"
+>Kihm</hi
+>, C. (2013). « Manifestes, collectifs, mobilisations ». <hi
+rend="italic"
+>Lignes, 40</hi
+>, 9-20.</bibl
+><bibl
+type="input_file"
+xml:id="bibl041"
+><hi
+rend="small-caps"
+>Kodjo-Grandvaux</hi
+>, S. (2022). « Préface ». In A. Mbembe et R. Rioux (avec S. Kodjo-Grandvaux), <hi
+rend="italic"
+>Pour un monde en commun : Regards croisés entre l’Afrique et l’Europe</hi
+> (p. 7-20). Arles : Actes Sud/Agence française de développement.</bibl
+><bibl
+type="input_file"
+xml:id="bibl042"
+><hi
+rend="small-caps"
+>Konan Langui</hi
+>, R. (2014). « Postface : manifeste du courant indépendantiste ». In <hi
+rend="italic"
+>Wandi Bla ! </hi
+>(p. 57-76). Anyama : Didiga.</bibl
+><bibl
+type="input_file"
+xml:id="bibl043"
+><hi
+rend="small-caps"
+>Kramer-Mallordy</hi
+>, A. (2011). « De l’art de faire des manifestes ». In A. Kramer-Mallordy (dir.), <hi
+rend="italic"
+>Les Grands manifestes de l’art des </hi
+><hi
+rend="small-caps italic"
+>xix</hi
+><hi
+rend="italic sup"
+>e</hi
+><hi
+rend="italic"
+> et </hi
+><hi
+rend="small-caps italic"
+>xx</hi
+><hi
+rend="italic sup"
+>e</hi
+><hi
+rend="italic"
+> siècle</hi
+> (p. 5-13). Paris : Beaux-Arts.</bibl
+><bibl
+type="input_file"
+xml:id="bibl044"
+><hi
+rend="small-caps"
+>Kwahule</hi
+>, K. (1997). <hi
+rend="italic"
+>Pour une critique du théâtre ivoirien contemporain</hi
+>. Paris/Montréal : L’Harmattan.</bibl
+><bibl
+type="input_file"
+xml:id="bibl045"
+><hi
+rend="small-caps"
+>Larue</hi
+>, A. (2008). « L’art qui manifeste : entre histoire des avant-gardes et exigence de résistance au pire ». <hi
+rend="italic"
+>Itinéraires et Contacts de Cultures, 43</hi
+>, 7-9.</bibl
+><bibl
+type="input_file"
+xml:id="bibl022"
+>« Légitime devoir : manifeste pour la restauration du Monument de la réunification, plateau Atemengue, Yaoundé » (2006). Collectif. <hi
+rend="italic"
+>Hiototi, 3</hi
+>, 195-196.</bibl
+><bibl
+type="input_file"
+xml:id="bibl046"
+><hi
+rend="small-caps"
+>Mabanckou</hi
+>, A. (2007). <hi
+rend="italic"
+>Lettre à Jimmy</hi
+>. Paris : Fayard.</bibl
+><bibl
+type="input_file"
+xml:id="bibl047"
+><hi
+rend="small-caps"
+>Mabanckou</hi
+>, A. (2012). <hi
+rend="italic"
+>Le Sanglot de l’homme noir</hi
+>. Paris : Fayard.</bibl
+><bibl
+type="input_file"
+xml:id="bibl048"
+><hi
+rend="small-caps"
+>Mabanckou</hi
+>, A. (2005). <hi
+rend="italic"
+>Verre Cassé</hi
+>. Paris : Seuil.</bibl
+><bibl
+type="input_file"
+xml:id="bibl049"
+><hi
+rend="small-caps"
+>Manga</hi
+>, L. (2010). « Manifeste anti-bruit ». <hi
+rend="italic"
+>Études Littéraires Africaines, 29</hi
+>, 81-86.</bibl
+><bibl
+type="input_file"
+xml:id="bibl019"
+>« Manifeste culturel panafricain Alger, 1969 » (1969). Collectif. <hi
+rend="italic"
+>Présence Africaine, 71</hi
+>, 115-123.</bibl
+><bibl
+type="input_file"
+xml:id="bibl020"
+>« Manifeste des poètes de la Ronde » (2005). Collectif. <hi
+rend="italic"
+>Hiototi, 2</hi
+>, prière d’insérer.</bibl
+><bibl
+type="input_file"
+xml:id="bibl021"
+>« Manifeste des poètes et écrivains au Forum des écrivains : Littérature et Paix : écrire dans une Afrique en crise » (2003). Collectif. In <hi
+rend="italic"
+>Actes de la Conférence internationale sur le dialogue interculturel et la culture de la paix en Afrique Centrale et dans la région des Grands Lacs (Libreville, Gabon 18, 19 et 20 novembre 2003)</hi
+> (p. 25-27). Paris : UNESCO,</bibl
+><bibl
+type="input_file"
+xml:id="bibl023"
+><hi
+rend="italic"
+>Manifeste pour la lecture</hi
+> (2023). Collectif. Curepipe : Atelier des Nomades.</bibl
+><bibl
+type="input_file"
+xml:id="bibl050"
+><hi
+rend="small-caps"
+>Margel</hi
+>, S. (2013). « Ouverture ». <hi
+rend="italic"
+>Lignes, 40</hi
+>, 5-7.</bibl
+><bibl
+type="input_file"
+xml:id="bibl051"
+><hi
+rend="small-caps"
+>Martin-Granel</hi
+>, N., &amp; <hi
+rend="small-caps"
+>Riffard</hi
+>, C. (2015). « Introduction : au commencement était le poème ». In S. Labou Tansi, <hi
+rend="italic"
+>Poèmes</hi
+> (p. 23-45). Paris : CNRS Éditions.</bibl
+><bibl
+type="input_file"
+xml:id="bibl052"
+><hi
+rend="small-caps"
+>Martin-Granel</hi
+>, N. (2015). « Présentation, <hi
+rend="italic"
+>Sous adresse</hi
+> ». In S. Labou Tansi, <hi
+rend="italic"
+>Poèmes</hi
+> (p. 1177-1180). Paris : CNRS Éditions.</bibl
+><bibl
+type="input_file"
+xml:id="bibl053"
+><hi
+rend="small-caps"
+>Mbembe</hi
+>, A., &amp; <hi
+rend="small-caps"
+>Sarr</hi
+>, F. (2017a). « Penser pour un nouveau siècle ». In A. Mbembe et F. Sarr (dir.), <hi
+rend="italic"
+>Écrire l’Afrique-monde</hi
+> (p. 7-13). Paris/Dakar : Philippe Rey/Jimsaan.</bibl
+><bibl
+type="input_file"
+xml:id="bibl054"
+><hi
+rend="small-caps"
+>Mbembe</hi
+>, A., &amp; <hi
+rend="small-caps"
+>Sarr</hi
+>, F. (dir.). (2017b). <hi
+rend="italic"
+>Écrire l’Afrique-monde</hi
+>. Paris/Dakar : Philippe Rey/Jimsaan.</bibl
+><bibl
+type="input_file"
+xml:id="bibl055"
+><hi
+rend="small-caps"
+>Mbembe</hi
+>, A., &amp; <hi
+rend="small-caps"
+>Sarr</hi
+>, F. (dir.). (2019). <hi
+rend="italic"
+>Politique des Temps : Imaginer les devenirs africains</hi
+>. Paris/Dakar : Philippe Rey/Jimsaan.</bibl
+><bibl
+type="input_file"
+xml:id="bibl056"
+><hi
+rend="small-caps"
+>Mbembe</hi
+>, A. (2013). <hi
+rend="italic"
+>Sortir de la grande nuit : Essai sur l’Afrique décolonisée</hi
+>. Paris : La Découverte.</bibl
+><bibl
+type="input_file"
+xml:id="bibl057"
+><hi
+rend="small-caps"
+>Mobutu</hi
+> (1984). <hi
+rend="italic"
+>Manifeste de la N’sélé</hi
+>. Kinshasa : Publication gouvernementale nationale.</bibl
+><bibl
+type="input_file"
+xml:id="bibl058"
+><hi
+rend="small-caps"
+>Monenembo</hi
+>, T., <hi
+rend="small-caps"
+>Tadjo</hi
+>, V., &amp; <hi
+rend="small-caps"
+>Ebode</hi
+>, E. (2020, septembre 11). « Halte à la présidence à vie en Afrique ! ». <hi
+rend="italic"
+>Le Monde Afrique</hi
+>. <ref
+target="https://www.lemonde.fr/afrique/article/2020/09/11/halte-a-la-presidence-a-vie-en-afrique_6051806_3212.html"
+>https://www.lemonde.fr/afrique/article/2020/09/11/halte-a-la-presidence-a-vie-en-afrique_6051806_3212.html</ref
+>.</bibl
+><bibl
+type="input_file"
+xml:id="bibl059"
+><hi
+rend="small-caps"
+>Mongo</hi
+>, P. (2005). <hi
+rend="italic"
+>La NOLICA (La Nouvelle Littérature Camerounaise) : Du maquis à la cité</hi
+>. Yaoundé : Presses universitaires de Yaoundé.</bibl
+><bibl
+type="input_file"
+xml:id="bibl060"
+><hi
+rend="small-caps"
+>Mongo-Mboussa</hi
+>, B. (2002). <hi
+rend="italic"
+>Désir d’Afrique</hi
+>. Paris : Gallimard.</bibl
+><bibl
+type="input_file"
+xml:id="bibl061"
+><hi
+rend="small-caps"
+>Mongo-Mboussa</hi
+>, B. (2003). « Yambo Ouologuem et la littérature mondiale : plagiat, réécriture, collage, dérision et manifeste littéraire ». <hi
+rend="italic"
+>Africultures, 54</hi
+>, 23-27.</bibl
+><bibl
+type="input_file"
+xml:id="bibl062"
+><hi
+rend="small-caps"
+>Mukagasana</hi
+>, Y. (2000).<hi
+rend="italic"
+> N’aie pas peur de savoir</hi
+>. Paris : J’ai Lu.</bibl
+><bibl
+type="input_file"
+xml:id="bibl063"
+><hi
+rend="small-caps"
+>Ngadi Maïssa</hi
+>, L. (2021a). « Les manifestes et les programmes littéraires en Afrique subsaharienne francophone : à propos de “l’invisibilité” du corpus dans la critique littéraire ». <hi
+rend="italic"
+>Literator, 1</hi
+>, 1-6. <ref
+target="https://literator.org.za/index.php/literator/article/view/1693"
+>https://literator.org.za/index.php/literator/article/view/1693</ref
+>.</bibl
+><bibl
+type="input_file"
+xml:id="bibl064"
+><hi
+rend="small-caps"
+>Ngadi Maïssa</hi
+>, L. (2021b). « Dynamiques des manifestes et des programmes littéraires en Afrique francophone subsaharienne : entre rupture et continuité (1920-2000) ». <hi
+rend="italic"
+>French Studies in Southern Africa, 51</hi
+>(1), 8-24.</bibl
+><bibl
+type="input_file"
+xml:id="bibl065"
+><hi
+rend="small-caps"
+>Ngadi Maïssa</hi
+>, L. (2025). « Enjeux et dynamiques des programmes manifestaires d’Afrique francophone subsaharienne  ». In L. H. Ngafomo et T. Léger (dir.), <hi
+rend="italic"
+>Champs littéraires et langues de la francophonie-monde</hi
+> (p. 151-171). Paris : Connaissances et Savoirs.</bibl
+><bibl
+type="input_file"
+xml:id="bibl066"
+><hi
+rend="small-caps"
+>Ngal</hi
+>, G. (1995). <hi
+rend="italic"
+>Création et rupture en littérature africaine</hi
+>. Paris : L’Harmattan.</bibl
+><bibl
+type="input_file"
+xml:id="bibl067"
+><hi
+rend="small-caps"
+>Nganang</hi
+>, P. (2007). <hi
+rend="italic"
+>Manifeste d'une nouvelle littérature africaine : Pour une écriture préemptive</hi
+>. Paris : Homnisphères.</bibl
+><bibl
+type="input_file"
+xml:id="bibl068"
+><hi
+rend="small-caps"
+>Nimrod</hi
+> (2003). <hi
+rend="italic"
+>Tombeau de Léopold Sédar Senghor </hi
+>suivi de<hi
+rend="italic"
+> Léopold Sédar Senghor chantre de l’Afrique heureuse</hi
+>. Cognac : Le temps qu'il fait.</bibl
+><bibl
+type="input_file"
+xml:id="bibl069"
+><hi
+rend="small-caps"
+>Nimrod</hi
+> (2008). <hi
+rend="italic"
+>La « Nouvelle Chose française » : Pour une littérature décolonisée</hi
+>. Arles : Actes Sud.</bibl
+><bibl
+type="input_file"
+xml:id="bibl070"
+><hi
+rend="small-caps"
+>Obszynsk</hi
+>I, M. (2016). <hi
+rend="italic"
+>Manifestes et programmes littéraires aux Caraïbes francophones : En/jeux idéologiques et poétiques</hi
+>. Amsterdam/New York : Brill/Rodopi.</bibl
+><bibl
+type="input_file"
+xml:id="bibl071"
+><hi
+rend="small-caps"
+>Ouologuem</hi
+>, Y. (1969). <hi
+rend="italic"
+>Lettre à la France nègre</hi
+>. Paris : Edmond Nalis.</bibl
+><bibl
+type="input_file"
+xml:id="bibl072"
+><hi
+rend="small-caps"
+>Ranaivoson</hi
+>, D. (2008). « L’<hi
+rend="italic"
+>Anthologie</hi
+> et ses descendantes : filiations et émancipations de la poésie dite noire ». In D. Ranaivoson (dir.), <hi
+rend="italic"
+>Senghor et sa postérité littéraire</hi
+> (p. 81-100). Metz : Paul Verlaine université-Metz.</bibl
+><bibl
+type="input_file"
+xml:id="bibl073"
+><hi
+rend="small-caps"
+>Ranaivoson</hi
+>, D. (2010). « L’<hi
+rend="italic"
+>Anthologie</hi
+> de Senghor comme manifeste ». <hi
+rend="italic"
+>Études littéraires africaines, 29</hi
+>, 20-27.</bibl
+><bibl
+type="input_file"
+xml:id="bibl074"
+><hi
+rend="small-caps"
+>Ranaivoson</hi
+>, D. (2022). Compte rendu de L. Miano, <hi
+rend="italic"
+>Afropea : Utopie post-occidentale et post-raciste</hi
+>. <hi
+rend="italic"
+>Études Littéraires Africaines, 53</hi
+>, 208-210.</bibl
+><bibl
+type="input_file"
+xml:id="bibl075"
+><hi
+rend="small-caps"
+>Riva</hi
+>, S. (2006). <hi
+rend="italic"
+>Nouvelle histoire de la littérature du Congo-Kinshasa</hi
+>, préfaces V. Y. Mudimbe et M. Quaghebeur. Paris : L’Harmattan.</bibl
+><bibl
+type="input_file"
+xml:id="bibl076"
+><hi
+rend="small-caps"
+>Rushdie</hi
+>, S. (1993). <hi
+rend="italic"
+>Patries imaginaires</hi
+>. Paris : Christian Bourgeois.</bibl
+><bibl
+type="input_file"
+xml:id="bibl077"
+><hi
+rend="small-caps"
+>Samba Diop</hi
+>, P. (1995). <hi
+rend="italic"
+>Archéologie littéraire du roman sénégalais</hi
+>. Francfort : IKO-Verlag.</bibl
+><bibl
+type="input_file"
+xml:id="bibl078"
+><hi
+rend="small-caps"
+>Schaeffer</hi
+>, J.-M. (1989). <hi
+rend="italic"
+>Qu’est-ce qu’un genre littéraire ?</hi
+> Paris : Seuil.</bibl
+><bibl
+type="input_file"
+xml:id="bibl079"
+><hi
+rend="small-caps"
+>Semujanga</hi
+>, J. (2008). <hi
+rend="italic"
+>Le Génocide, sujet de fiction ? : Analyse des récits du massacre des Tutsi dans la littérature africaine</hi
+>. Montréal : Nota bene.</bibl
+><bibl
+type="input_file"
+xml:id="bibl080"
+><hi
+rend="small-caps"
+>Senghor</hi
+>, L. S. (2014 [1966]). « Discours d’ouverture du Premier Festival Mondial des Arts Nègres ». In L. Ki-Zerbo (dir.), <hi
+rend="italic"
+>Le mouvement panafricaniste au </hi
+><hi
+rend="small-caps italic"
+>xx</hi
+><hi
+rend="italic sup"
+>e</hi
+><hi
+rend="italic"
+> siècle </hi
+>(p. 373-377). Paris : Organisation Internationale de la Francophonie.</bibl
+><bibl
+type="input_file"
+xml:id="bibl081"
+><hi
+rend="small-caps"
+>Souny</hi
+>, W. (2006). <hi
+rend="italic"
+>Sèt Po : Manifeste palmiste</hi
+> suivi de <hi
+rend="italic"
+>Pour Rodrigues</hi
+>. Paris : L'Harmattan.</bibl
+><bibl
+type="input_file"
+xml:id="bibl082"
+><hi
+rend="small-caps"
+>Tadjo</hi
+>, V. (2000). <hi
+rend="italic"
+>L’Ombre d’Imana : Voyages jusqu’au bout du Rwanda</hi
+>. Arles : Actes Sud.</bibl
+><bibl
+type="input_file"
+xml:id="bibl083"
+><hi
+rend="small-caps"
+>Thiam</hi
+>, F. (2022). Compte rendu de E. Kbongo Malu, <hi
+rend="italic"
+>Mabika Kalanda et l’échec de l’édification nationale au Congo-Kinshasa : Élites, conscience et autodétermination</hi
+>. <hi
+rend="italic"
+>Études Littéraires Africaines, 53</hi
+>, 199-201.</bibl
+><bibl
+type="input_file"
+xml:id="bibl084"
+><hi
+rend="small-caps"
+>Waberi</hi
+>, A. (2006). <hi
+rend="italic"
+>Aux États-Unis d’Afrique</hi
+>. Paris : JC Lattès.</bibl
+><bibl
+type="input_file"
+xml:id="bibl085"
+><hi
+rend="small-caps"
+>Waberi</hi
+>, A. (2007). « Écrivains en position d’entraver ». In M. Le Bris et J. Rouaud (dir.), <hi
+rend="italic"
+>Pour une littérature-monde</hi
+> (p. 67-75). Paris : Gallimard.</bibl
+><bibl
+type="input_file"
+xml:id="bibl086"
+><hi
+rend="small-caps"
+>Yisuku Gafudzi</hi
+>, T. (1981). « Préface ». In <hi
+rend="italic"
+>La Rosée du ciel</hi
+> (p. 11-12). Kinshasa : Propoza.</bibl
+></div
+></back
+></text
+></TEI
+>
