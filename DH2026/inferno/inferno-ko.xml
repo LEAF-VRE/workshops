@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/LEAF-VRE/code_snippets/refs/heads/main/CSS/leaf.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="ko">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>신곡, 지옥, Canto 4 번역</title>
+            <author/>
+            <respStmt>
+               <name>지정훈</name>
+               <resp>번역</resp>
+            </respStmt>
+            <respStmt>
+               <name>James Cummings</name>
+               <resp>TEI 인코딩</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>지정훈</publisher>
+            <ref target="https://jaythesheep.com/blog/%ec%8b%a0%ea%b3%a1/canto-4/"
+               >https://jaythesheep.com/blog/%ec%8b%a0%ea%b3%a1/canto-4/</ref>
+         </publicationStmt>
+         <sourceDesc>
+            <p xml:lang="en">The translation of *Inferno*, *Canto 4* by Ji Jeong-hun is available
+               under the Creative Commons Attribution 3.0 Unported License.</p>
+            <p xml:lang="ko">지정훈에 의해 작성된 신곡, 지옥, Canto 4 번역은 크리에이티브 커먼즈 저작자표시 3.0 Unported 라이선스에 따라
+               이용할 수 있습니다.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">This encoded file was created by members of the Linked Editing Academic
+            Framework (LEAF) team and made available for a LEAF / LEAF-Writer workshop. This file is
+            not meant for use or publication outside of the workshop environment.</p>
+         <p xml:lang="ko">이 인코딩된 파일은 LEAF(Linked Editing Academic Framework) 팀 구성원이 제작했으며
+            LEAF/LEAF-Writer 워크숍에서 사용할 수 있도록 제공되었습니다. 이 파일은 워크숍 환경 외부에서 사용하거나 게시할 수 없습니다.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ko">이탈리아어에서 한국어로 번역</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="canto" n="4">
+            <pb facs="https://upload.wikimedia.org/wikipedia/commons/3/38/Inferno_Canto_4_four_bards.jpg"/>
+            <head>신곡, 지옥, Canto 4 번역</head>
+            <lg xml:id="lg01">
+               <l n="1">머리 속 깊은 잠을 깨우는</l>
+               <l n="2">천둥의 굉음에 움칠해 마치</l>
+               <l n="3">강제로 일으켜진 사람인 듯,</l>
+            </lg>
+            <lg xml:id="lg02">
+               <l n="4">기운차린 눈으로 이리저리</l>
+               <l n="5">둘러보며 서서 알고자 하였다,</l>
+               <l n="6">내가 있는 곳이 어디인지.</l>
+            </lg>
+            <lg xml:id="lg03">
+               <l n="7">실로 알아본 그곳은 벼랑 가,</l>
+               <l n="8">고통의 심연 골짜기가</l>
+               <l n="9">무한한 비통으로 이어졌다.</l>
+            </lg>
+            <lg xml:id="lg04">
+               <l n="10">그곳은 어둡고 깊고 안개가</l>
+               <l n="11">자욱해, 얼굴을 바닥으로 향해 봤자</l>
+               <l n="12">아무 것도 분별할 수 없었다.</l>
+            </lg>
+            <lg xml:id="lg05">
+               <l n="13">“이제 눈먼 세상으로 내려가자.”</l>
+               <l n="14">하고 말씀하신 시인은 창백하게,</l>
+               <l n="15">“내가 먼저고 네가 다음이라”</l>
+            </lg>
+            <lg xml:id="lg06">
+               <l n="16">하시니, 낯빛을 보아 내가 물었네.</l>
+               <l n="17">“제가 어찌 갈 수 있겠습니까,</l>
+               <l n="18">의심할 때 힘을 주신 분도 두려운데.”</l>
+            </lg>
+            <lg xml:id="lg07">
+               <l n="19">답하시길, “아래 저들의 고뇌가</l>
+               <l n="20">내 얼굴에 그린 것을 보고</l>
+               <l n="21">네가 연민과 두려움을 혼동했구나.”</l>
+            </lg>
+            <lg xml:id="lg08">
+               <l n="22">“가자, 먼 길이 우릴 재촉하므로.”</l>
+               <l n="23">그렇게 나서서 따라 들게 하셨다,</l>
+               <l n="24">심연의 둘레 첫번째 원으로.</l>
+            </lg>
+            <lg xml:id="lg09">
+               <l n="25">여기는, 다만 들릴 뿐이지만,</l>
+               <l n="26">통곡이 아닌 한숨이</l>
+               <l n="27">끝없는 공기를 떨게 하였다.</l>
+            </lg>
+            <lg xml:id="lg10">
+               <l n="28">박해 없이도 겪는 그 고통이</l>
+               <l n="29">커다란 무리에서 전해졌다.</l>
+               <l n="30">아이, 여자, 남자 할 것 없이.</l>
+            </lg>
+            <lg xml:id="lg11">
+               <l n="31">선한 스승님은, “묻지 그러냐,</l>
+               <l n="32">네가 본 이 혼들에 대해서도?</l>
+               <l n="33">더 가기 전에 지금 알려주마.</l>
+            </lg>
+            <lg xml:id="lg12">
+               <l n="34">이들은 죄인이 아니다. 훌륭해도</l>
+               <l n="35">세례를 못받아 충분치 못하니,</l>
+               <l n="36">그것이 네 믿음으로 가는 문이고,</l>
+            </lg>
+            <lg xml:id="lg13">
+               <l n="37">그리스도 전에 살았던 이,</l>
+               <l n="38">신을 마땅히 섬기지 못해서</l>
+               <l n="39">그 가운데 나도 있으니.</l>
+            </lg>
+            <lg xml:id="lg14">
+               <l n="40">다른 죄가 아닌 그 결함에서</l>
+               <l n="41">우린 길을 잃었고, 괴롭노라,</l>
+               <l n="42">희망 없는 삶에 열망만 있어.”</l>
+            </lg>
+            <lg xml:id="lg15">
+               <l n="43">커다란 고통이 마음을 좼다,</l>
+               <l n="44">그제야 무척 귀한 분들께서</l>
+               <l n="45">림보에 유예됨을 알게 되자.</l>
+            </lg>
+            <lg xml:id="lg16">
+               <l n="46">“답하소서, 스승님, 답하소서,”</l>
+               <l n="47">말을 시작한 나는 확신으로</l>
+               <l n="48">모든 오류를 이기길 바랐으며,</l>
+            </lg>
+            <lg xml:id="lg17">
+               <l n="49">“혹시 누군가 자신의 덕으로,</l>
+               <l n="50">혹은 다른 이 덕에, 축복으로</l>
+               <l n="51">이른 적 있나요?”하는 물음 속</l>
+            </lg>
+            <lg xml:id="lg18">
+               <l n="52">뜻에 답하시길, “내 이리 되고</l>
+               <l n="53">얼마 안지나, 힘있는 분께서</l>
+               <l n="54">승리의 징표를 얹고 오셨고,</l>
+            </lg>
+            <lg xml:id="lg19">
+               <l n="55">첫번째 조상의 그림자를 가려,</l>
+               <l n="56">그의 아들인 아벨과, 노아와,</l>
+               <l n="57">선포하고 복종한 모세를 포함하여,</l>
+            </lg>
+            <lg xml:id="lg20">
+               <l n="58">족장 아브라함과, 다윗왕,</l>
+               <l n="59">이스라엘과 그 아비, 아들과,</l>
+               <l n="60">얻으려 오래 일했던 라헬과,</l>
+            </lg>
+            <lg xml:id="lg21">
+               <l n="61">또 많은 이를 복되게 하셨다.</l>
+               <l n="62">또 알려 주자면, 이들 이전에</l>
+               <l n="63">구원받은 사람의 혼은 없었다.”</l>
+            </lg>
+            <lg xml:id="lg22">
+               <l n="64">걸음을 멈추지 않고 말하셨는데,</l>
+               <l n="65">그 동안 우리는 숲을 지나니,</l>
+               <l n="66">말하자면 혼의 짙은 숲이었네.</l>
+            </lg>
+            <lg xml:id="lg23">
+               <l n="67">잠들었던 곳에서 먼 길 가지</l>
+               <l n="68">않았을 때 불빛을 보았는데,</l>
+               <l n="69">어두운 반구를 이기고 있었지.</l>
+            </lg>
+            <lg xml:id="lg24">
+               <l n="70">우리에게 다소 떨어진 곳에,</l>
+               <l n="71">분간 안될 만큼은 멀지 않아,</l>
+               <l n="72">명예로운 이들의 터가 있었네.</l>
+            </lg>
+            <lg xml:id="lg25">
+               <l n="73">“이론과 기술을 명예롭게 한</l>
+               <l n="74">분이여, 어떤 큰 명예를 지닌</l>
+               <l n="75">이들이 다른 자들과 떨어집니까?”</l>
+            </lg>
+            <lg xml:id="lg26">
+               <l n="76">물었더니, “명예로운 이름이 </l>
+               <l n="77">너와 같은 위쪽 삶에 울리기에,</l>
+               <l n="78">하늘에서 은총을 내리셨지.”</l>
+            </lg>
+            <lg xml:id="lg27">
+               <l n="79">답하실 때, 목소리를 들었네.</l>
+               <l n="80">“명예를 기리라, 가장 고귀한 시인의.</l>
+               <l n="81">떠났던 그림자는 돌아왔네.”</l>
+            </lg>
+            <lg xml:id="lg28">
+               <l n="82">하고, 목소리가 조용해지니,</l>
+               <l n="83">위대한 네 그림자가 오는 것을 봤다.</l>
+               <l n="84">그 모습엔 슬픔도 기쁨도 없었지.</l>
+            </lg>
+            <lg xml:id="lg29">
+               <l n="85">선한 스승께서 말씀하셨다.</l>
+               <l n="86">“주목하여라. 손에 검을 들고</l>
+               <l n="87">주군처럼 셋보다 앞선 이가</l>
+            </lg>
+            <lg xml:id="lg30">
+               <l n="88">호메로스, 최고위 시인이고,</l>
+               <l n="89">다음은 풍자시인 호라티우스다.</l>
+               <l n="90">오비디우스, 루카누스를 끝으로,</l>
+            </lg>
+            <lg xml:id="lg31">
+               <l n="91">이들은 마땅히, 한 목소리가</l>
+               <l n="92">냈던 칭호를 나와 공유하니,</l>
+               <l n="93">날 명예롭게 해, 선을 행했다.”</l>
+            </lg>
+            <lg xml:id="lg34">
+               <l n="94">아름다운 동료들과 모이신</l>
+               <l n="95">군주의 지고한 시구는 마치</l>
+               <l n="96">독수리가 날듯 더욱 높았지.</l>
+            </lg>
+            <lg xml:id="lg35">
+               <l n="97">잠시 함께 대화하신 분들이</l>
+               <l n="98">내게 돌아서 환영의 뜻을 보내자,</l>
+               <l n="99">스승께서는 미소 지으셨지.</l>
+            </lg>
+            <lg xml:id="lg36">
+               <l n="100">또한 더 큰 명예를 수여하사,</l>
+               <l n="101">나를 불러 한 열에 세우시니</l>
+               <l n="102">현자들 가운데 여섯째였다.</l>
+            </lg>
+            <lg xml:id="lg37">
+               <l n="103">그렇게 빛에 도착할 때까지</l>
+               <l n="104">여기선 침묵하는 편이 좋을,</l>
+               <l n="105">거기서는 할 만한 말을 했지.</l>
+            </lg>
+            <lg xml:id="lg38">
+               <l n="106">우리가 발치에 이른 고결한 성은</l>
+               <l n="107">일곱 겹 막벽이 둘러쌌지만,</l>
+               <l n="108">아름다운 개울을 해자 삼은</l>
+            </lg>
+            <lg xml:id="lg39">
+               <l n="109">곳을 마치 마른 땅처럼 지나,</l>
+               <l n="110">일곱 개의 문을 다섯 현자와</l>
+               <l n="111">거쳐 신록의 풀밭에 닿았다.</l>
+            </lg>
+            <lg xml:id="lg40">
+               <l n="112">거기서 엄하고 장중한 눈과</l>
+               <l n="113">권위있는 외관을 한 이들이</l>
+               <l n="114">가끔 내는 음성은 점잖았다.</l>
+            </lg>
+            <lg xml:id="lg41">
+               <l n="115">한 편으로 물러난 우리 자리</l>
+               <l n="116">탁 트이고 환하고 높은지라</l>
+               <l n="117">모든 이들을 볼 수 있었으니,</l>
+            </lg>
+            <lg xml:id="lg42">
+               <l n="118">법랑같은 초록 너머 나타난</l>
+               <l n="119">그곳의 위대한 영혼들을 보자</l>
+               <l n="120">내 안이 – 지금도 – 드높아졌다.</l>
+            </lg>
+            <lg xml:id="lg43">
+               <l n="121">무리와 함께 있는 엘렉트라를 보았다.</l>
+               <l n="122">헥토르와 아이네아스도 알아보았다.</l>
+               <l n="123">매의 눈에 무장한 카이사르와</l>
+            </lg>
+            <lg xml:id="lg44">
+               <l n="124">카밀라와 펜테실레이아도 보았다.</l>
+               <l n="125">맞은 편을 보니 라티누스 왕</l>
+               <l n="126">딸 라비니아와 앉아 있었다.</l>
+            </lg>
+            <lg xml:id="lg45">
+               <l n="127">타르퀴니우스를 쫓아낸 브루투스도 보았다.</l>
+               <l n="128">루크레티아, 율리아, 마르키아와 코르넬리아,</l>
+               <l n="129">그리고 혼자 떨어진 살라딘을 보았다.</l>
+            </lg>
+            <lg xml:id="lg46">
+               <l n="130">눈을 조금 들어올리자</l>
+               <l n="131">지식인들의 스승이 보였다.</l>
+               <l n="132">그는 철학자 가문 가운데 앉아,</l>
+            </lg>
+            <lg xml:id="lg47">
+               <l n="133">모두 그를 향해 명예를 기렸다.</l>
+               <l n="134">소크라테스와 플라톤은</l>
+               <l n="135">다른 이들보다 가까이 있었다.</l>
+            </lg>
+            <lg xml:id="lg48">
+               <l n="136">세계는 우연이라 한 데모크리토스,</l>
+               <l n="137">디오게네스, 아낙사고라스, 탈레스와,</l>
+               <l n="138">엠페토클레스, 헤라클레이토스와 제논,</l>
+            </lg>
+            <lg xml:id="lg49">
+               <l n="139">또한 약초를 모았던 선한 자</l>
+               <l n="140">디오스코리데스, 그리고 오르페우스,</l>
+               <l n="141">툴리우스와 리노스, 도덕가 세네카,</l>
+            </lg>
+            <lg xml:id="lg50">
+               <l n="142">기하학자 에우클레이데스와 프톨레마이오스,</l>
+               <l n="143">히포크라테스, 이븐 시나, 갈레노스와,</l>
+               <l n="144">위대한 주석을 쓴 이븐 루시드.</l>
+            </lg>
+            <lg xml:id="lg51">
+               <l n="145">모든 초상을 그릴 수가 없다.</l>
+               <l n="146">긴 주제는 날 나아가게 하고</l>
+               <l n="147">말은 사실에 한참 모자란다.</l>
+            </lg>
+            <lg xml:id="lg52">
+               <l n="148">여섯 명 동행은 둘로 줄었고</l>
+               <l n="149">현자께서 다른 길로 이끄시니,</l>
+               <l n="150">고요에서 나와 떨리는 공기로.</l>
+            </lg>
+            <lg xml:id="lg53">
+               <l n="151">이제 아무것도 빛나지 않았지.</l>
+            </lg>   
+            </div>
+      </body>
+   </text>
+</TEI>

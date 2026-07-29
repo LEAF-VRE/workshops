@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/LEAF-VRE/code_snippets/refs/heads/main/CSS/leaf.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>L'Enfer de Dante</title>
+            <author>Dante Alighieri</author>
+            <respStmt>
+               <resp>translated by</resp>
+               <name>Alexandre Cioranescu</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Dante Lab Reader</publisher>
+            <availability><p>http://dantelab.dartmouth.edu/reader</p></availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Translation of the Inferno, by Dante Alighieri</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This encoded file was created by members of the Linked Editing Academic Framework (LEAF) team and made available for a LEAF / LEAF-Writer workshop. This file is not meant for
+               use or publication outside of the workshop environment.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">French language translation</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="canto">
+            <head>CHANT IV</head>
+            <lg xml:id="lg001">
+               <l n="1">Je fus soudain tiré de mon profond sommeil</l>
+               <l n="2">par un coup de tonnerre, et je revins à moi</l>
+               <l n="3">comme lorsqu'on vous vient réveiller en sursaut.</l>
+            </lg>
+            <lg xml:id="lg002">
+               <l n="4">Je promenais partout un regard frais et neuf</l>
+               <l n="5">et, debout, je tâchais de tout bien observer,</l>
+               <l n="6">pour reconnaître mieux l'endroit où nous étions.</l>
+            </lg>
+            <lg xml:id="lg003">
+               <l n="7">Je pus m'apercevoir que j'étais sur le bord</l>
+               <l n="8">du vallon douloureux de l'abîme où ne règne</l>
+               <l n="9">que le bruit infini des lamentations.</l>
+            </lg>
+            <lg xml:id="lg004">
+               <l n="10">Il était si profond et si plein de ténèbres</l>
+               <l n="11">que, malgré mes efforts pour regarder au fond,</l>
+               <l n="12">je ne puis distinguer aucun de ses détails.</l>
+            </lg>
+            <lg xml:id="lg005">
+               <l n="13">« Nous descendons au sein de la nuit éternelle,</l>
+               <l n="14">dit alors le poète au visage de cire ;</l>
+               <l n="15">j'entrerai le premier, tu seras le second. »</l>
+            </lg>
+            <lg xml:id="lg006">
+               <l n="16">Mais moi, m'apercevant soudain de sa pâleur,</l>
+               <l n="17">je dis : « Comment entrer, si tu le crains toi-même,</l>
+               <l n="18">qui devrais cependant me donner du courage ? »</l>
+            </lg>
+            <lg xml:id="lg007">
+               <l n="19">« La pitié, me dit-il, que je sens pour les gens</l>
+               <l n="20">perdus dans cette fosse a peint sur mon visage</l>
+               <l n="21">la couleur que tu prends pour un signe de peur.</l>
+            </lg>
+            <lg xml:id="lg008">
+               <l n="22">Allons ! Un grand chemin nous attend désormais ! »</l>
+               <l n="23">C'est ainsi qu'il entrait et qu'il me fit entrer</l>
+               <l n="24">dans le cercle premier qui fait le tour du puits.</l>
+            </lg>
+            <lg xml:id="lg009">
+               <l n="25">Là, si je puis juger par ce qu'on entendait,</l>
+               <l n="26">personne ne pleurait, mais de nombreux soupirs</l>
+               <l n="27">y faisaient frissonner une brise éternelle.</l>
+            </lg>
+            <lg xml:id="lg010">
+               <l n="28">Leur source à tous était la douleur sans tourment</l>
+               <l n="29">qu'éprouvait cette foule aux vagues infinies,</l>
+               <l n="30">d'hommes entremêlés de femmes et d'enfants.</l>
+            </lg>
+            <lg xml:id="lg011">
+               <l n="31">Le bon maître me dit : « Ne veux-tu pas savoir</l>
+               <l n="32">qui sont tous ces esprits que tu vois de si près ?</l>
+               <l n="33">Or, il te faut savoir, avant d'aller plus loin,</l>
+            </lg>
+            <lg xml:id="lg012">
+               <l n="34">qu'ils n'avaient pas péché. S'ils eurent du mérite,</l>
+               <l n="35">il n'est pas suffisant : ils n'ont pas le baptême,</l>
+               <l n="36">seule porte d'entrée à la foi qui te sauve.</l>
+            </lg>
+            <lg xml:id="lg013">
+               <l n="37">La vérité chrétienne arrivant après eux,</l>
+               <l n="38">ils ne purent aimer Dieu comme ils le devaient ;</l>
+               <l n="39">et moi-même, d'ailleurs, j'appartiens à leur troupe.</l>
+            </lg>
+            <lg xml:id="lg014">
+               <l n="40">C'est pour ce seul défaut, et non pour d'autres crimes,</l>
+               <l n="41">que nous sommes perdus ; et notre seule peine</l>
+               <l n="42">est de vivre et d'attendre et d'ignorer l'espoir. »</l>
+            </lg>
+            <lg xml:id="lg015">
+               <l n="43">Je me sentis frémir de douleur, à l'entendre,</l>
+               <l n="44">car je reconnaissais des hommes de valeur</l>
+               <l n="45">parmi les condamnés compris dans ce grand limbe.</l>
+            </lg>
+            <lg xml:id="lg016">
+               <l n="46">« Dis-moi donc, mon seigneur, dis-moi, mon maître,</l>
+               <l n="47">commençai-je à lui dire, afin de mieux connaître alors,</l>
+               <l n="48">la croyance qui seule supprime toute erreur,</l>
+            </lg>
+            <lg xml:id="lg017">
+               <l n="49">nul n'est sorti d'ici pour aller au bonheur,</l>
+               <l n="50">par son propre mérite ou par l'œuvre des autres ? »</l>
+               <l n="51">Et lui, qui pénétrait le sens de mes propos,</l>
+            </lg>
+            <lg xml:id="lg018">
+               <l n="52">il dit : « J'étais nouveau dans l'endroit que voici,</l>
+               <l n="53">quand j'y vis arriver un Seigneur tout-puissant</l>
+               <l n="54">et qui portait le nimbe en signe de victoire.</l>
+            </lg>
+            <lg xml:id="lg019">
+               <l n="55">Il en a fait sortir l'ombre du premier père,</l>
+               <l n="56">celle d'Abel son fils et celle de Noé,</l>
+               <l n="57">Moïse auteur des lois obéissant à Dieu,</l>
+            </lg>
+            <lg xml:id="lg020">
+               <l n="58">Abraham patriarche, avec le roi David,</l>
+               <l n="59">Israël et son père, avec tous ses enfants</l>
+               <l n="60">et Rachel pour laquelle il avait tant peiné,</l>
+            </lg>
+            <lg xml:id="lg021">
+               <l n="61">avec d'autres encor, dont il fit des heureux ;</l>
+               <l n="62">et il te faut savoir qu'avant ceux dont je parle</l>
+               <l n="63">aucun esprit humain n'avait pu se sauver. »</l>
+            </lg>
+            <lg xml:id="lg022">
+               <l n="64">Nous cheminions toujours pendant qu'il me parlait,</l>
+               <l n="65">avançant tous les deux dans l'épaisse forêt</l>
+               <l n="66">que formaient les troupeaux des âmes entassées ;</l>
+            </lg>
+            <lg xml:id="lg023">
+               <l n="67">et depuis mon réveil nous n'avions parcouru</l>
+               <l n="68">qu'un tout petit chemin, quand je crus entrevoir</l>
+               <l n="69">comme un feu qui perçait la sphère des ténèbres,</l>
+            </lg>
+            <lg xml:id="lg024">
+               <l n="70">et, malgré la distance où je l'apercevais,</l>
+               <l n="71">je compris aussitôt que c'était un endroit</l>
+               <l n="72">réservé pour des gens d'une classe meilleure.</l>
+            </lg>
+            <lg xml:id="lg025">
+               <l n="73">« Toi, le plus grand honneur des sciences et des arts,</l>
+               <l n="74">qui donc jouit là-bas d'un pareil privilège,</l>
+               <l n="75">qui semble distinguer leur troupe au sein des autres ? »</l>
+            </lg>
+            <lg xml:id="lg026">
+               <l n="76">« La gloire de leur nom, répondit-il alors,</l>
+               <l n="77">qui retentit encore au monde d'où tu viens,</l>
+               <l n="78">intercède pour eux, et le Ciel les protège. »</l>
+            </lg>
+            <lg xml:id="lg027">
+               <l n="79">À ce même moment, j'entendis une voix</l>
+               <l n="80">dire : « Rendons hommage à l'illustre poète :</l>
+               <l n="81">son ombre rentre enfin aux lieux qu'elle a quittés. »</l>
+            </lg>
+            <lg xml:id="lg028">
+               <l n="82">À peine cette voix achevait de parler,</l>
+               <l n="83">que je vis s'avancer vers nous quatre ombres grandes</l>
+               <l n="84">dont l'aspect ne montrait ni tristesse ni joie.</l>
+            </lg>
+            <lg xml:id="lg029">
+               <l n="85">Et mon maître crut bon de m'expliquer encore :</l>
+               <l n="86">« Tu vois celui qui tient une épée à la main</l>
+               <l n="87">et marche comme un prince à la tête des autres :</l>
+            </lg>
+            <lg xml:id="lg030">
+               <l n="88">ce souverain poète est le célèbre Homère,</l>
+               <l n="89">et celui qui le suit, le satirique Horace ;</l>
+               <l n="90">le suivant est Ovide, et le dernier, Lucain.</l>
+            </lg>
+            <lg xml:id="lg031">
+               <l n="91">Comme ils sont, en effet, tous les quatre mes pairs</l>
+               <l n="92">dans cette qualité que la voix vient de dire,</l>
+               <l n="93">ils me font cet honneur, et d'ailleurs ils font bien. »</l>
+            </lg>
+            <lg xml:id="lg032">
+               <l n="94">C'est ainsi que je vis le beau chœur assemblé</l>
+               <l n="95">de ce puissant seigneur du chant le plus illustre,</l>
+               <l n="96">qui plane comme un aigle au-dessus de ses pairs.</l>
+            </lg>
+            <lg xml:id="lg033">
+               <l n="97">Après avoir parlé quelques instants entre eux,</l>
+               <l n="98">ils se tournèrent tous vers moi, pour m'accueillir,</l>
+               <l n="99">et mon maître observait ma mine en souriant.</l>
+            </lg>
+            <lg xml:id="lg034">
+               <l n="100">Ils me firent alors un honneur bien plus grand,</l>
+               <l n="101">car je fus même admis parmi leur compagnie,</l>
+               <l n="102">moi sixième au milieu de ce conseil de sages.</l>
+            </lg>
+            <lg xml:id="lg035">
+               <l n="103">Nous marchions en causant vers la clarté lointaine ;</l>
+               <l n="104">mais le silence seul pourrait être aussi beau</l>
+               <l n="105">que tout ce qui s'est dit en cette occasion.</l>
+            </lg>
+            <lg xml:id="lg036">
+               <l n="106">Les murs d'un grand château se dressaient devant nous,</l>
+               <l n="107">formant une septuple enceinte de murailles,</l>
+               <l n="108">que les flots d'un grand fleuve entouraient de partout.</l>
+            </lg>
+            <lg xml:id="lg037">
+               <l n="109">Nous pûmes cependant les franchir sans encombre</l>
+               <l n="110">et passer les sept huis, avec ces philosophes,</l>
+               <l n="111">pour arriver enfin dans un pré verdoyant.</l>
+            </lg>
+            <lg xml:id="lg038">
+               <l n="112">On y voyait des gens absorbés et absents,</l>
+               <l n="113">et leur aspect semblait inspirer le respect ;</l>
+               <l n="114">ils parlaient rarement, et d'une voix très douce.</l>
+            </lg>
+            <lg xml:id="lg039">
+               <l n="115">Je me mis à l'écart un peu sur le côté,</l>
+               <l n="116">en un lieu découvert qui dominait le site,</l>
+               <l n="117">afin de les pouvoir observer à mon aise.</l>
+            </lg>
+            <lg xml:id="lg040">
+               <l n="118">Et c'est là, devant moi, sur cette herbe fleurie,</l>
+               <l n="119">que j'ai vu tour à tour tant d'âmes magnanimes</l>
+               <l n="120">que je suis orgueilleux d'avoir pu contempler.</l>
+            </lg>
+            <lg xml:id="lg041">
+               <l n="121">Électre était là-bas avec ses compagnons,</l>
+               <l n="122">et j'ai bien reconnu Hector auprès d'Énée</l>
+               <l n="123">et de César armé les yeux d'oiseau de proie.</l>
+            </lg>
+            <lg xml:id="lg042">
+               <l n="124">Un peu plus loin de là j'ai vu Penthésilée</l>
+               <l n="125">et la vierge Camille et le roi Latinus</l>
+               <l n="126">ayant à ses côtés sa fille Lavinie.</l>
+            </lg>
+            <lg xml:id="lg043">
+               <l n="127">Et j'ai vu ce Brutus qui renversa Tarquin,</l>
+               <l n="128">Lucrèce et Marcia, Julie et Cornélie,</l>
+               <l n="129">et le grand Saladin, qui restait à l'écart.</l>
+            </lg>
+            <lg xml:id="lg044">
+               <l n="130">Puis, en levant un peu le regard vers le haut,</l>
+               <l n="131">j'aperçus le Seigneur de tous les philosophes,</l>
+               <l n="132">au milieu d'un grand chœur de sages assemblés.</l>
+            </lg>
+            <lg xml:id="lg045">
+               <l n="133">Tous se tournaient vers lui et lui rendaient hommage ;</l>
+               <l n="134">j'y reconnus surtout et Socrate et Platon,</l>
+               <l n="135">placés plus près de lui que les autres présents ;</l>
+            </lg>
+            <lg xml:id="lg046">
+               <l n="136">Démocrite, qui fait du monde un coup de dés,</l>
+               <l n="137">Diogène et Thaïes avec Anaxagore,</l>
+               <l n="138">Zenon et Empédocle assis près d'Héraclite.</l>
+            </lg>
+            <lg xml:id="lg047">
+               <l n="139">J'y vis le sage aussi qui décrivit les simples,</l>
+               <l n="140">je veux dire par là Dioscoride, Orphée,</l>
+               <l n="141">Sénèque moraliste, avec Tulle et Linus,</l>
+            </lg>
+            <lg xml:id="lg048">
+               <l n="142">Euclide géomètre auprès de Ptolémée,</l>
+               <l n="143">et plus loin Hippocrate, Avicenne et Galien,</l>
+               <l n="144">avec Averroès, l'auteur du commentaire.</l>
+            </lg>
+            <lg xml:id="lg049">
+               <l n="145">Je ne saurais écrire ici le nom de tous,</l>
+               <l n="146">car un vaste sujet me presse tellement,</l>
+               <l n="147">que très souvent les mots ne peuvent pas tout dire.</l>
+            </lg>
+            <lg xml:id="lg050">
+               <l n="148">Notre groupe de six se réduit vite à deux ;</l>
+               <l n="149">mon guide me conduit par de nouveaux sentiers ;</l>
+               <l n="150">nous laissons le beau temps pour le vent qui frissonne,</l>
+               <l n="151">et nous entrons enfin aux lieux où rien ne luit.</l>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>

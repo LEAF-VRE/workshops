@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="https://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/LEAF-VRE/code_snippets/refs/heads/main/CSS/leaf.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Inferno</title>
+            <author>Dante Alighieri</author>
+            <!-- JC: Unable to find translator for German Gutenberg Version -->
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Project Gutenberg</publisher>
+            <availability>
+               <p>https://www.gutenberg.org/ebooks/8085</p>
+            </availability>
+            <date type="release">1 May 2005</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Translation of the Inferno, by Dante Alighieri</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This encoded file was created by members of the Linked Editing Academic Framework
+               (LEAF) team and made available for a LEAF / LEAF-Writer workshop. This file is not
+               meant for use or publication outside of the workshop environment.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de">German language translation</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+
+   <text xml:lang="de">
+      <body>
+         <div type="canto">
+            <pb
+               facs="https://upload.wikimedia.org/wikipedia/commons/3/38/Inferno_Canto_4_four_bards.jpg"/>
+            <head>Die Hölle: Gesang IV</head>
+            <byline>Dante Alighieri</byline>
+            <lg n="1" xml:id="lg001">
+               <l n="1">Mir brach den Schlaf im Haupt ein Donnerkrachen, </l>
+               <l n="2">So schwer, daß ich zusammenfuhr dabei, </l>
+               <l n="3">Wie einer, den Gewalt zwingt, zu erwachen.</l>
+            </lg>
+            <lg n="2" xml:id="lg002">
+               <l n="4">Ich warf umher das Auge wach und frei,</l>
+               <l n="5">Emporgerichtet spähend, daß ich sähe</l>
+               <l n="6">Und unterschied, an welchem Ort ich sei.</l>
+            </lg>
+            <lg n="3" xml:id="lg003">
+               <l n="7">So fand ich mich am Talrand, in der Nähe</l>
+               <l n="8">Des qualenvollen Abgrunds, dessen Kluft</l>
+               <l n="9">Zum Donnerhall vereint unendlich Wehe.</l>
+            </lg>
+            <lg n="4" xml:id="lg004">
+               <l n="10">Tief war er, dunkel, nebelhaft die Luft,</l>
+               <l n="11">Drum wollte nichts sich klar dem Blicke zeigen,</l>
+               <l n="12">Den ich geheftet an den Grund der Gruft.</l>
+            </lg>
+            <lg n="5" xml:id="lg005">
+               <l n="13">"Laß uns zur blinden Welt hinunter steigen,</l>
+               <l n="14">Ich bin der Erste, du der Zweite dann."</l>
+               <l n="15">So sprach Virgil, um drauf erblaßt zu schweigen.</l>
+            </lg>
+            <lg n="6" xml:id="lg006">
+               <l n="16">Ich, sehend, wie die Bläss ihn überrann,</l>
+               <l n="17">Sprach: Scheust du selber dich, wie kann ichs wagen</l>
+               <l n="18">Der Trost im Zweifel nur durch dich gewann?</l>
+            </lg>
+            <lg n="7" xml:id="lg007">
+               <l n="19">Und er zu mir: "Des tiefen Abgrunds Plagen</l>
+               <l n="20">Entfärben mir durch Mitleid das Gesicht,</l>
+               <l n="21">Und nicht, so wie du meinst, durch feiges Zagen.</l>
+            </lg>
+            <lg n="8" xml:id="lg008">
+               <l n="22">Fort, zaudern läßt des Weges Läng uns nicht."</l>
+               <l n="23">So ging er fort und rief zum ersten Kreise</l>
+               <l n="24">Mich auch hinein, der jene Kluft umflicht.</l>
+            </lg>
+            <lg n="9" xml:id="lg009">
+               <l n="25">Mir schien, nach meinem Ohr, des Klanges Weise,</l>
+               <l n="26">Der durch die Luft hier bebt im ewgen Tal,</l>
+               <l n="27">Nicht Klaggeschrei, nur Seufzer dumpf und leise.</l>
+            </lg>
+            <lg n="10" xml:id="lg010">
+               <l n="28">Und dieses kam vom Leiden ohne Qual</l>
+               <l n="29">Der Kinder, Männer und der Fraun, in Scharen,</l>
+               <l n="30">Die viele waren und von großer Zahl-</l>
+            </lg>
+            <lg n="11" xml:id="lg011">
+               <l n="31">Da sprach der Meister: "Willst du nicht erfahren,</l>
+               <l n="32">Zu welchen Geistern du gekommen bist?</l>
+               <l n="33">Bevor wir fortgehn, will ich offenbaren,</l>
+            </lg>
+            <lg n="12" xml:id="lg012">
+               <l n="34">Daß sie nicht sündigten; doch gnügend mißt</l>
+               <l n="35">Nicht ihr Verdienst, da sie der Tauf entbehrten,</l>
+               <l n="36">Die Pfort und Eingang deines Glaubens ist. </l>
+            </lg>
+            <lg n="13" xml:id="lg013">
+               <l n="37">Und lebten sie vor Christo auch, so ehrten</l>
+               <l n="38">Sie doch den Höchsten nicht, wie sichs gebührt;</l>
+               <l n="39">Und diese Geister nenn ich selbst Gefährten.</l>
+            </lg>
+            <lg n="14" xml:id="lg014">
+               <l n="40">Nur dies, nichts andres hat uns hergeführt.</l>
+               <l n="41">Daß wir in Sehnsucht ohne Hoffnung leben,</l>
+               <l n="42">Ward uns Verlornen nur als Straf erkürt."</l>
+            </lg>
+            <lg n="15" xml:id="lg015">
+               <l n="43">Groß war mein Schmerz, als er dies kundgegeben,</l>
+               <l n="44">Denn Leute großen Wertes zeigten sich,</l>
+               <l n="45">Die unentschieden hier im Vorhof schweben.</l>
+            </lg>
+            <lg n="16" xml:id="lg016">
+               <l n="46">Und ich begann: Mein Herr und Meister, sprich</l>
+               <l n="47">(Ich wollte mich in jenem Glauben stärken,</l>
+               <l n="48">Vor dessen Licht des Irrtums Nacht entwich),</l>
+            </lg>
+            <lg n="17" xml:id="lg017">
+               <l n="49">Kam keiner je durch Kraft von eignen Werken,</l>
+               <l n="50">Durch fremd Verdienst von hier zur Seligkeit?—</l>
+               <l n="51">Er schien des Worts versteckten Sinn zu merken</l>
+            </lg>
+            <lg n="18" xml:id="lg018">
+               <l n="52">Und sprach: "Ich war noch neu in diesem Leid,</l>
+               <l n="53">Da ist ein Mächtiger hereingedrungen.</l>
+               <l n="54">Bekrönt mit Siegesglanz und Herrlichkeit.</l>
+            </lg>
+            <lg n="19" xml:id="lg019">
+               <l n="55">Der hat des Urahns Geist der Höll" entrungen,</l>
+               <l n="56">Auch Abels, Noahs; und auch Moses hat,</l>
+               <l n="57">Der Gott gehorcht, mit ihm sich aufgeschwungen.</l>
+            </lg>
+            <lg n="20" xml:id="lg020">
+               <l n="58">Abram und David folgten seinem Pfad,</l>
+               <l n="59">Jakob, sein Vater, seine Söhne schieden,</l>
+               <l n="60">Und Rahel auch, für die so viel er tat.</l>
+            </lg>
+            <lg n="21" xml:id="lg021">
+               <l n="61">Sie und viel andre führt er ein zum Frieden,</l>
+               <l n="62">Und wissen sollst du nun: Vor diesen war</l>
+               <l n="63">Erlösung keinem Menschengeist beschieden."</l>
+            </lg>
+            <lg n="22" xml:id="lg022">
+               <l n="64">Obwohl er sprach, gings vorwärts immerdar,</l>
+               <l n="65">So daß wir unterdes den Wald durchdrangen,</l>
+               <l n="66">Den Wald, mein ich, der dichten Geisterschar.</l>
+            </lg>
+            <lg n="23" xml:id="lg023">
+               <l n="67">Nicht weit von oben waren wir gegangen,</l>
+               <l n="68">Als ich ein Feur in lichten Flammen sah,</l>
+               <l n="69">Die rings im halben Kreis die Nacht bezwangen.</l>
+            </lg>
+            <lg n="24" xml:id="lg024">
+               <l n="70">Zwar waren wir dem Ort nicht völlig nah,</l>
+               <l n="71">Doch einen Kreis von ehrenhaften Leuten,</l>
+               <l n="72">Die diesen Platz besetzt, erkannt ich da. </l>
+            </lg>
+            <lg n="25" xml:id="lg025">
+               <l n="73">"Du, des sich Wissenschaft und Kunst erfreuten,</l>
+               <l n="74">Beliebe, wer sie sind, und was sie ehrt</l>
+               <l n="75">Und von den andern trennt, mir auszudeuten."</l>
+            </lg>
+            <lg n="26" xml:id="lg026">
+               <l n="76">Ich sprachs, und er: "Für hochgepriesnen Wert,</l>
+               <l n="77">Der oben widerklingt in deinem Leben,</l>
+               <l n="78">Ward ihnen hier vom Himmel Huld gewährt."</l>
+            </lg>
+            <lg n="27" xml:id="lg027">
+               <l n="79">Da hört ich eine Stimme sich erheben:</l>
+               <l n="80">Der hohe Dichter, auf jetzt zum Empfang!</l>
+               <l n="81">Sein Schatten kehrt, der jüngst sich fortbegeben.</l>
+            </lg>
+            <lg n="28" xml:id="lg028">
+               <l n="82">Sobald die Stimme, die dies sprach, verklang,</l>
+               <l n="83">Sah ich heran vier große Geister schreiten,</l>
+               <l n="84">Im Angesicht nicht fröhlich und nicht bang.</l>
+            </lg>
+            <lg n="29" xml:id="lg029">
+               <l n="85">Da sprach der gute Meister mir zur Seiten:</l>
+               <l n="86">"Sieh diesen, in der Hand das Schwert, voran</l>
+               <l n="87">Den andern gehn, um sie als Fürst zu leiten.</l>
+            </lg>
+            <lg n="30" xml:id="lg030">
+               <l n="88">Du siehst Homer, den Dichterkönig, nahn;</l>
+               <l n="89">Ihm folgt Horaz, berühmt durch Spott dort oben</l>
+               <l n="90">Ovid der Dritt, als letzter kommt Lukan.</l>
+            </lg>
+            <lg n="31" xml:id="lg031">
+               <l n="91">Im Namen, den die eine Stimm erhoben,</l>
+               <l n="92">Kommt mit mir selber jeder überein,</l>
+               <l n="93">Drum ehren sie mich, und dies ist zu loben."</l>
+            </lg>
+            <lg n="32" xml:id="lg032">
+               <l n="94">So war die schöne Schul hier im Verein</l>
+               <l n="95">Des hohen Herrn der höchsten Sangesweise,</l>
+               <l n="96">Der ob den andern fliegt, ein Aar, allein.</l>
+            </lg>
+            <lg n="33" xml:id="lg033">
+               <l n="97">Ein Weilchen sprachen sie im trauten Greise,</l>
+               <l n="98">Doch als sie grüßend sich zu mir gekehrt,</l>
+               <l n="99">Da lächelte Virgtl zu solchem Preise.</l>
+            </lg>
+            <lg n="34" xml:id="lg034">
+               <l n="100">Allein noch höher ward ich dort geehrt,</l>
+               <l n="101">Indem sie mich in ihrer Schar empfingen</l>
+               <l n="102">Als Sechsten unter solchem Geist und Wert,</l>
+            </lg>
+            <lg n="35" xml:id="lg035">
+               <l n="103">Wobei wir hin bis zu dem Lichte gingen,</l>
+               <l n="104">Sprechend, wovon ich schicklich schweigen muß,</l>
+               <l n="105">Wie man dort schicklich sprach von solchen Dingen.</l>
+            </lg>
+            <lg n="36" xml:id="lg036">
+               <l n="106">Bald kamen wir an eines Schlosses Fuß,</l>
+               <l n="107">Von siebenfacher hoher Maur umfangen,</l>
+               <l n="108">Und rings beschützt von einem schönen Fluß.</l>
+            </lg>
+            <lg n="37" xml:id="lg037">
+               <l n="109">Als wir mit trocknem Fuße durchgegangen,</l>
+               <l n="110">Gings weiter dann durch sieben Tore fort,</l>
+               <l n="111">Und eine Wiese sah ich grünend prangen.</l>
+            </lg>
+            <lg n="38" xml:id="lg038">
+               <l n="112">Wir fanden Leute strengen Blickes dort,</l>
+               <l n="113">Mit großer Würd in Ansehn, Gang und Mienen</l>
+               <l n="114">Und wenig sprechend, doch mit sanftem Wort.</l>
+            </lg>
+            <lg n="39" xml:id="lg039">
+               <l n="115">Und wir ersahn dort seitwärts nah bei ihnen</l>
+               <l n="116">Frei eine Höh hellem Lichte glühn,</l>
+               <l n="117">Vor welcher alle klar vor uns erschienen.</l>
+            </lg>
+            <lg n="40" xml:id="lg040">
+               <l n="118">Dort gegenüber auf dem samtnen Grün</l>
+               <l n="119">Sah ich die Großen, ewig Denkenswerten,</l>
+               <l n="120">Die heut mir noch in solzer Seele blühn.</l>
+            </lg>
+            <lg n="41" xml:id="lg041">
+               <l n="121">Elektren sah ich dort mit viel Gefährten,</l>
+               <l n="122">Äneas, Hektorn hatt ich bald erkannt,</l>
+               <l n="123">Cäsarn, den mit dem Adlerblick bewehrten. </l>
+            </lg>
+            <lg n="42" xml:id="lg042">
+               <l n="124">Penthesilea war auf grünem Land;</l>
+               <l n="125">Zur andern Seite sah ich auch Latinen,</l>
+               <l n="126">Der bei Lavinien, seiner Tochter, stand.</l>
+            </lg>
+            <lg n="43" xml:id="lg043">
+               <l n="127">Ich sah den Brutus, der verjagt Tarquinen,</l>
+               <l n="128">Lucrezien, Julien, Marzien, und, allein</l>
+               <l n="129">Beiseite sitzend, sah ich Saladinen. </l>
+            </lg>
+            <lg n="44" xml:id="lg044">
+               <l n="130">Dann, höher blickend, sah im hellen Schein</l>
+               <l n="131">Ich auch den Meister derer, welche wissen,</l>
+               <l n="132">Der von den Seinen schien umringt zu sein,</l>
+            </lg>
+            <lg n="45" xml:id="lg045">
+               <l n="133">Sie all ihn hochzuehren sehr beflissen;</l>
+               <l n="134">Den Plato ihm zunächst und Sokrates,</l>
+               <l n="135">Die dort den Sitz vor andern an sich rissen.</l>
+            </lg>
+            <lg n="46" xml:id="lg046">
+               <l n="136">Den Anaxagoras, Diogenes,</l>
+               <l n="137">Den Demokrit, des Welt der Zufall machte,</l>
+               <l n="138">Den Zeno, Heraklit, Empedokles.</l>
+            </lg>
+            <lg n="47" xml:id="lg047">
+               <l n="139">Ihn, der ans Licht der Pflanzen Kräfte brachte,</l>
+               <l n="140">Den Dioskorides, den Orpheus dann,</l>
+               <l n="141">Den Seneka, der Schmerz und Luft verlachte.</l>
+            </lg>
+            <lg n="48" xml:id="lg048">
+               <l n="142">Auch Ptolemäus kam, Euklid heran,</l>
+               <l n="143">So auch Averroes, der, seinen Weisen</l>
+               <l n="144">Erklärend, selbst der Weisheit Ruhm gewann.</l>
+            </lg>
+            <lg n="49" xml:id="lg049">
+               <l n="145">Doch nicht vermag ich jeden hier zu greifen,</l>
+               <l n="146">Denn also drängt des Stoffes Größe mich,</l>
+               <l n="147">Daß ihren Dienst mir kaum die Wort erweisen. </l>
+            </lg>
+            <lg n="50" xml:id="lg050">
+               <l n="148">Hier teilten nun die sechs Gefährten sich.</l>
+               <l n="149">Mich führt auf anderm Weg mein weiser Leiter</l>
+               <l n="150">Dahin, wo Stille lautem Tosen wich,</l>
+            </lg>
+            <lg n="51" xml:id="lg051">
+               <l n="151">Und dorthin, wo nichts leuchtet, schritt ich weiter.</l>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>

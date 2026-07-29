@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <!-- This is a minimal header, we could add a lot more detail here about our project. -->
+      <fileDesc>
+         <titleStmt>
+            <title>Our Project's TEI Authority File</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Published by Our Project</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the sources we used for the authority file</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+
+   <standOff>
+      <!-- Stored in the <standOff> element we have a <listPerson>, a <listPlace>, <listOrg>, and <listBibl> as template examples -->
+
+
+      <!-- Person entities (including mythical people) are stored in a <listPerson> -->
+      <listPerson>
+
+         <!-- Each entity needs to have a unique xml:id attribute and a display name, but can contain other content.  -->
+         <person xml:id="person-ABC123">
+            <persName>Display Name</persName>
+            <!-- the entity may contain any other TEI content valid inside a <person> -->
+         </person>
+
+         <person xml:id="person-JC001">
+            <!-- You can provide as much or as little information about an entity as you want. Here is some information about James. -->
+            <persName>James Cummings</persName>
+            <affiliation ref="#org-NU01">Newcastle University</affiliation>
+            <faith>None</faith>
+            <socecStatus>Variable</socecStatus>
+            <nationality>Canadian</nationality>
+            <nationality>American</nationality>
+            <nationality>British</nationality>
+            <note>
+               <ref target="https://www.ncl.ac.uk/elll/people/profile/jamescummings.html">James
+                  Cummings</ref> is the 'Reader in Digital Textual Studies and Late Medieval
+               Literature' at Newcastle University. He is also currently Chair of the TEI
+               Consortium's Board of Directors.</note>
+         </person>
+
+      </listPerson>
+
+      <!-- Place entities are stored in a <listPlace> element -->
+      <listPlace>
+
+         <place xml:id="place-BCD234">
+            <placeName>Display Name</placeName>
+            <!-- the entity may contain any other TEI content valid inside a <place> -->
+         </place>
+
+         <place xml:id="place-NCL01">
+            <placeName>Newcastle</placeName>
+            <placeName>Newcastle Upon Tyne</placeName>
+            <placeName>Newcastle Upon Tyne, UK</placeName>
+            <idno type="WikiData">https://www.wikidata.org/wiki/Q1425428</idno>
+            <note>Newcastle upon Tyne, or simply Newcastle, is a city and metropolitan borough in
+               Tyne and Wear, England. It is England's northernmost city, located on the River
+               Tyne's northern bank opposite Gateshead to the south.</note>
+         </place>
+
+         <!-- Add your own <place> elements -->
+
+      </listPlace>
+
+      <!-- Organisation entities are stored in a <listOrg> element -->
+      <listOrg>
+
+         <org xml:id="org-CDE345">
+            <orgName>Display Name</orgName>
+            <!-- the entity may contain any other TEI content valid inside an <org> -->
+         </org>
+
+         <org xml:id="org-NU01">
+            <orgName>Newcastle University</orgName>
+            <orgName>University of Newcastle Upon Tyne</orgName>
+            <note>Newcastle University is a Russell Group University in the United Kingdom. It
+               consistently scores well in the UK's Research Excellence Framework and in various
+               league tables for research-intensive universities. It also has presences in Malaysia
+               and Singapore.</note>
+         </org>
+
+         <!-- Add your own <org> elements -->
+
+      </listOrg>
+
+
+      <!-- Works are stored in a <listBibl> element -->
+      <listBibl>
+         <bibl xml:id="work-EFG567">
+            <title>Display Title</title>
+            <!-- the entity may contain any other TEI content valid inside a <bibl> -->
+         </bibl>
+
+         <bibl xml:id="work-JC1">
+            <author>Cummings J.</author>
+            <title level="a">The Present and Future of Encoding Text(s).</title> In:
+               <editor>O'Sullivan, J</editor>, ed. <title level="m">The Bloomsbury Handbook to the
+               Digital Humanities</title>. <pubPlace>London</pubPlace>: <publisher>Bloomsbury
+               Publishing</publisher>, <date>2022</date>, <citedRange unit="page">pp.
+               147-157</citedRange>. </bibl>
+
+         <bibl xml:id="work-JC2">
+            <author>Cummings J.</author>
+            <title level="a">Academics Retire and Servers Die: Adventures in the Hosting and Storage
+               of Digital Humanities Projects</title>. <title level="j">Digital Humanities
+               Quarterly</title>, <biblScope unit="volume">17</biblScope>:<biblScope unit="issue"
+               >1</biblScope>
+            <date>2023</date>. <ref type="DOI" target="https://doi.org/10.63744/xb5cf8kv3m4t"
+               >https://doi.org/10.63744/xb5cf8kv3m4t</ref>
+         </bibl>
+
+         <!-- Add your own <bibl> elements -->
+
+      </listBibl>
+
+
+   </standOff>
+   <text>
+      <body>
+
+         <p> This is a TEI Authority File for 'Our Project'. Really it is just a template used for
+            teaching purposes. </p>
+
+
+      </body>
+   </text>
+</TEI>

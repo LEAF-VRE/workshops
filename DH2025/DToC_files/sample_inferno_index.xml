@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Index</title>
+			</titleStmt>
+			<publicationStmt>
+				<p/>
+			</publicationStmt>
+			<sourceDesc>
+				<p>https://github.com/LEAF-VRE/dh2025_workshop</p>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>This encoded file was created by members of the Linked Editing Academic Framework
+					(LEAF) team and made available for a LEAF / LEAF-Writer workshop. This file is
+					not meant for use or publication outside of the workshop environment.</p>
+			</projectDesc>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="index">
+				<list>
+					<item>
+						<ref target="#lg006 #lg016 #lg017 #lg025">Dante Speaks</ref>
+						<list>
+							<head>Dante Speaks</head>
+							<item><ref target="#lg006">First Question</ref></item>
+							<item><ref target="#lg016 #lg017">Second Question</ref></item>
+							<item><ref target="#lg025">Third Question</ref></item>
+						</list>
+					</item>
+				</list>
+			</div>
+		</body>
+	</text>
+</TEI>

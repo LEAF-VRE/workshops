@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/LEAF-VRE/code_snippets/refs/heads/main/CSS/leaf.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="ja">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>神曲</title>
+            <author>アリギエリ・ダンテ</author>
+            <respStmt>
+               <name>山川丙三郎</name>
+               <resp>訳</resp>
+            </respStmt>
+            <respStmt>
+               <name>Cummings, James</name>
+               <resp>TEIエンコーディング</resp>
+            </respStmt>
+            <respStmt>
+               <name>Agata, Mari</name>
+               <resp>TEIエンコーディング</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>青空文庫</publisher>
+            <ref target="https://www.aozora.gr.jp/cards/000961/files/4618_13199.html"
+               >https://www.aozora.gr.jp/cards/000961/files/4618_13199.html</ref>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">神曲</title>
+               <title type="sub">>地獄</title>
+               <idno>上</idno>
+               <author>ダンテ</author>
+               <respStmt>
+                  <resp>Japanese Translation</resp>
+                  <persName>山川丙三郎</persName>
+               </respStmt>
+               <publisher>岩波書店</publisher>
+               <date when="1952-08-05">昭和27年8月5日</date>
+            </bibl>
+           </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"> This encoded file was created by members of the Linked Editing
+               Academic Framework (LEAF) team and made available for a LEAF / LEAF-Writer workshop.
+               This file is not meant for use or publication outside of the workshop environment. </p>
+            <p xml:lang="ja">このエンコードされたファイルは、Linked Editing Academic Framework (LEAF)
+               チームのメンバーによって作成され、LEAF / LEAF-Writer ワークショップ向けに提供されました。
+               このファイルは、ワークショップ環境以外での使用または公開を目的としたものではありません。</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ja">イタリア語の日本語翻訳</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="曲" n="四">
+            <pb facs="https://upload.wikimedia.org/wikipedia/commons/3/38/Inferno_Canto_4_four_bards.jpg"/>
+            <head>第四曲</head>
+
+
+            <ab xml:id="lg01" n="一―三">はげしき
+               <ruby>
+                  <rb>雷</rb>
+                  <rt>いかづち</rt>
+               </ruby>
+               はわが
+                  <ruby>
+                  <rb>頭</rb>
+                  <rt>かうべ</rt>
+               </ruby>
+               のうちなる
+               <ruby>
+                  <rb>熟睡</rb>
+                  <rt>うまい</rt>
+               </ruby>
+               を破れり、我は力によりておこされし人の如く我にかへり</ab>
+               
+               
+            <ab xml:id="lg02" n="四―六 ">たちなほりて休める目を動かし、わが在るところを知らんとて瞳を定めあたりを見れば</ab>
+            <ab xml:id="lg03" n="七―九">我はげにはてしなき叫喚の雷をあつめてものすごき淵なす溪の
+               <ruby>
+                  <rb>縁</rb>
+                  <rt>へり</rt>
+               </ruby>
+               にあり</ab>
+            <ab xml:id="lg04" n="一〇―一二">暗く、深く、霧多く、目をその
+               <ruby>
+                  <rb>深處</rb>
+                  <rt>ふかみ</rt>
+               </ruby>
+               に注げどもまた何物をもみとむるをえざりき</ab>
+            <ab xml:id="lg05" n="一三―一五">詩人あをざめていひけるは、いざ我等この
+               <ruby>
+                  <rb>盲</rb>
+                  <rt>めしひ</rt>
+               </ruby>の世にくだらむ、我第一に汝第二に</ab>
+            <ab xml:id="lg06" n="一六―一八">われその色を見、いひけるは、おそるゝごとに我を勵ませし汝若しみづから恐れなば我何ぞ行くをえん</ab>
+            <ab xml:id="lg07" n="一九―二一">彼我に、この下なる民のわづらひは憐みをもてわが
+               <ruby>
+                  <rb>面</rb>
+                  <rt>おもて</rt>
+               </ruby>を染めしを、汝みて恐れとなせり</ab>
+            <ab xml:id="lg08" n="二二―二四">長途我等を促せばいざ行かむ、かくして彼さきに入り、かくして我をみちびきぬ、淵をめぐれる第一の
+               <ruby>
+                  <rb>獄</rb>
+                  <rt>ひとや</rt>
+               </ruby>の中に</ab>
+            <ab xml:id="lg09" n="二五―二七">耳にてはかるに、こゝにはとこしへの
+               <ruby>
+                  <rb>空</rb>
+                  <rt>そら</rt>
+               </ruby>をふるはす
+               <ruby>
+                  <rb>大息</rb>
+                  <rt>ためいき</rt>
+               </ruby>
+               のほか
+               <ruby>
+                  <rb>歎聲</rb>
+                  <rt>なげき</rt>
+               </ruby>
+               なし</ab>
+            <ab xml:id="lg10" n="二八―三〇">こは苛責の苦なきなやみよりいづ、またこのなやみをうくるは
+               <ruby>
+                  <rb>稚兒</rb>
+                  <rt>をさなご</rt>
+               </ruby>
+               、女、男の數多き、大いなる
+               <ruby>
+                  <rb>群</rb>
+                  <rt>むれ</rt>
+               </ruby>
+               なりき</ab>
+            <ab xml:id="lg11" n="三一―三三">善き師我に、汝これらの魂をみてその何なるやを問はざるならずや、いざ汝なほさきに行かざるまに知るべし</ab>
+            <ab xml:id="lg12" n="三四―三六">彼等は罪を犯せるにあらず、
+               <ruby>
+                  <rb>嘉</rb>
+                  <rt>よみ</rt>
+               </ruby>
+               すべきことはありとも汝がいだく信仰の一部なる
+               <ruby>
+                  <rb>洗禮</rb>
+                  <rt>バッテスモ</rt>
+               </ruby>をうけざるが故になほたらず</ab>
+            <ab xml:id="lg13" n="三七―三九">またクリストの教へのさきに世にありたれば神があがむるの道をつくさゞりき、我も亦このひとりなり</ab>
+            <ab xml:id="lg14" n="四〇―四二">われらの救ひを失へるはほかに罪あるためならず、たゞこの
+               <ruby>
+                  <rb>虧處</rb>
+                  <rt>おちど</rt>
+               </ruby>
+               のためなれば我等はたゞ願ひありて望みなき
+               <ruby>
+                  <rb>生命</rb>
+                  <rt>いのち</rt>
+               </ruby>
+               をこゝにわぶるのみ</ab>
+            <ab xml:id="lg15" n="四三―四五">われこの言をきくにおよびてリムボに懸れるいとたふとき民あるをしり、深き憂ひはわが心をとらへき</ab>
+            <ab xml:id="lg16" n="四六―四八">我は一切の迷ひに勝つ信仰にかたく立たんことをおもひ、いひけるは、我に告げよわが師、我に告げよ
+               <ruby>
+                  <rb>主</rb>
+                  <rt>きみ</rt>
+               </ruby>
+            </ab>
+            <ab xml:id="lg17" n="四九―五一">おのれの
+               <ruby>
+                  <rb>功徳</rb>
+                  <rt>くどく</rt>
+               </ruby>
+               によりまたは
+               <ruby>
+                  <rb>他人</rb>
+                  <rt>ひと</rt>
+               </ruby>
+               の功徳により、かつてこの處をいでゝ
+               <ruby>
+                  <rb>福</rb>
+                  <rt>さいはひ</rt>
+               </ruby>
+               を享くるに至れるものありや、かれわが
+               <ruby>
+                  <rb>言</rb>
+                  <rt>ことば</rt>
+               </ruby>
+               の裏をさとり</ab>
+            <ab xml:id="lg18" n="五二―五四">答へて曰ひけるは、われこゝにくだりてほどなきに、ひとりの
+               <ruby>
+                  <rb>權能</rb>
+                  <rt>ちから</rt>
+               </ruby>
+               あるもの
+               <ruby>
+                  <rb>勝利</rb>
+                  <rt>かち</rt>
+               </ruby>
+               の
+               <ruby>
+                  <rb>休徴</rb>
+                  <rt>しるし</rt>
+               </ruby>
+               を
+               <ruby>
+                  <rb>冠</rb>
+                  <rt>かうむ</rt>
+               </ruby>
+               りて來るを見たり</ab>              
+            <ab xml:id="lg19" n="五五―五十七">この者第一の父の魂、その子アベルの魂、ノエの魂、
+               <ruby>
+                  <rb>律法</rb>
+                  <rt>おきて</rt>
+               </ruby>
+               をたてまたよく神に順へるモイゼの魂</ab>
+            <ab xml:id="lg20" n="五十八―六十">族長アブラアム、王ダヴィーデ、イスラエルとその父その子等およびラケーレ（イスラエルかれの、ために多くの事をなしたりき） </ab>
+            <ab xml:id="lg21" n="六十一―六三">その外なほ多くの者の魂をこゝよりとりさり、彼等に
+               <ruby>
+                  <rb>福</rb>
+                  <rt>さいはひ</rt>
+               </ruby>
+               を與へたりき、汝しるべし、彼等より先には人の魂の救はれしことあらざるを</ab>
+            <ab xml:id="lg22" n="六四―六六">かれかたる間も我等歩みを
+               <ruby>
+                  <rb>停</rb>
+                  <rt>とど</rt>
+               </ruby>
+               めず、たえず林を分けゆけり、即ち繁き魂の林なり</ab>
+            <ab xml:id="lg23" n="六七―六九">睡りのこなた行く道いまだ長からぬに、我は半球の闇を服せる一の火を見き</ab>
+            <ab xml:id="lg24" n="七〇―七二">我等なほ少しくこれと離れたりしもその
+               <ruby>
+                  <rb>距離</rb>
+                  <rt>へだゝり</rt>
+               </ruby>
+               大ならねば、我はまたこの處の一部にたふとき民の據れるを認めき</ab>
+            <ab xml:id="lg25" n="七三―七五">汝學藝のほまれよ、かくあがめをうけてそのさま衆と異なるは誰ぞや</ab>
+            <ab xml:id="lg26" n="七六―七八">彼我に、汝の世に響くかれらの
+               <ruby>
+                  <rb>美名</rb>
+                  <rt>よきな</rt>
+               </ruby>
+               はその惠みを天にうけ、かれらかく擢んでらる</ab>
+            <ab xml:id="lg27" n="七九―八一">この時聲ありて、いとたふとき詩人を敬へ、出でゝいにしその魂はかへれりといふ</ab>
+            <ab xml:id="lg28" n="八二―八四">聲止みしづまれるとき我見しに
+               <ruby>
+                  <rb>四</rb>
+                  <rt>よつ</rt>
+               </ruby>
+               の大いなる魂ありて我等のかたに來れり、その姿には悲しみもまた喜びもみえざりき</ab>
+            <ab xml:id="lg29" n="八五―八七">善き師曰ひけるは、手に
+               <ruby>
+                  <rb>劒</rb>
+                  <rt>つるぎ</rt>
+               </ruby>
+               を執りて
+               <ruby>
+                  <rb>三者</rb>
+                  <rt>みたり</rt>
+               </ruby>
+               にさきだち、あたかも
+               <ruby>
+                  <rb>王者</rb>
+                  <rt>わうじや</rt>
+               </ruby>
+               のごとき者をみよ</ab>
+            <ab xml:id="lg30" n="八八―九〇">これならびなき詩人オーメロなり、その次に來るは諷刺家オラーチオ、オヴィディオ第三、最後はルカーノなり</ab>
+            <ab xml:id="lg31" n="九一―九三">かの一の聲の
+               <ruby>
+                  <rb>稱</rb>
+                  <rt>とな</rt>
+               </ruby>
+               へし名はかれらみな我と等しくえたるものなればかれら我をあがむ、またしかするは善し</ab>
+            <ab xml:id="lg32" n="九四―九六">我はかく衆を超えて鷲の如く
+               <ruby>
+                  <rb>天翔</rb>
+                  <rt>あまがけ</rt>
+               </ruby>
+               る歌聖の、うるはしき一族のあつまれるを見たり</ab>
+            <ab xml:id="lg33" n="九七―九九">しばらくともにかたりて後、かれらは我にむかひて會釋す、わが師これを見て
+               <ruby>
+                  <rb>微笑</rb>
+                  <rt>ほゝゑ</rt>
+               </ruby>
+               みたまへり</ab>
+            <ab xml:id="lg34" n="一〇〇―一〇二">かれらはまた我をその
+               <ruby>
+                  <rb>集</rb>
+                  <rt>つどひ</rt>
+               </ruby>
+               のひとりとなしていと大いなる譽を我にえさせ、我はかゝる大智に加はりてその第六の者となりにき</ab>
+            <ab xml:id="lg35" n="一〇三―一〇五">かくて我等はかの時かたるに
+               <ruby>
+                  <rb>適</rb>
+                  <rt>ふさ</rt>
+               </ruby>はしくいまは
+               <ruby>
+                  <rb>默</rb>
+                  <rt>もだ</rt>
+               </ruby>
+               すにふさはしき多くの事をかたりつゝ光ある處にいたれり</ab>
+            <ab xml:id="lg36" n="一〇六―一〇八">我等は一の貴き城のほとりにつけり、
+               <ruby>
+                  <rb>七重</rb>
+                  <rt>なゝへ</rt>
+               </ruby>
+               の高壘これを圍み、一の美しき流れそのまはりをかたむ</ab>
+            <ab xml:id="lg37" n="一〇九―一一一">我等これを渡ること堅き土に異ならず、我は
+               <ruby>
+                  <rb>七</rb>
+                  <rt>なゝつ</rt>
+               </ruby>
+               の門を過ぎて
+               <ruby>
+                  <rb>聖</rb>
+                  <rt>ひじり</rt>
+               </ruby>
+               の
+               <ruby>
+                  <rb>群</rb>
+                  <rt>むれ</rt>
+               </ruby>とともに入り、緑新しき
+               <ruby>
+                  <rb>牧場</rb>
+                  <rt>まきば</rt>
+               </ruby>
+               にいたれば</ab>
+            <ab xml:id="lg38" n="一一二―一一四">こゝには
+               <ruby>
+                  <rb>眼</rb>
+                  <rt>まなこ</rt>
+               </ruby>
+               <ruby>
+                  <rb>緩</rb>
+                  <rt>ゆるや</rt>
+               </ruby>
+               かにして重く、姿に大いなる權威をあらはし、云ふことまれに聲うるはしき民ありき</ab>
+            <ab xml:id="lg39" n="一一五―一一七">我等はこゝの
+               <ruby>
+                  <rb>一隅</rb>
+                  <rt>かたほとり</rt>
+               </ruby>
+               、廣き
+               <ruby>
+                  <rb>明</rb>
+                  <rt>あかる</rt>
+               </ruby>
+               き高き處に退きてすべてのものを見るをえたりき</ab>
+            <ab xml:id="lg40" n="一一八―一二〇">
+               <ruby>
+                  <rb>對面</rb>
+                  <rt>むかひ</rt>
+               </ruby>
+               の
+               <ruby>
+                  <rb>方</rb>
+                  <rt>かた</rt>
+               </ruby>
+               には緑の
+               <ruby>
+                  <rb>泑藥</rb>
+                  <rt>えうやく</rt>
+               </ruby>
+               の上にわれ諸〻の大いなる魂を
+               <choice>
+                  <sic>み</sic>
+                  <corr>見</corr>
+               </choice>
+               き、またかれらをみたるによりていまなほ心に喜び多し</ab>
+            <ab xml:id="lg41" n="一二一―一二三">我はエレットラとその多くの
+               <ruby>
+                  <rb>侶</rb>
+                  <rt>とも</rt>
+               </ruby>
+               を
+               <choice>
+                  <sic>み</sic>
+                  <corr>見</corr>
+               </choice>
+               き、その中に我はエットル、エーネア、
+               <ruby>
+                  <rb>物具</rb>
+                  <rt>ものゝぐ</rt>
+               </ruby>
+               身につけ
+               <ruby>
+                  <rb>眼</rb>
+                  <rt>まなこ</rt>
+               </ruby>
+               鷹の如きチェーザレを認めぬ</ab>
+            <ab xml:id="lg42" n="一二四―一二六">またほかの處に我はカムミルラとパンタシレアを見き、また
+               <ruby>
+                  <rb>女</rb>
+                  <rt>むすめ</rt>
+               </ruby>
+               ラヴィーナとともに坐したる王ラティーノを見き</ab>
+            <ab xml:id="lg43" n="一二七―百二十九">我はタルクイーノを逐へるブルート、またルクレーチア、ユーリア、マルチア、コルニーリアを見き、また離れてたゞひとりなる　</ab>
+            <!-- MA: the phrase "サラディーノを見き、" in the next ab/@n is in line 129 in the original Italian version -->
+            <ab xml:id="lg44" n="百三十―一三二">サラディーノを見き、我なほ少しく眉をあげ、哲人の
+               <ruby>
+                  <rb>族</rb>
+                  <rt>やから</rt>
+               </ruby>
+               の中に坐したる智者の師を見き</ab>
+            <ab xml:id="lg45" n="一三三―一三五">衆皆かれを仰ぎ衆皆かれを崇む、われまたこゝに
+               <ruby>
+                  <rb>群</rb>
+                  <rt>むれ</rt>
+               </ruby>
+               にさきだちて彼にいとちかきソクラーテとプラートネを見き</ab>
+            <ab xml:id="lg46" n="一三六―一三八">世界の偶成を説けるデモクリート、またディオジェネス、アナッサーゴラ、ターレ、エムペドクレス、エラクリート、ツェノネ</ab>
+            <ab xml:id="lg47" n="一三九―一四一">我また善く特性を集めしもの即ちディオスコリーデを見き、またオルフェオ、ツルリオ、リーノ、道徳を設けるセネカ</ab>
+            <ab xml:id="lg48" n="一四二―一四四">幾何學者エウクリーデまたトロメオ、イポクラーテ、アヴィチェンナ、ガリエーノ、註の大家アヴェルロイスを見き</ab>
+            <ab xml:id="lg49" n="一四五―一四七">いま
+               <ruby>
+                  <rb>脱</rb>
+                  <rt>おち</rt>
+               </ruby>なくすべての者を擧げがたし、これ詩題の長きに驅られ、事あまりて言足らざること屡〻なればなり</ab>
+            <ab xml:id="lg50" n="一四八―一五〇">
+               <ruby>
+                  <rb>六者</rb>
+                  <rt>むたり</rt>
+               </ruby>
+               の
+               <ruby>
+                  <rb>伴侶</rb>
+                  <rt>なかま</rt>
+               </ruby>
+               は
+               <ruby>
+                  <rb>減</rb>
+                  <rt>へ</rt>
+               </ruby>
+               りて
+               <ruby>
+                  <rb>二者</rb>
+                  <rt>ふたり</rt>
+               </ruby>
+               となれり、
+               <ruby>
+                  <rb>智</rb>
+                  <rt>さと</rt>
+               </ruby>き導者異なる路によりて我を靜なる空より震ひゆらめく空に導き</ab>
+            <ab xml:id="lg51" n="一五一―一五三">我は光る物なき處にいたれり</ab>
+         </div>
+         <pb/>
+
+      </body>
+   </text>
+</TEI>
