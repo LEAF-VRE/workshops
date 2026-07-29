@@ -1,0 +1,103 @@
+{
+    "inputs": [
+        "https://raw.githubusercontent.com/LEAF-VRE/dh2024_workshop/main/Russ_DToC/russ_women.xml"
+    ],
+    "documents": "//div[@type='essay'or@type='biography']",
+    "ignoreNamespace": true,
+    "documentTitle": "head",
+    "documentAuthor": "",
+    "documentImages": "",
+    "documentNotes": "",
+    "documentLinks": "",
+    "indexDocument": "//div[@type='index']",
+    "editionTitle": "Women Talking, Women Thinking",
+    "editionSubtitle": "",
+    "curation": {
+        "markup": [
+            {
+                "xpath": "//persName[@key='Jane Austen']",
+                "label": "Austen, Jane"
+            },
+            {
+                "xpath": "//persName[@key='Charlotte Brontë']",
+                "label": "Brontë, Charlotte"
+            },
+            {
+                "xpath": "//persName[@key='Emily Brontë']",
+                "label": "Brontë, Emily"
+            },
+            {
+                "xpath": "//persName[@key='Kate Chopin']",
+                "label": "Chopin, Kate"
+            },
+            {
+                "xpath": "//persName[@key='Corinna']",
+                "label": "Corinna"
+            },
+            {
+                "xpath": "//persName[@key='Sarah Elizabeth Forbush Downs']",
+                "label": "Downs, Sarah Elizabeth Forbush"
+            },
+            {
+                "xpath": "//persName[@key='George Eliot']",
+                "label": "Eliot, George"
+            },
+            {
+                "xpath": "//persName[@key='Charlotte Perkins Gilman']",
+                "label": "Gilman, Charlotte Perkins"
+            },
+            {
+                "xpath": "//persName[@key='Georgette Heyer']",
+                "label": "Heyer, Georgette"
+            },
+            {
+                "xpath": "//persName[@key='Hrotsvitha']",
+                "label": "Hrotsvitha"
+            },
+            {
+                "xpath": "//persName[@key='Elisabeth Pepys']",
+                "label": "Pepys, Elisabeth"
+            },
+            {
+                "xpath": "//persName[@key='Samuel Pepys']",
+                "label": "Pepys, Samuel"
+            },
+            {
+                "xpath": "//persName[@key='Sappho']",
+                "label": "Sappho"
+            },
+            {
+                "xpath": "//persName[@key='Olive Schreiner']",
+                "label": "Schreiner, Olive"
+            },
+            {
+                "xpath": "//persName[@key='Mary Wollstonecraft']",
+                "label": "Shelley, Mary"
+            },
+            {
+                "xpath": "//persName[@key='Murasaki Shikibu']",
+                "label": "Shikibu, Murasaki"
+            },
+            {
+                "xpath": "//persName[@key='E. D. E. N. Southworth']",
+                "label": "Southworth, E. D. E. N."
+            },
+            {
+                "xpath": "//persName[@key='Virginia Woolf']",
+                "label": "Woolf, Virginia"
+            },
+            {
+                "xpath": "//span[@type='allusion']",
+                "label": "references"
+            },
+            {
+                "xpath": "//title",
+                "label": "works"
+            }
+        ],
+        "toc": [
+            "c4f2a902a073d16639cb0bb4f9452992dba198d99fca3e5ca8b5958365f94905",
+            "3c528a1cf8aca16fe3d7b22f43ed9adc77495e6f8870a78af77dc5367156ab93"
+        ]
+    }
+}
