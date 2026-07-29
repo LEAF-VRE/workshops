@@ -1,0 +1,860 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letters of John Chamberlain, 1613</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:id="text_bg5_tyl_w1c">
+      <body>
+         <div type="letter" xml:id="div_xh5_tyl_w1c">
+            <head>Letter of <persName key="Chamberlain, John"
+                  ref="https://commons.cwrc.ca//reed:1bc0d9ab-b2ba-4c4f-865d-51c1e3e11885"
+                  xml:id="persName_yh5_tyl_w1c">John Chamberlain</persName> to <persName
+                  ref="https://commons.cwrc.ca//reed:2f86d34f-63e4-4cc0-b6c5-65bc73c69115"
+                  key="Carleton, Alice" xml:id="persName_zh5_tyl_w1c">Mistress Alice
+                  Carleton</persName>, <date when="1613-02-18">February 18th, 1613</date></head>
+            <opener>
+               <salute>Mistris Carleton:</salute>
+            </opener>
+            <p> Though <persName key="Wake, Isaac" ref="https://www.wikidata.org/wiki/Q6077284"
+                  type="diplomat" xml:id="persName_a35_tyl_w1c">Master Waake</persName> be now
+               comming and lookes for his dispatch within a day or two, who is able to make a large
+               discourse of all that passed at this wedding, yet because this is like to arrive
+               there before him, I will geve you a litle touch or taste of that, wherof you may
+               receve from him full and complete satisfaction. <span type="fireworks"
+                  xml:id="span_b35_tyl_w1c">On <date when="1613-02-11">Thursday night</date>
+                  <eventName>the fireworks</eventName> were reasonablie well performed all save the
+                  last castle (of five) which bred most expectation and had most devises, but when
+                  yt came to execution, had worst successe.</span>
+               <span type="waterfight" xml:id="span_c35_tyl_w1c">On <date when="1613-02-13"
+                     >Saterday</date> likewise <eventName>the fight upon the water</eventName> came
+                  short of that shew and bragges had ben made of yt, but they pretend the best to be
+                  behind and left for another day, which was the winning of the castle on land: but
+                  the King and indeed all the companie tooke so litle delight to see no other
+                  activitie but shooting and potting of gunnes that yt is quite geven over and the
+                  navie unrigged and the castle pulled downe, the rather for that there were divers
+                  hurt in the former fight, (as one lost both his eyes, another both his handes,
+                  another one hande, with divers others maymed and hurt) so that to avoyde further
+                  harme, yt was thought best to let yt alone, and this is the conclusion of all the
+                  preparation with so much expence of powder and monie which amounted to no lesse
+                  then <measure type="currency">nine thousand pound</measure>.</span>
+               <span type="wedding_ceremony" xml:id="span_d35_tyl_w1c">On <date when="1613-02-14"
+                     >Sonday</date> I was fetcht from <placeName key="St. Paul's Cathedral"
+                     ref="https://cwrc.ca/islandora/object/reed%3Ac35a2b6f-f4db-4635-9ec2-a9907c90c982"
+                     >Powles</placeName> (where I was set at the sermon) to see <persName
+                     key="Stuart, Elizabeth"
+                     ref="https://commons.cwrc.ca//reed:d0db3261-3dd1-4edb-b9a3-16759d7b6696"
+                     type="royalty" xml:id="persName_e35_tyl_w1c">the bride</persName> go to church,
+                  and though yt were past ten a clocke before we came there yet we found a whole
+                  window reserved in the jewell-house, which was over against her comming downe a
+                  payre stayres out of the gallerie in the preaching-place to a long stage or
+                  gallerie made along the court into the hall; so that we had as much view as a
+                  short passage could geve, but the excesse of braverie, and the continued
+                  succession of new companie did so dasell me that I could not observe the tenth
+                  part of that I wisht. The <persName
+                     ref="https://commons.cwrc.ca//reed:835bd31f-f4b6-42b3-91b3-4338f67cce2a"
+                     key="Frederick V" type="royalty" xml:id="persName_f35_tyl_w1c"
+                     >bridegrome</persName> and <persName key="Stuart, Elizabeth"
+                     ref="https://commons.cwrc.ca//reed:d0db3261-3dd1-4edb-b9a3-16759d7b6696"
+                     type="royalty" xml:id="persName_g35_tyl_w1c">bride</persName> were both in a
+                  sute of cloth of silver richly embrodered with silver, her traine caried up by
+                  thirteen younge Ladies (or Lords daughters at least) besides five or sixe more
+                  that could not come neere yt: these were all in the same liverie with the bride,
+                  though not so rich. <persName key="Stuart, Elizabeth"
+                     ref="https://commons.cwrc.ca//reed:d0db3261-3dd1-4edb-b9a3-16759d7b6696"
+                     type="royalty" xml:id="persName_h35_tyl_w1c">The bride</persName> was maried in
+                  her haire that hung downe long, with an exceding rich coronet on her head (which
+                     <persName
+                     ref="https://commons.cwrc.ca//reed:949cf318-a2d8-4449-8df0-191275cbb541"
+                     key="James I" type="royalty" xml:id="persName_i35_tyl_w1c">the King</persName>
+                  valued the next day at a million of crownes). Her two bridemen were <persName
+                     key="Charles I"
+                     ref="https://cwrc.ca/islandora/object/reed%3A78551a5c-1784-469f-a0f9-3ccc12c58fb6"
+                     type="royalty" xml:id="persName_j35_tyl_w1c">the younge Prince</persName> and
+                  the <persName
+                     ref="https://cwrc.ca/islandora/object/reed%3A9d93269f-f754-4ea7-9137-623830364ee6"
+                     key="Howard, Henry" type="nobility" xml:id="persName_k35_tyl_w1c">earle of
+                     Northampton</persName>. The <persName key="James I"
+                     ref="https://commons.cwrc.ca//reed:949cf318-a2d8-4449-8df0-191275cbb541"
+                     type="royalty" xml:id="persName_l35_tyl_w1c">King</persName> and <persName
+                     ref="https://commons.cwrc.ca//reed:1442f99b-687c-4ea8-a468-30ac6995abae"
+                     key="Anne of Denmark" type="royalty" xml:id="persName_m35_tyl_w1c"
+                     >Quene</persName> both followed, <persName
+                     ref="https://commons.cwrc.ca//reed:1442f99b-687c-4ea8-a468-30ac6995abae"
+                     key="Anne of Denmark" type="royalty" xml:id="persName_n35_tyl_w1c">the
+                     Quene</persName> all in white but not very rich saving in jewells: <persName
+                     ref="https://commons.cwrc.ca//reed:949cf318-a2d8-4449-8df0-191275cbb541"
+                     key="James I" type="royalty" xml:id="persName_o35_tyl_w1c">the King</persName>
+                  me thought was somwhat straungely attired in a cap and a feather, with a Spanish
+                  cape and a longe stocking. The chappell was very straightly kept none suffred to
+                  enter under the degree of a baron, but the three Lords Cheife Justices: in the
+                  midst there was a handsome stage or scaffold made, on the one side wherof sat the
+                     <persName
+                     ref="https://commons.cwrc.ca//reed:949cf318-a2d8-4449-8df0-191275cbb541"
+                     key="James I" type="royalty" xml:id="persName_p35_tyl_w1c">Kinge</persName>,
+                     <persName key="Charles I"
+                     ref="https://cwrc.ca/islandora/object/reed%3A78551a5c-1784-469f-a0f9-3ccc12c58fb6"
+                     type="royalty" xml:id="persName_q35_tyl_w1c">Prince</persName>, <persName
+                     ref="https://commons.cwrc.ca//reed:835bd31f-f4b6-42b3-91b3-4338f67cce2a"
+                     key="Frederick V" type="royalty" xml:id="persName_r35_tyl_w1c">Count
+                     Palatin</persName> and <persName ref="https://www.wikidata.org/wiki/Q167236"
+                     key="Frederick Henry" type="royalty" xml:id="persName_s35_tyl_w1c">Count Henry
+                     of Nassau</persName>, on the other side <persName
+                     ref="https://commons.cwrc.ca//reed:1442f99b-687c-4ea8-a468-30ac6995abae"
+                     key="Anne of Denmark" type="royalty" xml:id="persName_t35_tyl_w1c">the
+                     Quene</persName> with <persName key="Stuart, Elizabeth"
+                     ref="https://commons.cwrc.ca//reed:d0db3261-3dd1-4edb-b9a3-16759d7b6696"
+                     type="royalty" xml:id="persName_u35_tyl_w1c">the bride</persName> and one or
+                  two more. Upon this stage they were maried by <persName key="Abbot, George"
+                     ref="https://www.wikidata.org/wiki/Q714925" type="clergy"
+                     xml:id="persName_v35_tyl_w1c">the archbishop of Caunterburie</persName>
+                  assisted by the <persName ref="https://www.wikidata.org/wiki/Q6139931"
+                     key="Montague, James" type="clergy" xml:id="persName_w35_tyl_w1c">bishop of
+                     Bath and Wells</persName> (who made the sermon). Yt was don all in English, and
+                  the <persName
+                     ref="https://commons.cwrc.ca//reed:835bd31f-f4b6-42b3-91b3-4338f67cce2a"
+                     key="Frederick V" type="royalty" xml:id="persName_x35_tyl_w1c">Prince
+                     Palatin</persName> had learned as much as concerned his part reasonable
+                  perfectly.</span>
+               <span type="wedding_banquet" xml:id="span_oxc_r5m_w1c">The <persName
+                     key="Lefevre, Antoine" ref="https://www.wikidata.org/wiki/Q107355633"
+                     type="diplomat" xml:id="persName_y35_tyl_w1c">French</persName>, <persName
+                     ref="https://cwrc.ca/islandora/object/reed%3Acc8af01d-a0ab-4e76-9b86-b58cb84112d4"
+                     key="Foscarini, Antonio" type="diplomat" xml:id="persName_z35_tyl_w1c"
+                     >Venetian</persName> and <persName
+                     ref="https://commons.cwrc.ca//reed:d9e20431-6301-4f3c-99d5-af2c072b1763"
+                     key="Caron, Noel" type="diplomat" xml:id="persName_aj5_tyl_w1c">States
+                     ambassadors</persName> dined that day with the bride. The <persName
+                     key="Sarmiento, Diego" ref="https://www.wikidata.org/wiki/Q451093"
+                     type="diplomat" xml:id="persName_bj5_tyl_w1c">Spanish ambassador</persName> was
+                  sicke and <persName type="diplomat" xml:id="persName_cj5_tyl_w1c">the
+                     archdukes</persName> was invited for the next day but wold not come.</span>
+               <span type="lords_masque" xml:id="span_dj5_tyl_w1c">That night was <title
+                     key="The Lords' Masque" ref="https://www.luminarium.org/editions/lordsmask.htm"
+                     >the Lords maske</title> wherof I heare no great commendation save only for
+                  riches, theyre devises beeing long and tedious and more like a play then a maske.
+               </span>The next morning <persName
+                  ref="https://commons.cwrc.ca//reed:949cf318-a2d8-4449-8df0-191275cbb541"
+                  key="James I" type="royalty" xml:id="persName_ej5_tyl_w1c">the King</persName>
+               went to visit these young turtles that were coupled on St. Valentines day, and did
+               strictly examine him whether he were his true sonne in law, and was sufficiently
+               assured. <span type="running_at_the_ring" xml:id="span_ywv_z5m_w1c">That afternoone
+                     <persName
+                     ref="https://commons.cwrc.ca//reed:949cf318-a2d8-4449-8df0-191275cbb541"
+                     key="James I" type="royalty" xml:id="persName_fj5_tyl_w1c">the King</persName>,
+                     <persName key="Charles I"
+                     ref="https://cwrc.ca/islandora/object/reed%3A78551a5c-1784-469f-a0f9-3ccc12c58fb6"
+                     type="royalty" xml:id="persName_gj5_tyl_w1c">Prince</persName>, <persName
+                     ref="https://commons.cwrc.ca//reed:835bd31f-f4b6-42b3-91b3-4338f67cce2a"
+                     key="Frederick V" type="royalty" xml:id="persName_hj5_tyl_w1c">Count
+                     Palatin</persName> with divers others ran at the ring, and when that was ended,
+                  and the King and Prince gon, <persName
+                     ref="https://commons.cwrc.ca//reed:835bd31f-f4b6-42b3-91b3-4338f67cce2a"
+                     key="Frederick V" type="royalty" xml:id="persName_ij5_tyl_w1c">the
+                     Palsgrave</persName> mounted upon a high bounding horse, which he managed so
+                  like a horsman, that he was excedingly commended and had many showts and
+                  acclamations of the beholders, and indeed I never saw any of his age come neere
+                  him in that exercise.</span> Yt were long and tedious to tell you all the
+               particularities of the excessive braverie both of men and women, but you may conceve
+               the rest by one or two. The <persName key="Wotton, Margaret" type="nobility"
+                  xml:id="persName_jj5_tyl_w1c">Lady Wotton</persName> had a gowne that cost fifty
+               pound a yard the embrodering. I heare <persName key="Percy, Henry"
+                  ref="https://cwrc.ca/islandora/object/reed%3Acdcdf9e8-78c4-4728-8f52-0b1919507e25"
+                  type="nobility" xml:id="persName_kj5_tyl_w1c">the earle of
+                  Northumberlands</persName> daughter was very gallant, and <persName
+                  key="Browne, Anthony-Maria" ref="https://www.wikidata.org/wiki/Q4771943"
+                  type="nobility" xml:id="persName_lj5_tyl_w1c">the Lord Montague</persName> (that
+               hath paide reasonablie well for recusancie) bestowed fifteen hundred pound in
+               apparell for his two daughters. The <persName key="Carr, Robert"
+                  ref="https://cwrc.ca/islandora/object/reed%3A50044ba6-aa5f-45a2-9c9b-d9ce7c12a2bd"
+                  type="nobility" xml:id="persName_mj5_tyl_w1c">Vicount Rochester</persName>,
+                  <persName key="Hayes, Thomas" ref="https://www.wikidata.org/wiki/Q7790518"
+                  type="nobility" xml:id="persName_nj5_tyl_w1c">the Lord Hayes</persName> and
+                  <persName key="Preston, Richard" ref="https://www.wikidata.org/wiki/Q7328504"
+                  type="nobility" xml:id="persName_oj5_tyl_w1c">the Lord Dingwell</persName> were
+               exceding rich and costly but above all they speake of <persName
+                  key="Sackville, Richard" ref="https://www.wikidata.org/wiki/Q1564273"
+                  type="nobility" xml:id="persName_pj5_tyl_w1c">the erle of Dorset</persName>, but
+               this extreem cost and riches makes us all poore. <span type="memorable_masque"
+                  xml:id="span_qj5_tyl_w1c">On <date when="1613-02-15">Monday night</date> was
+                     <title key="Memorable Masque"
+                     ref="https://cwrc.ca/islandora/object/reed%3A13808f1c-f796-4262-9688-8c1d0f98d551"
+                     >the <orgName key="Middle Temple" ref="https://www.wikidata.org/wiki/Q925942"
+                        >Middle Temple</orgName> and <orgName key="Lincoln's Inn"
+                        ref="https://www.wikidata.org/wiki/Q69482">Lincolns Ynne</orgName>
+                     maske</title> presented in the hall at court, wheras <title
+                     key="The Lords' Masque" ref="https://www.luminarium.org/editions/lordsmask.htm"
+                     >the Lords</title> was in <placeName key="Banqueting House"
+                     ref="https://cwrc.ca/islandora/object/reed%3A77ab9e87-b784-4f84-be23-99b22e610551"
+                     >the bancketting roome</placeName>. Yt went from <placeName key="The Rolls"
+                     ref="https://cwrc.ca/islandora/object/reed%3A36f046da-433c-47bd-8866-a873295447b2"
+                     >the Rolles</placeName> all up <placeName
+                     ref="https://cwrc.ca/islandora/object/reed%3A91ba01de-454a-4fd7-8463-a5795a81eacd"
+                     key="Fleet Street">Fleet-street</placeName> and <placeName key="The Strand"
+                     ref="https://cwrc.ca/islandora/object/reed%3Ae9def7ec-f5e9-4fdb-8896-e6563fd47e1c"
+                     >the Strand</placeName>, and made such a gallant and glorious shew that yt is
+                  highly commended. They had forty gentlemen of best choise out of both houses rode
+                  before them in theyre best array, upon the Kings horses: and the twelve <name
+                     type="occupation" ref="http://id.lincsproject.ca/occupation/masquer"
+                     >maskers</name> with theyre torch-bearers and pages rode likewise upon horses
+                  excedingly well trapped and furnished: besides a dousen litle boyes, dresst like
+                  babones that served for an antimaske, (and they say performed yt exceedingly well
+                  when they came to yt), and three open chariots drawne with fowre horses a peece
+                  that caried theyre musi- cians, and other personages that had parts to speake: all
+                  which together with theyre <name type="occupation"
+                     ref="http://id.lincsproject.ca/occupation/musicOccupation">trumpetters</name>
+                  and other attendants were so well set out, that yt is generally held for the best
+                  shew that hath ben seen many a day. <persName
+                     ref="https://commons.cwrc.ca//reed:949cf318-a2d8-4449-8df0-191275cbb541"
+                     key="James I" type="royalty" xml:id="persName_rj5_tyl_w1c">The Kinge</persName>
+                  stood in the gallerie to behold them and made them ride about <placeName
+                     key="Tiltyard"
+                     ref="https://cwrc.ca/islandora/object/reed%3A938eac79-5fc0-4cd1-9e15-b526e14b17b4"
+                     >the tilt-yard</placeName>, and then were receved into <placeName
+                     key="St. James Park"
+                     ref="https://cwrc.ca/islandora/object/reed%3Ae0bfb4ba-85da-4ce9-88d2-c775a5150942"
+                     >St. James Parke</placeName> and went all along the galleries into the hall,
+                  where themselves and their devises (which they say were excellent) made such a
+                  glittering shew that <persName
+                     ref="https://commons.cwrc.ca//reed:949cf318-a2d8-4449-8df0-191275cbb541"
+                     key="James I" type="royalty" xml:id="persName_sj5_tyl_w1c">the King</persName>
+                  and all the companie were excedingly pleased, and specially with theyre dauncing,
+                  which was beyond all that hath ben yet. <persName
+                     ref="https://commons.cwrc.ca//reed:949cf318-a2d8-4449-8df0-191275cbb541"
+                     key="James I" type="royalty" xml:id="persName_tj5_tyl_w1c">The King</persName>
+                  made <name type="occupation" ref="http://id.lincsproject.ca/occupation/masquer"
+                     >the maskers</name> kisse his hand at parting, and gave them many thanckes,
+                  sayeng he never saw so many proper men together, and himself accom- panied them at
+                  the banket, and tooke care yt shold be well ordered, and speakes much of them
+                  behind their backes, and strokes <persName
+                     ref="https://cwrc.ca/islandora/object/reed%3A138c6fc5-82df-4467-b328-3869188e602e"
+                     key="Phelips, Edward" type="politician" xml:id="persName_uj5_tyl_w1c">the
+                     master of the rolles</persName> and <persName key="Martin, Richard"
+                     ref="https://commons.cwrc.ca//reed:08303377-4037-4f6e-a914-79a33491295b"
+                     type="politician" xml:id="persName_vj5_tyl_w1c">Dick Martin</persName> who were
+                  the cheife dooers and undertakers.</span>
+               <span type="inner_temple_greys_inn" xml:id="span_wj5_tyl_w1c">On <date
+                     when="1613-02-16">Tewsday</date> yt came to <orgName key="Gray's Inn"
+                     ref="https://www.wikidata.org/wiki/Q157412">Grayes Ynne</orgName> and the
+                     <orgName ref="https://www.wikidata.org/wiki/Q1233784" key="Inner Temple">Inner
+                     Temples</orgName> turne to come with <title
+                     key="Masque of Inner Temple and Gray's Inn"
+                     ref="https://cwrc.ca/islandora/object/reed%3Af7b6d077-2c45-4980-bcbf-c17a8c3aeec7#page/1/mode/1up"
+                     >theyre maske</title>, wherof <persName
+                     ref="https://commons.cwrc.ca//reed:e907ea02-90e4-476a-a856-fb8268cd7449"
+                     key="Bacon, Francis" type="nobility" xml:id="persName_xj5_tyl_w1c">Sir Francis
+                     Bacon</persName> was the cheife contriver, and because the former came on horse
+                  backe, and open chariots, they made choise to come by water from <placeName
+                     key="Winchester Palace"
+                     ref="https://cwrc.ca/islandora/object/reed%3A9e0a8e53-8a1e-487b-b15f-249f068c6642"
+                     >Winchester Place</placeName> in <placeName key="Southwark"
+                     ref="https://cwrc.ca/islandora/object/reed%3A1fdd3059-1e28-4017-a31f-b6b48e084293"
+                     >Southwarke</placeName>: which suted well enough with theyre devise, which was
+                  the mariage of <placeName key="River Thames"
+                     ref="https://cwrc.ca/islandora/object/reed%3A3d70535d-3e2d-43a8-8fa7-ed92c9eab859"
+                     >the river of Thames</placeName> to <placeName
+                     ref="https://www.wikidata.org/wiki/Q584" key="Rhine">the Rhine</placeName>: and
+                  theyre shew by water was very gallant by reason of infinite store of lights very
+                  curiously set and placed: and many boats and barges with devises of light and
+                  lampes, with three peales of ordinance, one at theyre taking water, another in the
+                     <placeName
+                     ref="https://cwrc.ca/islandora/object/reed%3Ae76c726f-af01-4bdd-a761-62eb4465e9ab"
+                     key="Temple Garden">Temple garden</placeName>, and the last at their landing:
+                  which passage by water cost them better then <measure type="currency">three
+                     hundred pound</measure>. They were receved at the <placeName key="Privy Stairs"
+                     ref="https://cwrc.ca/islandora/object/reed%3Ab09c5a64-fe26-4714-86af-ba1147c52b9b"
+                     >privie stayres</placeName>: and great expectation theyre was that they shold
+                  every way exceed theyre competitors that went before them, both in devise,
+                  daintines, of apparell, and above all in dauncing (wherin they are held excellent)
+                  and esteemed for the properer men: but by what yll planet yt fell out I know not,
+                  they came home as they went without dooing any thing, the reason wherof I cannot
+                  yet learne thoroughly, but only that the hall was so full that yt was not possible
+                  to avoyde yt or make roome for them, besides that most of the Ladies were in the
+                  galleries to see them land, and could not get in: but the worst of all was that
+                     <persName
+                     ref="https://commons.cwrc.ca//reed:949cf318-a2d8-4449-8df0-191275cbb541"
+                     key="James I" type="royalty" xml:id="persName_yj5_tyl_w1c">the King</persName>
+                  was so wearied and sleepie with sitting up almost two whole nights before, that he
+                  had no edge to yt, wherupon <persName
+                     ref="https://commons.cwrc.ca//reed:e907ea02-90e4-476a-a856-fb8268cd7449"
+                     key="Bacon, Francis" type="nobility" xml:id="persName_zj5_tyl_w1c">Sir Fra
+                     Bacon</persName> adventured to intreat his Majestie, that by this disgrace he
+                  wold not as yt were bury them quicke: and I heare <persName
+                     ref="https://commons.cwrc.ca//reed:949cf318-a2d8-4449-8df0-191275cbb541"
+                     key="James I" type="royalty" xml:id="persName_ak5_tyl_w1c">the King</persName>
+                  shold aunswer, that then they must burie him quicke for he could last no longer,
+                  but withall gave them very goode wordes and appointed them to come again on <date
+                     when="1613-02-20">Saterday 12</date>: but the grace of theyre maske is quite
+                  gon when theyre apparell hath ben alredy shewed and theyre devises vented so that
+                  how yt will fall out God knowes, for they are much discouraged, and out of
+                  countenance, and the world sayes yt comes to passe after the old proverb the
+                  properer men the worse lucke.</span> One thing I had almost forgotten for hast
+               that all this time there was a course taken and so notified that no Lady or
+               gentlewoman shold be admitted to any of these sights with a verdingale, which was to
+               gaine the more roome, and I hope may serve to make them quite left of in time. And
+               yet there were more scaffolds and more provision made for roome then ever I saw both
+               in the hall and banketting roome, besides a new roome built to dine, sup and daunce
+               in. And thus in great haste I commit you to God. From <placeName
+                  ref="https://cwrc.ca/islandora/object/reed%3A465d3392-c68a-4f48-9529-fcce5ba406eb"
+                  key="London">London</placeName> this <date when="1613-02-18">18th of February
+                  1612</date>. </p>
+            <closer> Yours most assuredly <signed><persName key="Chamberlain, John"
+                     ref="https://cwrc.ca/islandora/object/reed%3A1bc0d9ab-b2ba-4c4f-865d-51c1e3e11885"
+                     xml:id="persName_bk5_tyl_w1c">JOHN CHAMBERLAIN</persName>.</signed></closer>
+         </div>
+         <div type="letter" xml:id="div_ck5_tyl_w1c">
+            <head>Letter of <persName key="Chamberlain, John"
+                  ref="https://cwrc.ca/islandora/object/reed%3A1bc0d9ab-b2ba-4c4f-865d-51c1e3e11885"
+                  xml:id="persName_dk5_tyl_w1c">John Chamberlain</persName> to <persName
+                  key="Winwood, Ralph"
+                  ref="https://cwrc.ca/islandora/object/reed%3Af6110081-3a4d-4c70-b1cb-352a7878e7e8"
+                  xml:id="persName_ek5_tyl_w1c">Sir Ralph Winwood</persName>, <date
+                  when="1613-02-23">February 23rd, 1613</date></head>
+            <opener>
+               <salute>My very goode Lord:</salute>
+            </opener>
+            <p>Since my last of <date when="1613-02-10">the 10th of this present</date> here hath
+               ben litle to advertise, but the consummation of the <persName key="Stuart, Elizabeth"
+                  ref="https://commons.cwrc.ca//reed:d0db3261-3dd1-4edb-b9a3-16759d7b6696"
+                  type="royalty" xml:id="persName_fk5_tyl_w1c">Lady Elizabeths</persName> mariage
+               with the <persName
+                  ref="https://commons.cwrc.ca//reed:835bd31f-f4b6-42b3-91b3-4338f67cce2a"
+                  key="Frederick V" type="royalty" xml:id="persName_gk5_tyl_w1c">Count
+                  Palatin</persName>, together with the triumphes and shewes both before and after.
+                  <span type="reformation" xml:id="span_hk5_tyl_w1c">I need not tell you how much
+                  this match is to the contentment of all well affected people, and what joy they
+                  take in yt, as beeing a firme foundation for the stablishing of religion, which
+                  (upon what conceit I know not) was before suspected to be in bransle. But the
+                  Roman Catholikes maligne yt as much, and do what they can to disgrace yt as beeing
+                  the ruine of theyre hopes.</span>
+               <persName ref="https://commons.cwrc.ca//reed:1442f99b-687c-4ea8-a468-30ac6995abae"
+                  key="Anne of Denmark" type="royalty" xml:id="persName_ik5_tyl_w1c">The
+                  Quene</persName> that seemed not to taste yt so well at first, is since so come
+               about that she doth all she can to grace yt, and takes speciall comfort in him. <span
+                  type="wedding_ceremony" xml:id="span_jk5_tyl_w1c">The solemnities were performed
+                  in <placeName>the chappell</placeName>, whether <persName key="Stuart, Elizabeth"
+                     ref="https://commons.cwrc.ca//reed:d0db3261-3dd1-4edb-b9a3-16759d7b6696"
+                     type="royalty" xml:id="persName_kk5_tyl_w1c">the bride</persName> was conveyed
+                  on a scaffold or open gallerie all alonge the courtyard, arrayed in white, with
+                  her haire hanging downe long, and a rich coronet on her heade, led by <persName
+                     ref="https://cwrc.ca/islandora/object/reed%3A78551a5c-1784-469f-a0f9-3ccc12c58fb6"
+                     key="Charles I" type="royalty" xml:id="persName_lk5_tyl_w1c">the younge
+                     Prince</persName> and <persName
+                     ref="https://cwrc.ca/islandora/object/reed%3A9d93269f-f754-4ea7-9137-623830364ee6"
+                     key="Howard, Henry" type="nobility" xml:id="persName_mk5_tyl_w1c">the earle of
+                     Northampton</persName> her bride-men: and her traine caried up by thirteen
+                  younge Ladies (or Lords daughters at least) besides five or sixe more that could
+                  not come neere yt, all suted in the same liverie of white and embroiderie. The
+                     <persName ref="https://www.wikidata.org/wiki/Q6139931" key="Montague, James"
+                     type="clergy" xml:id="persName_nk5_tyl_w1c">bishop of Bath and Wells</persName>
+                  preached, and the archbishop performed the other rites and cere- monies upon a
+                  stage raised in the middes of the chappell, on the right side wherof sat <persName
+                     ref="https://commons.cwrc.ca//reed:949cf318-a2d8-4449-8df0-191275cbb541"
+                     key="James I" type="royalty" xml:id="persName_ok5_tyl_w1c">the King</persName>
+                  with <persName
+                     ref="https://cwrc.ca/islandora/object/reed%3A78551a5c-1784-469f-a0f9-3ccc12c58fb6"
+                     key="Charles I" type="royalty" xml:id="persName_pk5_tyl_w1c">the
+                     Prince</persName>, <persName
+                     ref="https://commons.cwrc.ca//reed:835bd31f-f4b6-42b3-91b3-4338f67cce2a"
+                     key="Frederick V" type="royalty" xml:id="persName_qk5_tyl_w1c"
+                     >Palsgrave</persName>, and <persName
+                     ref="https://www.wikidata.org/wiki/Q167236" key="Frederick Henry"
+                     type="royalty" xml:id="persName_rk5_tyl_w1c">Count Henry</persName>, on the
+                  other <persName
+                     ref="https://commons.cwrc.ca//reed:1442f99b-687c-4ea8-a468-30ac6995abae"
+                     key="Anne of Denmark" type="royalty" xml:id="persName_sk5_tyl_w1c"> the
+                     Quene</persName>, with <persName key="Stuart, Elizabeth"
+                     ref="https://commons.cwrc.ca//reed:d0db3261-3dd1-4edb-b9a3-16759d7b6696"
+                     type="royalty" xml:id="persName_tk5_tyl_w1c">the bride</persName>, <persName
+                     key="Keilway, Anne" type="nobility" xml:id="persName_uk5_tyl_w1c">the Lady
+                     Harrington</persName>, and one or two more. The chappell was kept very
+                  straight, and none admitted under the degree of a baron, saving the three Lords
+                  Cheife Justices: the contract and mariage was celebrated all in English, and
+                     <persName
+                     ref="https://commons.cwrc.ca//reed:835bd31f-f4b6-42b3-91b3-4338f67cce2a"
+                     key="Frederick V" type="royalty" xml:id="persName_vk5_tyl_w1c"> the Prince
+                     Palatin</persName> had learned as much as concerned his part reasonable
+                  perfectly. Yt were to no end to write of the curiositie and excesse of braverie
+                  both of men and women: with the extreme daubing on of cost and riches, only a
+                  touch shall serve in a few for a pattern of the rest. <persName
+                     key="Wotton, Margaret" type="nobility" xml:id="persName_wk5_tyl_w1c">The Lady
+                     Wotton</persName> was saide to have a gowne that cost fifty pound a yeard the
+                  embrodering: and <persName key="Browne, Anthony-Maria"
+                     ref="https://www.wikidata.org/wiki/Q4771943" type="nobility"
+                     xml:id="persName_xk5_tyl_w1c">the Lord Montague</persName> (that hath paide
+                  reasonable well for recusancie) bestowed 1500 in apparell upon his two
+                  daughters.</span>
+               <span type="wedding_banquet" xml:id="span_jsb_dpr_w1c">The <persName
+                     ref="https://commons.cwrc.ca//reed:835bd31f-f4b6-42b3-91b3-4338f67cce2a"
+                     key="Frederick V" type="royalty" xml:id="persName_yk5_tyl_w1c"
+                     >bridegroome</persName> and <persName key="Stuart, Elizabeth"
+                     ref="https://commons.cwrc.ca//reed:d0db3261-3dd1-4edb-b9a3-16759d7b6696"
+                     type="royalty" xml:id="persName_zk5_tyl_w1c">bride</persName> with <persName
+                     ref="https://cwrc.ca/islandora/object/reed%3A78551a5c-1784-469f-a0f9-3ccc12c58fb6"
+                     key="Charles I" type="royalty" xml:id="persName_al5_tyl_w1c">the
+                     Prince</persName>, <persName key="Lefevre, Antoine"
+                     ref="https://www.wikidata.org/wiki/Q107355633" type="diplomat"
+                     xml:id="persName_bl5_tyl_w1c">French</persName>, <persName
+                     ref="https://cwrc.ca/islandora/object/reed%3Acc8af01d-a0ab-4e76-9b86-b58cb84112d4"
+                     key="Foscarini, Antonio" type="diplomat" xml:id="persName_cl5_tyl_w1c"
+                     >Venetian</persName>, <persName ref="https://www.wikidata.org/wiki/Q167236"
+                     key="Frederick Henry" type="royalty" xml:id="persName_dl5_tyl_w1c">Count
+                     Henry</persName> and <persName
+                     ref="https://commons.cwrc.ca//reed:d9e20431-6301-4f3c-99d5-af2c072b1763"
+                     key="Caron, Noel" type="diplomat" xml:id="persName_el5_tyl_w1c"
+                     >States</persName> ambassadors dined in a roome built of purpose for this
+                  mariage. <persName key="Sarmiento, Diego"
+                     ref="https://www.wikidata.org/wiki/Q451093" type="diplomat"
+                     xml:id="persName_fl5_tyl_w1c">The Spaniard</persName> was, or wold be sicke,
+                  and <persName type="diplomat" xml:id="persName_gl5_tyl_w1c">the archdukes
+                     ambassador</persName> beeing invited for the next day made his excuse, and the
+                  ambassadors that were present, were not altogether pleased (as I heare) but every
+                  one found some puntillo of disgust.</span>
+               <span type="scotland" xml:id="span_hl5_tyl_w1c">There was a matter happened the same
+                  day, which though yt were not then so much noted, hath since bred much speach:
+                     <persName key="Lindsay, David" type="nobility" xml:id="persName_il5_tyl_w1c"
+                     >Lion the Scottish king of Heralds</persName> beeing expresly sent for, ware a
+                  rich coate of armes (provided here) with the armes of Scotland before England;
+                  which is thought to be a great affront offered at such a time, in such a place, to
+                  such a people.</span>
+               <span xml:id="span_jl5_tyl_w1c">Now for the fire works and fight upon the water, (the
+                  one performed the <date when="1613-02-11">Thursday night</date>, the other on
+                     <date when="1613-02-13">Saterday</date> in the afternoone before the mariage)
+                  there was nothing in either aunswerable to the great expectation conceved, or the
+                  cost bestowed, which amounted to more than 9000 so that according to the proverb
+                  Parturiunt montes et ct. Marry they pretend the best was kept backe for another
+                  day, but <persName
+                     ref="https://commons.cwrc.ca//reed:949cf318-a2d8-4449-8df0-191275cbb541"
+                     key="James I" type="royalty" xml:id="persName_kl5_tyl_w1c">the King</persName>
+                  and indeed all the companie were so sufficiently unsatisfied with this, that they
+                  cared not nor desired to see any more, the rather for that there was much hurt
+                  don, and divers maymed.</span>
+               <span type="lords_masque" xml:id="span_ll5_tyl_w1c"><title key="The Lords' Masque"
+                     ref="https://www.luminarium.org/editions/lordsmask.htm">The Lords maske</title>
+                  likewise on <date when="1613-02-14">the mariage night</date>, though yt were very
+                  rich and sumptuous, yet yt was very long and tedious, and with many devises more
+                  like a play then a maske,</span>
+               <span type="memorable_masque" xml:id="span_ml5_tyl_w1c">but the <orgName
+                     key="Middle Temple" ref="https://www.wikidata.org/wiki/Q925942">Middle
+                     Templers</orgName> and <orgName key="Lincoln's Inn"
+                     ref="https://www.wikidata.org/wiki/Q69482">Lincolns Ynne</orgName> gave great
+                  contentment on <date when="1613-02-15">Monday night</date>, as well with theyre
+                  gracefull comming on horsebacke, as in all the rest of theyre apt invention,
+                  apparell, fashion, and specially theyre excellent dauncing, wherewith <persName
+                     ref="https://commons.cwrc.ca//reed:949cf318-a2d8-4449-8df0-191275cbb541"
+                     key="James I" type="royalty" xml:id="persName_nl5_tyl_w1c">the King</persName>
+                  was so much delighted that he gave them many thancks, and much commendation as
+                  well to theyre faces as behind theyre backs.</span>
+               <span type="inner_temple_grays_inn" xml:id="span_ol5_tyl_w1c">But the next day our
+                     <orgName key="Gray's Inn" ref="https://www.wikidata.org/wiki/Q157412">Grayes
+                     Ynne</orgName> men and the <orgName
+                     ref="https://www.wikidata.org/wiki/Q1233784" key="Inner Temple">Inner
+                     Temple</orgName> had not the same fortune, though they deserved no lesse for
+                  striving to varie from theyre competitors, (and theyre devise beeing the marieng
+                  of the <placeName key="River Thames"
+                     ref="https://cwrc.ca/islandora/object/reed%3A3d70535d-3e2d-43a8-8fa7-ed92c9eab859"
+                     >Thames</placeName> to the <placeName ref="https://www.wikidata.org/wiki/Q584"
+                     key="Rhine">Rhine</placeName>,) they made choise to go by water from <placeName
+                     key="Winchester Palace"
+                     ref="https://cwrc.ca/islandora/object/reed%3A9e0a8e53-8a1e-487b-b15f-249f068c6642"
+                     >Winchester-house</placeName> in <placeName key="Southwark"
+                     ref="https://cwrc.ca/islandora/object/reed%3A1fdd3059-1e28-4017-a31f-b6b48e084293"
+                     >Southwarke</placeName>, with theyre boats and barges excedingly trimmed, and
+                  furnished with store of lights that made a glorious shew, and three peale of
+                  ordinance (at theyre taking water, at theyre passing by the <placeName
+                     ref="https://cwrc.ca/islandora/object/reed%3Ae76c726f-af01-4bdd-a761-62eb4465e9ab"
+                     key="Temple Garden">Temple</placeName>, and at theyre landing,) which passage
+                  by water cost them better then 300. But when they were landed at the court, (by
+                  what mischaunce I know not) they were faine to return as they went without dooing
+                  any thing, the reason wherof some say was because the hall was so full that yt
+                  could not be avoyded nor roome made for them, and most of the principall Ladies
+                  (that were in the galleries to see theyre landing) excluded: but the most probable
+                  is that <persName
+                     ref="https://commons.cwrc.ca//reed:949cf318-a2d8-4449-8df0-191275cbb541"
+                     key="James I" type="royalty" xml:id="persName_pl5_tyl_w1c">the King</persName>
+                  was so satiated, and overwearied with watching the two nights before, that he
+                  could hold out no longer and so was driven to put yt of till <date
+                     when="1613-02-20">Saterday</date>, when yt was very well performed in
+                     <placeName
+                     ref="https://cwrc.ca/islandora/object/reed%3A77ab9e87-b784-4f84-be23-99b22e610551"
+                     key="Banqueting House">the new banketing house</placeName>, which for a kind of
+                  amends was graunted to them though with much repining and contradiction of theyre
+                  emulators.</span>
+               <span type="masquing_banquet" xml:id="span_jyy_ypr_w1c">The next day <persName
+                     ref="https://commons.cwrc.ca//reed:949cf318-a2d8-4449-8df0-191275cbb541"
+                     key="James I" type="royalty" xml:id="persName_ql5_tyl_w1c">the King</persName>
+                  made them all a solemne supper in the new mariage roome, and used them so well and
+                  graciously that he sent both parties away well pleased. At this great solemnitie
+                  there was no creation of noblemen, nor making of knights as was most assuredly
+                  expected, the reason wherof is diversly interpreted.</span> The speach is now who
+               shalbe commissioners to conduct <persName key="Stuart, Elizabeth"
+                  ref="https://commons.cwrc.ca//reed:d0db3261-3dd1-4edb-b9a3-16759d7b6696"
+                  type="royalty" xml:id="persName_rl5_tyl_w1c">the Lady Elizabeth</persName> home,
+               and to see her and her joynter well setled: <persName
+                  ref="https://cwrc.ca/islandora/object/reed%3Ad9133dd9-5859-4a01-8c50-e7c202e3de4a"
+                  key="Stewart, Ludovick" type="nobility" xml:id="persName_sl5_tyl_w1c">the Duke of
+                  Lennox</persName>, <persName key="Howard, Thomas"
+                  ref="https://cwrc.ca/islandora/object/reed%3A81b94252-85db-4bb8-bf58-095975bce47d"
+                  type="nobility" xml:id="persName_tl5_tyl_w1c">the earle of Arundell</persName>,
+                  <persName key="Sidney, Robert"
+                  ref="https://cwrc.ca/islandora/object/reed%3Ad7fd6ac2-00cd-4fc5-a9ed-76c8feac9264"
+                  type="nobility" xml:id="persName_ul5_tyl_w1c">the vicount Lile</persName>,
+                  <persName key="la Zouche, Edward" ref="https://www.wikidata.org/wiki/Q5346053"
+                  type="nobility" xml:id="persName_vl5_tyl_w1c">the Lord Zouch</persName> and
+                  <persName key="Harington, John" ref="https://www.wikidata.org/wiki/Q11802898"
+                  type="nobility" xml:id="persName_wl5_tyl_w1c">the Lord Harrington</persName> are
+               named, and <persName key="Munck, Levinus"
+                  ref="https://www.wikidata.org/wiki/Q53647399" type="politician"
+                  xml:id="persName_xl5_tyl_w1c">Levinus</persName> for secretarie in that service. I
+               doubt not but you have heard of the death of the <persName key="Tracy, Dorothy"
+                  ref="https://www.wikidata.org/wiki/Q75495263" type="nobility"
+                  xml:id="persName_yl5_tyl_w1c">Lady Conway</persName>, and the <persName
+                  key="Sackville, Mary" ref="https://www.wikidata.org/wiki/Q75254322"
+                  type="nobility" xml:id="persName_zl5_tyl_w1c">Lady Mary Nevill </persName> (the
+                  <persName key="Sackville, Thomas"
+                  ref="https://cwrc.ca/islandora/object/reed%3A0f0afa57-0793-47a1-9347-9ad8e6fced71"
+                  type="nobility" xml:id="persName_am5_tyl_w1c">Lord Treasurer Dorsets</persName>
+               daughter): yesterday there was a sodain bruit that the <persName
+                  key="la Zouche, Edward" ref="https://www.wikidata.org/wiki/Q5346053"
+                  type="nobility" xml:id="persName_bm5_tyl_w1c">Lord Zouch</persName> was dead or in
+               great daunger. <persName
+                  ref="https://commons.cwrc.ca//reed:949cf318-a2d8-4449-8df0-191275cbb541"
+                  key="James I" type="royalty" xml:id="persName_cm5_tyl_w1c">The King</persName>
+               went <date when="1613-02-22">yesterday</date> to <placeName key="Theobalds House"
+                  ref="https://www.wikidata.org/wiki/Q512922">Tiballs</placeName> and so toward
+                  <placeName key="Royston" ref="https://www.wikidata.org/wiki/Q19804"
+                  >Roiston</placeName> and <placeName key="Newmarket"
+                  ref="https://www.wikidata.org/wiki/Q1382713">Newmarket</placeName> to enjoy this
+               fayre weather, and <persName
+                  ref="https://commons.cwrc.ca//reed:835bd31f-f4b6-42b3-91b3-4338f67cce2a"
+                  key="Frederick V" type="royalty" xml:id="persName_dm5_tyl_w1c">the Count
+                  Palatin</persName> is to follow that way, and so to
+                  <placeName>Cambrige</placeName> very shortly. <persName
+                  ref="https://commons.cwrc.ca//reed:1442f99b-687c-4ea8-a468-30ac6995abae"
+                  key="Anne of Denmark" type="royalty" xml:id="persName_em5_tyl_w1c">The
+                  Quene</persName> removes this weeke to <placeName key="Greenwich"
+                  ref="https://www.wikidata.org/wiki/Q179385">Greenwich</placeName>: and this beeing
+               all I have for the present I will commend your goode Lady and all yours to Gods holy
+               protection. From <placeName key="London"
+                  ref="https://cwrc.ca/islandora/object/reed%3A465d3392-c68a-4f48-9529-fcce5ba406eb"
+                  >London</placeName> this <date when="1612-02-23">23th of February 1612</date>. </p>
+            <closer>Your Lordships to commaund <signed>
+                  <persName key="Chamberlain, John"
+                     ref="https://cwrc.ca/islandora/object/reed%3A1bc0d9ab-b2ba-4c4f-865d-51c1e3e11885"
+                     xml:id="persName_fm5_tyl_w1c">JOHN CHAMBERLAIN</persName>.</signed></closer>
+         </div>
+         <div type="letter" xml:id="div_gm5_tyl_w1c">
+            <head>Letter of <persName key="Chamberlain, John"
+                  ref="https://cwrc.ca/islandora/object/reed%3A1bc0d9ab-b2ba-4c4f-865d-51c1e3e11885"
+                  xml:id="persName_hm5_tyl_w1c">John Chamberlain</persName> to <persName
+                  key="Carleton, Dudley"
+                  ref="https://cwrc.ca/islandora/object/reed%3Aea5d1e93-c02c-4916-b479-c54e2c59c780"
+                  xml:id="persName_im5_tyl_w1c">Sir Dudley Carleton</persName>, <date
+                  when="1613-02-25">February 25th, 1613</date></head>
+            <opener>
+               <salute>My very goode Lord:</salute>
+            </opener>
+            <p xml:id="p_ck4_nyl_w1c"> t seemes by your letter of <date when="1613-01-22">the 22th
+                  of the last</date>, that since mine of <date when="1612-12-17">the 17th of
+                  December</date>, two ordinaries together came empty; the reason wherof I cannot
+               conceve, seeing I have not fayled any weeke since that time of writing to <persName
+                  key="Carleton, Dudley"
+                  ref="https://cwrc.ca/islandora/object/reed%3Aea5d1e93-c02c-4916-b479-c54e2c59c780"
+                  type="diplomat" xml:id="persName_jm5_tyl_w1c">you</persName> or <persName
+                  ref="https://commons.cwrc.ca//reed:2f86d34f-63e4-4cc0-b6c5-65bc73c69115"
+                  key="Carleton, Alice" xml:id="persName_km5_tyl_w1c">Mistris Carleton</persName>,
+               or both. <persName key="Wake, Isaac" ref="https://www.wikidata.org/wiki/Q6077284"
+                  type="diplomat" xml:id="persName_lm5_tyl_w1c">Master Waake</persName> is now in
+               procinctu, having taken his leave of <persName
+                  ref="https://commons.cwrc.ca//reed:949cf318-a2d8-4449-8df0-191275cbb541"
+                  key="James I" type="royalty" xml:id="persName_mm5_tyl_w1c">his Majestie</persName>
+               and stayes only for his dispatch and letters, which he hath, or is promised to have
+               this day at the farthest. On Friday <persName key="Cope, Walter"
+                  ref="https://www.wikidata.org/wiki/Q7964595" type="nobility"
+                  xml:id="persName_nm5_tyl_w1c">Sir Walter Cope</persName> sent for me to see a
+               sacrifice made of your papers, which in the presence of <persName key="Cope, Anthony"
+                  ref="https://www.wikidata.org/wiki/Q7526008" type="nobility"
+                  xml:id="persName_om5_tyl_w1c">Sir Antony Cope</persName> and myself he threw into
+               the fire and saw them consumed, beeing to my remembrance fowre or five, I know not
+               whether. <persName
+                  ref="https://commons.cwrc.ca//reed:949cf318-a2d8-4449-8df0-191275cbb541"
+                  key="James I" type="royalty" xml:id="persName_pm5_tyl_w1c">The King</persName>
+               went away on <date when="1613-02-22">Monday</date> to <placeName
+                  key="Theobalds House" ref="https://www.wikidata.org/wiki/Q512922"
+                  >Tiballs</placeName> and so toward <placeName key="Royston"
+                  ref="https://www.wikidata.org/wiki/Q19804">Roiston</placeName> and <placeName
+                  key="Newmarket" ref="https://www.wikidata.org/wiki/Q1382713"
+               >Newmarket</placeName>, whence he is not expected till <date when="1613-03-22">the
+                  22th of March</date>. <persName
+                  ref="https://cwrc.ca/islandora/object/reed%3A78551a5c-1784-469f-a0f9-3ccc12c58fb6"
+                  key="Charles I" type="royalty" xml:id="persName_qm5_tyl_w1c">The Prince</persName>
+               and <persName
+                  ref="https://commons.cwrc.ca//reed:835bd31f-f4b6-42b3-91b3-4338f67cce2a"
+                  key="Frederick V" type="royalty" xml:id="persName_rm5_tyl_w1c">Count
+                  Palatin</persName> follow him this day, and meane the next weeke to visit
+                  <placeName key="Cambridge" ref="https://www.wikidata.org/wiki/Q350"
+                  >Cambrige</placeName>: and there is speach that before Easter they will make a
+               progresse to <placeName key="Oxford" ref="https://www.wikidata.org/wiki/Q34217"
+                  >Oxford</placeName>: which wilbe a goode errand for <persName
+                  ref="https://commons.cwrc.ca//reed:835bd31f-f4b6-42b3-91b3-4338f67cce2a"
+                  key="Frederick V" type="royalty" xml:id="persName_sm5_tyl_w1c">the young maried
+                  gentleman</persName>, whose frends and followers wish he might oftener have
+               occasion to visit <persName xml:id="persName_tm5_tyl_w1c">his uncle</persName>. <span
+                  type="reformation" xml:id="span_um5_tyl_w1c">All well affected people take great
+                  pleasure and contentment in this match, as beeing a firme foundation and
+                  stablishing of religion, which (upon what ground I know not) was before suspected
+                  to be in bransle: and the Roman Catholikes maligne yt as much, as beeing the ruine
+                  of theyre hopes.</span>
+               <persName ref="https://commons.cwrc.ca//reed:1442f99b-687c-4ea8-a468-30ac6995abae"
+                  key="Anne of Denmark" type="royalty" xml:id="persName_vm5_tyl_w1c">The
+                  Quene</persName> likewise is well come about, and graces yt all she can and seemes
+               to take speciall comfort in him. Yesterday was the great christning of the <persName
+                  key="Cecil, William" ref="https://www.wikidata.org/wiki/Q4019960" type="nobility"
+                  xml:id="persName_wm5_tyl_w1c">earle of Salisberies</persName>
+               <persName key="Cecil, Anne" ref="https://www.wikidata.org/wiki/Q16527030"
+                  type="nobility" xml:id="persName_xm5_tyl_w1c">daughter</persName> in the chappell
+               at court, whence <persName
+                  ref="https://commons.cwrc.ca//reed:1442f99b-687c-4ea8-a468-30ac6995abae"
+                  key="Anne of Denmark" type="royalty" xml:id="persName_ym5_tyl_w1c">the
+                  Quene</persName>, <persName
+                  ref="https://cwrc.ca/islandora/object/reed%3A78551a5c-1784-469f-a0f9-3ccc12c58fb6"
+                  key="Charles I" type="royalty" xml:id="persName_zm5_tyl_w1c">Prince</persName>,
+                  <persName ref="https://commons.cwrc.ca//reed:835bd31f-f4b6-42b3-91b3-4338f67cce2a"
+                  key="Frederick V" type="royalty" xml:id="persName_an5_tyl_w1c">Palatin</persName>,
+                  <persName key="Stuart, Elizabeth"
+                  ref="https://commons.cwrc.ca//reed:d0db3261-3dd1-4edb-b9a3-16759d7b6696"
+                  type="royalty" xml:id="persName_bn5_tyl_w1c">Lady Elizabeths highnes</persName>
+               and all the companie convoyed yt home and went by water to the banket. <persName
+                  ref="https://commons.cwrc.ca//reed:1442f99b-687c-4ea8-a468-30ac6995abae"
+                  key="Anne of Denmark" type="royalty" xml:id="persName_cn5_tyl_w1c">The
+                  Quene</persName> removes to morrow to <placeName key="Greenwich"
+                  ref="https://www.wikidata.org/wiki/Q179385">Grenwich</placeName> to injoy this
+               fayre weather which hath ben exceding cleere, sweet and pleasant almost this fort-
+               night. <span type="masques" xml:id="span_xj2_xqr_w1c">Our revells and triumphes
+                  within doores gave great contentment beeing both daintie and curious in devise and
+                  sumptuous in shew: specially the ynnes of court whose two maskes stoode them in
+                  better then 4000 besides the gallantrie and expence of private gentlemen, that
+                  were but ante-ambulones and went only to accompanie them.</span>
+               <span type="inner_temple_grays_inn" xml:id="span_dn5_tyl_w1c">And our <orgName
+                     key="Gray's Inn" ref="https://www.wikidata.org/wiki/Q157412">Grayes
+                     Ynne</orgName> men and the <orgName
+                     ref="https://www.wikidata.org/wiki/Q1233784" key="Inner Temple">Ynner
+                     Templers</orgName> were nothing discouraged for all the first dodge, but on
+                     <date when="1613-02-20">Saterday last</date> performed theyre parts exceding
+                  well, and with great applause and approbation both from <persName
+                     ref="https://commons.cwrc.ca//reed:949cf318-a2d8-4449-8df0-191275cbb541"
+                     key="James I" type="royalty" xml:id="persName_en5_tyl_w1c">the King</persName>
+                  and all the companie.</span>
+               <span type="masquing_banquet" xml:id="span_bmf_jrr_w1c">The next night <persName
+                     ref="https://commons.cwrc.ca//reed:949cf318-a2d8-4449-8df0-191275cbb541"
+                     key="James I" type="royalty" xml:id="persName_fn5_tyl_w1c">the King</persName>
+                  invited the <name type="occupation">maskers</name> with theyre assistants to the
+                  number of forty to a solemne supper in the new mariage roome, where they were well
+                  treated and much graced with kissing his Majesties hand, and every one having a
+                  particuler accoglienza from him. <span type="running_at_the_ring"
+                     xml:id="span_js4_gyr_w1c"><persName
+                        ref="https://commons.cwrc.ca//reed:949cf318-a2d8-4449-8df0-191275cbb541"
+                        key="James I" type="royalty" xml:id="persName_gn5_tyl_w1c">The
+                        King</persName> husbanded the matter so well that this feast was not at his
+                     owne cost, but he and his companie wan yt upon a wager of running at the ring
+                     of <persName
+                        ref="https://cwrc.ca/islandora/object/reed%3A78551a5c-1784-469f-a0f9-3ccc12c58fb6"
+                        key="Charles I" type="royalty" xml:id="persName_hn5_tyl_w1c">the
+                        Prince</persName> and his nine followers, who payed thirty pound a
+                     man:</span> the <persName
+                     ref="https://commons.cwrc.ca//reed:949cf318-a2d8-4449-8df0-191275cbb541"
+                     key="James I" type="royalty" xml:id="persName_in5_tyl_w1c">King</persName>,
+                     <persName
+                     ref="https://commons.cwrc.ca//reed:1442f99b-687c-4ea8-a468-30ac6995abae"
+                     key="Anne of Denmark" type="royalty" xml:id="persName_jn5_tyl_w1c"
+                     >Quene</persName>, <persName
+                     ref="https://cwrc.ca/islandora/object/reed%3A78551a5c-1784-469f-a0f9-3ccc12c58fb6"
+                     key="Charles I" type="royalty" xml:id="persName_kn5_tyl_w1c">Prince</persName>,
+                     <persName
+                     ref="https://commons.cwrc.ca//reed:835bd31f-f4b6-42b3-91b3-4338f67cce2a"
+                     key="Frederick V" type="royalty" xml:id="persName_ln5_tyl_w1c"
+                     >Palatin</persName> and <persName key="Stuart, Elizabeth"
+                     ref="https://commons.cwrc.ca//reed:d0db3261-3dd1-4edb-b9a3-16759d7b6696"
+                     type="royalty" xml:id="persName_mn5_tyl_w1c">Lady Elizabeth</persName> sat at
+                  table by themselves: and the great Lords and Ladies with the maskers (above
+                  fowrescore in all) sat at another long table, so that there was no roome for them
+                  that made the feast but they were faine to be lookers on, which the <persName
+                     key="Rich, Isabel" ref="https://www.wikidata.org/wiki/Q50322914"
+                     type="nobility" xml:id="persName_nn5_tyl_w1c">young Lady Rich</persName>' tooke
+                  no great pleasure in to see <persName key="Rich, Henry"
+                     ref="https://www.wikidata.org/wiki/Q3131912" type="nobility"
+                     xml:id="persName_on5_tyl_w1c">her husband</persName> (who was one that payde)
+                  not so much as drincke for his monie.</span> The ambassadors that were at this
+               wedding and shewes were the <persName key="Lefevre, Antoine"
+                  ref="https://www.wikidata.org/wiki/Q107355633" type="diplomat"
+                  xml:id="persName_pn5_tyl_w1c">French</persName>, <persName
+                  ref="https://cwrc.ca/islandora/object/reed%3Acc8af01d-a0ab-4e76-9b86-b58cb84112d4"
+                  key="Foscarini, Antonio" type="diplomat" xml:id="persName_qn5_tyl_w1c"
+                  >Venetian</persName>, <persName ref="https://www.wikidata.org/wiki/Q167236"
+                  key="Frederick Henry" type="royalty" xml:id="persName_rn5_tyl_w1c">Count
+                  Henry</persName> and <persName
+                  ref="https://commons.cwrc.ca//reed:d9e20431-6301-4f3c-99d5-af2c072b1763"
+                  key="Caron, Noel" type="diplomat" xml:id="persName_sn5_tyl_w1c">Caron</persName>
+               for the States: <persName key="Sarmiento, Diego"
+                  ref="https://www.wikidata.org/wiki/Q451093" type="diplomat"
+                  xml:id="persName_tn5_tyl_w1c">the Spaniard</persName> was, or wold be sicke, and
+                  <persName type="diplomat" xml:id="persName_un5_tyl_w1c">the archdukes
+                  ambassador</persName> beeing invited for the second day made a sullen excuse: and
+               those that were present were not altogether so pleased, but that I heare every one
+               had some puntillo of disgust. <persName
+                  ref="https://cwrc.ca/islandora/object/reed%3Ad9133dd9-5859-4a01-8c50-e7c202e3de4a"
+                  key="Stewart, Ludovick" type="nobility" xml:id="persName_vn5_tyl_w1c">The Duke of
+                  Lennox</persName>, <persName key="Sidney, Robert"
+                  ref="https://cwrc.ca/islandora/object/reed%3Ad7fd6ac2-00cd-4fc5-a9ed-76c8feac9264"
+                  type="nobility" xml:id="persName_wn5_tyl_w1c">the Vicount Lile</persName>,
+                  <persName key="la Zouche, Edward" ref="https://www.wikidata.org/wiki/Q5346053"
+                  type="nobility" xml:id="persName_xn5_tyl_w1c">the Lord Zouch</persName>, and
+                  <persName key="Harington, John" ref="https://www.wikidata.org/wiki/Q11802898"
+                  type="nobility" xml:id="persName_yn5_tyl_w1c">the Lord Harrington</persName> are
+               in speach to be commissioners to go over with <persName key="Stuart, Elizabeth"
+                  ref="https://commons.cwrc.ca//reed:d0db3261-3dd1-4edb-b9a3-16759d7b6696"
+                  type="royalty" xml:id="persName_zn5_tyl_w1c">the Lady Elizabeth</persName>, to see
+               her and her joynter setled, and <persName
+                  ref="https://www.wikidata.org/wiki/Q53647399" key="Munck, Levinus"
+                  type="politician" xml:id="persName_a45_tyl_w1c">Levinus</persName> is named
+               secretarie for that service. I heare <persName key="Howard, Thomas"
+                  ref="https://cwrc.ca/islandora/object/reed%3A81b94252-85db-4bb8-bf58-095975bce47d"
+                  type="nobility" xml:id="persName_b45_tyl_w1c">the earle of Arundell</persName> is
+               added to the number, who meanes to carry over <persName key="Howard, Alethea"
+                  ref="https://www.wikidata.org/wiki/Q83520" type="nobility"
+                  xml:id="persName_c45_tyl_w1c">his Lady</persName>, and no doubt they will both
+               make another viage into <placeName key="Italy"
+                  ref="https://www.wikidata.org/wiki/Q38">Italie</placeName>. Till the very howre
+               that <persName
+                  ref="https://commons.cwrc.ca//reed:949cf318-a2d8-4449-8df0-191275cbb541"
+                  key="James I" type="royalty" xml:id="persName_d45_tyl_w1c">the King</persName>
+               went hence men were still in suspence, and great expectation there was of new
+               officers, and <persName ref="https://www.wikidata.org/wiki/Q2775812"
+                  key="Neville, Henry" type="nobility" xml:id="persName_e45_tyl_w1c">Sir H.
+                  N.</persName> frends made full account of him from day to day, but beeing now
+               driven from that hold, they spin out theyre hopes till <persName
+                  key="Stuart, Elizabeth"
+                  ref="https://commons.cwrc.ca//reed:d0db3261-3dd1-4edb-b9a3-16759d7b6696"
+                  type="royalty" xml:id="persName_f45_tyl_w1c">the Lady Elizabeth</persName> be past
+                  <placeName key="Low Countries" ref="https://www.wikidata.org/wiki/Q476033">the
+                  Lowcountries</placeName>, and then we shall see what will become of <persName
+                  key="Winwood, Ralph"
+                  ref="https://cwrc.ca/islandora/object/reed%3Af6110081-3a4d-4c70-b1cb-352a7878e7e8"
+                  type="diplomat" xml:id="persName_g45_tyl_w1c">our goode frend</persName> there,
+               for whom one place is thought to be reserved, and for my part I thincke yt most
+               probable but yf we fayle then yt shalbe the last time of my looking at any such
+               busines. We were much deceved likewise in our expectation of new creations of noble
+               men and knightings, at these solemnities, for <persName
+                  ref="https://commons.cwrc.ca//reed:949cf318-a2d8-4449-8df0-191275cbb541"
+                  key="James I" type="royalty" xml:id="persName_h45_tyl_w1c">the King</persName>
+               wold not be drawne to yt by any meanes, which hath mard the market, or rather raised
+               the price to extraordinarie rate. Only the <persName
+                  ref="https://www.wikidata.org/wiki/Q2485335" key="Chichester, Arthur"
+                  type="nobility" xml:id="persName_i45_tyl_w1c">Deputie of Ireland</persName> is
+               made Lord Chichester of <placeName key="Belfast"
+                  ref="https://www.wikidata.org/wiki/Q10686">Belfast</placeName> against the
+               parlement that is to be held there in May. This weeke here died the <persName
+                  key="Sackville, Mary" ref="https://www.wikidata.org/wiki/Q75254322"
+                  type="nobility" xml:id="persName_j45_tyl_w1c">Lady Mary Nevill</persName>
+               (daughter to the late <persName key="Sackville, Thomas"
+                  ref="https://cwrc.ca/islandora/object/reed%3A0f0afa57-0793-47a1-9347-9ad8e6fced71"
+                  type="nobility" xml:id="persName_k45_tyl_w1c">treasurer Dorset</persName>), of a
+               longe languishing sicknes; and the <persName key="Tracy, Dorothy"
+                  ref="https://www.wikidata.org/wiki/Q75495263" type="nobility"
+                  xml:id="persName_l45_tyl_w1c">Lady Conway of the Brill</persName> much after the
+               same sort, as likewise <persName key="Cooke, William"
+                  ref="https://www.wikidata.org/wiki/Q8007084" type="nobility"
+                  xml:id="persName_m45_tyl_w1c">Sir William Cookes </persName><persName
+                  key="Lucy, Joyce" ref="https://www.wikidata.org/wiki/Q75762630" type="nobility"
+                  xml:id="persName_n45_tyl_w1c">Lady</persName> of <placeName
+                  ref="https://cwrc.ca/islandora/object/reed%3A3df1eaea-ed54-41a7-9048-ca4b2528086a"
+                  key="Charing Cross">Charing Crosse</placeName>. <persName key="Savile, Henry"
+                  ref="https://www.wikidata.org/wiki/Q711589" type="nobility"
+                  xml:id="persName_o45_tyl_w1c">Sir Henry Savile</persName> shewed me the last weeke
+               his notes taken in the reading of <persName key="Bodley, Thomas"
+                  ref="https://www.wikidata.org/wiki/Q765673" type="nobility"
+                  xml:id="persName_p45_tyl_w1c">Sir Thomas Bodleys</persName> life, written by
+               himself in seven sheets of paper with vanitie enough, wherin omitting not the least
+               minutezze that might turne to his glorie, he doth not so much as make mention of
+                  <persName key="Carew, Ann" type="nobility" xml:id="persName_q45_tyl_w1c">his
+                  wife</persName>, nor that he was maried; nor of <persName
+                  key="Walsingham, Francis" ref="https://www.wikidata.org/wiki/Q138409"
+                  type="politician" xml:id="persName_r45_tyl_w1c">Secretarie Walsingham</persName>
+               nor the <persName key="Dudley, Robert" ref="https://www.wikidata.org/wiki/Q318017"
+                  type="nobility" xml:id="persName_s45_tyl_w1c">earle of Lecester</persName>, who
+               were all his maine raisers, whereby may be seen, what mind he caried to his best
+               benefactors. Here was an odde fray fell out the last weeke twixt one <persName
+                  key="Hutchinson, Thomas" ref="https://www.wikidata.org/wiki/Q7790934"
+                  type="politician" xml:id="persName_t45_tyl_w1c">Huchinson</persName> of <orgName
+                  key="Gray's Inn" ref="https://www.wikidata.org/wiki/Q157412">Grayes Ynne</orgName>
+               and <persName key="Poole, German" type="nobility" xml:id="persName_u45_tyl_w1c">Sir
+                  German Poole</persName>, who assaulting the other upon advantage, hurt him in
+               three or fowre places, and cut of three of his fingers before he could draw his
+               weapon, wherupon inraged he flew upon him and getting him downe bit of a goode part
+               of his nose and caried yt away in his pocket. I had almost forgotten one accident at
+               this late wedding, which was not then much noted, but is since much spoken of. <span
+                  type="scotland" xml:id="span_zgw_cyr_w1c"><persName key="Lindsay, David"
+                     type="politician" xml:id="persName_v45_tyl_w1c">Lion the Scottish king of
+                     Heralds</persName> beeing expressly sent for, had a rich coat of armes provided
+                  here, with the armes of Scotland before those of England, and ware yt (as he
+                  saide) by commaundment, which is not much inquired into but howsoever yt is
+                  thought a strange affront offered at such a time in such a place to such a
+                  people.</span> So with all due remembrance to my Lady and <persName
+                  key="Carleton, Anne" ref="https://www.wikidata.org/wiki/Q21556532"
+                  xml:id="persName_w45_tyl_w1c">Mistris Carleton</persName> I commend you to the
+               protection of the Almighty. From London this <date when="1613-02-25">25th of February
+                  1612</date>. </p>
+            <closer>Your Lordships to commaund <signed><persName key="Chamberlain, John"
+                     ref="https://cwrc.ca/islandora/object/reed%3A1bc0d9ab-b2ba-4c4f-865d-51c1e3e11885"
+                     xml:id="persName_x45_tyl_w1c">JOHN CHAMBERLAIN</persName></signed>.</closer>
+         </div>
+         <div type="index" xml:id="div_y45_tyl_w1c">
+            <list>
+               <item>
+                  <ref
+                     target="#span_b35_tyl_w1c #span_jl5_tyl_w1c #span_c35_tyl_w1c #span_d35_tyl_w1c #span_jk5_tyl_w1c #span_oxc_r5m_w1c #span_jsb_dpr_w1c #span_dj5_tyl_w1c #span_ll5_tyl_w1c #span_qj5_tyl_w1c #span_ml5_tyl_w1c #span_xj2_xqr_w1c #span_wj5_tyl_w1c #span_ol5_tyl_w1c #span_xj2_xqr_w1c #span_dn5_tyl_w1c #span_jyy_ypr_w1c #span_bmf_jrr_w1c #span_ywv_z5m_w1c #span_js4_gyr_w1c"
+                     >Wedding Events</ref>
+                  <list>
+                     <head>Wedding Events</head>
+                     <item><ref target="#span_b35_tyl_w1c #span_jl5_tyl_w1c">Fireworks</ref></item>
+                     <item><ref target="#span_c35_tyl_w1c #span_jl5_tyl_w1c"
+                        >Water-Fight</ref></item>
+                     <item><ref target="#span_d35_tyl_w1c #span_jk5_tyl_w1c">Wedding
+                        Ceremony</ref></item>
+                     <item><ref target="#span_oxc_r5m_w1c #span_jsb_dpr_w1c">Wedding
+                        Banquet</ref></item>
+                     <item><ref target="#span_dj5_tyl_w1c #span_ll5_tyl_w1c">Lord's
+                        Masque</ref></item>
+                     <item><ref target="#span_qj5_tyl_w1c #span_ml5_tyl_w1c #span_xj2_xqr_w1c"
+                           >Memorable Masque</ref></item>
+                     <item><ref
+                           target="#span_wj5_tyl_w1c #span_ol5_tyl_w1c #span_xj2_xqr_w1c #span_dn5_tyl_w1c"
+                           >Masque of the Inner Temple and Gray's Inn</ref></item>
+                     <item><ref target="#span_jyy_ypr_w1c #span_bmf_jrr_w1c">Masquers'
+                        Banquet</ref></item>
+                     <item><ref target="#span_ywv_z5m_w1c #span_js4_gyr_w1c">Running at the
+                           Ring</ref></item>
+                  </list>
+               </item>
+               <item>
+                  <ref target="#span_hk5_tyl_w1c #span_um5_tyl_w1c">English Reformation</ref>
+               </item>
+               <item><ref target="#span_hl5_tyl_w1c #span_zgw_cyr_w1c">Scottish Herald
+                  Drama</ref></item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

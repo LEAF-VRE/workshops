@@ -1,0 +1,160 @@
+{
+    "editionTitle": "Introduction to Paris Review",
+    "editionSubtitle": "",
+    "ignoreNamespace": true,
+    "documents": "//div[@type=\"essay\"]",
+    "documentContent": "",
+    "documentTitle": "head/title",
+    "documentAuthor": "",
+    "indexDocument": "//div[@type=\"index\"]",
+    "documentImages": "",
+    "documentNotes": "",
+    "documentLinks": "",
+    "inputs": ["https://raw.githubusercontent.com/djakacki/guelphdh2026/refs/heads/main/WWaW_Atwood-Intro_new.xml",
+    "https://raw.githubusercontent.com/djakacki/guelphdh2026/refs/heads/main/index.xml"],
+    "curation": {
+        "markup": [
+            {
+                "xpath": "//persName[@key=\"Dorothy Parker\"]",
+                "label": "Dorothy Parker"
+            },
+            {
+                "xpath": "//persName[@key=\"Katherine Anne Porter\"]",
+                "label": "Katherine Anne Porter"
+            },
+            {
+                "xpath": "//persName[@key=\"Mary McCarthy\"]",
+                "label": "Mary McCarthy"
+            },
+            {
+                "xpath": "//persName",
+                "label": "authors"
+            },
+            {
+                "xpath": "//persName[@key=\"Jan Morris\"]",
+                "label": "Jan Morris"
+            },
+            {
+                "xpath": "//persName[@key=\"Dorothy Parker\"]",
+                "label": "Dorothy Parker"
+            },
+            {
+                "xpath": "//persName[@key=\"Adrienne Rich\"]",
+                "label": "Adrienne Rich"
+            },
+            {
+                "xpath": "//persName[@key=\"Alice Munro\"]",
+                "label": "Alice Munro"
+            },
+            {
+                "xpath": "//persName[@key=\"Anita Desai\"]",
+                "label": "Anita Desai"
+            },
+            {
+                "xpath": "//persName[@key=\"Carson McCullers\"]",
+                "label": "Carson McCullers"
+            },
+            {
+                "xpath": "//persName[@key=\"Cynthia Ozick\"]",
+                "label": "Cynthia Ozick"
+            },
+            {
+                "xpath": "//persName[@key=\"Edith Wharton\"]",
+                "label": "Edith Wharton"
+            },
+            {
+                "xpath": "//persName[@key=\"Edna O'Brien\"]",
+                "label": "Edna O'Brien"
+            },
+            {
+                "xpath": "//persName[@key=\"Elizabeth Bowen\"]",
+                "label": "Elizabeth Bowen"
+            },
+            {
+                "xpath": "//persName[@key=\"Eudora Welty\"]",
+                "label": "Eudora Welty"
+            },
+            {
+                "xpath": "//persName[@key=\"Ezra Pound\"]",
+                "label": "Ezra Pound"
+            },
+            {
+                "xpath": "//persName[@key=\"Fay Weldon\"]",
+                "label": "Fay Weldon"
+            },
+            {
+                "xpath": "//persName[@key=\"Flannery O'Connor\"]",
+                "label": "Flannery O'Connor"
+            },
+            {
+                "xpath": "//persName[@key=\"Gustave Flaubert\"]",
+                "label": "Gustave Flaubert"
+            },
+            {
+                "xpath": "//persName[@key=\"Isabel Allende\"]",
+                "label": "Isabel Allende"
+            },
+            {
+                "xpath": "//persName[@key=\"Jane Bowles\"]",
+                "label": "Jane Bowles"
+            },
+            {
+                "xpath": "//persName[@key=\"Joan Didion\"]",
+                "label": "Joan Didion"
+            },
+            {
+                "xpath": "//persName[@key=\"John Milton\"]",
+                "label": "John Milton"
+            },
+            {
+                "xpath": "//persName[@key=\"Joyce Carol Oates\"]",
+                "label": "Joyce Carol Oates"
+            },
+            {
+                "xpath": "//persName[@key=\"Judith Rossner\"]",
+                "label": "Judith Rossner"
+            },
+            {
+                "xpath": "//persName[@key=\"Katherine Mansfield\"]",
+                "label": "Katherine Mansfield"
+            },
+            {
+                "xpath": "//persName[@key=\"Margaret Atwood\"]",
+                "label": "Margaret Atwood"
+            },
+            {
+                "xpath": "//persName[@key=\"Marge Piercey\"]",
+                "label": "Marge Piercey"
+            },
+            {
+                "xpath": "//persName[@key=\"Marianne Moore\"]",
+                "label": "Marianne Moore"
+            },
+            {
+                "xpath": "//persName[@key=\"Marilyn French\"]",
+                "label": "Marilyn French"
+            },
+            {
+                "xpath": "//persName[@key=\"Nadine Gordimer\"]",
+                "label": "Nadine Gordimer"
+            },
+            {
+                "xpath": "//persName[@key=\"Nayantara Sahgal\"]",
+                "label": "Nayantara Sahgal"
+            },
+            {
+                "xpath": "//persName[@key=\"Toni Morrison\"]",
+                "label": "Toni Morrison"
+            },
+            {
+                "xpath": "//persName[@key=\"Virginia Woolf\"]",
+                "label": "Virginia Woolf"
+            },
+            {
+                "xpath": "//div",
+                "label": "div"
+            }
+        ],
+        "toc": ["5bace7c6aa0c3f99c2966e8c95672268c75772ad91dc41e67a0107d047392af2"]
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "editionTitle": "Margaret Atwood's Introduction",
+    "editionSubtitle": "Paris Review",
+    "ignoreNamespace": true,
+    "documents": "//div[@type='essay']",
+    "documentContent": "",
+    "documentTitle": "head",
+    "documentAuthor": "",
+    "indexDocument": "//div[@type='index']",
+    "documentImages": "",
+    "documentNotes": "",
+    "documentLinks": "",
+    "inputs": [
+        "https://raw.githubusercontent.com/djakacki/guelphdh2026/refs/heads/main/WWaW_Atwood-Intro.xml",
+        "https://raw.githubusercontent.com/djakacki/guelphdh2026/refs/heads/main/index_template.xml"
+    ],
+    "curation": {
+        "markup": [
+            {
+                "xpath": "//persName[@key='Margaret Atwood']",
+                "label": "Margaret Atwood"
+            },
+            {
+                "xpath": "//persName",
+                "label": "People "
+            },
+            {
+                "xpath": "//title",
+                "label": "Works"
+            },
+            {
+                "xpath": "//div",
+                "label": "div"
+            }
+        ],
+        "toc": [
+            "4a234af798927871188f603d6a25ed5367ebdce32593fe6970e496280443fca5"
+        ]
+    }
+}

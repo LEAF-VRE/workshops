@@ -1,0 +1,35 @@
+{
+    "inputs": [
+        "https://raw.githubusercontent.com/djakacki/dtoc_training/main/chamberlain_letters_1613.xml"
+    ],
+    "documents": "//div[@type='letter']",
+    "ignoreNamespace": true,
+    "documentTitle": "head",
+    "documentAuthor": "",
+    "documentImages": "",
+    "documentNotes": "",
+    "documentLinks": "",
+    "indexDocument": "//div[@type='index']",
+    "editionTitle": "Title",
+    "editionSubtitle": "Subtitle",
+    "curation": {
+        "markup": [
+            {
+                "xpath": "//persName",
+                "label": "People"
+            },
+            {
+                "xpath": "//placeName",
+                "label": "Places"
+            },
+            {
+                "xpath": "//orgName",
+                "label": "Organizations"
+            },
+            {
+                "xpath": "//objectName",
+                "label": "Objects"
+            }
+            ]
+            }
+}

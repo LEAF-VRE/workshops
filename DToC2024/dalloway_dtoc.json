@@ -1,0 +1,58 @@
+{
+    "inputs": [
+        "https://raw.githubusercontent.com/djakacki/training/main/dalloway_exercise_dtoc.xml"
+    ],
+    "documents": "//div[@type='story']",
+    "ignoreNamespace": true,
+    "documentTitle": "head/title",
+    "documentAuthor": "",
+    "documentImages": "",
+    "documentNotes": "",
+    "documentLinks": "",
+    "indexDocument": "//div[@type='index']",
+    "editionTitle": "Mrs Dalloway in Bond Street",
+    "editionSubtitle": "",
+    "curation": {
+        "markup": [
+            {
+                "xpath": "//persName[@key='Elizabeth Dalloway']",
+                "label": "Elizabeth Dalloway"
+            },
+            {
+                "xpath": "//persName[@key='Hugh Whitbread']",
+                "label": "Hugh Whitbread"
+            },
+            {
+                "xpath": "//persName[@key='Clarissa Dalloway']",
+                "label": "Mrs Dalloway"
+            },
+            {
+                "xpath": "//persName[@key='Richard Dalloway']",
+                "label": "Richard Dalloway"
+            },
+            {
+                "xpath": "//eventName",
+                "label": "event"
+            },
+            {
+                "xpath": "//orgName",
+                "label": "group"
+            },
+            {
+                "xpath": "//persName",
+                "label": "person"
+            },
+            {
+                "xpath": "//placeName",
+                "label": "place"
+            },
+            {
+                "xpath": "//objectName[@type='vehicle']",
+                "label": "vehicle"
+            }
+        ],
+        "toc": [
+            "d851bca70463c82a4118bc7cfd22dbfbbd174952c1c4f15a39c2cebaaae6708c"
+        ]
+    }
+}
