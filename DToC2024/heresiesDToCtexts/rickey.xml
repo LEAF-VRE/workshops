@@ -1,0 +1,2958 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/BucknellDSC/heresies/main/CSS/heresies_cwrc.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>The Straits of Literature and History</title>
+				<author>Carrie Rickey</author>
+				<respStmt>
+					<persName>Haley Beardsley</persName>
+					<resp>Editor (2021- Present)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Erica Delsandro</persName>
+					<resp>Investigator, editor</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Mia DeRoco</persName>
+					<resp>Editor (2023-Present)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Margaret Hunter</persName>
+					<resp>Editor (2021-Present)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Diane Jakacki</persName>
+					<resp>Invesigator, encoder</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Sophie McQuaide</persName>
+					<resp>Editor (2021-2023)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Olivia Martin</persName>
+					<resp>Editor, encoder (2021)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Zoha Nadeer</persName>
+					<resp>Editor (2022-Present)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Bri Perea</persName>
+					<resp>Editor (2022-23)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Carrie Pirmann</persName>
+					<resp>HTR editor, encoder (2023-Present)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Ricky Rodriguez</persName>
+					<resp>Editor (2022-2023)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Roger Rothman</persName>
+					<resp>Investigator, editor</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Kaitlyn Segreti</persName>
+					<resp>Editor (2021-Present)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Maggie Smith</persName>
+					<resp>Editor (2021-Present)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Maya Wadhwa</persName>
+					<resp>Editor (2021-2023)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Lucy Wadswoth</persName>
+					<resp>Editor (2022-Present)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Anna Marie Wingard</persName>
+					<resp>Editor (2023-Present)</resp>
+				</respStmt>
+				<funder>Bucknell University Humanities Center</funder>
+				<funder>Bucknell University Office of Undergraduate Research</funder>
+				<funder>The Mellon Foundation</funder>
+				<funder>National Endowment for the Humanities</funder>
+			</titleStmt>
+			<publicationStmt>
+				<distributor>
+					<name>Bucknell University</name>
+					<address>
+						<street>One Dent Drive</street>
+						<settlement>Lewisburg</settlement>
+						<region>Pennsylvania</region>
+						<postCode>17837</postCode>
+					</address>
+				</distributor>
+				<availability>
+					<licence>Bucknell Heresies Project: Creative Commons Attribution-NonCommercial
+						4.0 International (CC BY-NC 4.0)</licence>
+					<licence>Heresies journal: © Heresies Collective</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<title>Women's Traditional Arts: The Politics of Aesthetics</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<publisher>HERESIES: A Feminist Publication on Art and
+								Politics</publisher>
+							<pubPlace>
+								<address>
+									<name>Heresies</name>
+									<postBox>P.O. Boxx 766, Canal Street Station</postBox>
+									<settlement>New York</settlement>
+									<region>New York</region>
+									<postCode>10013</postCode>
+								</address>
+							</pubPlace>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+				xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+				xmlns:as="http://www.w3.org/ns/activitystreams#"
+				xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
+				xmlns:dc="http://purl.org/dc/elements/1.1/"
+				xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/"
+				xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#"
+				xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+				xmlns:fabio="https://purl.org/spar/fabio#"
+				xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+				xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
+				xmlns:org="http://www.w3.org/ns/org#">
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?person_annotation_20230922115348900",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-09-22T15:53:48.900Z",
+	"dcterms:modified": "2023-09-22T15:53:48.900Z",
+	"dcterms:creator": {
+		"@id": "17",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Maggie Smith"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?person_annotation_20230922115348900#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?person_annotation_20230922115348900#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q61078",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?person_annotation_20230922120239484",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-09-22T16:02:39.484Z",
+	"dcterms:modified": "2023-09-22T16:02:39.484Z",
+	"dcterms:creator": {
+		"@id": "17",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Maggie Smith"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?person_annotation_20230922120239484#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?person_annotation_20230922120239484#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[2]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q3826587",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?place_annotation_20230922121434850",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-09-22T16:14:34.850Z",
+	"dcterms:creator": {
+		"@id": "17",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Maggie Smith"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?place_annotation_20230922121434850#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?place_annotation_20230922121434850#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[2]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q17",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high",
+	"cwrc:hasPrecision": "cwrc:highCertainty"
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?person_annotation_20230926203152522",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-09-27T00:31:52.522Z",
+	"dcterms:creator": {
+		"@id": "17",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Maggie Smith"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?person_annotation_20230926203152522#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?person_annotation_20230926203152522#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[10]/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q433133",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?note_annotation_20240404124800114",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-04-04T16:48:00.114Z",
+	"dcterms:modified": "2024-04-04T16:48:00.114Z",
+	"dcterms:creator": {
+		"@id": "9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?note_annotation_20240404124800114#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?note_annotation_20240404124800114#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "Walter Benjamin,\n\t\t\t\t\t\tIlluminations (New York: Schocken Books, 1969). From \"Theses on the Philosophy of\n\t\t\t\t\t\t\tHistory\", p. 256."
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?title_annotation_20240404124805503",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-04-04T16:48:05.503Z",
+	"dcterms:creator": {
+		"@id": "9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?title_annotation_20240404124805503#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?title_annotation_20240404124805503#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[2]/note/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://viaf.org/viaf/9619151052055333530008/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?note_annotation_20240404124813770",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-04-04T16:48:13.770Z",
+	"dcterms:modified": "2024-04-04T16:48:13.770Z",
+	"dcterms:creator": {
+		"@id": "9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?note_annotation_20240404124813770#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?note_annotation_20240404124813770#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[2]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "Ivan Morris,\n\t\t\t\t\t\t\tThe World of the Shining Prince (New York: Alfred Knopf, 1964), p. 83."
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?note_annotation_20240404124820409",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-04-04T16:48:20.409Z",
+	"dcterms:modified": "2024-04-04T16:48:20.409Z",
+	"dcterms:creator": {
+		"@id": "9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?note_annotation_20240404124820409#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?note_annotation_20240404124820409#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[2]/note[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "Ibid."
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?person_annotation_20240404124825167",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-04-04T16:48:25.167Z",
+	"dcterms:creator": {
+		"@id": "9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?person_annotation_20240404124825167#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?person_annotation_20240404124825167#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[3]/note/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q3826587",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?note_annotation_20240404124831474",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-04-04T16:48:31.474Z",
+	"dcterms:modified": "2024-04-04T16:48:31.474Z",
+	"dcterms:creator": {
+		"@id": "9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?note_annotation_20240404124831474#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?note_annotation_20240404124831474#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[3]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "Morris, p.\n\t\t\t\t\t\t199."
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?note_annotation_20240404124839176",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-04-04T16:48:39.176Z",
+	"dcterms:modified": "2024-04-04T16:48:39.176Z",
+	"dcterms:creator": {
+		"@id": "9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?note_annotation_20240404124839176#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?note_annotation_20240404124839176#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[4]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "Morris, p.\n\t\t\t\t\t\t195"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?note_annotation_20240404124847609",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-04-04T16:48:47.609Z",
+	"dcterms:modified": "2024-04-04T16:48:47.609Z",
+	"dcterms:creator": {
+		"@id": "9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?note_annotation_20240404124847609#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?note_annotation_20240404124847609#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[6]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "Sei Shonagon,\n\t\t\t\t\t\tThe Pillow Book of Sei Shonagon (Harmondsworth, England: Penguin Books,\n\t\t\t\t\t\t1967). Translated and edited by Ivan Morris."
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?note_annotation_20240404124855992",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-04-04T16:48:55.992Z",
+	"dcterms:modified": "2024-04-04T16:48:55.992Z",
+	"dcterms:creator": {
+		"@id": "9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?note_annotation_20240404124855992#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?note_annotation_20240404124855992#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[7]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "Sei\n\t\t\t\t\t\t\tShonagon, p. 39."
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?note_annotation_20240404124905002",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-04-04T16:49:05.002Z",
+	"dcterms:modified": "2024-04-04T16:49:05.002Z",
+	"dcterms:creator": {
+		"@id": "9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?note_annotation_20240404124905002#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?note_annotation_20240404124905002#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[7]/note[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "Marasaki Shikibu,\n\t\t\t\t\t\tThe Tale of Genji (New York: Alfred Knopf, 1977). Translated by Edward\n\t\t\t\t\t\tSeidensticker."
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?note_annotation_20240404124914841",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-04-04T16:49:14.841Z",
+	"dcterms:modified": "2024-04-04T16:49:14.841Z",
+	"dcterms:creator": {
+		"@id": "9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?note_annotation_20240404124914841#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?note_annotation_20240404124914841#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[9]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "Morris, p. 90."
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?note_annotation_20240404124923001",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-04-04T16:49:23.001Z",
+	"dcterms:modified": "2024-04-04T16:49:23.001Z",
+	"dcterms:creator": {
+		"@id": "9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?note_annotation_20240404124923001#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?note_annotation_20240404124923001#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[10]/note[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "Morris, p.\n\t\t\t\t\t\t44."
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?note_annotation_20240404124940649",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-04-04T16:49:40.649Z",
+	"dcterms:modified": "2024-04-04T16:49:40.649Z",
+	"dcterms:creator": {
+		"@id": "9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?note_annotation_20240404124940649#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?note_annotation_20240404124940649#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[11]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "Murasaki\n\t\t\t\t\t\tShikibu."
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?note_annotation_20240404124949729",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-04-04T16:49:49.729Z",
+	"dcterms:modified": "2024-04-04T16:49:49.729Z",
+	"dcterms:creator": {
+		"@id": "9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?note_annotation_20240404124949729#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?note_annotation_20240404124949729#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[13]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "Donald Keene,\n\t\t\t\t\t\tin Half the World, edited by Arnold Toynbee (New York: Holt, Rinehart and\n\t\t\t\t\t\tWinston, 1973), p. 255."
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?note_annotation_20240404125004752",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-04-04T16:50:04.752Z",
+	"dcterms:modified": "2024-04-04T16:50:04.752Z",
+	"dcterms:creator": {
+		"@id": "9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?note_annotation_20240404125004752#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?note_annotation_20240404125004752#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[15]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "Murasaki\n\t\t\t\t\t\tShikibu."
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?note_annotation_20240404125012096",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-04-04T16:50:12.096Z",
+	"dcterms:modified": "2024-04-04T16:50:12.096Z",
+	"dcterms:creator": {
+		"@id": "9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?note_annotation_20240404125012096#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?note_annotation_20240404125012096#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[15]/note[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "Parker Tyler,\n\t\t\t\t\t\t\"Prince Genji: The Hero and His Culture,\" Art News, Nov., 1958, p.\n\t\t\t\t\t\t180."
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?note_annotation_20240404125022792",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-04-04T16:50:22.792Z",
+	"dcterms:modified": "2024-04-04T16:50:22.792Z",
+	"dcterms:creator": {
+		"@id": "9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?note_annotation_20240404125022792#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?note_annotation_20240404125022792#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[16]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "Sei\n\t\t\t\t\t\tShonagon."
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?note_annotation_20240404125030622",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-04-04T16:50:30.622Z",
+	"dcterms:modified": "2024-04-04T16:50:30.622Z",
+	"dcterms:creator": {
+		"@id": "9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?note_annotation_20240404125030622#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?note_annotation_20240404125030622#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[16]/note[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "Murasaki quoted in introduction to Shonagon by Morris."
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?note_annotation_20240404125040031",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-04-04T16:50:40.031Z",
+	"dcterms:modified": "2024-04-04T16:50:40.031Z",
+	"dcterms:creator": {
+		"@id": "9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?note_annotation_20240404125040031#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?note_annotation_20240404125040031#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[18]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "Morris,\n\t\t\t\t\t\tintroduction to Shonagon."
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?person_annotation_20240930191526815",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-09-30T23:15:26.815Z",
+	"dcterms:modified": "2024-09-30T23:15:26.815Z",
+	"dcterms:creator": {
+		"@id": "21",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kaitlyn Segreti"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?person_annotation_20240930191526815#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?person_annotation_20240930191526815#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/byline/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q5046290",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?person_annotation_20240930191849949",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-09-30T23:18:49.949Z",
+	"dcterms:modified": "2024-09-30T23:18:49.949Z",
+	"dcterms:creator": {
+		"@id": "21",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kaitlyn Segreti"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?person_annotation_20240930191849949#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?person_annotation_20240930191849949#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[2]/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q81731",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?person_annotation_20240930191919258",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-09-30T23:19:19.258Z",
+	"dcterms:modified": "2024-09-30T23:19:19.258Z",
+	"dcterms:creator": {
+		"@id": "21",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kaitlyn Segreti"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?person_annotation_20240930191919258#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?person_annotation_20240930191919258#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[2]/persName[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q231603",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?person_annotation_20240930192955720",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-09-30T23:29:55.720Z",
+	"dcterms:modified": "2024-09-30T23:29:55.720Z",
+	"dcterms:creator": {
+		"@id": "21",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kaitlyn Segreti"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?person_annotation_20240930192955720#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?person_annotation_20240930192955720#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[7]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": [
+			"schema:Person",
+			"cwrc:FictionalPerson"
+		],
+		"@id": "http://www.wikidata.org/entity/Q997646",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?person_annotation_20240930194242293",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-09-30T23:42:42.293Z",
+	"dcterms:modified": "2024-09-30T23:42:42.293Z",
+	"dcterms:creator": {
+		"@id": "21",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kaitlyn Segreti"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?person_annotation_20240930194242293#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?person_annotation_20240930194242293#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[16]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q11441779",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?title_annotation_20241006090733821",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-06T13:07:33.821Z",
+	"dcterms:creator": {
+		"@id": "13",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Roger Rothman"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?title_annotation_20241006090733821#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?title_annotation_20241006090733821#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[2]/title[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://www.wikidata.org/entity/Q615137",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?title_annotation_20241006090814161",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-06T13:08:14.161Z",
+	"dcterms:creator": {
+		"@id": "13",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Roger Rothman"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?title_annotation_20241006090814161#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?title_annotation_20241006090814161#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[2]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://www.wikidata.org/entity/Q8269",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?title_annotation_20241006091250926",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-06T13:12:50.926Z",
+	"dcterms:modified": "2024-10-06T13:12:50.926Z",
+	"dcterms:creator": {
+		"@id": "13",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Roger Rothman"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?title_annotation_20241006091250926#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?title_annotation_20241006091250926#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[6]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://www.wikidata.org/entity/Q615137",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?note_annotation_20241006091500677",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-06T13:15:00.677Z",
+	"dcterms:creator": {
+		"@id": "13",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Roger Rothman"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?note_annotation_20241006091500677#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?note_annotation_20241006091500677#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[10]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": ""
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?title_annotation_20241006091623440",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-06T13:16:23.440Z",
+	"dcterms:creator": {
+		"@id": "13",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Roger Rothman"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?title_annotation_20241006091623440#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/rickey_0_0_1_0_0_0_0_0.xml?title_annotation_20241006091623440#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[15]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://www.wikidata.org/entity/Q8269",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description>
+			</rdf:RDF></xenoData>
+	</teiHeader>
+	<text>
+		<body>
+			<div cert="high" org="composite" part="Y" sample="initial" type="essay"
+				xml:space="default">
+				<pb
+					facs="https://raw.githubusercontent.com/BucknellDSC/heresies/main/issue04/images/Heresies_04_022.jpg"
+					n="22" xml:id="img_0022"/>
+
+				<head><title type="essay">The Straits of Literature and History</title></head>
+				<byline><persName key="Carrie Rickey" ref="http://www.wikidata.org/entity/Q5046290"
+						>Carrie Rickey</persName></byline>
+				<p> With whom does history empathize? For <persName key="Walter Benjamin"
+						ref="http://www.wikidata.org/entity/Q61078" cert="high" type="real">Walter
+						Benjamin</persName>, "The answer is inevitable: with the victor." The reciprocity between historian and
+					ruler is tacit: the historian makes official the ruler's authority and the
+					ruler's authority gives the historian's work validity. This is not to suggest
+					that no histories exist that subvert this premise. Literature is a "history"
+					which in most cases serves the prevailing order because its very existence
+					confirms that order's cultural richness. But literature is privileged because it
+					can employ language's nuance and allusiveness and from the inside gently or
+					joltingly criticize that order. Because literature is by implication a cultural
+					artifact of a ruling order, subversive or not it is a historical spoil owing as
+					much to the anonymous toil that gave the writer time to pursue an idea as to the
+					original mind that conceived it.</p>
+				<p>The connection between a ruling order and its cultural artifacts is like a strait
+					separating two bodies of water intimately linked in time and geography. The
+					straits of literature and history are evidenced in Japanese writing of the Heian
+					period (794-1185 A.D.) which commands interest because of its richness of
+					description, its pioneering of new forms, and the fact that its leading
+					practitioners were women. Many social and cultural conditions set the stage for
+					this unprecedented predominance of literary women. According to <persName
+						key="Ivan Morris" ref="http://www.wikidata.org/entity/Q3826587">Ivan
+						Morris</persName>, "Though they [peasants, fishermen, forestmen and other
+					laborers] contributed to the vast majority of the [Heian period's] population
+					and were the only economically productive class in the country, we virtually
+					have no authentic information about their lives."  What we today know of Heian life has been garnered from the
+					literature of that period—especially from <persName key="Murasaki Shikibu"
+						ref="http://www.wikidata.org/entity/Q81731">Murasaki Shikibu</persName>'s
+						<title key="The Tale of Genji" ref="http://www.wikidata.org/entity/Q8269"
+						>The Tale of Genji</title> and <persName key="Sei Shōnagon"
+						ref="http://www.wikidata.org/entity/Q231603">Sei Shonagon</persName>'s
+						<title key="The Pillow Book" ref="http://www.wikidata.org/entity/Q615137"
+						>The Pillow Book</title>—but these literary milestones detailing Heian court
+					life treat a population of only about one-tenth of one percent of the five
+					million population in <placeName key="Japan"
+						ref="http://www.wikidata.org/entity/Q17" cert="high">Japan<precision
+							match="@ref" precision="high"/></placeName> at that time.</p>
+				<p> Murasaki's and Sei's originality of form and observation is unparalleled in the
+					history of literature. These two women were contemporaries; both were brought to
+					court from the provinces because of their talent and intelligence. Due to the
+					complications of Japan's clan politics, there was a "court" with many satellite
+					courts, and it is not known whether these two women ever lived in the same
+					palace, although they were aware of each other's writings. Their social position
+					was substantially different from that of the women outside the court who "toiled
+					arduously, were subject to harsh treatment by their men, bred young, and died
+					early."</p>
+				<p>Murasaki and Sei are figures of incalculable significance because they were
+					pioneers, because they produced work in a period which had articulated for
+					itself a distinct masculine and feminine aesthetic, and because they wrote in
+					Japanese at a time when the language for official and theological affairs was
+					Chinese (cf. the European use of Latin as an "official" language). Not only did
+					they establish traditions of the psychological novel and the diary, but their
+					writings preserved the Japanese language for subsequent generations. In their
+					day women were restricted to the use of Japanese while men exchanged ideas and
+					conversation in Chinese. Even today the distinction between native syllabary and
+					the Chinese characters incorporated into the language reflects this gender
+					dichotomy. The native characters are called <lang>onnade</lang>, or "woman's
+					hand," while Chinese character are known as otokomoji, "man's letters." Sei's writings are still studied today for the purity of her
+					Japanese diction; she avoided Chinese-isms—an accomplishment comparable to
+					writing in English without using any Latinate words.</p>
+				<p>In the time of Murasaki and Sei there were no narrative literary traditions to
+					maintain. Japanese literature before their time had been poetry of a
+					calculatedly oblique nature; a long prologomena was necessary to explain the
+					poem's meaning.</p>
+				<p>What a remarkable achievement to conceive a psychological novel—as Murasaki
+					did—where a poem appears as an organic expression within the context of a
+					narrative and requires no annotation to be understood Murasaki fused the
+					traditional poetic form with her narrative innovation, the intimate epic. Sei's
+						<title key="The Pillow Book" ref="http://www.wikidata.org/entity/Q615137"
+						>Pillow Book</title> was so called because she suggested to the empress that
+					notebooks of historical documents could be recycled by making them into a pillow
+					(a word that referred to a diary as well as a head rest); Sei filled her
+					notebook with lists, odd facts and observations from the present, thereby
+					annotating the leaves of official history with her lively opinions. For both
+					these women, objectivity was the domain of the historian and untenable because
+					it neutralized differing positions. Objects and people, in the writings of
+					Murasaki and Sei, have innumerable facets. They intimated the spirit of an
+					object or a person by bombarding the reader with dense description: lists,
+					textures, physical and natural detail. Collectively their historical truth is
+					compelling because they replace "objectivity" with opinionation.</p>
+				<p>But these two contemporaries reflected different attitudes about their culture.
+					Sei begins a chapter of her book with: "When I make myself imagine what it is
+					like to be one of those women who live at home, faithfully serving their
+					husbands—women who have not a single exciting prospect in life yet believe they
+					are perfectly happy—I am filled with scorn." In a passage where Murasaki describes
+						<persName key="Hikaru Genji" ref="http://www.wikidata.org/entity/Q997646"
+						type="fictional">Genji</persName>'s (and by implication her own) view of the
+					novel, Genji observes, "Without it what should we know of how people lived in
+					the past from the age of the Gods down to the present day? For history
+					books...show us only one corner of life; whereas these diaries and romances
+					which I see piled around you contain, I am sure, the most minute information
+					about people's private affairs." Sei and
+					Murasaki charted divergent routes in their writing: Sei was an empiricist
+					recording impressions of contemporary Heian manners; she lacked the
+					self-consciousness of Murasaki, who fashioned a world in the indeterminate past
+					in order to best intuitively comment on life in her immediate present. Sei's
+					literary concerns were the refined tastes of the nobility and the freshness of
+					nature. Murasaki was less impressionistic and more analytic in her evaluation of
+					Heian society. She continuously tells us that it was best to be born a man
+					of</p>
+
+				<pb
+					facs="https://raw.githubusercontent.com/BucknellDSC/heresies/main/issue04/images/Heresies_04_023.jpg"
+					n="23" xml:id="img_0023"/>
+				<p> imperial blood and live at the court. But she was keenly aware of the
+					hierarchies within the aristocracy and observed the tension between provincials
+					and the court clique, as well as sensitively articulating the social
+					restrictions limiting the mobility of the lower ranks within the court.</p>
+				<p>A number of factors informed the attitudes Sei and Murasaki expressed. The birth
+					of a woman was a happy event because in the marriage politics of Heian society a
+					woman might grow up to marry the emperor. It was much easier in their day for a
+					woman of "inferior" birth to marry a man of noble rank than vice versa. The
+					professions which brought a lower-rank man to the capital—scholar or priest,
+					say—would not automatically give him ingress to the imperial circle, while it
+					seems likely that Sei and Murasaki were brought to the court because of their
+					reputations as women of wit and sensibility. In Heian Japan a woman was allowed
+					both to inherit and own property. The civil codes expressly forbade
+					wife-beating, although the punishment for this was two degrees less than
+					assaulting "other people." But these facts don't pinpoint the complex and inbred quality of
+					Heian life, which is best described by the Chinese proverb: "The people are as
+					far from the Emper or as from heaven." Japanese appropriation of China's
+					governmental centralization produced a bureaucracy so awkward in this land of
+					decentralized clans that the delegation of authority was carried to extreme
+					lengths; the source of authority was, accordingly, far removed from the
+					functionary who directly wielded it. Because the real power was exercised by
+					ministers and other imperial subalterns, the emperor was left with two
+					functions: to encourage new art forms and fashion rituals of piety from the
+					religious hybrid of Shinto and Buddhist beliefs. Women were excluded from public
+					affairs, but they played a tremendous role in the Heian court. A well-born woman
+					had leisure and imperial encouragement for creation and contemplation denied to
+					male counterparts busy with official duties and polygamous pursuits (the man at
+					the Heian court was expected to have a wife and a few mistresses).</p>
+				<p> If Murasaki's and Sei's writings are an index to female sexual options during
+					the Heian period, aristocratic women enjoyed a multiplicity of partners as well.
+					Later ages would revile Sei and Murasaki for their "foully licentious"Quoted in
+						<persName>Morris</persName>, p. 45 This kind of inbreeding was the substructure of the court clique.
+					The nominal source of power, this clique was attractive because it nurtured the
+					creation of art. But it needed the vitality of provincials like Sei and Murasaki
+					to regenerate its incestuous ranks.</p>
+				<p>Once at court, Sei and Murasaki became insiders who made observations on the
+					social arts at a time when manners were politics and politics culture. Murasaki
+					wrote of a picture competition designed by Genji to rechannel court enmities to
+					less destructive ends: "It was indeed a moment in the history of our country
+					when the whole energy of the nation seemed to be concentrated upon the search
+					for the prettiest method of mounting paper scrolls."</p>
+				<p>Murasaki's and Sei's importance is that while they operated in a culture that
+					regarded women as inferior to men, they never believed that of themselves.
+					Although in her diary Murasaki repeatedly alluded to her father's regret that
+					because of her great intelligence she had not been born male, she characterized
+					the richness of both male and female experiences in Genji. Although it is clear
+					in Genji that men have more options available to them, women are equal in wit,
+					intelligence and style. Sei, perhaps because of her position as the empress'
+					favorite, is much more interested in the doings of imperial ladies than those of
+					gentlemen. Murasaki's and Sei's writing was expressly power identified at a time
+					when power was not so much a link with male dominance as it was one expression
+					in a complex social milieu in which women participated. Murasaki and Sei dealt
+					with emotions that are universally intelligible and exist
+					cross-culturally—unlike the objective specificities of the official histories
+					and philosophies in which the men of their day engaged. Educated women were able
+					to act and write less conventionally than were men of comparable status.</p>
+				<p>Could a Heian man have created work like Murasaki and Sei? The self-conscious
+					Heian court was totally aware of the sexual division of speech and the exclusion
+					of women from the public sphere. Only at court could women "circulate" and not
+					be expected to hide behind fans and screens, the way propriety demanded women do
+					outside the court. The masculine style, identified by scholars of Japanese
+					literature as well as by Murasaki and Sei in various appreciations of male
+					qualities, was "the directness of utterance and concern with society." The "feminine" preference was
+					taken to be the interest in suggestion and intuition—which was the style
+					imitated by men when they wrote to women or expressed themselves in affairs of
+					the heart. A man could have written in the style of Murasaki and Sei, and,
+					indeed, some men assumed the feminine voice and pretended to be women authors.
+					But the incisiveness and sensibility of these female impersonators is inferior
+					to the work of Murasaki and Sei. The inference that women sensed nuance in
+					affairs of state while men were consigned blindly to conduct these affairs leads
+					to a simplistic "women feel/men think" conclusion that fails to cut through
+					psychology or historicism. Men couldn't create work like Murasaki and Sei, even
+					though they tried. These women were successful in capturing the range of
+					experience and feeling of both sexes.</p>
+				<p> Why were they successful? They glorified a shining nobility. They catalogued and
+					ordered a courtly etiquette rich in gestural nuance, which inspired contemporary
+					court</p>
+
+				<pb
+					facs="https://raw.githubusercontent.com/BucknellDSC/heresies/main/issue04/images/Heresies_04_024.jpg"
+					n="24" xml:id="img_0024"/>
+				<p> behavior. They articulated a feminine position to which men could respond. Both
+					provincials, they described a life outside the court that seemed raw and exotic
+					to the inbred Heian court. Murasaki characterized the province/capital dichotomy
+					when she wrote about Genji's scrolls made during his exile on the Suma coast:
+					"Amid intense excitement...[they] produced a roll containing Genji's sketches at
+					Suma...so masterly a hand working at complete leisure and far from the
+					distracting influences which beset an artist in town. They saw so vividly
+					presented both the stem manner of his life there and in some sort the feelings
+					which this rustic life had aroused in everyone used to every luxury and
+					indulgence." Soon after <title key="The Tale of Genji"
+						ref="http://www.wikidata.org/entity/Q8269">The Tale of Genji</title>
+					appeared at court, Genji was adopted as a Shinto deity.
+				</p>
+				<p>Sei's open competition with men—even with those of a higher rank—gave the Heian
+					court a model of an openly combative woman who refused to acquiesce to the
+					prevailing notions of female propriety. She writes with glee how she embarrassed
+					the minister <persName key="Nobutsune Ōkuma"
+						ref="http://www.wikidata.org/entity/Q11441779" type="real"
+						>Nobutsune</persName> (who was Murasaki's cousin): "One day when Nobutsune
+					was serving as Intendant in the Office of Palace Works he sent a sketch to one
+					of the craftsmen explaining how a certain piece of work should be done. 'Kindly
+					execute in this fashion,' he added in Chinese characters. I happened to notice
+					the piece of paper and it was the most preposterous writing I had ever seen.
+					Next to his message I wrote, 'If you do the work in this style, it will
+					certainly turn out strangely.' The document found its way to the imperial
+					apartment, and everyone who saw it was greatly amused—except, of course,
+					Nobutsune, who was furious and after this held a grudge against me." Murasaki acidly noted in her diary, "Someone
+					[Sei] who makes such an effort to be different from others is bound to fall in
+					people's esteem and I can only think her future will be a hard one. She is a
+					gifted woman, to be sure...how can things turn out well for such a woman?"</p>
+				<p>Sei and Murasaki challenged the religious as well as social assumptions of their
+					society. They shaped as well as recorded their civilization; there are few other
+					instances of such literary power and evocativeness. History regards Heian Japan
+					as a golden age whose achievements rank with those of Byzantium, Athens, and
+					Renaissance Italy. The work of these two women recorded that period with greater
+					depth and insight than any other contemporary cultural products, so much so that
+					virtually all that is known about the period has been learned from their
+					writings.</p>
+				<p>Two questions remain: What is the deeper meaning of a "golden age"? What was
+					Murasaki's and Sei's relationship to the golden age they so consummately
+					characterized? An age is "golden" in contrast to the generations of dross
+					preceding and succeeding it. An age is "golden" because cultural achievements
+					complement political strength and together give the impression of an ideal
+					social harmony. Cultural achievements in Heian were enjoyed, as is so often the
+					case, by a few at the expense of many. Like two facing mirrors, the literature
+					reflected the glory of the ruling class and vice versa. But there were some
+					distortions. In reading these works—as literature or as historical
+					documents—there is a striking double edge to each. Murasaki's choice to place
+					her tale in the indeterminate past suggests two contradictory readings: Did the
+					paucity of excitement and intelligence at the court encourage her to invent a
+					perfect and brilliant hero, or was court life so thrilling she was inspired to
+					glorify it? Whichever, there is throughout Murasaki's novel a wistfulness of
+					"wouldn't it be nice if it were this way" which suggests dissatisfaction with
+					the way it was, and the characters still alive at the close of the novel are so
+					morally and intellectually inferior to Genji that her conclusion has a hopeless
+					tone. Sei's devotion to the imperial family and her contempt for the lower
+					orders (an attitude that prompted a Japanese scholar to call her a "spiritual
+					cripple"). reveals a mindset that
+					for the Heian court was good breeding but for the modern reader is patronizing
+					and blind. Sei's circumscribed vision and partisanship today says more about the
+					exclusion of the lower classes from Heian society by omission than do the scanty
+					histories from the period.</p>
+				<p>Sei's and Murasaki's historical reflections are powerful and moving,
+					simultaneously evocative of Heian pageantry and of the sadness of a society
+					where leisure and culture was reserved for a chosen few. No culture, no "golden
+					age" wants to be tarnished by an enumeration of its prejudices and oppressions.
+					Murasaki's and Sei's literature both criticized and apotheosized their era and,
+					in doing so, exemplifies the straits of literature and history.</p>
+			</div>
+			<div>
+				<head>References</head>
+				<list>
+					<item>Hall, J. W., <title>Japan</title>. New York: Delta, 1970. </item>
+					<item>Keene, D., <title>Japanese Literature.</title> New York: Grove Press,
+						1955.</item>
+					<item>Sansom, G. B., <title>The Western World and Japan</title>. New York:
+						Random House, 1973.</item>
+				</list>
+			</div>
+		</body>
+		<back>
+			<div>
+				<p>Carrie Rickey writes about movies and lives in New York.</p>
+			</div>
+		</back>
+	</text>
+</TEI>

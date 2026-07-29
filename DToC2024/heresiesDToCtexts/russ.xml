@@ -1,0 +1,1672 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/BucknellDSC/heresies/main/CSS/heresies_cwrc.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Women Talking, Women Thinking</title>
+				<author>Joanna Russ</author>
+				<respStmt>
+					<persName>Haley Beardsley</persName>
+					<resp>Editor (2021- Present)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Erica Delsandro</persName>
+					<resp>Investigator, editor</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Mia DeRoco</persName>
+					<resp>Editor (2023-Present)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Margaret Hunter</persName>
+					<resp>Editor (2021-Present)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Diane Jakacki</persName>
+					<resp>Invesigator, encoder</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Sophie McQuaide</persName>
+					<resp>Editor (2021-2023)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Olivia Martin</persName>
+					<resp>Editor, encoder (2021)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Zoha Nadeer</persName>
+					<resp>Editor (2022-Present)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Bri Perea</persName>
+					<resp>Editor (2022-23)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Carrie Pirmann</persName>
+					<resp>HTR editor, encoder (2023-Present)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Ricky Rodriguez</persName>
+					<resp>Editor (2022-2023)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Roger Rothman</persName>
+					<resp>Investigator, editor</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Kaitlyn Segreti</persName>
+					<resp>Editor (2021-Present)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Maggie Smith</persName>
+					<resp>Editor (2021-Present)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Maya Wadhwa</persName>
+					<resp>Editor (2021-2023)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Lucy Wadswoth</persName>
+					<resp>Editor (2022-Present)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Anna Marie Wingard</persName>
+					<resp>Editor (2023-Present)</resp>
+				</respStmt>
+				<funder>Bucknell University Humanities Center</funder>
+				<funder>Bucknell University Office of Undergraduate Research</funder>
+				<funder>The Mellon Foundation</funder>
+				<funder>National Endowment for the Humanities</funder>
+			</titleStmt>
+			<publicationStmt>
+				<distributor>
+					<name>Bucknell University</name>
+					<address>
+						<street>One Dent Drive</street>
+						<settlement>Lewisburg</settlement>
+						<region>Pennsylvania</region>
+						<postCode>17837</postCode>
+					</address>
+				</distributor>
+				<availability>
+					<licence>Bucknell Heresies Project: Creative Commons Attribution-NonCommercial
+						4.0 International (CC BY-NC 4.0)</licence>
+					<licence>Heresies journal: © Heresies Collective</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<title>Women's Traditional Arts: The Politics of Aesthetics</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<publisher>HERESIES: A Feminist Publication on Art and
+								Politics</publisher>
+							<pubPlace>
+								<address>
+									<name>Heresies</name>
+									<postBox>P.O. Boxx 766, Canal Street Station</postBox>
+									<settlement>New York</settlement>
+									<region>New York</region>
+									<postCode>10013</postCode>
+								</address>
+							</pubPlace>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+				xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+				xmlns:as="http://www.w3.org/ns/activitystreams#"
+				xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
+				xmlns:dc="http://purl.org/dc/elements/1.1/"
+				xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/"
+				xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#"
+				xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+				xmlns:fabio="https://purl.org/spar/fabio#"
+				xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+				xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
+				xmlns:org="http://www.w3.org/ns/org#">
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml?person_annotation_20230926201148911",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-09-27T00:11:48.911Z",
+	"dcterms:creator": {
+		"@id": "23",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kelly Troop"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml?person_annotation_20230926201148911#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml?person_annotation_20230926201148911#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/byline/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q265270",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml?person_annotation_20241008203635454",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-09T00:36:35.454Z",
+	"dcterms:creator": {
+		"@id": "38",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Olivia Wychock"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml?person_annotation_20241008203635454#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml?person_annotation_20241008203635454#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/p/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q131333",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml?title_annotation_20241008204142953",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-09T00:41:42.953Z",
+	"dcterms:creator": {
+		"@id": "38",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Olivia Wychock"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml?title_annotation_20241008204142953#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml?title_annotation_20241008204142953#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/p/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://www.wikidata.org/entity/Q150827",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml?place_annotation_20241008205311149",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-09T00:53:11.149Z",
+	"dcterms:creator": {
+		"@id": "38",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Olivia Wychock"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml?place_annotation_20241008205311149#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml?place_annotation_20241008205311149#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[2]/p/placeName/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q214164",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high",
+	"cwrc:hasPrecision": "cwrc:highCertainty"
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml?person_annotation_20241011192223431",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-11T23:22:23.431Z",
+	"dcterms:modified": "2024-10-11T23:22:23.431Z",
+	"dcterms:creator": {
+		"@id": "13",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Roger Rothman"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml?person_annotation_20241011192223431#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml?person_annotation_20241011192223431#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/p/persName[8]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q17892",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml?person_annotation_20241011192530649",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-11T23:25:30.649Z",
+	"dcterms:creator": {
+		"@id": "13",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Roger Rothman"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml?person_annotation_20241011192530649#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml?person_annotation_20241011192530649#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/p/persName[21]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q235965",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:medium"
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml?person_annotation_20241011193706034",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-11T23:37:06.034Z",
+	"dcterms:modified": "2024-10-11T23:37:06.034Z",
+	"dcterms:creator": {
+		"@id": "13",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Roger Rothman"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml?person_annotation_20241011193706034#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml?person_annotation_20241011193706034#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/p/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://dbpedia.org/resource/Emily_Brontë",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml?person_annotation_20241011193729625",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-11T23:37:29.625Z",
+	"dcterms:modified": "2024-10-11T23:37:29.625Z",
+	"dcterms:creator": {
+		"@id": "13",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Roger Rothman"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml?person_annotation_20241011193729625#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml?person_annotation_20241011193729625#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/p/persName[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q127332",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml?person_annotation_20241011193750189",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-11T23:37:50.189Z",
+	"dcterms:modified": "2024-10-11T23:37:50.189Z",
+	"dcterms:creator": {
+		"@id": "13",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Roger Rothman"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml?person_annotation_20241011193750189#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml?person_annotation_20241011193750189#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/p/persName[4]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q40909",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml?person_annotation_20241011193827851",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-11T23:38:27.851Z",
+	"dcterms:modified": "2024-10-11T23:38:27.851Z",
+	"dcterms:creator": {
+		"@id": "13",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Roger Rothman"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml?person_annotation_20241011193827851#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml?person_annotation_20241011193827851#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/p/persName[5]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q81731",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml?person_annotation_20241011193854879",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-11T23:38:54.879Z",
+	"dcterms:modified": "2024-10-11T23:38:54.879Z",
+	"dcterms:creator": {
+		"@id": "13",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Roger Rothman"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml?person_annotation_20241011193854879#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml?person_annotation_20241011193854879#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/p/persName[7]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q36322",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml?person_annotation_20241011193917032",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-11T23:39:17.032Z",
+	"dcterms:modified": "2024-10-11T23:39:17.032Z",
+	"dcterms:creator": {
+		"@id": "13",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Roger Rothman"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml?person_annotation_20241011193917032#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml?person_annotation_20241011193917032#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/p/persName[10]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q134929",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml?person_annotation_20241011193941136",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-11T23:39:41.136Z",
+	"dcterms:modified": "2024-10-11T23:39:41.136Z",
+	"dcterms:creator": {
+		"@id": "13",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Roger Rothman"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml?person_annotation_20241011193941136#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml?person_annotation_20241011193941136#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/p/persName[11]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q151180",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml?person_annotation_20241011193954950",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-11T23:39:54.950Z",
+	"dcterms:modified": "2024-10-11T23:39:54.950Z",
+	"dcterms:creator": {
+		"@id": "13",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Roger Rothman"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml?person_annotation_20241011193954950#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml?person_annotation_20241011193954950#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/p/persName[12]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q230476",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml?person_annotation_20241011194018782",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-11T23:40:18.782Z",
+	"dcterms:modified": "2024-10-11T23:40:18.782Z",
+	"dcterms:creator": {
+		"@id": "13",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Roger Rothman"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml?person_annotation_20241011194018782#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml?person_annotation_20241011194018782#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/p/persName[13]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q47152",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml?person_annotation_20241011194102190",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-11T23:41:02.190Z",
+	"dcterms:modified": "2024-10-11T23:41:02.190Z",
+	"dcterms:creator": {
+		"@id": "13",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Roger Rothman"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml?person_annotation_20241011194102190#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml?person_annotation_20241011194102190#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/p/persName[14]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q287752",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml?person_annotation_20241011194154168",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-11T23:41:54.168Z",
+	"dcterms:modified": "2024-10-11T23:41:54.168Z",
+	"dcterms:creator": {
+		"@id": "13",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Roger Rothman"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml?person_annotation_20241011194154168#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml?person_annotation_20241011194154168#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/p/persName[15]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q257911",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml?person_annotation_20241011194241481",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-11T23:42:41.481Z",
+	"dcterms:modified": "2024-10-11T23:42:41.481Z",
+	"dcterms:creator": {
+		"@id": "13",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Roger Rothman"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml?person_annotation_20241011194241481#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/russ_0_0_0_0_0_0_0_0_0_0_0.xml?person_annotation_20241011194241481#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/p/persName[16]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q231944",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description>
+			</rdf:RDF></xenoData>
+	</teiHeader>
+	<text>
+		<body>
+
+			<div cert="high" org="composite" part="Y" sample="initial" xml:space="default"
+				type="essay">
+				<pb
+					facs="https://raw.githubusercontent.com/BucknellDSC/heresies/main/issue04/images/Heresies_04_017.jpg"
+					n="17" xml:id="img_0017"/>
+				<head><title type="essay">Women Talking, Women Thinking</title></head>
+				<byline><persName key="Joanna Russ" ref="http://www.wikidata.org/entity/Q265270"
+						cert="high" role="aud" type="real">Joanna Russ</persName></byline>
+				
+
+				<div>
+					<p>What did we talk about? I don't remember. We talked so hard and sat so still
+						that I got cramps in my knees. We had too many cups of tea and then didn't
+						want to leave the table to go to the bathroom because we didn’t want to stop
+						talking. You will think we talked of revolution but we didn't. Nor did we
+						talk of our own souls. Nor of sewing. Nor of babies. Nor of departmental
+						intrigue. It was politics if by politics you mean the laboratory talk that
+						characters in bad movies are perpetually trving to convey (unsuccessfully)
+						when they Wrinkle Their Wee Brows and say (valiantly—dutifully—after all,
+						they didn’t write it) "But, Doctor, doesn’t that violate Finagle's
+						Constant?" I staggered to the bathroom, released floods of tea, and returned
+						to the kitchen to talk. It was professional talk. It left me grey-faced and
+						with such concentration that I began to develop a headache. We talked about
+							<persName key="George Eliot"
+							ref="http://www.wikidata.org/entity/Q131333" cert="high" type="real"
+							>Mary Ann Evans'</persName>s loss of faith, about <persName
+							key="Emily Brontë" ref="http://dbpedia.org/resource/Emily_Brontë">Emily
+							Brontë's</persName> isolation, about <persName key="Charlotte Brontë"
+							ref="http://www.wikidata.org/entity/Q127332">Charlotte
+							Brontë's</persName> blinding cloud, about the split in <persName
+							key="Virginia Woolf" ref="http://www.wikidata.org/entity/Q40909"
+							>Virginia Woolf's</persName> head and the split in her economic
+						situation. We talked about <persName key="Murasaki Shikibu"
+							ref="http://www.wikidata.org/entity/Q81731">Lady Murasaki</persName>,
+						who wrote in a form that no respectable man would touch, <persName
+							key="Hrotsvitha" ref="http://www.wikidata.org/entity/Q170248"
+							cert="high" role="aut" type="real">Hroswit</persName>, a little name
+						whose plays "may perhaps amuse myself," <persName key="Jane Austen"
+							ref="http://www.wikidata.org/entity/Q36322">Miss Austen</persName> who
+						had no more expression in society than a firescreen or a poker. They did not
+						all write letters, write memoirs, or go on the stage. <persName key="Sappho"
+							ref="http://www.wikidata.org/entity/Q17892">Sappho</persName>—only an
+						ambiguous, somewhat disagreeable name. <persName key="Corinna"
+							ref="http://www.wikidata.org/entity/Q241132" cert="medium" role="aut"
+							>Corinna</persName>? The teacher of <persName key="Pindar"
+							ref="http://www.wikidata.org/entity/Q134929">Pindar</persName>.
+							<persName key="Olive Schreiner"
+							ref="http://www.wikidata.org/entity/Q151180">Olive Schreiner</persName>,
+						growing up on the veldt, wrote one book, married happily, and never wrote
+						another. <persName key="Kate Chopin"
+							ref="http://www.wikidata.org/entity/Q230476">Kate Chopin</persName>
+						wrote a scandalous book and never wrote another. (Jean has written nothing.)
+						There was <persName key="Mary Shelley"
+							ref="http://www.wikidata.org/entity/Q47152">M-ry Sh-ll-y</persName> who
+						wrote <title key="Frankenstein; or, The Modern Prometheus"
+							ref="http://www.wikidata.org/entity/Q150827" cert="high" level="m">you
+							know what</title> and <persName key="Charlotte Perkins Gilman"
+							ref="http://www.wikidata.org/entity/Q287752">Ch-rl-tt- P-rk-ns
+							G-lm-n</persName>, who wrote one superb horror story and lots of sludge
+						(was it sludge?), and <persName key="Phillis Wheatley"
+							ref="http://www.wikidata.org/entity/Q257911">Ph-ll-s Wh--tl-y</persName>
+						who was black and wrote eighteenth-century odes (but it was the eighteenth
+						century) and Mrs. <persName key="Ann Radcliffe"
+							ref="http://www.wikidata.org/entity/Q231944">-nn R-dcl-ff-</persName>
+						who wrote silly novels and <persName
+							key="Margaret Cavendish, Duchess of Newcastle-upon-Tyne"
+							ref="http://www.wikidata.org/entity/Q242640" role="aut">M-rg-r-t
+							C-v-nd-sh</persName> and <persName key="E. D. E. N. Southworth"
+							ref="http://www.wikidata.org/entity/Q447019">Mrs.-d-n
+							S--thw-rth</persName> and <persName key="Sarah Elizabeth Forbush Downs"
+							ref="http://www.wikidata.org/entity/Q13562984">Mrs.
+							G--rg--Sh-ld-n</persName> and (Miss?) <persName key="Georgette Heyer"
+							ref="http://www.wikidata.org/entity/Q272706" cert="high" role="aut"
+							type="real">G--rg-tt- H-y-r</persName> and <persName
+							key="Barbara Cartland" ref="http://www.wikidata.org/entity/Q235965"
+							cert="medium">B-rb-r- C-rtl-nd</persName> and the legion of those who,
+						writing, write not, like the dead <persName type="fictional">Miss
+							B--l-y</persName> of the poem who was seduced into bad practices
+						(fudging her endings) and hanged herself in her garter. The sun was going
+						down. I was blind and stiff.</p>
+
+					<p>Twenty years ago I went to college and began to recognize the roof; having
+						dressed for a date (dates were absolutely crucial then) in my low heels, my
+						nylons, my garter belt, my horsehair petticoat, my cotton petticoat, my
+						taffeta skirt, my knit jersey blouse, my circle pin, my gold earrings, my
+						charm bracelet, my waist-cincher, my lipstick, my little bit of eye shadow,
+						my heavy faille coat, my nail polish, my mohair scarf, and my gloves, I went
+						into the dormitory garden to wait. The garden was full of late spring
+						flowers. I had already admired myself in the full-length mirror on the back
+						of my closet door, but standing between the stone walls on the stone-flagged
+						walk, watching the flowers grow ever lighter and more disembodied in the
+						blue twilight—and sitting on the stone bench under the Gothic arches and all
+						that ivy—and we were supposed to get A’s and use the library—we were
+						supposed to write papers—we were supposed to be scholars—I felt invisible. I
+						felt awful, I wanted to take off all my clothes and step out of my
+						underwear. And then take off my hair and fingernails and my face and my
+						flesh and finally my very bones. Just to step out of it. All the way out of
+						it.</p>
+					<p>My date said, "There you are!"</p>
+					<pb
+						facs="https://raw.githubusercontent.com/BucknellDSC/heresies/main/issue04/images/Heresies_04_018.jpg"
+						n="18" xml:id="img_0018"/>
+					<p>I've spent a lot of my time in the library here, picking out obscure
+						references to memoirs written by bad ladies two hundred years ago and novels
+						by worse ladies who, although personally blameless, wrote wicked books:
+							<title>A Romance of the Pyrenees.</title>
+						<title>Marianna or The Puritan's Daughter</title>. Weird, ghastly stuff.
+						Five romances under the pseudonym <emph><persName key="Jane Austen"
+								ref="http://www.wikidata.org/entity/Q36322" cert="medium" role="aut"
+								type="real">By a Lady</persName></emph>. Domestic sentiment. Gothic
+						castles. Purity. If only I can reduce this pulp to pulp and spread it out
+						into some kind of shape. Dead voices, haunting and terrible: I want, I need,
+						I hope, I believe. What sort of homes did they have? Did they do their own
+						cooking? Did they expect to get pregnant every year? (See Mrs. Defoe's
+						journal.) The awful constriction, the huge skirts. Mrs. Pepys' dress
+						allowance (''the poor wretch," her husband called her). "How are we fall'n,
+						fall'n by mistaken rules!" "Women live like Bats or Owls, labour like
+						Beasts, and die like Worms." "Anyone may blame me who likes." "How good it
+						must be to be a man when you want to travel." "John laughs at me, but one
+						expects that in marriage." "It had all been a therapeutic lie. The mind was
+						powerless to save her. Only a man..." "I / Revolve in my / Sheath of
+						impossibles—"  Scholars don’t usually sit gasping and sobbing in corners of
+						the library stacks.</p>
+					<p> But they should. They should.</p>
+				</div>
+
+				<div>
+					<p>Joanna Russ is the author of a novel published by <orgName
+							key="Dell Publishing" ref="http://www.wikidata.org/entity/Q2075464">Dell
+							Books</orgName>, <title key="We Who Are About To..."
+							ref="http://www.wikidata.org/entity/Q106809184">We Who Are About
+							To</title>, and of the science fiction novel, <title
+							key="The Two of Them" ref="http://www.wikidata.org/entity/Q7770974">The
+							Two of Them</title>, to be published by <orgName
+							key="G. P. Putnam's Sons" ref="http://www.wikidata.org/entity/Q3093062"
+							>Putnam's</orgName>. This spring <orgName key="Daughters, Inc."
+							ref="http://www.wikidata.org/entity/Q105833476">Daughters,
+							Inc.</orgName> will present her fantasy novel, <title level="m">Kit's
+							Story: A Tale of Magic</title>. She lives in <placeName key="Bellevue"
+							ref="http://www.wikidata.org/entity/Q214164"><placeName key="Bellevue"
+								ref="http://www.wikidata.org/entity/Q214164" cert="high">Bellevue,
+									Washington<precision match="@ref" precision="high"
+							/></placeName></placeName>. </p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,2351 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/BucknellDSC/heresies/main/CSS/heresies_cwrc.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+         	<title>Making Something from Nothing (Toward a Definition of Women’s “Hobby Art”)</title>
+            <author>Lucy Lippard</author>
+            <respStmt>
+               <persName>Haley Beardsley</persName>
+               <resp>Editor (2021- Present)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Erica Delsandro</persName>
+               <resp>Investigator, editor</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Mia DeRoco</persName>
+               <resp>Editor (2023-Present)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Margaret Hunter</persName>
+               <resp>Editor (2021-Present)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Diane Jakacki</persName>
+               <resp>Invesigator, encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Sophie McQuaide</persName>
+               <resp>Editor (2021-2023)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Olivia Martin</persName>
+               <resp>Editor, encoder (2021)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Zoha Nadeer</persName>
+               <resp>Editor (2022-Present)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Bri Perea</persName>
+               <resp>Editor (2022-23)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Carrie Pirmann</persName>
+               <resp>HTR editor, encoder (2023-Present)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Ricky Rodriguez</persName>
+               <resp>Editor (2022-2023)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Roger Rothman</persName>
+               <resp>Investigator, editor</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Kaitlyn Segreti</persName>
+               <resp>Editor (2021-Present)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Maggie Smith</persName>
+               <resp>Editor (2021-Present)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Maya Wadhwa</persName>
+               <resp>Editor (2021-2023)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Lucy Wadswoth</persName>
+               <resp>Editor (2022-Present)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Anna Marie Wingard</persName>
+               <resp>Editor (2023-Present)</resp>
+            </respStmt>
+            <funder>Bucknell University Humanities Center</funder>
+            <funder>Bucknell University Office of Undergraduate Research</funder>
+            <funder>The Mellon Foundation</funder>
+            <funder>National Endowment for the Humanities</funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor>
+               <name>Bucknell University</name>
+               <address>
+                  <street>One Dent Drive</street>
+                  <settlement>Lewisburg</settlement>
+                  <region>Pennsylvania</region>
+                  <postCode>17837</postCode>
+               </address>
+            </distributor>
+            <availability>
+               <licence>Bucknell Heresies Project: Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</licence>
+               <licence>Heresies journal: © Heresies Collective</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+               	<title>Women's Traditional Arts: The Politics of Aesthetics</title>
+               </analytic>
+               <monogr>
+                  <imprint>
+                     <publisher>HERESIES: A Feminist Publication on Art and Politics</publisher>
+                     <pubPlace>
+                        <address>
+                           <name>Heresies</name>
+                           <postBox>P.O. Boxx 766, Canal Street Station</postBox>
+                           <settlement>New York</settlement>
+                           <region>New York</region>
+                           <postCode>10013</postCode>
+                        </address>
+                     </pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+   <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?person_annotation_20230926203444136",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-09-27T00:34:44.136Z",
+	"dcterms:modified": "2023-09-27T00:34:44.136Z",
+	"dcterms:creator": {
+		"@id": "22",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Mia DeRoco"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?person_annotation_20230926203444136#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?person_annotation_20230926203444136#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/55774726/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:medium"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?person_annotation_20230926203536218",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-09-27T00:35:36.218Z",
+	"dcterms:modified": "2023-09-27T00:35:36.218Z",
+	"dcterms:creator": {
+		"@id": "22",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Mia DeRoco"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?person_annotation_20230926203536218#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?person_annotation_20230926203536218#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/70554949/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?title_annotation_20230926204657407",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-09-27T00:46:57.407Z",
+	"dcterms:modified": "2023-09-27T00:46:57.407Z",
+	"dcterms:creator": {
+		"@id": "22",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Mia DeRoco"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?title_annotation_20230926204657407#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?title_annotation_20230926204657407#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://www.wikidata.org/entity/Q55512148",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:low"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?person_annotation_20230926205637709",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-09-27T00:56:37.709Z",
+	"dcterms:modified": "2023-09-27T00:56:37.709Z",
+	"dcterms:creator": {
+		"@id": "22",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Mia DeRoco"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?person_annotation_20230926205637709#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?person_annotation_20230926205637709#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[4]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q182589",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?place_annotation_20230926210224231",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-09-27T01:02:24.231Z",
+	"dcterms:modified": "2023-09-27T01:02:24.231Z",
+	"dcterms:creator": {
+		"@id": "22",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Mia DeRoco"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?place_annotation_20230926210224231#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?place_annotation_20230926210224231#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[4]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q188740",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?place_annotation_20230926210645859",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-09-27T01:06:45.859Z",
+	"dcterms:modified": "2023-09-27T01:06:45.859Z",
+	"dcterms:creator": {
+		"@id": "22",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Mia DeRoco"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?place_annotation_20230926210645859#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?place_annotation_20230926210645859#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[5]/abbr/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q188740",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?person_annotation_20230929101256220",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-09-29T14:12:56.220Z",
+	"dcterms:modified": "2023-09-29T14:12:56.220Z",
+	"dcterms:creator": {
+		"@id": "22",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Mia DeRoco"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?person_annotation_20230929101256220#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?person_annotation_20230929101256220#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[10]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q5250035",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?person_annotation_20230929103916352",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-09-29T14:39:16.352Z",
+	"dcterms:modified": "2023-09-29T14:39:16.352Z",
+	"dcterms:creator": {
+		"@id": "22",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Mia DeRoco"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?person_annotation_20230929103916352#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?person_annotation_20230929103916352#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[13]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q5702182",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?organization_annotation_20230929103952886",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-09-29T14:39:52.886Z",
+	"dcterms:modified": "2023-09-29T14:39:52.886Z",
+	"dcterms:creator": {
+		"@id": "22",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Mia DeRoco"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?organization_annotation_20230929103952886#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?organization_annotation_20230929103952886#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[14]/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q3369894",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?organization_annotation_20230929104110551",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-09-29T14:41:10.551Z",
+	"dcterms:modified": "2023-09-29T14:41:10.551Z",
+	"dcterms:creator": {
+		"@id": "22",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Mia DeRoco"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?organization_annotation_20230929104110551#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?organization_annotation_20230929104110551#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[14]/orgName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://dbpedia.org/resource/Parent–teacher_association",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?person_annotation_20230929104529132",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-09-29T14:45:29.132Z",
+	"dcterms:modified": "2023-09-29T14:45:29.132Z",
+	"dcterms:creator": {
+		"@id": "22",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Mia DeRoco"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?person_annotation_20230929104529132#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?person_annotation_20230929104529132#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[17]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q5659529",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?person_annotation_20230929104719432",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-09-29T14:47:19.432Z",
+	"dcterms:modified": "2023-09-29T14:47:19.432Z",
+	"dcterms:creator": {
+		"@id": "22",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Mia DeRoco"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?person_annotation_20230929104719432#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?person_annotation_20230929104719432#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[18]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q375268",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?person_annotation_20230929104732366",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-09-29T14:47:32.366Z",
+	"dcterms:modified": "2023-09-29T14:47:32.366Z",
+	"dcterms:creator": {
+		"@id": "22",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Mia DeRoco"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?person_annotation_20230929104732366#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?person_annotation_20230929104732366#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[18]/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q527001",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?person_annotation_20230929104924746",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-09-29T14:49:24.746Z",
+	"dcterms:modified": "2023-09-29T14:49:24.746Z",
+	"dcterms:creator": {
+		"@id": "22",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Mia DeRoco"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?person_annotation_20230929104924746#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?person_annotation_20230929104924746#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[19]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q19754141",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?person_annotation_20230929105024434",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-09-29T14:50:24.434Z",
+	"dcterms:modified": "2023-09-29T14:50:24.434Z",
+	"dcterms:creator": {
+		"@id": "22",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Mia DeRoco"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?person_annotation_20230929105024434#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?person_annotation_20230929105024434#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[19]/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q156731",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?person_annotation_20230929105926117",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-09-29T14:59:26.117Z",
+	"dcterms:modified": "2023-09-29T14:59:26.117Z",
+	"dcterms:creator": {
+		"@id": "22",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Mia DeRoco"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?person_annotation_20230929105926117#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?person_annotation_20230929105926117#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[25]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q441440",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?person_annotation_20230929105953183",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-09-29T14:59:53.183Z",
+	"dcterms:modified": "2023-09-29T14:59:53.183Z",
+	"dcterms:creator": {
+		"@id": "22",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Mia DeRoco"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?person_annotation_20230929105953183#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?person_annotation_20230929105953183#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[25]/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q542496",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?person_annotation_20231013131148180",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-10-13T17:11:48.180Z",
+	"dcterms:modified": "2023-10-13T17:11:48.180Z",
+	"dcterms:creator": {
+		"@id": "24",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Lyndon Beier"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?person_annotation_20231013131148180#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?person_annotation_20231013131148180#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/byline/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q137115",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?person_annotation_20240827152653182",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-27T19:26:53.182Z",
+	"dcterms:creator": {
+		"@id": "9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?person_annotation_20240827152653182#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?person_annotation_20240827152653182#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[8]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/45816276/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?person_annotation_20240827152843921",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-27T19:28:43.921Z",
+	"dcterms:creator": {
+		"@id": "9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?person_annotation_20240827152843921#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?person_annotation_20240827152843921#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[9]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/162843790/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?title_annotation_20240827153456691",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-27T19:34:56.691Z",
+	"dcterms:modified": "2024-08-27T19:34:56.691Z",
+	"dcterms:creator": {
+		"@id": "9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?title_annotation_20240827153456691#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?title_annotation_20240827153456691#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[25]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://www.wikidata.org/entity/Q2915473",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?place_annotation_20241007112407503",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-07T15:24:07.503Z",
+	"dcterms:modified": "2024-10-07T15:24:07.503Z",
+	"dcterms:creator": {
+		"@id": "24",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Lyndon Beier"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?place_annotation_20241007112407503#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/lippard_0_0_0_0.xml?place_annotation_20241007112407503#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[19]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q188740",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader>
+  <text>
+      <body>
+         <div cert="high" org="composite" part="Y" sample="initial" type="essay" xml:space="default">    
+         <pb facs="https://raw.githubusercontent.com/BucknellDSC/heresies/main/issue04/images/Heresies_04_065.jpg" n="65" xml:id="img_0065"/>
+            <head>
+               <title type="essay">Making Something from Nothing (Toward a Definition of Women’s “Hobby Art”)</title></head>
+               <byline><persName key="Lucy R. Lippard" ref="http://www.wikidata.org/entity/Q137115">Lucy R. Lippard</persName></byline>
+            <p>
+               In 1968 <persName key="Griffith, Rubye Mae" ref="http://viaf.org/viaf/55774726/" cert="medium">Rubye Mae Griffith</persName> and
+               <persName key="Griffith, Frank B." ref="http://viaf.org/viaf/70554949/">Frank B. Griffith</persName> published a "hobby" book called <title key="How to Make Something From Nothing." ref="http://www.wikidata.org/entity/Q55512148" cert="low">How To Make Something
+               from Nothing</title>. On the cover (where it
+               would sell books) his name was listed
+               before hers, while on the title page
+               (where it could do no harm), hers appeared before his. It is tempting to
+               think that it was she who wrote the
+               crypto-feminist dedication: "To the
+               nothings—with the courage to turn into
+               somethings." The book itself is concerned with transformation—of tin
+               cans, beef knuckle bones, old razor blades, breadbaskets and bottlecaps into more and less useful and decorative
+               items. As "A Word in Parting," the
+               authors state their modest credo: "This
+               book...is simply a collection of ideas
+               intended to encourage your ideas...We want you to do things your way...Making nothings into somethings is a
+               highly inventive sport but because it is
+               inventive and spontaneous and original.
+               it releases tensions, unties knots of
+               frustration, gives you a wonderful sense
+               of pleasure and accomplishment. So experiment, dare, improvise—enjoy every
+               minute—and maybe you'll discover, as
+               we did, that once you start making
+               something from nothing, you find you
+               can’t stop, and what’s more you don't
+               want to stop!"</p>
+            
+               <p>Despite the tone and the emphasis on
+               enjoyment—unpopular in serious circles—this "sport" sounds very much
+               like fine or "high" art. Why then are its
+               products not art? "Lack of quality" will be the first answer offered, and "derivative" the second, even though
+               both would equally apply to most of the
+               more sophisticated works seen in galleries and museums. If art is popularly
+               defined as a unique and provocative
+               object of beauty and imagination, the
+               work of many of the best contemporary "fine" artists must be disqualified
+               along with that of many "craftspeople," and in the eyes of the broad audience, many of the talented hobbyist's
+               works <emph>would</emph> qualify. Yet many of these.
+               in turn, would not even be called "crafts" by the purists in that field. Although it is true that all this name calling is a red herring, it makes me
+               wonder whether high art by another
+               name might be less intimidating and
+               more appealing. On the other hand, would high art by any other name look
+               so impressive, be so respected and so
+               commercially valued? I won't try to
+               answer these weighted queries here, but
+               simply offer them as other ways of
+               thinking about some of the less obvious
+               aspects of the art of making.</p>
+              <p> Much has been made of the need to
+               erase false distinctions between art and
+               craft, "fine" art and the "minor" arts, "high" art and "low" art—distinctions
+               that particularly affect women's art.
+               But there are also "high" crafts and "low" ones, and although women wield
+               more power in the crafts world than in
+               the fine art world, the same problems
+               plague both. The crafts need only on
+               more step up the aesthetic and financial respectability ladder and they will
+               headed for the craft museums rather than for people's homes.</p>
+               <p>Perhaps until the character of the
+               museums changes, anything ending up
+               in one will remain a display of upper
+               class taste in expensive and doubtfully "useful" objects. For most of this century, the prevailing relationship between art and "the masses" has been
+               one of paternalistic <lang>noblesse oblige</lang>
+               along the lines of "we who are educated
+               to <emph>know</emph> what's correct must pass our
+               knowledge and good taste <emph>down</emph> to
+               those who haven't the taste, the time,
+               or the money to know what is Good." Artists and craftspeople, from <persName key="William Morris" ref="http://www.wikidata.org/entity/Q182589">William
+               Morris</persName> to de Stijl and the Russian Constructivists, have dreamed of socialist
+               Utopias where everyone's life is improved by cheap and beautiful objects
+               and environments. Yet the path of the
+               <placeName key="Museum of Modern Art" ref="http://www.wikidata.org/entity/Q188740">Museum of Modern Art</placeName> 's design department, also paved with good intentions, indicates the destination of such
+               dreams in a capitalist consumer society.
+               A pioneer in bringing to the public the
+               best available in commercial design
+               the Museum's admirable display of
+               such ready-mades as a handsome and
+               durable 39¢ paring knife or a 69¢ coffee
+               mug has mostly given way to installations more typical of Bonnier's, DR, or
+               some chic Italian furniture showroom.</p>
+               <p>It is, as it so often is, a question of
+               audience, as well as a question of categorization. (One always follows the
+               other.) Who sees these objects at
+               <abbr><placeName key="Museum of Modern Art" ref="http://www.wikidata.org/entity/Q188740">MOMA</placeName></abbr>? Mostly people who buy $3.00
+               paring knives and $8.00 coffee mugs which are often merely "elevated" examples of the cheaper versions, with
+               unnecessary refinements or simplifications. Good Taste is once again an economic captive of the classes who rule
+               the culture and govern its institutions.
+               Bad Taste is preferred by those ingrates</p>
+            <pb facs="https://raw.githubusercontent.com/BucknellDSC/heresies/main/issue04/images/Heresies_04_066.jpg" n="66" xml:id="img_0066"/>
+            <p>
+               who are uneducated enough to ignore
+               or independent enough to reject the impositions from above. Their lack of
+               enthusiasm provides an excuse for the
+               aesthetic philanthropists, their hands
+               bitten, to stop feeding the masses.
+               Class-determined good/bad taste patterns revert to type.</p>
+               <p>Such is the process by which both
+               design objects and the "high" crafts
+               have become precisely the consumer
+               commodity that the rare socially conscious "fine" artist is struggling to
+               avoid. Historically, craftspeople, whose
+               work still exists on a less exalted equilibrium between function and commerce, have been most aware of the
+               contradictions inherent in the distinction between art and crafts. The distinction between design and "high" crafts is a modern one. Both have their
+               origins in the "low" crafts of earlier
+               periods, sometimes elevated to the level
+               of "folk art" because of their usefulness
+               as sources for "fine" art. A "designer" is simply the craftsperson of the technological age, no longer forced to do her/his own <emph>making</emph>. The Bauhaus <emph>became</emph>
+               the cradle of industrial design, but the
+               tapestries, furniture, textiles and tea
+               sets made there were still primarily
+               works of art. Today, the most popular
+               housewares all through the taste gamut
+               of the American lower-middle to upper-middle class owe as much stylistically
+               to the "primitive" or "low" crafts—
+               Mexican, Asian, American Colonial—
+               as to the streamlining of the international style. In fact, popular design
+               tends to combine the two, which meet
+               at a point of (often spurious) simplicity, and to become "kitsch"—diluted
+               examples of the Good Taste that is hidden away in museums, expensive
+               stores, and the homes of the wealthy, inaccessible to everyone else.</p>
+               <p>The hobby books reflect the manner
+               in which Good Taste is still unarguably
+               set forth by the class system. Different
+               books are clearly aimed at different
+               tastes, aspirations, educational levels.
+               For instance, <persName key="Aldrich, Dorothy" ref="http://viaf.org/viaf/45816276/">Dot Aldrich</persName>’s <title>Creating with Cattails, Cones and Pods</title> is not
+               aimed at the inner city working-class
+               housewife or welfare mother (who
+               couldn't afford the time or the materials) or at the farmer's wife (who sees
+               enough weeds in her daily work) but at
+               the suburban upper middle-class woman who thinks in terms of "creating",
+               has time on her hands and access to the
+               materials. Aldrich is described on the
+               dust jacket as a garden club member, a
+               naturalist, and an artist; the book is illustrated by her daughter. She very
+               thoroughly details the construction of
+               dollhouse furniture, corsages and "arrangements" from dried plants and
+               an occasional orange peel. Her taste is
+               firmly placed as "good" within her
+               class, although it might be seen as
+               gauche "homemade art" by the upper
+               class and ugly and undecorative by the
+               working class.</p>
+               <p><persName key="Pearson, Hazel 1965-" ref="http://viaf.org/viaf/162843790/">Hazel Pearson Williams'</persName> <title>Feather Flowers and Arrangements</title>, on the
+               other hand, has the sleazy look of a
+               mail-order catalogue; it is one of a craft
+               course series and its fans, birdcages,
+               butterflies and candles are all made
+               from garishly colored, rather than natural materials. The book is clearly
+               aimed at a totally different audience,
+               one that is presumed to respond to such
+               colors and to have no aesthetic appreciation of the "intrinsic" superiority of              
+               natural materials over artificial ones
+               not to mention an inability to afford
+               them.</p>
+               <p>The objects illustrated in books like
+               the Griffiths' are neither high art nor
+               high craft nor design. Yet such books
+               are myriad, and they are clearly aimed
+               at women—the natural <lang>bricoleurs</lang>, as
+               <persName key="Deena Metzger" ref="http://www.wikidata.org/entity/Q5250035">Deena Metzger</persName> has pointed out. The
+               books are usually written by a woman, and if a man is co-author he always
+               seems to be a husband, which adds a
+               certain familial coziness and gives him
+               an excuse for being involved in such
+               blatantly female fripperies (as well as
+               dignifying the frippery by his participation). Necessity is the mother, not the
+               father of invention. The home <emph>maker</emph>’s
+               sense of care and touch focuses on sewing, cooking, interior decoration as
+               often through conditioning as through
+               necessity, providing a certain bond between middle-class and working-class
+               housewives <emph>and</emph> career women. (I am
+               talking about the making of the home,
+               not just the keeping of it; "good
+               housekeeping" is not a prerogative for
+               creativity in the home. It might even be
+               the opposite, since the "houseproud" woman is often prouder of her house,
+               her container, than she is of herself.)
+               Even these days women still tend to be
+               brought up with an exaggerated sense
+               of detail and a need to be "busy", often
+               engendered by isolation within a particular space, and by the emphasis on
+               cleaning and service. A visually sensitive woman who spends day after day
+               in the same rooms develops a compulsion to change, adorn, <emph>expand</emph> them, an
+               impetus encouraged by the "hobby" books.</p>
+               <p>The "overdecoration" of the home
+               and the fondness for bric-a-brac often
+               attributed to female fussiness or plain
+               Bad Taste can just as well be attributed
+               to creative restlessness. Since most
+               homemade hobby objects are geared toward home improvement, they inspire
+               less fear in their makers of being "selfish" or "self-indulgent," there is no
+               confusion about pretentions to Art, and
+               the woman is freed to make anything
+               she can imagine. (At the same time it is
+               true that the imagination is often stimulated by exposure to other such work,
+               just as "real" artists are similarly dependent on the art world and the works
+               of their colleagues.) Making "conversation pieces" like deer antler salad tongs
+               or a madonna in an abalone shell grotto, or a mailbox from an old breadbox,
+               or vice versa, can be a prelude to breaking with the "functional" excuse and
+               the making of wholly "useless" objects.</p>
+               <p>Now that the homebound woman
+               has a little more leisure, thanks to so-called labor-saving devices, her pastimes are more likely to be cultural in
+               character. The less privileged she is,
+               the more likely she is to keep her interests <emph>inside</emph> the home with the focus of
+               her art remaining the same as that of
+               her work. The better off and better
+               educated she is, the more likely she is to
+               go <emph>outside</emph> of the home for influence or
+               stimulus, to spend her time reading, going to concerts, theatre, dance, staying "well informed." If she is upwardly
+               mobile, venturing from her own confirmed tastes into foreign realms where
+               she must be cautious about opinions
+               and actions, her insecurity is likely to
+               lead to the classic docility of the middle-class audience, so receptive to what "experts" tell them to think about the
+               arts. The term "culture vulture" is understood to apply mainly to upwardly
+               mobile <emph>women</emph>. And culture, in the
+               evangelical spirit of the work ethic, is
+               often also inseparable from "good
+               works."</p>
+            
+            <pb facs="https://raw.githubusercontent.com/BucknellDSC/heresies/main/issue04/images/Heresies_04_067.jpg" n="67" xml:id="img_0067"/>
+            <p>
+               Middle and upper-class women, always stronger in their support of "culture" than any other group, seem to
+               need aesthetic experience in the broadest sense more than men—perhaps because the vital business of running the
+               world, for which educated women, at
+               least to some extent, have been prepared, has been denied them, and
+               because they have the time and the
+               background to think—but not the
+               means to act. Despite the fact that middle-class women have frequently been
+               strong (and anonymous) forces for
+               social justice, the earnestness and
+               amateur status of such activities have
+               been consistently ridiculed, from the
+               Marx Brothers' films to the cartoons of
+               <persName key="Helen E. Hokinson" ref="http://www.wikidata.org/entity/Q5702182">Helen Hokinson</persName>.</p>
+               <p>Nevertheless, the <orgName key="League of Women Voters" ref="http://www.wikidata.org/entity/Q3369894">League of Women
+               Voters</orgName>, the volunteer work for under-funded cultural organizations, the
+               garden clubs, literary circles and
+               discussion groups of the comfortable
+               classes have been valid and sometimes
+               courageous attempts to move out into
+               the world while remaining sufficiently
+               on the fringes of the system so as not to
+               challenge its male core. The working-class counterparts are, for obvious
+               reasons, aimed less at improving the lot
+               of others than at improving one's own,
+               and, like hobby art, are more locally
+               and domestically focused in unions,
+               day care, paid rather than volunteer
+               social work, Tupperware parties—and
+               the <orgName key="Parent–teacher association" ref="http://dbpedia.org/resource/Parent–teacher_association">PTA</orgName>, where all classes meet. In any
+               case, the housewife learns to take derision in her stride whether she intends to
+               be socially effective or merely wants to
+               escape from the home now and then
+               (families are jealous of time spent elsewhere).</p>
+               <p>Women's liberation has at least begun to erode the notion that woman's
+               role is that of the applauding spectator
+               for men's creativity. Yet as makers of
+               (rather than housekeepers for) art, they
+               still trespass on male ground. No wonder, then, that all over the world, women privileged and/or desperate and/or
+               daring enough to consider creation outside traditional limits are finding an
+               outlet for these drives in an art that is
+               not considered "art," an art that there
+               is some excuse for making, an art that
+               costs little or nothing and performs an
+               ostensibly useful function in the bargain—the art of making something out
+               of nothing.</p>
+               <p>If ones' only known outlets are
+               follow-the-number painting or the
+               ready-made "kit art" offered by the
+               supermarket magazines, books like the
+               Griffiths open up new territory. Suggestions in "ladies'" and handiwork magazines should not be undervalued
+               either. After all, quilt patterns were
+               published and passed along in the 19th
+               century (just as fashionable art styles
+               are in today's art world). The innovative quilt maker or group of makers
+               would come up with a new idea that
+               broke or enriched the rules, just as the
+               Navajo rug maker might vary brilliantly within set patterns (and modern abstractionists innovate by sticking to the
+               rules of innovation).</p>
+               <p>The shared or published pattern forms
+               the same kind of armature for painstaking handwork and for freedom of expression within a framework as the
+               underlying grid does in contemporary
+               painting. Most modern women lack the
+               skills, the motive and the discipline to
+               do the kind of handwork their foremothers did by necessity, but the stitch-like "mark" <persName key="Harmony Hammond" ref="http://www.wikidata.org/entity/Q5659529">Harmony Hammond</persName> has
+               noted in so much recent abstract art by
+               women often emerges from a feminist
+               adoption of the positive aspects of
+               women's history. It relates to the
+               ancient, sensuously repetitive, Penelopean rhythms of seeding, hoeing, gathering, weaving, spinning, as well as to
+               modern domestic routines.</p>
+               <p>In addition, crocheting, needlework,
+               embroidery, rug-hooking and quilting
+               are coming back into middle- and
+               upper-class fashion on the apron strings
+               of feminism and fad. Ironically, these
+               arts are now practiced by the well-off
+               out of boredom and social presure as
+               often as out of emotional necessity to
+               make connections with women in the
+               past. What was once work has now become art or "high" craft—museum worthy as well as commercially valid.
+               In fact, when Navajo rugs and old
+               quilts were first exhibited in New York
+               fine arts museums in the early 1970s,
+               they were eulogized as neutral, ungendered sources for big bold geometric abstractions by male artists like <persName key="Frank Stella" ref="http://www.wikidata.org/entity/Q375268">Frank
+               Stella</persName> and <persName key="Kenneth Noland" ref="http://www.wikidata.org/entity/Q527001">Kenneth Noland</persName>. Had they
+               been presented as exhibitions of women’s art, they would have been seen
+               quite differently and probably would
+               not have been seen at all in a fine an
+               context at that time.</p>
+               <p>When feminists pointed out that these much-admired and "strong" works were in fact women’s crafts,
+               one might have expected traditional
+               women's art to be taken more seriously,
+               yet such borrowings from "below" must still be validated from "above." <persName key="William Seitz" ref="http://www.wikidata.org/entity/Q19754141">William C. Seitz's</persName> Assemblage show
+               at the <placeName key="Museum of Modern Art" ref="http://www.wikidata.org/entity/Q188740">Museum of Modern Art</placeName> in 1961
+               had acknowledged the generative role
+               of popular objects for Cubism, Dada
+               and Surrealism, and predicted Pop Art,
+               but he never considered women's work
+               as the classic <emph>bricolage</emph>. It took a man,
+               <persName key="Claes Oldenburg" ref="http://www.wikidata.org/entity/Q156731">Claes Oldenburg</persName>, to make fabric sculpture acceptable, though his wife, <persName>Patty</persName>
+               did the actual sewing. Sometimes men
+               even dabble in women's spheres in the
+               lowest of low arts—hobby art made
+               from throwaways by amateurs at home.
+               But when a man makes, say, a macaroni figure or a hand-tooled <title>Last Supper,</title> it tends to raise the sphere rather
+               than lower the man, and he is likely to
+               be written up in the local newspaper.
+               Women dabbling in men’s spheres, on
+               the other hand, are still either inferior
+               or just freakishly amazing.</p>
+               <p>It is supposed to be men who are "handy around the house," men who "fix" things while women "make" the
+               home. This is a myth, of course, and a
+               popular one. There are certainly as
+               many women who do domestic repair as men, but perhaps the myth was devised by women to force men to invest
+               <emph>some</emph> energy, to touch and to care about
+               <emph>some</emph> aspect of the home. The fact remains that when a woman comes to
+               make something, it more often than not
+               has a particular character—whether
+               this originates from role-playing, the
+               division of labor, or some deeper consciousness. The difference can often be
+               defined as a kind of "positive fragmentation" or as the collage aesthetic—the mixing and matching of fragments to provide a new whole. Thus the
+               bootcleaner made of bottlecaps suggested by one hobby book might also be
+               a Surrealist object.</p>
+               <p>But it is not. And this is not entirely a
+               disadvantage. Not only does the amateur status of hobby art dispel the need
+               for costly art lessons, but it subverts the
+               intimidation process that takes place
+               when the male domain of "high" art is
+               approached. As it stands, women—and</p>
+            <pb facs="https://raw.githubusercontent.com/BucknellDSC/heresies/main/issue04/images/Heresies_04_068.jpg" n="68" xml:id="img_0068"/>
+            <p>
+               especially women—can make hobby art
+               in a relaxed manner, isolated from the "real" world of commerce and the pressures of professional aestheticism. During the actual creative process, this is
+               an advantage, but when the creative
+               ego's attendant need for an audience
+               emerges, the next step is not the galleries, but to become a "cottage industry." The gifte shoppe, the county or
+               crafts fair and outdoor art show circuit
+               is open to women where the high art
+               world is not, or was not until it was
+               pried open to some extent by the feminist art movement. For this reason,
+               many professional women artists in the
+               past made both "public art" (canvases
+               and sculptures acceptable to galleries
+               and museums, conforming to a combination of the two current art world
+               tastes) and "private" or "closet" art
+               (made for personal reasons or "just
+               for myself"—as if most art were not).
+               With the advent of the new feminism,
+               the private has either replaced or
+               merged with the public in much women’s art and the delicate, the intimate,
+               the obsessive, even the "cute" and the "fussy" in certain guises have become
+               more acceptable, especially in feminist
+               art circles. A striking amount of the
+               newly discovered "closet" art by amateur and professional women artists resembles the <lang>chotchkas</lang> so universally
+               scorned as women’s playthings and
+               especially despised in recent decades
+               during the heyday of neo-Bauhaus
+               functionalism. The objects illustrated
+               in <title level="m">Feather Flowers and Arrangements</title>
+               bear marked resemblance to what is
+               now called Women's Art, including a
+               certainly unconscious bias toward the
+               forms that have been called female
+               imagery.</p>
+               <p>Today we are resurrecting our mothers', aunts' and grandmothers' activities—not only in the well-publicized
+               areas of quilts and textiles, but also in
+               the more random and freer area of
+               transformational <emph>rehabilitation</emph>. On an
+               emotional as well as on a practical
+               level, rehabilitation has always been
+               women's work. Patching, turning collars and cuffs, remaking old clothes,
+               changing buttons, refinishing or recovering old furniture are all the
+               traditional private resorts of the economically deprived woman to give her
+               family public dignity. This continues
+               today, even though in affluent Western
+               societies cheap clothes fall apart before
+               they can be rehabilitated and inventive
+               patching is more acceptable (to the
+               point where expensive new clothes are
+               made to <emph>look</emph> rehabilitated and thrift
+               shops are combed by the well-off).
+               Thus "making something from nothing" is a brilliant title for a hobby book,
+               appealing as it does both to housewifely
+               thrift and to the American spirit of free
+               enterprise—a potential means of making a fast buck.</p>
+               <p>Finally, certain questions arise in regard to women's recent "traditionally
+               oriented" fine art. Are the sources
+               direct—from quilts and county fair
+               handiwork displays—or indirect—via
+               Dada, Surrealism, <rs><rs>West Coast funk</rs></rs>, or
+               from feminist art itself? Is the resemblance of women’s art-world art to hobby art a result of coincidence? Of influence, conditioning, or some inherent
+               female sensibility? Or is it simply
+               another instance of camp, or fashionable downward mobility? The problem
+               extends from source to audience.</p>
+              
+               <p>Feminist artists have become far more
+               conscious of women's traditional arts
+               than most artists, and feminist artists
+               are also politically aware of the need to
+               broaden their audience, or of the need
+               to broaden the kind of social experience
+               fine art reflects. Yet the means by which
+               to fill these needs have barely been explored. The greatest lack in the feminist art movement may be for contact
+               and dialogue with those "amateurs" whose work sometimes appears to be
+               imitated by the professionals. <persName key="Judy Chicago" ref="http://www.wikidata.org/entity/Q441440">Judy
+               Chicago</persName> and her co-workers on <title key="The Dinner Party" ref="http://www.wikidata.org/entity/Q2915473">The Dinner Party</title> and their collaboration
+               with china painters and needleworkers,
+               <persName key="Miriam Schapiro" ref="http://www.wikidata.org/entity/Q542496">Miriam Schapiro</persName>’s handkerchief exchanges and the credit given the women
+               who embroider for her, the "Mother Art" group in Los Angeles which performs in laundromats and similar public/domestic situations, the British "Postal Art Event," and a few other examples are exceptions rather than the
+               rule. It seems all too likely that only in
+               a feminist art world will there be a
+               chance for the "fine" arts, the "minor" arts, "crafts," and hobby circuits to
+               meet and to develop an art of making
+               with a new and revitalized communicative function. It won't happen if the
+               feminist art world continues to be absorbed by the patriarchal art world.</p>
+               <p>And if it does happen, the next question will be to what extent can this work
+               be reconciled with all the varying criteria that determine aesthetic "quality" in the different spheres, groups, and
+               cultures? Visual consciousness raising,
+               concerned as it is now with female imagery and, increasingly, with female
+               process, still has a long way to go before
+               our visions are sufficiently cleared to
+               see <emph>all</emph> the arts of making as equal products of a creative impulse which is as
+               socially determined as it is personally
+               necessary; before the idea is no longer
+               to make nothings into somethings, but
+               to transform and give meaning to all
+               things. In this utopian realm, Good
+               Taste will not be standardized in
+               museums, but will vary from place to
+               place, from home to home.</p>
+            <p>
+               References: The Griffiths’ book was
+               published by Castle Books, NYC; the
+               Aldrich book by Hearthside Press, Great
+               Neck, N.Y.; the Williams book by Craft
+               Course publishers, Temple City, California.
+               I found all of them in the tiny local library in
+               a Maine town with a population of circa
+               three hundred.</p>
+               <p>The Hammond article appeared in
+               Heresies No. 1; her "Class Notes" in No. 3
+               are also relevant. The Metzger appeared in
+               Heresies No. 2 and is an important contribution to the feminist dialogue on "high" and "low" art. The British Postal Event, or "Portrait of the Artist as a Housewife", is a "visual conversation" between amateur and
+               professional women artists isolated in different cities. They send each other art objects derived from "non-prestigious folk
+               traditions," art that is "cooked and eaten,
+               washed and worn" in an attempt to sew a
+               cloth of identity that other women may
+               recognize. It is documented in MAMA!, a
+               booklet published by a Birmingham collective and available from PDC, 27
+               Clerkenwell Close, London EC 1.</p>
+               <p>I have also been indebted in this series of
+               articles (which includes "The Pink Glass
+               Swan" in Heresies No. 1) to Don Celender's
+               fascinating Opinions of Working People
+               Concerning the Arts, 1975, available from
+               Printed Matter, 7-9 Lispenard St., NYC
+               10013.</p>
+			   </div>
+			   </body>
+			   <back>
+            <p>
+               Lucy R. Lippard writes feminist criticism and fiction. She has temporarily and regretfully escaped from the
+               HERESIES Collective to live on an isolated English
+               farm with her son and her third novel.</p>
+      </back>
+  </text>
+</TEI>

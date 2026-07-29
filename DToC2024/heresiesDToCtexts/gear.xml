@@ -1,0 +1,3117 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/BucknellDSC/heresies/main/CSS/heresies_cwrc.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Trapped Women: Two Sister Designers</title>
+				<author>Josephine Gear</author>
+				<respStmt>
+					<persName>Haley Beardsley</persName>
+					<resp>Editor (2021- Present)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Lyndon Beier</persName>
+					<resp>Editor (2023-Present)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Erica Delsandro</persName>
+					<resp>Investigator, editor</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Mia DeRoco</persName>
+					<resp>Editor (2023-Present)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Margaret Hunter</persName>
+					<resp>Editor (2021-Present)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Diane Jakacki</persName>
+					<resp>Invesigator, encoder</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Sophie McQuaide</persName>
+					<resp>Editor (2021-2023)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Olivia Martin</persName>
+					<resp>Editor, encoder (2021)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Zoha Nadeer</persName>
+					<resp>Editor (2022-Present)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Bri Perea</persName>
+					<resp>Editor (2022-23)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Carrie Pirmann</persName>
+					<resp>HTR editor, encoder (2023-Present)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Ricky Rodriguez</persName>
+					<resp>Editor (2022-2023)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Roger Rothman</persName>
+					<resp>Investigator, editor</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Kaitlyn Segreti</persName>
+					<resp>Editor (2021-Present)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Maggie Smith</persName>
+					<resp>Editor (2021-Present)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Maya Wadhwa</persName>
+					<resp>Editor (2021-2023)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Lucy Wadswoth</persName>
+					<resp>Editor (2022-Present)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Anna Marie Wingard</persName>
+					<resp>Editor (2023-Present)</resp>
+				</respStmt>
+				<funder>Bucknell University Humanities Center</funder>
+				<funder>Bucknell University Office of Undergraduate Research</funder>
+				<funder>The Mellon Foundation</funder>
+				<funder>National Endowment for the Humanities</funder>
+			</titleStmt>
+			<publicationStmt>
+				<distributor>
+					<name>Bucknell University</name>
+					<address>
+						<street>One Dent Drive</street>
+						<settlement>Lewisburg</settlement>
+						<region>Pennsylvania</region>
+						<postCode>17837</postCode>
+					</address>
+				</distributor>
+				<availability>
+					<licence>Bucknell Heresies Project: Creative Commons Attribution-NonCommercial
+						4.0 International (CC BY-NC 4.0)</licence>
+					<licence>Heresies journal: © Heresies Collective</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<title>Women's Traditional Arts: The Politics of Aesthetics</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<publisher>HERESIES: A Feminist Publication on Art and
+								Politics</publisher>
+							<pubPlace>
+								<address>
+									<name>Heresies</name>
+									<postBox>P.O. Boxx 766, Canal Street Station</postBox>
+									<settlement>New York</settlement>
+									<region>New York</region>
+									<postCode>10013</postCode>
+								</address>
+							</pubPlace>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+				xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+				xmlns:as="http://www.w3.org/ns/activitystreams#"
+				xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
+				xmlns:dc="http://purl.org/dc/elements/1.1/"
+				xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/"
+				xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#"
+				xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+				xmlns:fabio="https://purl.org/spar/fabio#"
+				xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+				xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
+				xmlns:org="http://www.w3.org/ns/org#">
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?person_annotation_20230922120446571",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-09-22T16:04:46.571Z",
+	"dcterms:modified": "2023-09-22T16:04:46.571Z",
+	"dcterms:creator": {
+		"@id": "27",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Carrie Pirmann"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?person_annotation_20230922120446571#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?person_annotation_20230922120446571#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/byline/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/272024550/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:low"
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?person_annotation_20230922132627190",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-09-22T17:26:27.190Z",
+	"dcterms:creator": {
+		"@id": "25",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Anna Marie Wingard"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?person_annotation_20230922132627190#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?person_annotation_20230922132627190#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q220703",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?person_annotation_20230922132803460",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-09-22T17:28:03.460Z",
+	"dcterms:creator": {
+		"@id": "25",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Anna Marie Wingard"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?person_annotation_20230922132803460#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?person_annotation_20230922132803460#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q508344",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?person_annotation_20230922132903254",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-09-22T17:29:03.254Z",
+	"dcterms:creator": {
+		"@id": "25",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Anna Marie Wingard"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?person_annotation_20230922132903254#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?person_annotation_20230922132903254#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[3]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q458827",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?organization_annotation_20230922132954460",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-09-22T17:29:54.460Z",
+	"dcterms:modified": "2023-09-22T17:29:54.460Z",
+	"dcterms:creator": {
+		"@id": "25",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Anna Marie Wingard"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?organization_annotation_20230922132954460#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?organization_annotation_20230922132954460#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[5]/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q748106",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?person_annotation_20230922133124338",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-09-22T17:31:24.338Z",
+	"dcterms:modified": "2023-09-22T17:31:24.338Z",
+	"dcterms:creator": {
+		"@id": "25",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Anna Marie Wingard"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?person_annotation_20230922133124338#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?person_annotation_20230922133124338#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[6]/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q745714",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?person_annotation_20230922133255932",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-09-22T17:32:55.932Z",
+	"dcterms:creator": {
+		"@id": "25",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Anna Marie Wingard"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?person_annotation_20230922133255932#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?person_annotation_20230922133255932#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[9]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q182589",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?person_annotation_20230922133308781",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-09-22T17:33:08.781Z",
+	"dcterms:creator": {
+		"@id": "25",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Anna Marie Wingard"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?person_annotation_20230922133308781#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?person_annotation_20230922133308781#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[9]/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q2662935",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?person_annotation_20230922133327387",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-09-22T17:33:27.387Z",
+	"dcterms:creator": {
+		"@id": "25",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Anna Marie Wingard"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?person_annotation_20230922133327387#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?person_annotation_20230922133327387#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[9]/persName[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q660917",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?person_annotation_20230922133355372",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-09-22T17:33:55.372Z",
+	"dcterms:creator": {
+		"@id": "25",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Anna Marie Wingard"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?person_annotation_20230922133355372#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?person_annotation_20230922133355372#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[10]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q5052609",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?person_annotation_20230929110750645",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-09-29T15:07:50.645Z",
+	"dcterms:modified": "2023-09-29T15:07:50.645Z",
+	"dcterms:creator": {
+		"@id": "25",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Anna Marie Wingard"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?person_annotation_20230929110750645#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?person_annotation_20230929110750645#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[5]/persName/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q5481274",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?person_annotation_20230929111200499",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-09-29T15:12:00.499Z",
+	"dcterms:creator": {
+		"@id": "25",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Anna Marie Wingard"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?person_annotation_20230929111200499#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?person_annotation_20230929111200499#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[15]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q47914245",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?person_annotation_20230929112451635",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-09-29T15:24:51.635Z",
+	"dcterms:creator": {
+		"@id": "25",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Anna Marie Wingard"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?person_annotation_20230929112451635#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?person_annotation_20230929112451635#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[21]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q5567501",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?person_annotation_20230929113044313",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-09-29T15:30:44.313Z",
+	"dcterms:creator": {
+		"@id": "25",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Anna Marie Wingard"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?person_annotation_20230929113044313#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?person_annotation_20230929113044313#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[23]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q272566",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?person_annotation_20230929113128334",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-09-29T15:31:28.334Z",
+	"dcterms:creator": {
+		"@id": "25",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Anna Marie Wingard"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?person_annotation_20230929113128334#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?person_annotation_20230929113128334#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[23]/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q369416",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?organization_annotation_20231103114204738",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-11-03T15:42:04.738Z",
+	"dcterms:creator": {
+		"@id": "25",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Anna Marie Wingard"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?organization_annotation_20231103114204738#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?organization_annotation_20231103114204738#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[15]/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q5566917",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?note_annotation_20231117144328229",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-11-17T19:43:28.229Z",
+	"dcterms:modified": "2023-11-17T19:43:28.229Z",
+	"dcterms:creator": {
+		"@id": "1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "admin"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?note_annotation_20231117144328229#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?note_annotation_20231117144328229#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[4]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:Note",
+		"dc:format": "text/plain",
+		"rdf:value": "The first five cities were London, Paris, Berlin, Vienna\n\t\t\t\t\t\tand St. Petersburg. Glasgow’s other heavy industries were engineering,\n\t\t\t\t\t\ttextiles, chemicals, printing and papermaking. C.A. Oakley, The\n\t\t\t\t\t\t\tSecond City (Glasgow and London: Blackie, 1975)."
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?note_annotation_20231117144328231",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-11-17T19:43:28.231Z",
+	"dcterms:modified": "2023-11-17T19:43:28.231Z",
+	"dcterms:creator": {
+		"@id": "1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "admin"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?note_annotation_20231117144328231#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?note_annotation_20231117144328231#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[5]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:Note",
+		"dc:format": "text/plain",
+		"rdf:value": "In 1895, at the request\n\t\t\t\t\t\t\tof L’Oeuvre Artistique, Francis Newbery sent three cases\n\t\t\t\t\t\tof his students work to the Arts and Crafts Exhibition in Liege. T. Howarth,\n\t\t\t\t\t\t\tCharles Rennie Mackintosh and the Modern Movement\n\t\t\t\t\t\t(London: Routledge and Kaegan Paul Ltd., 1952), p. 37."
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?note_annotation_20231117144328231",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-11-17T19:43:28.231Z",
+	"dcterms:modified": "2023-11-17T19:43:28.231Z",
+	"dcterms:creator": {
+		"@id": "1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "admin"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?note_annotation_20231117144328231#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?note_annotation_20231117144328231#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[6]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:Note",
+		"dc:format": "text/plain",
+		"rdf:value": "Information told to Howarth by Herbert MacNair, p. 25."
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?note_annotation_20231117144328232",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-11-17T19:43:28.232Z",
+	"dcterms:creator": {
+		"@id": "1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "admin"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?note_annotation_20231117144328232#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?note_annotation_20231117144328232#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[10]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:Note",
+		"dc:format": "text/plain",
+		"rdf:value": "Her\n\t\t\t\t\t\tbrother, Stuart Cranston, was also in the tearoom business. Catherine\n\t\t\t\t\t\tCranston appears to have been the important patron of Mackintosh and\n\t\t\t\t\t\tMacdonald. The tearooms’ busiest hours were 11:00 to noon, 4:00 to 5:00 p.m.\n\t\t\t\t\t\tSmoke-rooms were set aside for the men. Margaret Macdonald’s contributions\n\t\t\t\t\t\tto the tearooms were not as important as her husband’s were. Therefore, the\n\t\t\t\t\t\ttearooms are not discussed further. See Howarth on Mackintosh’s tearoom\n\t\t\t\t\t\tdesigns."
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?note_annotation_20231117144328233",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-11-17T19:43:28.233Z",
+	"dcterms:creator": {
+		"@id": "1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "admin"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?note_annotation_20231117144328233#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?note_annotation_20231117144328233#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[11]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:Note",
+		"dc:format": "text/plain",
+		"rdf:value": "H. Jefferson\n\t\t\t\t\t\tBarnes, Furniture by Charles Rennie Mackintosh, (Glasgow:\n\t\t\t\t\t\tGlasgow School of Art, 1969)."
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?note_annotation_20231117144328233",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-11-17T19:43:28.233Z",
+	"dcterms:creator": {
+		"@id": "1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "admin"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?note_annotation_20231117144328233#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?note_annotation_20231117144328233#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[15]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:Note",
+		"dc:format": "text/plain",
+		"rdf:value": "The Glasgow Boys, Part Two: The History of the Group and\n\t\t\t\t\t\t\tIllustrations (Edinburgh: The Scottish Arts Council, 1971), p.\n\t\t\t\t\t\t77."
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?note_annotation_20231117144328234",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-11-17T19:43:28.234Z",
+	"dcterms:creator": {
+		"@id": "1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "admin"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?note_annotation_20231117144328234#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?note_annotation_20231117144328234#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[17]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:Note",
+		"dc:format": "text/plain",
+		"rdf:value": "Catalogue of the Fifth\n\t\t\t\t\t\t\tExhibition, 1896 (London: Arts and Crafts Exhibition Society,\n\t\t\t\t\t\t1896), exhibit nos: 285, 475, 508, 511."
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?note_annotation_20231117144328235",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-11-17T19:43:28.235Z",
+	"dcterms:creator": {
+		"@id": "1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "admin"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?note_annotation_20231117144328235#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?note_annotation_20231117144328235#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[19]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:Note",
+		"dc:format": "text/plain",
+		"rdf:value": "The sisters’\n\t\t\t\t\t\twork was reviewed in The Studio, IX, December, 1896, pp.\n\t\t\t\t\t\t202-203."
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?note_annotation_20231117144328235",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-11-17T19:43:28.235Z",
+	"dcterms:creator": {
+		"@id": "1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "admin"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?note_annotation_20231117144328235#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?note_annotation_20231117144328235#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[21]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:Note",
+		"dc:format": "text/plain",
+		"rdf:value": "The Studio, XI, July, 1897, pp.\n\t\t\t\t\t\t86-100."
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?note_annotation_20231117144328236",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-11-17T19:43:28.236Z",
+	"dcterms:creator": {
+		"@id": "1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "admin"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?note_annotation_20231117144328236#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?note_annotation_20231117144328236#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[23]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:Note",
+		"dc:format": "text/plain",
+		"rdf:value": "Ford Madox Brown’s Take Your Son\n\t\t\t\t\t\t\tSir, 1856-1857, Tate Gallery, is the source of compositional\n\t\t\t\t\t\tinspiration for Margaret’s piece, as R. Schmultzer, Art\n\t\t\t\t\t\t\tNouveau (New York: H. N. Abrams, 1962), p. 240, among others,\n\t\t\t\t\t\thas pointed out."
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?note_annotation_20231117144328237",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-11-17T19:43:28.237Z",
+	"dcterms:creator": {
+		"@id": "1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "admin"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?note_annotation_20231117144328237#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?note_annotation_20231117144328237#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[28]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:Note",
+		"dc:format": "text/plain",
+		"rdf:value": "Mentioning the care Margaret took of her husband (he became an\n\t\t\t\t\t\talcoholic), Robert Macleod writes how patiently and devotedly she had borne\n\t\t\t\t\t\t\"the years of trial and disappointment.\" Charles Rennie\n\t\t\t\t\t\t\tMackintosh (Feltham, Middlesex: Country Life, 1968), p.\n\t\t\t\t\t\t150."
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?note_annotation_20231117144328237",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-11-17T19:43:28.237Z",
+	"dcterms:creator": {
+		"@id": "1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "admin"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?note_annotation_20231117144328237#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?note_annotation_20231117144328237#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[30]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:Note",
+		"dc:format": "text/plain",
+		"rdf:value": "Oakley (p. 185) states that none of the tearooms\n\t\t\t\t\t\thave survived intact, though part of the famous Willow Tearoom was doing\n\t\t\t\t\t\tservice, quite recently, as Daly’s Bridal Boutique."
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?organization_annotation_20240826154955117",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-26T19:49:55.117Z",
+	"dcterms:modified": "2024-08-26T19:49:55.117Z",
+	"dcterms:creator": {
+		"@id": "9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?organization_annotation_20240826154955117#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?organization_annotation_20240826154955117#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[17]/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q4801490",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?person_annotation_20241007195928330",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-07T23:59:28.330Z",
+	"dcterms:creator": {
+		"@id": "24",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Lyndon Beier"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?person_annotation_20241007195928330#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?person_annotation_20241007195928330#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[6]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q220703",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?person_annotation_20241007200118586",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-08T00:01:18.586Z",
+	"dcterms:creator": {
+		"@id": "24",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Lyndon Beier"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?person_annotation_20241007200118586#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?person_annotation_20241007200118586#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[22]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q5567501",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?title_annotation_20241007202232165",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-08T00:22:32.165Z",
+	"dcterms:modified": "2024-10-08T00:22:32.165Z",
+	"dcterms:creator": {
+		"@id": "13",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Roger Rothman"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?title_annotation_20241007202232165#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?title_annotation_20241007202232165#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[21]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://www.wikidata.org/entity/Q2078251",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?title_annotation_20241007202328561",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-08T00:23:28.561Z",
+	"dcterms:modified": "2024-10-08T00:23:28.561Z",
+	"dcterms:creator": {
+		"@id": "13",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Roger Rothman"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?title_annotation_20241007202328561#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?title_annotation_20241007202328561#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[25]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://www.wikidata.org/entity/Q5252833",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?title_annotation_20241007202347812",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-08T00:23:47.812Z",
+	"dcterms:modified": "2024-10-08T00:23:47.812Z",
+	"dcterms:creator": {
+		"@id": "13",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Roger Rothman"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?title_annotation_20241007202347812#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?title_annotation_20241007202347812#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[25]/title[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://www.wikidata.org/entity/Q87095104",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?title_annotation_20241007202425236",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-08T00:24:25.236Z",
+	"dcterms:modified": "2024-10-08T00:24:25.236Z",
+	"dcterms:creator": {
+		"@id": "13",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Roger Rothman"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?title_annotation_20241007202425236#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/gear_0_0_0_0.xml?title_annotation_20241007202425236#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[25]/title[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://www.wikidata.org/entity/Q684704",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description>
+			</rdf:RDF></xenoData>
+	</teiHeader>
+	<text>
+		<body>
+			<div cert="high" org="composite" part="Y" sample="initial" xml:space="default"
+				type="essay">
+				<pb
+					facs="https://raw.githubusercontent.com/BucknellDSC/heresies/main/issue04/images/Heresies_04_051.jpg"
+					n="51" xml:id="img_0051"/>
+
+				<head><title type="essay">Trapped Women: Two Sister Designers Margaret and Frances
+						MacDonald</title></head>
+				<byline><persName key="Gear, Josephine" ref="http://viaf.org/viaf/272024550/"
+						cert="low">Josephine Gear</persName></byline>
+				<p> The large, white, airy and austere room with its severely elegant chairs and
+					tables and attenuated, weeping ladies transfixed in pale olive or light
+					mauve-colored gesso panels around its walls, is now full. Tea cups chink against
+					saucers, silk-clad wrists are held at a delicate angle, feather-plumed hats bob
+					up and down, white lawn and lace covered bosoms heave sighs of contentment
+					cheeks flush, tongues loosen, and the buzz of women's talk rises a quaver or two
+					above the level thought acceptable if this room, a tearoom, had been found in
+					London. But the like of this room, and others designed by <persName
+						key="Charles Rennie Mackintosh" ref="http://www.wikidata.org/entity/Q220703"
+						>Charles Rennie Mackintosh</persName>, architect, and his wife, <persName
+						key="Margaret MacDonald" ref="http://www.wikidata.org/entity/Q508344"
+						>Margaret Macdonald</persName>, a decorative designer, was not to be found
+					in London nor in any other smart city in turn-of-the-century Britain, but in
+					Glasgow, dirty, robust, tough and far-from-genteel Glasgow the industrial
+					capital of Scotland.</p>
+				<p>In the late 1890s in the heart of this city's sober business district a few
+					strikingly different and simple tearoom facades appeared. Their exteriors,
+					interiors, furniture and fittings displayed unconventional solutions, ethereal
+					elegance and flights of imaginative thinking not seen before in the arts of this
+					city. Glasgow was in the throes of an artistic renewal.</p>
+				<p> Margaret Macdonald (1865-1933), who contributed designs to the tearooms, and her
+					sister <persName key="Frances MacDonald"
+						ref="http://www.wikidata.org/entity/Q458827">Frances Macdonald</persName>
+					(1874-1921) were two of a number of women artists who, for a short while, helped
+					make the arts alive in Glasgow. What follows is a brief account of their lives,
+					set against the background of Glasgow, and a discussion of a few of the objects
+					the sisters designed and made.</p>
+				<p>The liveliness of the arts in this industrial capital (Europe’s sixth largest
+					city) grew in part from its sound economic base. In the previous half-century
+					the heavy industries of the area, mining and shipbuilding for example, enjoyed
+					boom growth. And some of the
+					profits, often via the increased income and leisure time of Glasgow's upper and
+					middle classes, found their way into the support and patronage of local arts.
+					How pleasant to sit in a new tearoom designed by Scottish artists of national
+					prominence, with works by local and internationally known painters hung about on
+					the walls, to sit there and eat a quick lunch or to linger leisurely, over
+					afternoon tea. How very natural to stroll from the tearoom, seek out the
+					painters or the craftsmen or women in near by studios, chat with them about
+					their work and sometimes, proudly, bear home a painting, a watercolor, or even a
+					beaten metal panel by one of the Macdonald sisters. </p>
+				<p> In those days it was safe to bet your last brass farthing that any artist whose
+					work turned your head had been a student at the <orgName
+						key="Glasgow School of Art" ref="http://www.wikidata.org/entity/Q748106"
+						>Glasgow School of Art</orgName>. Founded in 1840, the school grew out of
+					the firm convictior that well-trained artists and designers could promote both
+					the nation's esteem and trade. Its founders had both insight and acumen. Under
+					the bustling leadership of the school's young headmaster, <persName><persName
+							key="Francis Henry Newbery"
+							ref="http://www.wikidata.org/entity/Q5481274">Francis
+						Newbery</persName></persName>, and his wife, <persName>Jessie</persName>,
+					students in the 1880s and 1890s received excellent training and energetic
+					promotion. Newbery's students were also fortunate in that their emerging
+					maturity and talents coincided with their city's peak industrial, intellectual
+					and artistic growth.</p>
+				<p>Francis and Jessie Newbery fostered the talents of four students in particular:
+					the Macdonald sisters and two young men, <persName
+						key="Charles Rennie Mackintosh" ref="http://www.wikidata.org/entity/Q220703"
+						>Charles Rennie Mackintosh</persName> and <persName key="Herbert MacNair"
+						ref="http://www.wikidata.org/entity/Q745714">Herbert MacNair</persName>,
+					interior and furniture designers. The sisters were day students and the men were
+					evening students; Newbery, in a critique of their works, told the four about the
+					similarity of their styles, and suggested they meet. In about 1895 the sisters and
+					their two friends formed a group, calling themselves simply "The Four."</p>
+
+				<pb
+					facs="https://raw.githubusercontent.com/BucknellDSC/heresies/main/issue04/images/Heresies_04_052.jpg"
+					n="52" xml:id="img_0052"/>
+
+				<p> Before they met Charles and Herbert, the sisters had already established
+					themselves as designers and craftswomen, showing great versatility in the range
+					of objects they made and the materials with which they worked: embroidered
+					hangings and covers, gesso panels, leaded glass panels, clocks, posters, water
+					colors, book illustrations, and their specialty, repoussé metal panels. Margaret
+					and Frances Macdonald worked well as a team. Not only did they cooperate on
+					ideas and drawing, but they often bent over the same metal panel to work side by
+					side. They enjoyed life. They shared a studio and held salons for all the
+					leading writers and artists of Glasgow. The sisters were more than able to hold
+					their own. During the short years of "The Four's" life, from about 1895 to 1899,
+					the two women continued to work very closely together. "The Four" exhibited to
+					gether and exchanged ideas and designs.</p>
+				<p>The men, for example, designed furniture in which the sisters' decorative gesso
+					panels were inset. The sisters evidently found the collective working
+					arrangement to their advantage: during these years they produced their most
+					original and vigorous designs. </p>
+				<p>In 1899 Frances married MacNair and the two moved to Liverpool where he had a
+					teaching post. The next year Margaret married Mackintosh. The MacNairs' move to
+					Liverpool brought the sisters' working arrangement and the collaboration of "The
+					Four" to an end. After 1899, the four artists produced independently or
+					collaborated with their marriage partner on design projects. Although groups of
+					artists were quite common in those decades (members of the various small English
+					arts and crafts organizations around <persName key="William Morris"
+						ref="http://www.wikidata.org/entity/Q182589">William Morris</persName>,
+						<persName key="Arthur Heygate Mackmurdo"
+						ref="http://www.wikidata.org/entity/Q2662935">Arthur Mackmurdo</persName>
+					and <persName key="Walter Crane" ref="http://www.wikidata.org/entity/Q660917"
+						>Walter Crane</persName> worked and exhibited together), no two artists
+					during this period seemed to work and live in such close harmony as the two
+					sisters. Their life and work together in the Glasgow studio gave a certain
+					intensity to their work, an intensity which was lost after they separated in
+					1899.</p>
+				<p>The strand of another independent, spirited and middle-class woman, <persName
+						key="Catherine Cranston" ref="http://www.wikidata.org/entity/Q5052609"
+						>Catherine Cranston</persName>, is yet to be woven into the story. Catherine
+					became a principal patron of Charles and Margaret Macdonald. As the creator and owner of the tearooms she commissioned
+					husband and wife to design the rooms' every aspect, from their structure and
+					decoration to designs for posters and menu cards. In the tearooms the arts and
+					crafts mingled freely and complemented each other.</p>
+
+				<p> Better yet, Catherine Cranston's women customers found the environment
+					supportive. The tearooms created a social phenomenon by becoming "virtually the
+					first places of their kind where even the richest and most elegant of Edwardian
+					female society might properly meet without chaperons."</p>
+				<p>Unlike the tearoom clientele, Margaret and Frances lived free from the shadows of
+					chaperons. By the standards of their day they were liberated. Details of their
+					lives before marriage are poorly documented, so it is difficult to locate the
+					source of their independence. Since independence and creativity are so strongly
+					linked, however, and of great interest in the biographies of women artists, I
+					shall undertake a reconstruction of their early lives.</p>
+				<p>In the late 1880s Margaret and Frances Macdonald returned from England with their
+					father. It is probable that the sisters, raised in England, at first felt
+					foreign in Glasgow. Events that uproot or bring great changes to lives are often
+					those encouraging a sense of self and a desire to do something with one's life.
+					Possibly the move to Glasgow acted as a stimulus to the sisters. At any rate,
+					Margaret and Frances knew who they were, knew what they wanted to do and, soon
+					after their arrival in Glasgow, first</p>
+				<pb
+					facs="https://raw.githubusercontent.com/BucknellDSC/heresies/main/issue04/images/Heresies_04_053.jpg"
+					n="53" xml:id="img_0053"/>
+
+				<p> Margaret, then Frances entered the School of Art.</p>
+				<p>Once in the school, the sisters found support for their ideas in the presence of
+					other like-minded women, such as Jessie Newbery and their contemporaries,
+						<persName key="Jessie Margaret King"
+						ref="http://www.wikidata.org/entity/Q47914245">Jessie King</persName>,
+					craftswoman and book illustrator, and <persName>Jane Fonie</persName>, an
+					interior designer. A tradition of active women had been established at the
+					school in 1882 when a group of former students founded the <orgName
+						key="Glasgow Society of Lady Artists"
+						ref="http://www.wikidata.org/entity/Q5566917">Glasgow Society of Lady
+						Artists</orgName>' Club, the oldest women's club in Britain.
+							</p>
+				<p>The sisters acquired backbone at the school. They were trained in drawing from
+					the model, drawing freehand, anatomical and botanical drawing, as well as
+					ornamental design. The school encouraged them to develop their own distinctive
+					styles at an early stage. Soon their unrefined and untamed energies led to
+					bizarre shapes, to angular and cutting edges to their female forms.</p>
+				<p>Shortly after leaving the school the sisters reputations traveled as far as
+					London. In 1896, the <orgName key="Arts and Crafts Exhibition Society"
+						ref="http://www.wikidata.org/entity/Q4801490">London Arts and Crafts
+						Exhibition Society</orgName> invited "The Four" to send furniture, craftwork
+					and posters in the "modern style" to that year's exhibition. The sisters sent
+					four pieces, two of which they had worked on together: a clock of beaten silver
+					with beaten brass weights and an aluminum pendulum, a muffin stand, a beaten
+					aluminum panel, <title>The Star of Bethlehem</title>, by Francis and <title>The
+						Annunciation</title> by Margaret. </p>
+				<p>The themes of these early figurative pieces express the sisters two constant
+					iconographic interests, women and babies. Frequently the woman/Virgin appears
+					trapped and isolated within their work. And, though Christian subject matter did
+					not recur as often in the later pieces, apparently the intensity of their
+					religious convictions never dimmed. What a pagan and savage interpretation they
+					gave to their Virgin and Child images. London eyes boggled.</p>
+				<p>In the mid-1890s the English arts and crafts movement was dominated by William
+					Morris's most faithful disciple, Walter Crane. His designs pleased everyone, but
+					then they were too innocuous to do otherwise. The polite London art crowd moving
+					from a Crane to a Macdonald cried out, "The Spook School!" </p>
+				<p>We can see why. Look at a mirror frame (Figure 5) made by Frances in 1896-1897.
+					Two excruciatingly thin female figures with ghoulish eyes point accusingly at
+					each other over the seed cases of the Honesty plant. The seed pods look like
+					death's heads. And how spooky is the round copper sconce made by both sisters in
+					1896-1897 (Figure 1). Imagine it nailed to the wall of a darkened room and lit
+					by the fluttering light of candles in its holders. Visualize how the eyes in the
+					round copper plate, and in its supports, might enlarge and shrink in the jumping
+					shadows of candlelight. Now look at the two female figures, with scraggy,
+					flattened forms and hanging breasts imprisoned within the rectangular panels of
+					a pair of beaten brass candle sconces (Figures 2 and 3), designed by the two
+					sisters in the same years. Strange details give the figures in these sconces an
+					apocryphal air: attached to one figure is an orb, supporting a baby suckling at
+					the breast; on the other a crescent moon superimposes its cruel edges and, in
+					the outspread hands of the same figure, vivid marks, more like stigmata than
+					wrinkles, are slashed in the open palms. The air of suffering and martyrdom in
+					these figures is so marked that I find myself speculating whether the sisters,
+					consciously or unconsciously, made associations between these two female figures
+					and the sacrificial roles lived out by the majority of women they knew. But not
+					themselves; at this point they were still free.</p>
+				<p>The sisters might have felt dashed by the epithet "The Spook School" since the
+					Arts and Crafts Exhibition Society never asked them or "The Four" to exhibit
+					again. However, <persName key="Gleeson White"
+						ref="http://www.wikidata.org/entity/Q5567501">Gleeson White</persName>,
+					editor of the influential arts magazine <title key="The Studio"
+						ref="http://www.wikidata.org/entity/Q2078251">The Studio</title>, responded
+					enthusiastically to the originality of their designs and visited Glasgow to find
+					out more about the arts and crafts movement there. After his visit, <title>The
+						Studio</title> published a two-part article on the Glasgow artists with part
+					one almost entirely devoted to the Macdonald sisters' works. </p>
+				<p><persName key="Gleeson White" ref="http://www.wikidata.org/entity/Q5567501"
+						>Gleeson White</persName> was impressed that the sisters not only designed
+					all the pieces he saw but, apart from some joinery work, they handled, beat and
+					wrought even the large and heavy pieces themselves, including two floor-standing
+					clocks. Neither sister was covetous of her individual contribution to the pieces
+					they jointly designed and executed. They refused to be drawn into games of
+					identification.</p>
+				<p>After looking at their early emaciated figures, the inflated look the sisters'
+					works acquire in the early 1900s comes as a surprise. Reproduced here is a panel
+					Margaret designed in colored plaster for the Rose Boudoir (Figure 6), shown at
+					the International Exhibition, Turin, 1902. Some of Frances's figures acquire a
+					similar full-blown look in these years. In the early 1900s the sisters changed
+					their models; the influence of Japanese prints and works by the pre-Raphaelites
+					superseded the earlier sources of Celtic art, <persName key="Aubrey Beardsley"
+						ref="http://www.wikidata.org/entity/Q272566">Aubrey Beardsley</persName> and
+						<persName key="Jan Toorop" ref="http://www.wikidata.org/entity/Q369416">Jan
+						Toorop</persName>.  In the 1900s an inventive note appeared in
+					Margaret's use of junk materials: colored glass, rope and plaster. The materials
+					cost little and gave a rich, jeweled effect. But the rawness, the evil, the
+					spirits that had made their early metal pieces fairly rattle, had gone. No
+					amount of fancy curvilinear lines or innovative mixing of media could atone for
+					this. Do success and marriage account for this transformation of the sisters'
+					works?</p>
+				<p>No matter the causes, each new development the sisters and their husbands brought
+					forth was eagerly seized upon by their audience on the Continent. In 1900 they
+					were invited to furnish and decorate an entire room at the eighth Secessionist
+					Exhibition in Vienna. In 1902, along with other Glasgow artists, they exhibited
+					works in the Scottish section of the International Exhibition of Decorative Art
+					in Turin. Everything the four artists sent to the two exhibitions sold. Between
+					1899 and 1905, articles, reviews and illustrations of their works appeared</p>
+
+				<pb
+					facs="https://raw.githubusercontent.com/BucknellDSC/heresies/main/issue04/images/Heresies_04_054.jpg"
+					n="54" xml:id="img_0054"/>
+
+				<p> frequently in influential journals such as <title key="Dekorative Kunst"
+						ref="http://www.wikidata.org/entity/Q5252833">Dekorative Kunst</title> and
+						<title key="Deutsche Kunst und Dekoration"
+						ref="http://www.wikidata.org/entity/Q87095104">Deutsche Kunst und
+						Dekoration</title>; <title key="Ver Sacrum"
+						ref="http://www.wikidata.org/entity/Q684704">Ver Sacrum</title>, the
+					official publication of the Vienna Secession, devoted an issue to them.</p>
+				<p>Suddenly, in 1905, curiosity about the four artists declined on the Continent.
+					Even in Scotland the number of commissions began to drop; England never revived
+					the brief interest it had displayed in 1896. Though Charles and Margaret had a
+					highly successful exhibition in St. Petersburg in 1913, where everything but the
+					carpet sold, and though one other show was planned for Paris in 1914, the
+					successes of their first heady decade were never repeated.</p>
+				<p>It becomes impossible to find published reproductions of the sisters works after
+					1905. One of the last I found is a gesso panel made by Margaret in 1905 (Figure
+					4). Undeniably, this is the most powerfully modeled piece yet seen, but the
+					subject shows a dangerous stagnation. It is no more than a summation of themes
+					explored earlier by the sisters. For whom were those plaster tears meant to
+					fall? Catherine Cranston's tearoom clientele? Or Margaret and her sister? Did
+					Margaret begin to feel she was cast in a mold much as her rope and glass ladies?
+					Did she mourn her lost independence? Were her spirits and her creativity
+					slipping away? I believe so, and I am saddened.</p>
+				<p>I am against passive readings of history. People, their deeds, as well as those
+					they avoided doing, affect us mightily. The Macdonald sisters capitulated.
+						 They allowed their strident voices of the 1890s to fade into
+					soothing murmurs and echoes of what once they were. How dared they! [They make
+					it harder for us to shape ourselves into the creative and independent beings we
+					would like to be. We need all the positive models we can get our hands on, and
+					here are two more negative ones.]</p>
+				<p>Did this change in their art reflect the constraints of their times? Yes. It was
+					difficult for women in turn-of-the-century Glasgow to train and practice as
+					architects, as the Macdonalds' husbands did. Both sisters would have benefited
+					from the training and practice of this profession. The status of crafts, despite
+					the sincere activities of William Morris who tried to unite the arts and the
+					crafts (and all the activities and organizations that this engendered) remained
+					very much a poor relative of their rich aunt, Fine Art. Margaret and Frances
+					worked at their drawing boards and hammered out their metal panels. They
+					probably wondered what the studio people were up to. Fine artists (among them
+					women) painted decadent images of women—think of Beardsley's art. Could Margaret
+					and Frances humbly working in the lower echelons of the crafts not pick up those
+					cues? As craftswomen working in a stratified society, it might not have occurred
+					to them to push their early independent spirits farther than they did.</p>
+				<p>The Macdonald sisters' best years were all too short. Their career spanned the
+					period of the realliance between the arts and the crafts and its subsequent
+					deterioration. Neither Glasgow's renaissance of the arts nor women’s
+					independence survived two decades. The cycles of local movements were taken up
+					within the larger motions grinding inside the machinery of Western capitalist
+					society in the years preceding World War I. When the confidence, energy and
+					profits of the middle and upper classes decreased in those years, the effect was
+					soon seen in the arts. In the depression of the 1930s, one of the last of
+					Glasgow's tearooms,  its wood, brick, colored
+					glass, rope, pale mauve and green gesso ladies, crumbled under the hammers of
+					demolition workers.</p>
+			</div>
+		</body>
+		<back>
+			<div>
+				<p>Josephine Gear is an art historian presently teaching at the Parsons School of
+					Design in New York.</p>
+			</div>
+		</back>
+
+	</text>
+</TEI>

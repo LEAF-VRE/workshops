@@ -1,0 +1,3178 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/BucknellDSC/heresies/main/CSS/heresies_cwrc.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>The Left Hand of History</title>
+				<author>Teresa De Lauretis</author>
+				<respStmt>
+					<persName>Haley Beardsley</persName>
+					<resp>Editor, encoder</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Erica Delsandro</persName>
+					<resp>Investigator, editor</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Margaret Hunter</persName>
+					<resp>Editor</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Diane Jakacki</persName>
+					<resp>Invesigator, encoder</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Sophie McQuaide</persName>
+					<resp>Editor</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Olivia Martin</persName>
+					<resp>Editor, encoder</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Bri Perea</persName>
+					<resp>Editor</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Roger Rothman</persName>
+					<resp>Investigator, editor</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Kaitlyn Segreti</persName>
+					<resp>Editor</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Maggie Smith</persName>
+					<resp>Editor</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Maya Wadhwa</persName>
+					<resp>Editor</resp>
+				</respStmt>
+				<funder>Bucknell University Humanities Center</funder>
+				<funder>Bucknell University Office of Undergraduate Research</funder>
+				<funder>The Mellon Foundation</funder>
+				<funder>National Endowment for the Humanities</funder>
+			</titleStmt>
+			<publicationStmt>
+				<distributor>
+					<name>Bucknell University</name>
+					<address>
+						<street>One Dent Drive</street>
+						<settlement>Lewisburg</settlement>
+						<region>Pennsylvania</region>
+						<postCode>17837</postCode>
+					</address>
+				</distributor>
+				<availability>
+					<licence>Bucknell Heresies Project: Creative Commons Attribution-NonCommercial
+						4.0 International (CC BY-NC 4.0)</licence>
+					<licence>Heresies journal: © Heresies Collective</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<title>Women's Traditional Arts: The Politics of Aesthetics</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<publisher>HERESIES: A Feminist Publication on Art and
+								Politics</publisher>
+							<pubPlace>
+								<address>
+									<name>Heresies</name>
+									<postBox>P.O. Boxx 766, Canal Street Station</postBox>
+									<settlement>New York</settlement>
+									<region>New York</region>
+									<postCode>10013</postCode>
+								</address>
+							</pubPlace>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+				xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+				xmlns:as="http://www.w3.org/ns/activitystreams#"
+				xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
+				xmlns:dc="http://purl.org/dc/elements/1.1/"
+				xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/"
+				xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#"
+				xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+				xmlns:fabio="https://purl.org/spar/fabio#"
+				xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+				xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
+				xmlns:org="http://www.w3.org/ns/org#">
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?place_annotation_20231003203042001",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-10-04T00:30:42.001Z",
+	"dcterms:modified": "2023-10-04T00:30:42.001Z",
+	"dcterms:creator": {
+		"@id": "23",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kelly Troop"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?place_annotation_20231003203042001#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?place_annotation_20231003203042001#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[2]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q111954",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high",
+	"cwrc:hasPrecision": "cwrc:highCertainty"
+}]]>
+				</rdf:Description>
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?person_annotation_20231003203528634",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-10-04T00:35:28.634Z",
+	"dcterms:modified": "2023-10-04T00:35:28.634Z",
+	"dcterms:creator": {
+		"@id": "23",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kelly Troop"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?person_annotation_20231003203528634#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?person_annotation_20231003203528634#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[2]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q83003",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description>
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?organization_annotation_20231003203548876",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-10-04T00:35:48.876Z",
+	"dcterms:modified": "2023-10-04T00:35:48.876Z",
+	"dcterms:creator": {
+		"@id": "23",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kelly Troop"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?organization_annotation_20231003203548876#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?organization_annotation_20231003203548876#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[2]/orgName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q461886",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+				</rdf:Description>
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?person_annotation_20231003203724169",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-10-04T00:37:24.169Z",
+	"dcterms:modified": "2023-10-04T00:37:24.169Z",
+	"dcterms:creator": {
+		"@id": "23",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kelly Troop"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?person_annotation_20231003203724169#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?person_annotation_20231003203724169#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[3]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q23559",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+				</rdf:Description>
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?person_annotation_20231003203813289",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-10-04T00:38:13.289Z",
+	"dcterms:modified": "2023-10-04T00:38:13.289Z",
+	"dcterms:creator": {
+		"@id": "23",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kelly Troop"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?person_annotation_20231003203813289#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?person_annotation_20231003203813289#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[4]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q3605177",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description>
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?title_annotation_20231003204022682",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-10-04T00:40:22.682Z",
+	"dcterms:modified": "2023-10-04T00:40:22.682Z",
+	"dcterms:creator": {
+		"@id": "23",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kelly Troop"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?title_annotation_20231003204022682#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?title_annotation_20231003204022682#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[5]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://www.wikidata.org/entity/Q1113267",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description>
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?person_annotation_20231003204616580",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-10-04T00:46:16.580Z",
+	"dcterms:modified": "2023-10-04T00:46:16.580Z",
+	"dcterms:creator": {
+		"@id": "23",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kelly Troop"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?person_annotation_20231003204616580#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?person_annotation_20231003204616580#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[6]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q271551",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description>
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?place_annotation_20231024202716950",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-10-25T00:27:16.950Z",
+	"dcterms:creator": {
+		"@id": "23",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kelly Troop"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?place_annotation_20231024202716950#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?place_annotation_20231024202716950#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[2]/placeName[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q220",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high",
+	"cwrc:hasPrecision": "cwrc:highCertainty"
+}]]>
+				</rdf:Description>
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?person_annotation_20231024210015945",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-10-25T01:00:15.945Z",
+	"dcterms:creator": {
+		"@id": "23",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kelly Troop"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?person_annotation_20231024210015945#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?person_annotation_20231024210015945#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[8]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q1394",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description>
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?person_annotation_20231101133905321",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-11-01T17:39:05.321Z",
+	"dcterms:modified": "2023-11-01T17:39:05.321Z",
+	"dcterms:creator": {
+		"@id": "23",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kelly Troop"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?person_annotation_20231101133905321#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?person_annotation_20231101133905321#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[17]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q96579994",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description>
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?person_annotation_20231101133954487",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-11-01T17:39:54.487Z",
+	"dcterms:modified": "2023-11-01T17:39:54.487Z",
+	"dcterms:creator": {
+		"@id": "23",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kelly Troop"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?person_annotation_20231101133954487#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?person_annotation_20231101133954487#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[17]/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q174353",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+				</rdf:Description>
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?place_annotation_20240131172009506",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-01-31T22:20:09.506Z",
+	"dcterms:modified": "2024-01-31T22:20:09.506Z",
+	"dcterms:creator": {
+		"@id": "24",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Lyndon Beier"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?place_annotation_20240131172009506#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?place_annotation_20240131172009506#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[2]/placeName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q1891",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description>
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?person_annotation_20240131174030028",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-01-31T22:40:30.028Z",
+	"dcterms:creator": {
+		"@id": "24",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Lyndon Beier"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?person_annotation_20240131174030028#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?person_annotation_20240131174030028#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[5]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q107987130",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description>
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?person_annotation_20240131174838618",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-01-31T22:48:38.618Z",
+	"dcterms:modified": "2024-01-31T22:48:38.618Z",
+	"dcterms:creator": {
+		"@id": "24",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Lyndon Beier"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?person_annotation_20240131174838618#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?person_annotation_20240131174838618#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[2]/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q4755464",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description>
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?person_annotation_20240131174846973",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-01-31T22:48:46.973Z",
+	"dcterms:modified": "2024-01-31T22:48:46.973Z",
+	"dcterms:creator": {
+		"@id": "24",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Lyndon Beier"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?person_annotation_20240131174846973#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?person_annotation_20240131174846973#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[2]/persName[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q112054578",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description>
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?person_annotation_20240131174855465",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-01-31T22:48:55.465Z",
+	"dcterms:modified": "2024-01-31T22:48:55.465Z",
+	"dcterms:creator": {
+		"@id": "24",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Lyndon Beier"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?person_annotation_20240131174855465#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?person_annotation_20240131174855465#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[2]/persName[4]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q93659825",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description>
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?person_annotation_20240131174913476",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-01-31T22:49:13.476Z",
+	"dcterms:modified": "2024-01-31T22:49:13.476Z",
+	"dcterms:creator": {
+		"@id": "24",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Lyndon Beier"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?person_annotation_20240131174913476#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?person_annotation_20240131174913476#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[2]/persName[5]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q95190690",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description>
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?person_annotation_20240131174930666",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-01-31T22:49:30.666Z",
+	"dcterms:modified": "2024-01-31T22:49:30.666Z",
+	"dcterms:creator": {
+		"@id": "24",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Lyndon Beier"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?person_annotation_20240131174930666#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?person_annotation_20240131174930666#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[2]/persName[6]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q21209085",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description>
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?place_annotation_20240131174959590",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-01-31T22:49:59.590Z",
+	"dcterms:modified": "2024-01-31T22:49:59.590Z",
+	"dcterms:creator": {
+		"@id": "24",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Lyndon Beier"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?place_annotation_20240131174959590#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?place_annotation_20240131174959590#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/back/p/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q1755318",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description>
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?note_annotation_20240404120618982",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-04-04T16:06:18.982Z",
+	"dcterms:creator": {
+		"@id": "9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?note_annotation_20240404120618982#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?note_annotation_20240404120618982#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[4]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "Adele Cambria, Amore come rivoluzione\n\t\t\t\t\t\t(Milano: Sugar Co., 1976): The volume includes the script and production notes for Nonostante Gramsci."
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description>
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?note_annotation_20240404120645592",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-04-04T16:06:45.592Z",
+	"dcterms:creator": {
+		"@id": "9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?note_annotation_20240404120645592#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?note_annotation_20240404120645592#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[5]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "The complete Italian edition, in four volumes, is\n\t\t\t\t\t\tAntonio Gramsci, Quaderni dal carcere, a cura di Valentino Gerratana\n\t\t\t\t\t\t(Torino: Einaudi, 1975). In English see Selections from the Prison Notebooks of Antonio Gramsci, edited and translated by Quintin Hoare and Geoffrey\n\t\t\t\t\t\tNowell Smith (New York: International Publishers, 1971)."
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description>
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?note_annotation_20240404120709717",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-04-04T16:07:09.717Z",
+	"dcterms:creator": {
+		"@id": "9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?note_annotation_20240404120709717#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?note_annotation_20240404120709717#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[5]/note[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "Antonio Gramsci, Lettere dal carcere, a cura\n\t\t\t\t\t\tdi S. Caprioglio e E. Fubini (Torino: Einaudi, 1973). In English see Antonio\n\t\t\t\t\t\tGramsci, Letters from Prison, selected and translated by Lynne Lawner (New\n\t\t\t\t\t\tYork: Harper and Row, 1973). See also Guiseppe Fiori, Antonio Gramsci: Life of a Revolutionary (New York: Schocken Books, 1973)."
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description>
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?note_annotation_20240404120901253",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-04-04T16:09:01.253Z",
+	"dcterms:creator": {
+		"@id": "9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?note_annotation_20240404120901253#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?note_annotation_20240404120901253#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[6]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "The Dialectic of Sex: The\n\t\t\t\t\t\tCase for Feminist Revolution (New York: Bantam Books, 1970), pp.\n\t\t\t\t\t\t126-127."
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description>
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?note_annotation_20240404120927773",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-04-04T16:09:27.773Z",
+	"dcterms:creator": {
+		"@id": "9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?note_annotation_20240404120927773#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?note_annotation_20240404120927773#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/quote/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "5. Quoted by Cambria, p. 9, from Duemila pagine di Gramsci (Milano: Il Saggiatore),\n\t\t\t\t\t\tVol. II, p. 23, letter of June 9, 1924; my translation."
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description>
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?note_annotation_20240404121029703",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-04-04T16:10:29.703Z",
+	"dcterms:creator": {
+		"@id": "9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?note_annotation_20240404121029703#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?note_annotation_20240404121029703#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[13]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "6. Cf.\n\t\t\t\t\t\tPhyllis Chesler, Women and Madness (Garden City, N.Y.: Double- day,\n\t\t\t\t\t\t1972)."
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description>
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?note_annotation_20240404121040328",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-04-04T16:10:40.328Z",
+	"dcterms:creator": {
+		"@id": "9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?note_annotation_20240404121040328#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?note_annotation_20240404121040328#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[14]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "7. From Umberto\n\t\t\t\t\t\tEco, Opera aperta (Milano: Bompiani, 1967) to Stephen Heath, “Narrative\n\t\t\t\t\t\tSpace,” Screen (Autumn 1976), pp. 68-112."
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description>
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?note_annotation_20240404121050948",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-04-04T16:10:50.948Z",
+	"dcterms:creator": {
+		"@id": "9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?note_annotation_20240404121050948#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?note_annotation_20240404121050948#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[15]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "8. On the conditions of women in the Soviet\n\t\t\t\t\t\tUnion since the revolution, see Sheila Rowbotham, “If You Like Tobogganing”\n\t\t\t\t\t\tin her Women, Resistance and Revolution (New York: Vintage Books, 1974), pp.\n\t\t\t\t\t\t134-169. Also very important to this topic is the work of Alexandra\n\t\t\t\t\t\tKollontai, The Auto biography of a Sexually Emancipated Communist Woman (New\n\t\t\t\t\t\tYork: Schocken Books, 1975). Women Workers Struggle for Their Rights\n\t\t\t\t\t\t(Bristol: Falling Wall Press, 1971), and Sexual Relations and the Class\n\t\t\t\t\t\tStruggle/Love and the New Morality (Bristol: Falling Wall Press,\n\t\t\t\t\t\t1972)."
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description>
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?note_annotation_20240404121105060",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-04-04T16:11:05.060Z",
+	"dcterms:creator": {
+		"@id": "9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?note_annotation_20240404121105060#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?note_annotation_20240404121105060#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[20]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "9. For the notion of modes of sign production see Umberto Eco, A\n\t\t\t\t\t\tTheory of Semiotics (Bloomington: Indiana University Press, 1976) and\n\t\t\t\t\t\tGianfranco Bettetini, Produzione del senso e messa in scena (Milano:\n\t\t\t\t\t\tBompiani, 1975)"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description>
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?note_annotation_20240404121116485",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-04-04T16:11:16.485Z",
+	"dcterms:creator": {
+		"@id": "9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?note_annotation_20240404121116485#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?note_annotation_20240404121116485#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[20]/note[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "10. In the words of Dacia Maraini, who reviewed Amore come\n\t\t\t\t\t\trivoluzione, “books like this should be written by the hundreds. There are\n\t\t\t\t\t\thundreds of extraordinary women who have so much to teach us (even if often\n\t\t\t\t\t\tthey only speak of failures and defeat), women still buried under the\n\t\t\t\t\t\tbarren, impious ashes of patriarchal history.” (Tuttolibri, 17 aprile 1976,\n\t\t\t\t\t\tp. 4; my transla tion). The terms form of content and form of expression\n\t\t\t\t\t\tcome from Louis Hjelmslev, Prolegomena to a Theory of Language (Madison:\n\t\t\t\t\t\tUniversity of Wisconsin Press, 1961)."
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description>
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?note_annotation_20240404121126853",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-04-04T16:11:26.853Z",
+	"dcterms:creator": {
+		"@id": "9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?note_annotation_20240404121126853#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?note_annotation_20240404121126853#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[21]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "11. Silvia Bovenschen, “Is There a Feminine Aesthetic?”, New German\n\t\t\t\t\t\tCritique, 10 (Winter 1977), pp. 111-137 and Heresies f4, pp. 10-12. Altman’s recent film, Three Women, seems to me to come close to the latter group."
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description>
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?note_annotation_20240404121136013",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-04-04T16:11:36.013Z",
+	"dcterms:creator": {
+		"@id": "9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?note_annotation_20240404121136013#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?note_annotation_20240404121136013#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[21]/note[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "12. For a good analysis of women’s position as objects of exchange in Lévi Strauss and\n\t\t\t\t\t\tFreud/Lacan, see Gayle Rubin, “The Traffic in Women: Notes on the Political\n\t\t\t\t\t\tEconomy of Sex, in Rayna R. Reiter, ed., Toward an Anthropology of Women\n\t\t\t\t\t\t(New York: Monthly Review Press, 1975), pp. 157-210."
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description>
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?person_annotation_20240917211128619",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-09-18T01:11:28.619Z",
+	"dcterms:modified": "2024-09-18T01:11:28.619Z",
+	"dcterms:creator": {
+		"@id": "38",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Olivia Wychock"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?person_annotation_20240917211128619#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?person_annotation_20240917211128619#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/byline/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q292326",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+				</rdf:Description>
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?note_annotation_20240917213738525",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-09-18T01:37:38.525Z",
+	"dcterms:creator": {
+		"@id": "38",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Olivia Wychock"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?note_annotation_20240917213738525#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?note_annotation_20240917213738525#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[9]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "Political stance that emphasizes the ideas, wants, needs of the people. "
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description>
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?title_annotation_20241006093606051",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-06T13:36:06.051Z",
+	"dcterms:creator": {
+		"@id": "13",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Roger Rothman"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?title_annotation_20241006093606051#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf.bucknell.edu",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-10/delauretis_0_0_0_0_0_0_0_0.xml?title_annotation_20241006093606051#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[4]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://www.wikidata.org/entity/Q28136179",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf.bucknell.edu",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+				</rdf:Description>
+			</rdf:RDF></xenoData>
+	</teiHeader>
+	<text>
+		<body>
+
+			<div cert="high" org="composite" part="Y" sample="initial" type="essay"
+				xml:space="default">
+				<pb cert="high" xml:space="default"
+					facs="https://raw.githubusercontent.com/BucknellDSC/heresies/main/issue04/images/Heresies_04_026.jpg"
+					n="23"/>
+				<head><title type="essay">The Left Hand of History</title></head>
+				<byline><persName key="Teresa de Lauretis"
+						ref="http://www.wikidata.org/entity/Q292326" cert="high" role="aut"
+						type="real">Teresa De Lauretis</persName></byline>
+
+				<p> What is the place of textuality in feminist criticism? (I mean criticism both in
+					the narrow sense of literary criticism and in the broad sense of sociocultural
+					critique.) Since textual analysis has a fundamental place in any theory of
+					culture, how should the feminist critic approach her work with texts? What
+					should her purpose be? I am not sure that a theory of women’s writing is useful
+					or even desirable at this point. Because women have been a colonized population
+					for so long, I fear that any critical category we may find applicable today is
+					likely to be derived from or imbued with male ideologies. As writers, critics,
+					teachers, we know this from our daily experiences. I am not suggesting that we
+					ought to clean the slate of history and start anew because I am enough of a
+					historical materialist and semiotician that I cannot conceive of a totally new
+					world rising out of, and in no way connected with, the past or the present. I
+					believe neither in utopias nor in the myth of Paradise Now, or ever. What I am
+					suggesting is that theory is dialectically built on, checked against, modified
+					by, transformed along with, practice—that is to say, with what women do, invent,
+					perform, produce, concretely and not “for all time” but within specific
+					historical and cultural conditions.</p>
+				<p> In the summer of 1975, I was in the small town of <placeName
+						key="Santarcangelo di Romagna" ref="http://www.wikidata.org/entity/Q111954"
+						cert="high">Santarcangelo di Romagna<precision match="@ref" precision="high"
+						/></placeName> (near <placeName key="Bologna"
+						ref="http://www.wikidata.org/entity/Q1891">Bologna, Italy</placeName>) where
+					an open-air theater festival sponsored performances by militant and experimental
+					groups in the town square and courtyards of two medieval castles. One of these
+					performances attracted my attention by its title, <title>Nonostante Gramsci
+						(Despite Gramsci)</title>. It was performed by a militant feminist
+					collective, <orgName>La Maddalena</orgName>, based in <placeName key="Rome"
+						ref="http://www.wikidata.org/entity/Q220" cert="high">Rome<precision
+							match="@ref" precision="high"/></placeName>. <persName
+						key="Antonio Gramsci" ref="http://www.wikidata.org/entity/Q83003">Antonio
+						Gramsci</persName> was founder of the <orgName key="Italian Communist Party"
+						ref="http://www.wikidata.org/entity/Q461886" cert="high">Italian Communist
+						Party</orgName> (PCI) and one of the major European Marxist thinkers. He was
+					the most important influence on the Italian left in general and on the politics
+					of the Italian Communist Party in particular. His historical analyses and
+					theoretical foundations for Italian communism continue to be effective
+					today.</p>
+				<p> Gramsci was imprisoned in 1926 by the newly consolidated Fascist dictatorship.
+					He received a mock trial, was given a life sentence, and died in 1937 of illness
+					and abuse suffered in one of <persName key="Benito Mussolini"
+						ref="http://www.wikidata.org/entity/Q23559" cert="high" type="real"
+						>Mussolini’s</persName> prisons. The circumstances of his death and his
+					extraordinary intellectual and moral stature have made him perhaps the greatest
+					hero and martyr of the Italian resistance. This is why the play’s title, Despite
+					(or Notwithstanding) Gramsci, surprised and intrigued me, since I knew that
+					Italian feminist groups consist almost exclusively of women with a record of
+					militancy in the left. They couldn’t be "against" Gramsci. Therefore, what did
+					they mean by "despite"?</p>
+				<p> The background of the production reveals the group’s ideological stance. Both
+					the text of the theatrical production and the underlying research on original
+					documents were published together the following year under the editorship of
+						<persName key="Adele Cambria" ref="http://www.wikidata.org/entity/Q3605177"
+						>Adele Cambria</persName>, a feminist writer and one of the editors of the
+					major Italian feminist monthly <title key="Effe"
+						ref="http://www.wikidata.org/entity/Q28136179">EFFE</title>. Cambria formulated and conducted the research, but the
+					theatrical work was performed, directed and written collectively. The published
+					volume, entitled <title>Amore come rivoluzione (Love as Revolution)</title>
+					contains I believe not two texts—one creative/artistic and one
+					historical/biographical—but rather a single text. It self-consciously attempts
+					to be at once historical and artistic, and deliberately presents itself as
+					tendentious and critical. It is a text with its ideology clearly stated and with
+					a basis of original research behind its fiction. This text is posited as a set
+					of questions dealing with love and revolution—a complex problem that emerged in
+					the late 1960s, was pushed to the foreground of political consciousness by
+					radical feminism, and is one of the major issues in revolutionary politics
+					today.</p>
+				<p> During the last eleven years of his life, the imprisoned Gramsci wrote the bulk
+					of his theoretical work now published as Quaderni dal carcere (<title
+						key="Prison Notebooks" ref="http://www.wikidata.org/entity/Q1113267"
+						level="j">Prison Notebooks</title>) In 1922 Gramsci spent several months
+					in the Soviet Union as Italian envoy to the Executive Committee of the Communist
+					International. While hospitalized in a sanatorium outside Moscow, he met Eugenia
+					Schucht, also a patient in the hospital, and her sister Giulia. Giulia and
+					Antonio fell in love. After Gramsci had returned to Western Europe, recalled by
+					his political duties, their son Delio was born in 1924. The couple were together
+					only once again, the following year, when Giulia, the baby and Eugenia spent a
+					few months in Rome with Gramsci who by then had been elected to the Italian
+					parliament. When she returned to the Soviet Union, Giulia was pregnant with
+					their second son, Giuliano, whom Gramsci never saw. History records that during
+					his long years in prison, the only link between Gramsci and his family was
+					Giulia's other sister, <persName key="Tat'jana Apollovna Šucht"
+						ref="http://www.wikidata.org/entity/Q107987130">Tatiana Schucht</persName>,
+					who lived in Italy and followed Gramsci as he was sent from one jail to another.
+					She supported him materially and spiritually, assisting him through his long
+					agony. It is Tatiana who rescued Gramsci’s Prison Notebooks after his death.
+					But, history being the history of men, only Gramsci’s letters were deemed
+					important historical documents. The letters he received from Giulia and Tatiana were
+					not published, although they existed, lying in a file at the Gramsci Institute
+					in Rome. Official historiography scorned them. They were women's letters,
+					dealing "only with children and marmalade," banal, insignificant. Little
+					information could be found about these mute women, whose complex relationships
+					to Gramsci and to one another constituted the most intense private aspect of
+					Gramsci’s life as a revolutionary. Biographers record that Giulia grew more and
+					more alienated from her husband as a result of mental illness. In his letters he
+					lamented and grieved over her silence. Tatiana acted as a sister of mercy,
+					visiting Gramsci in jail, sending him socks and medicines, relaying letters <pb
+						cert="high"
+						facs="https://raw.githubusercontent.com/BucknellDSC/heresies/main/issue04/images/Heresies_04_027.jpg"
+						xml:space="default" n="24"/> between him, Giulia and the children. Here ends
+					their official history. Yet, if we read Gramsci’s letters many of the questions
+					posed in them remain unanswered: What exactly was the nature of Giulia’s
+					“illness”? Why did Tatiana and not she stay in Italy to assist him in jail? What
+					moved Tatiana to literally devote her life to him? What was Eugenia’s role?
+					There is no doubt that Gramsci’s thoughts were directed to these private
+					concerns as much as to political problems and theory—his letters prove it
+					despite the self-restraint imposed by personal ethics and prison censorship.
+					Some of his most beautiful letters to Giulia deal with the education of their
+					children and with the problems posed by his responsibilities to the revolution
+					and to their love relationship—he even suggested a formal separation that would
+					allow Giulia to re-marry, if that would restore her well-being.</p>
+				<p> Who were these women outside of the pale, pathetic hagiography constructed by
+					Gramsci’s biographers? This is what Adele Cambria set out to investigate. She
+					carefully read all of the women’s letters in conjunction with Gramsci’s,
+					interviewed people who had been close friends of the sisters, studied Eugenia’s
+					letters to a friend in Rome and the notebooks in which Giulia had practiced
+					compositions as an adolescent. Cambria's purpose throughout was to reconstruct
+					an “affective biography” of the Schuchts and to discover the sources and modes
+					of that “emotional energy” <persName key="Shulamith Firestone"
+						ref="http://www.wikidata.org/entity/Q271551">Shulamith Firestone</persName>
+					identifies as the essential female contribution to male thought. Cambria’s project was a
+					political one: to rewrite history, inscribing in it the missing voices of women,
+					and therefore to examine the relationships between the private and the public,
+					love and revolution, personal/sexual/emotional needs and political
+					militancy—relations which she sees as the moving forces of all revolutionary
+					struggle. In restoring to Gramsci’s epistolary monologue its real nature as
+					dialogue, Cambria adds depth to the cultural image of a person whose complex
+					humanity has been expediently stereotyped.</p>
+				<p>In a letter to Giulia in 1924, before his imprisonment and at the height of
+					revolutionary activities Gramsci himself posed the problem. He wrote:</p>
+				<quote>How many times have I asked myself whether it was possible to tie oneself to
+					a mass without ever having loved anyone .. whether one could love a collectivity
+					if one hadn’t deeply loved some single human beings . . . Wouldn’t this have
+					made barren my qualities as a revolutionary, wouldn’t it have reduced them to a
+					pure intellectual fact, a pure mathematical calculation? </quote>
+				<p> Gramsci’s question unwinds the ideological thread that runs through Cambria’s
+					work and the collective theater production, both of which focus on the "private
+					aspect" of Gramsci’s life. Thus an understanding of the Schucht family is
+					essential, in the context of the turn-of-the-century cultural values and of the
+					changes brought by the October Revolution. <persName key="Vladimir Lenin"
+						ref="http://www.wikidata.org/entity/Q1394">Lenin</persName>, and later by
+					Stalinism and Fascism.</p>
+				<p>Apollo Schucht, father of the three sisters, was an exile from czarist Russia who
+					had settled in Rome in 1908. Born into the upper bourgeoisie, he had belonged to
+					the Russian populist social reform movement
+						(<lang>narodvolcstvo</lang>) in the mid-nineteenth century. Deported with
+					Lenin to Siberia where his third daughter, Eugenia, was born, he asked his
+					friend Lenin to be her "godfather." The family lived in Rome from 1908 to 1917.
+					After the October Revolution, they all returned to the Soviet Union and worked
+					in the CPSU except Tatiana who stayed at her teaching position in Rome.
+					Significantly nothing much is known of Apollo's wife, Lula, except that she was
+					an excellent cook and housewife. It was Apollo's strong influence that shaped
+					the lives of his daughters. His worldview, in matters of sex roles, was all but
+					revolutionary. His daughters completed their higher education in Rome in the
+					arts and natural sciences, areas that clearly trained women for the only careers
+					suitable for them – marriage and teaching. The early writings of Giulia and
+					Eugenia reveal how deeply the had absorbed their father's late-romantic
+					humanitarian values: a sense of duty toward the poor and dispossessed; contact
+					with nature as a source of happiness, goodness and personal fulfillment; the
+					love of children idealized as a pure unspoiled manifestation of Good Nature; a
+					sentimental attachment to Family as nest and shelter from the disorder and
+					potential danger of the outside world. None of this prepared them for the
+					violent realities in which they were to live. In the turmoil after the
+					revolution there came into their lives the man who, like their father before
+					him, was to magnitize their existence. Gramsci became, for all three women, the
+					center of their emotional world, the pivot of a patriarchal model they had
+					deeply internalized. They all were in love with Antonio.</p>
+				<p/>
+				<p> Eugenia met him first, but he fell in love with Giulia, the youngest, most
+					beautiful and most “feminine” of them. Cambria documents, fairly convincingly,
+					that Eugenia’s espousal of the Communist cause—her “wedding” to the Party —came
+					right after Antonio and Giulia met. The sisters’ close mother-daughter
+					relationship had made Giulia emotionally and intellectually dependent on her
+					older sister. Eugenia later exploited this by making herself indispensable,
+					supporting her financially, taking care of her children and living with her
+					before and during Gramsci’s imprisonment, thus reinforcing Giulia’s feelings of
+					personal inadequacy in the roles of mother and wife. In Cambria’s
+					interpretation, Eugenia was mainly responsible for keeping Giulia away from
+					Gramsci. Her reasons were consistent with the prevailing values of the time:
+					Giulia must stay in the Soviet Union to care for the children who would be in
+					great danger in Fascist Italy; Giulia was “sickly and subject to depressions”;
+					Giulia was a Soviet communist and the Party needed her. Eradicating from her
+					life the possibility of a "private relationship" with any man, Eugenia played
+					the male role as political activist and head of the household. While praising
+					and mythicizing Gramsci as a revolutionary leader (she translated his writings
+					for the Soviet workers), Eugenia increased the human distance between him and
+					Giulia.</p>
+				<p> Tatiana met Antonio after his return to Rome, already married to Giulia
+					(officially recorded after the first child was born). Tatiana’s love for
+					Gramsci, avowed as sisterly love, developed over the twelve years during which
+					she performed for him the duties of the prisoner’s wife. A close reading of
+					their letters shows the ambivalence of their relationship which, considering
+					their strong ethical sense and material and social constraints, was perhaps the
+					most fulfilling, if deformed, love relationship of any of the Schucht sisters.
+					In defining herself as Giulia’s representative, she slowly made herself
+					indispensable to the man she loved. She maintained contact with underground left
+					leaders outside Italy in hopeless attempts to free Gramsci through prisoner
+					exchanges. As the only correspondent authorized by jail officials, she copied
+					and relayed his letters to Giulia and the children and theirs to him. By this
+					“charitable sacrifice” and sisterly devotion, and by never allowing her own
+					needs to surface (but they are there, between the lines of the letters), Tatiana
+					gradually acquired a wife’s right to husbandly gratitude, a wifely
+					possessiveness and the subtle power gained by female self- denial.</p>
+				<p> Of the three stories, unrecorded by history, Giulia’s is the most lonely. She is
+					still alive, as far as we know, in some psychiatric hospital where she has spent
+					most of her life, imprisoned in her “mental illness” as Antonio was in his cell.
+						<pb cert="high" xml:space="default"
+						facs="https://raw.githubusercontent.com/BucknellDSC/heresies/main/issue04/images/Heresies_04_028.jpg"
+						n="25"/> He burned in the hell of pain, captivity and death, but he won—he
+					is a protagonist of history. Giulia is still burning, quietly, bothering no one,
+					unnoticed, useless. One of Cambria’s most significant contributions to feminist
+					analysis is her effort to understand Giulia’s personal world with love and
+					generosity, outside of myth and without mystification. She sees Giulia as a
+					sensitive, intelligent, gifted woman in whom the traditional female
+					socialization, with its emphasis on dependence, frailty and childlike trust,
+					found a most receptive terrain. Giulia did not relate intellectually to others
+					or to her own experience. Women of her time were not supposed to. She needed
+					direct sensuous contact with reality, her children, her man. She gave up her
+					violin for her children and the Party. The distance between her and Antonio was
+					caused not only by circumstances but also by decisions made for her by Eugenią,
+					to which Gramsci acquiesced. Her response to the distance was expressed by a
+					sense of personal inadequacy, increasing depression, surrendering her will to
+					others and to the mechanical details of daily existence. The notion that absence
+					makes the heart grow fonder did not work for her: she blamed herself for not
+					being able to feel, for losing contact with Antonio who was becoming a mere
+					abstraction—The Father of Her Children, The Revolutionary Hero—no longer her
+					lover whom she could touch nor her friend whom she could see and hear and speak
+					to. She felt guilty about this and when she finally dared to write to him about
+					her illness he did not answer, could not accept the idea of mental illness,
+					spoke harshly of psychoanalysis as a crutch, and like the rest of the family
+					recommended iron, vitamins and willpower. No one ever seriously considered the
+					possibility that Giulia move to Italy to assist Antonio, and she herself
+					believed that she could never do for him what Tatiana did. In short, Eugenia and
+					Tatiana usurped her roles as mother, housekeeper and wife and effectively
+					deprived her of meaningful emotional relationships and intensified her sense of
+					powerlessness. At last, Cambria maintains, Giulia’s inability to define herself
+					conceptually or through any type of personal power, and the unreality of her
+					existence that could not function within any socially accepted mode of female
+					behavior, pushed Giulia to live her rebellion inwardly, in total passivity. This
+					is precisely what is often diagnosed as madness in women.</p>
+				<p> In a sense, the personalities and social roles assumed by the three Schucht
+					sisters sketch almost to a T the only choices allowed women in most Western
+					cultures: service functions within male structures, adherence to the feminine
+					mystique of charity, sacrifice and self-denial, and madness. The textual
+					strategies of Amore come rivoluzione are the result of ideological choices. The
+					materials being mainly letters, there were three obvious genre possibilities:
+					(1) publishing the letters, with some editing (as was done with Gramsci's
+					letters); (2) putting together a sort of three-way epistolary novel of Giulia's,
+					Tatiana's and Gramsci's letters; or (3) giving the materials a narrative form,
+					i.e., writing a biography of the Schucht sisters. Cambria discarded all three
+					alternatives. Her decision to avoid a “novelistic” organization was a political
+					as well as aesthetic choice: as recent critical theory in literature and film
+					argues, narrative form is the primary aesthetic code developed to convey
+					bourgeois and counter-revolutionary values. Simply printing
+					the letters without attempting to reproduce such “physical” qualities as hand
+					writing, or the context in which they were written and discovered, would have
+					erased altogether the function of the subject (Cambria herself), as both writer
+					and narrator of her book and at the same time reader of the Schucht letters.</p>
+				<p> Cambria chose to print portions of the original documents in italics
+					interspersed with passages from Gramsci’s letters, quotations, statements by
+					friends or others involved in the events, while her own comments link, interpret
+					and contextualize each passage. The rigorous separation, by different typefaces,
+					between the women’s letters and her own commentary explicitly manifests the
+					interpretive nature of the commentary, its tendentiousness, its having a
+					viewpoint, its being “sectarian” rather than an innocent or “objective”
+					explanation. In this manner, a twofold process is set in motion in the text: the
+					release of affective energies contained in the firsthand documents, which were
+					personal writings aimed at a real person (Gramsci), not a literary readership;
+					and the release of a corresponding emotional response in the modern woman
+					reading the letters and mediating them for us through her personal and
+					ideological, affective and conceptual codes. In many passages Cambria shares her
+					emotion at discovering the letters, looking at the faded colors of the paper,
+					the elegant old-fashioned handwriting of Tatiana, the broken sentences and
+					pencil scrawls of an already ill Giulia. Cambria also describes her feelings as
+					she approached the Moscow house where Giulia lived and where Cambria interviewed
+					her son Giuliano.</p>
+				<p> Cambria conveys to readers how she absorbed Giulia, Tatiana and Eugenia as
+					fragments of her own self, how their experiences can act as reactor to other
+					women’s understanding of themselves; she also conveys her elation in discovering
+					and unearthing a writing which is the testimony of unknown women. She reaches
+					into an immense reservoir of women’s folklore, millions of letters in which
+					women have spent their imagination and creativity writing to those they loved,
+					all lost, but for the few who made literary history by loving a male
+					protagonist.</p>
+				<p> The performance I saw was in an open courtyard and used the <persName
+						key="Brechtian Methodology in Wise’s The Sound of Music: Insights into Theatre in Education"
+						ref="http://www.wikidata.org/entity/Q96579994">Brechtian</persName> concept
+					of epic theater. In the theatrical text, the double function of the subject as
+					writer and as reader is dramatized in the character of The Girl, epic narrator
+					and didactic commentator, who circulates among the four characters (the three
+					sisters and Gramsci), each of whom is confined to an assigned scenic space. The
+					Girl has a double function: as narrator and commentator, she provides the
+					historical background and the feminist interpretation of the performed action.
+					As character, she voices the lyrical consciousness of the play, Woman-<persName
+						key="Orpheus" ref="http://www.wikidata.org/entity/Q174353" cert="high"
+						type="real">Orpheus</persName>. A contemporary woman, she is a barometer for
+					the audience, reacting with pity and anger to the events enacted around her. The
+					fact that she also acts visibly as a stage hand (she projects the slides, moves
+					the structures, dresses the actors) is a brilliant theatrical idea for she is
+					perceived by the audience as a performer, i.e., as a real person participating
+					in the entire fictional creation and not simply acting out a memorized part in
+					somebody else’s play. Furthermore, since she models audience response, it is
+					very important that she does not remain emotionally detached or objective in
+					relation to the characters; at the same time her involvement must never become
+					total. For, in the intentions of the epic theater, the audience and the
+					performers must not identify totally with the characters, must not be drawn into
+					the story forgetting that it is a fiction, must not experience catharsis at the
+					conclusion of the play. Rather, they must remain conscious of the problems
+					raised by the play and seek their solution outside, after the play, in the real
+					world. One example: in “dressing” Giulia, revealing her to us, The Girl is a
+					woman of today discovering her roots in a woman of the past and re-enacting
+					herself in a fictional character. But when The Girl acts out the pain of
+					pregnancy and childbirth, shouting her rejection of motherhood as a physical
+					violence done to her body, as an emotionally traumatic infringement on her total
+					person, at this moment The Girl is Giulia; she expresses the feeling that Giulia
+					could <pb n="26"
+						facs="https://raw.githubusercontent.com/BucknellDSC/heresies/main/issue04/images/Heresies_04_029.jpg"
+					/> never express, the repression of which was one of the forms of her
+					“insanity."</p>
+				<p> Certain aspects of this production—the use of voices on tape, slides, lighting,
+					the designed structures, objects of personal “ritual” created by the
+					performers—are discussed in the direction notes and contributions by performers
+					and designers printed in the appendix to the volume. These provide an integral,
+					essential part of the text, outlining the difficult but rewarding practice of
+					the performance, collective in every aspect from writing to staging to each
+					performer’s self-direction.</p>
+				<p> The historical text and the theatrical text were conceived interdependently.
+					Although they are addressed to different, if overlapping, audiences and make
+					different assumptions as textual mechanisms, they are not two distinct texts as
+					would be, say, a biography and a play based on it. They are, rather, one set of
+					raw materials examined with an identical ideological perspective and presented
+					differently to achieve a double impact by juxtaposition; when we experience them
+					together, the historical text has a distancing effect from the highly emotional
+					impact of the dramatic text. The first is rational, documented, footnoted; the
+					second is lyrical and intensely charged with emotion. The verbal material in the
+					play is almost entirely from the original letters, with the addition of some
+					contemporary poems and other quotations which serve as intertextual links to
+					expand the historical resonance of the themes.</p>
+				<p> The characteristic features of Cambria’s entire work point to a new practice and
+					vision of the relation between subject and modes of textual production. As for the form of content: historical, not
+					mythical materials are chosen from a concrete situation and real events. These
+					are not necessarily contemporary but always refer to the current concerns of the
+						audience. The historical events
+					are examined in their socio-cultural complexity from the ideological and
+					emotional viewpoints of contemporary feminism. The human sources of these
+					views—writers, performers and the specific audience addressed (this is a play
+					for women)—are clearly identified to avoid mystification and mythologizing. As
+					for the form of expression: the rejection of the novelistic as the single
+					organizing principle of classical narrative forms like biography, romance or the
+					“realist” novel must be seen in the light of current theories of the plurality
+					of the text. This emphasizes the process of reading as a constitutive act of the
+					subject. In this new textual form, where the rational historical inquiry is
+					continually intersected by the lyrical and the personal, the subject is at once
+					writer and reader, performer and audience. The resonance of the (documented)
+					historical events in the subject is made possible by the “private” dimension and
+					in turn makes possible the emergence of pathos as a creative critical process.
+					The text is produced as and meant to be received as the intersecting of the
+					personal and the social, a process articulated dialectically on subjective codes
+					and on objective realities.</p>
+				<p> Working along these lines, we can perhaps develop a feminist theory of textual
+					production which is neither a theory of women’s writing nor just a theory of
+					textuality. In other words, it is not a matter of finding common elements among
+					the texts written or produced by women and defining them in terms of a presumed
+					femaleness or femininity which, to my mind, is highly suspect of sexual
+					metaphysics; rather, it is our task to envision a feminist theory of the process
+					of textual production and consumption, which is of course inseparable from a
+					theory of culture. In a recently translated article entitled “Is There a
+					Feminine Aesthetic?”,  <persName>Silvia Bovenschen</persName> argues that there
+					is no such thing as an ever-present female counterculture as such, or a “female
+					nature outside of historical development; and that to insist on such notions as
+					irrational perception, cosmic powers or archetypal forms as categories for
+					femaleness is at best playing men’s games, and at worst indulging in reactionary
+						ideologies. Since it is the specifics of
+					feminine experience and perception that determine the form the work takes, we
+					must not accept a priori categories and should look for evidence of feminine
+					sensitivity in concrete tests. It is good, Bovenschen claims, that no formal
+					criteria for “feminine art” can be definitively laid down. This enables us to
+					reject the notion of artistic norms and facile labeling, and prevents cooptation
+					and further exploitation of women’s creativity. So it is not a question of what
+					or how women write, but of how women produce (as makers) and reproduce (as
+					receivers) the aesthetic object, the text; in other words, we need a theory of
+					culture with women as subjects—not commodities but social beings producing and
+					reproducing cultural products, transmitting and transforming cultural
+						values.</p>
+				<p> In this sense, and so that we can take possession of our cultural
+					(re)production, 1 think we should assert that women’s work is never done. </p>
+			</div>
+			<div>
+				<p>*This paper was first presented at the Symposium WOMEN/ TEXTS at the University
+					of Minnesota in Minneapolis, on April 20, 1977.</p>
+				<p>I am grateful to the Center for 20th Century Studies of the University of
+					Wisconsin-Milwaukee for the 1976-1977 Fellowship that has made possible the
+					research and the writing of this paper. I must also thank my friends
+						<persName>Renny Harrigan</persName>, <persName key="Andreas Huyssen"
+						ref="http://www.wikidata.org/entity/Q4755464">Andreas Huyssen</persName>,
+						<persName key="Judith Mayne" ref="http://www.wikidata.org/entity/Q112054578"
+						>Judith Mayne</persName>, <persName key="Sheila Radford-Hill"
+						ref="http://www.wikidata.org/entity/Q93659825">Sheila
+						Radford-Hill</persName>, <persName key="Sylvie Romanowski"
+						ref="http://www.wikidata.org/entity/Q95190690">Sylvie Romanowski</persName>
+					and <persName key="Marcella Tarozzi Goldsmith"
+						ref="http://www.wikidata.org/entity/Q21209085">Marcella Tarozzi</persName>,
+					who helped me greatly by lending me books, arguing against me, and sharing their
+					knowledge and in sights.</p>
+			</div>
+		</body>
+		<back>
+			<p>Teresa de Lauretis was born in Bologna, studied in Milan and now teaches Italian at
+				the <placeName key="University of Wisconsin–Milwaukee"
+					ref="http://www.wikidata.org/entity/Q1755318">University of Wisconsin at
+					Milwaukee</placeName>. </p>
+		</back>
+	</text>
+</TEI>

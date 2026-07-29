@@ -1,0 +1,44 @@
+{
+    "inputs": [
+        "https://raw.githubusercontent.com/LEAF-VRE/dtoc_training/refs/heads/main/heresiesDToCtexts/bovenschen.xml",
+        "https://raw.githubusercontent.com/LEAF-VRE/dtoc_training/refs/heads/main/heresiesDToCtexts/delauretis.xml",
+         "https://raw.githubusercontent.com/LEAF-VRE/dtoc_training/refs/heads/main/heresiesDToCtexts/garrard.xml",
+          "https://raw.githubusercontent.com/LEAF-VRE/dtoc_training/refs/heads/main/heresiesDToCtexts/gear.xml",
+          "https://raw.githubusercontent.com/LEAF-VRE/dtoc_training/refs/heads/main/heresiesDToCtexts/jaudon-kozloff.xml",
+          "https://raw.githubusercontent.com/LEAF-VRE/dtoc_training/refs/heads/main/heresiesDToCtexts/ladden.xml",
+          "https://raw.githubusercontent.com/LEAF-VRE/dtoc_training/refs/heads/main/heresiesDToCtexts/lippard.xml",
+          "https://raw.githubusercontent.com/LEAF-VRE/dtoc_training/refs/heads/main/heresiesDToCtexts/rickey.xml",
+          "https://raw.githubusercontent.com/LEAF-VRE/dtoc_training/refs/heads/main/heresiesDToCtexts/russ.xml",
+          "https://raw.githubusercontent.com/LEAF-VRE/dtoc_training/refs/heads/main/heresiesDToCtexts/weiss.xml"
+    ],
+    "documents": "//div[@type='essay']",
+    "ignoreNamespace": true,
+    "documentTitle": "head",
+    "documentAuthor": "",
+    "documentImages": "",
+    "documentNotes": "",
+    "documentLinks": "",
+    "indexDocument": "",
+    "editionTitle": "Heresies",
+    "editionSubtitle": "Selections from Women's Traditional Arts: The Politics of Aesthetics",
+    "curation": {
+        "markup": [
+            {
+                "xpath": "//persName",
+                "label": "People"
+            },
+            {
+                "xpath": "//title",
+                "label": "Titles"
+            },
+            {
+                "xpath": "//orgName",
+                "label": "Organizations"
+            },
+            {
+                "xpath": "//objectName",
+                "label": "Objects"
+            }
+            ]
+            }
+}

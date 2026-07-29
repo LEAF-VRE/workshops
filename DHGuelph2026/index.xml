@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Index</title>
+			</titleStmt>
+			<publicationStmt>
+				<p/>
+			</publicationStmt>
+			<sourceDesc>
+				<p>https://github.com/LEAF-VRE/guelph2026</p>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>This encoded file was created by members of the Linked Editing Academic Framework
+					(LEAF) team and made available for a LEAF / LEAF-Writer workshop. This file is
+					not meant for use or publication outside of the workshop environment.</p>
+			</projectDesc>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="index">
+				<list>
+					<item>
+						<ref target="#par01 #par02 #gor01 #oat01 #oat02 #did01 #por01 #por02 #mcc01 #mcc02 #ozi01 #pou01">Interviewees</ref>
+						<list>
+							<head>Interviewees</head>
+							<item><ref target="#par01 #par02">Dorothy Parker</ref></item>
+							<item><ref target="#gor01">Nadine Gordimer</ref></item>
+							<item><ref target="#oat01 #oat02">Joyce Carol Oates</ref></item>
+							<item><ref target="#did01">Joan Didion</ref></item>
+							<item><ref target="#por01 #por02">Katherine Anne Porter</ref></item>
+							<item><ref target="#mcc01 #mcc02">Mary McCarthy</ref></item>
+							<item><ref target="#ozi01">Cynthia Ozick</ref></item>
+							<item><ref target="#pou01">Ezra Pound</ref></item>
+						</list>
+					</item>
+				</list>
+			</div>
+		</body>
+	</text>
+</TEI>

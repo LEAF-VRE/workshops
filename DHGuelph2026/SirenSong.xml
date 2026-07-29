@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="Atwood-poem">
+            <head><title>"Siren Song"</title></head>
+            <lg n="1">
+               <l>This is the one song everyone</l>
+               <l>would like to learn: the song</l>
+               <l>that is irresistible:</l>
+            </lg>
+            <lg n="2">
+               <l>the song that forces men</l>
+               <l>to leap overboard in squadrons</l>
+               <l>even though they see beached skulls</l>
+            </lg>
+            <lg n="3">
+               <l>the song nobody knows</l>
+               <l>because anyone who had heard it</l>
+               <l>is dead, and the others can’t remember.</l>
+               <l>Shall I tell you the secret</l>
+               <l>and if I do, will you get me</l>
+               <l>out of this bird suit?</l>
+               <l>I don’t enjoy it here</l>
+               <l>squatting on this island</l>
+               <l>looking picturesque and mythical</l>
+               <l>with these two feathery maniacs,</l>
+               <l>I don’t enjoy singing</l>
+               <l>this trio, fatal and valuable.</l>
+            </lg>
+            <lg n="4">
+               <l>I will tell the secret to you,</l>
+               <l>to you, only to you.</l>
+               <l>Come closer. This song</l>
+            </lg>
+            <lg n="5">
+               <l>is a cry for help: Help me!</l>
+               <l>Only you, only you can,</l>
+               <l>you are unique</l>
+            </lg>
+            <lg n="6">
+               <l>at last. Alas</l>
+               <l>it is a boring song</l>
+               <l>but it works every time.</l>
+            </lg>
+         </div>
+         <byline><persName xml:id="matw01">Margaret Atwood</persName> <date when-iso="2003-01-03">Friday, January 3, 2003 </date></byline>
+         <!-- Hi class -->
+      </body>
+   </text>
+</TEI>
