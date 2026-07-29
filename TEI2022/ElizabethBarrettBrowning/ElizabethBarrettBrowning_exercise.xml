@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Elizabeth Barrett Browning</title>
+            <author>Vachel Lindsay</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Text prepared for LEAF-Writer workshop by LEAF team.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Representative Poetry Online</p>
+            <p>https://rpo.library.utoronto.ca/content/elizabeth-barrett-browning</p>
+         </sourceDesc>
+      </fileDesc>
+  <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/workshops/main/exercise_materials/ElizabethBarrettBrowning/ElizabethBarrettBrowning_exercise.xml?note_annotation_20230531232116602",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-06-01T03:21:16.602Z",
+	"dcterms:modified": "2023-06-01T03:21:16.602Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/workshops/main/exercise_materials/ElizabethBarrettBrowning/ElizabethBarrettBrowning_exercise.xml?note_annotation_20230531232116602#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/workshops/main/exercise_materials/ElizabethBarrettBrowning/ElizabethBarrettBrowning_exercise.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/workshops/main/exercise_materials/ElizabethBarrettBrowning/ElizabethBarrettBrowning_exercise.xml?note_annotation_20230531232116602#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/lg/l/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "Elizabeth Barrett was one of the most prominent poets of the nineteenth century who married the poet Robert Browning. In the early twentieth century when this poem was written, she was better remembered for the love letters and poems associated with their courtship than for her more ambitous and political writing, which was fiercely femininist and abolitionist."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/workshops/main/exercise_materials/ElizabethBarrettBrowning/ElizabethBarrettBrowning_exercise.xml?note_annotation_20230602130313235",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-06-02T17:03:13.235Z",
+	"dcterms:modified": "2023-06-02T17:03:13.235Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/workshops/main/exercise_materials/ElizabethBarrettBrowning/ElizabethBarrettBrowning_exercise.xml?note_annotation_20230602130313235#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/workshops/main/exercise_materials/ElizabethBarrettBrowning/ElizabethBarrettBrowning_exercise.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/workshops/main/exercise_materials/ElizabethBarrettBrowning/ElizabethBarrettBrowning_exercise.xml?note_annotation_20230602130313235#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/lg/l[4]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "Mary Pickford was a silent screen star."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.1"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader>
+  <text>
+      <body>
+
+         <head>Elizabeth Barrett Browning</head>
+            <byline>Vachel Lindsay</byline>
+
+         <lg>
+            <l n="1">Elizabeth Barrett Browning<note type="scholarNote">Elizabeth Barrett was one of the most prominent poets of the nineteenth century who married the poet Robert Browning. In the early twentieth century when this poem was written, she was better remembered for the love letters and poems associated with their courtship than for her more ambitous and political writing, which was fiercely femininist and abolitionist.</note></l>
+         <l n="2">Sat gossiping with Robert.</l>
+         <l n="3">(She was really a raving beauty in her day.</l>
+         <l n="4">With Mary Pickford curls in clouds and whirls.)<note type="scholarNote">Mary Pickford was a silent screen star.</note></l>
+         <l n="5">She was trying to think of something nice to say,</l>
+         <l n="6">So she pointed to a page by her fellow star and sage,</l>
+         <l n="7">And said: "I wish that I could write that way!"</l>
+         </lg>
+
+         <div>
+            <p>Note for line 1 : Elizabeth Barrett was one of the most prominent poets of the nineteenth century who married the poet Robert Browning. In the early twentieth century when this poem was written, she was better remembered for the love letters and poems associated with their courtship than for her more ambitous and political writing, which was fiercely femininist and abolitionist.</p>
+            <p>Note for line 4: Mary Pickford was a Toronto-born actress for both the stage and the screen who was known as "America's sweetheart" and famous for her romance with the actor Douglas Fairbanks.</p>
+            <p>Note for line 6: The poem anticipates the literary critical concept of the Victorian Sage. See https://en.wikipedia.org/wiki/Sage_writing</p>
+</div>
+      </body>
+  </text>
+</TEI>
